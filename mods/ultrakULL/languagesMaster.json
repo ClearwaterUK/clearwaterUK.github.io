@@ -1,7 +1,5 @@
 {
-	"availableLanguages": [
-	{
-		{
+	"availableLanguages": [{
 			"languageName": "en-GB",
 			"author": "New Blood/Hakita"
 		},
@@ -12,7 +10,6 @@
 		{
 			"languageName": "te-ST",
 			"author": "Testing file"
-		},
-	}
+		}
 	]
 }
