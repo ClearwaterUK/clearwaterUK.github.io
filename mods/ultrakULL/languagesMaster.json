@@ -1,15 +1,18 @@
 {
 	"availableLanguages": [{
-			"languageName": "en-GB",
+			"languageTag": "en-GB",
+			"languageFullName": "English",
 			"author": "New Blood/Hakita"
 		},
 		{
-			"languageName": "fr-FR",
+			"languageTag": "fr-FR",
+			"languageFullName": "Français",
 			"author": "Clearwater+French Team"
 		},
 		{
-			"languageName": "te-ST",
-			"author": "Testing file"
+			"languageTag": "te-ST",
+			"languageFullName": "Testing file",
+			"author": "CW"
 		}
 	]
 }
