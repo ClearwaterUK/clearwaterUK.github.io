@@ -1,0 +1,18 @@
+{
+	"availableLanguages": [
+	{
+		{
+			"languageName": "en-GB",
+			"author": "New Blood/Hakita"
+		},
+		{
+			"languageName": "fr-FR",
+			"author": "Clearwater+French Team"
+		},
+		{
+			"languageName": "te-ST",
+			"author": "Testing file"
+		},
+	}
+	]
+}
