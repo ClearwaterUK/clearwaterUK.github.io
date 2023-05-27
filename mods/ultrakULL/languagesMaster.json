@@ -2,17 +2,20 @@
 	"availableLanguages": [{
 			"languageTag": "en-GB",
 			"languageFullName": "English",
-			"author": "New Blood/Hakita"
+			"author": "New Blood/Hakita",
+			"versionNumber": "1.0"
 		},
 		{
 			"languageTag": "fr-FR",
 			"languageFullName": "Français",
-			"author": "Clearwater+French Team"
+			"author": "Clearwater+French Team",
+			"versionNumber": "1.0"
 		},
 		{
 			"languageTag": "te-ST",
 			"languageFullName": "Testing file",
-			"author": "CW"
+			"author": "CW",
+			"versionNumber": "1.0"
 		}
 	]
 }
