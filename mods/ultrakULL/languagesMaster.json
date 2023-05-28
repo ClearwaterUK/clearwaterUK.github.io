@@ -6,16 +6,58 @@
 			"versionNumber": "1.0"
 		},
 		{
-			"languageTag": "fr-FR",
-			"languageFullName": "Français",
-			"author": "Clearwater+French Team",
+			"languageTag": "CZ-cz",
+			"languageFullName": "Čeština",
+			"author": "Mína, hatifnat",
+			"versionNumber": "1.1.1"
+		},
+		{
+			"languageTag": "de-DE",
+			"languageFullName": "Deutsch",
+			"author": "_distrilul, Liquid Lest, Psychpsyo, Psychologemelone44",
 			"versionNumber": "1.0"
 		},
 		{
-			"languageTag": "te-ST",
-			"languageFullName": "Testing file",
-			"author": "CW",
+			"languageTag": "es-ESP",
+			"languageFullName": "Español",
+			"author": "ESP Group",
+			"versionNumber": "2.2"
+		},
+		{
+			"languageTag": "FR-fr",
+			"languageFullName": "Français",
+			"author": "Clearwater, ZedDev, Frizou, osokour",
 			"versionNumber": "1.0"
+		},
+		{
+			"languageTag": "FR-qc",
+			"languageFullName": "Français (Québécois)",
+			"author": "Frizou",
+			"versionNumber": "1.0"
+		},
+		{
+			"languageTag": "pt-br",
+			"languageFullName": "Brazilian Portuguese",
+			"author": "FNChannel, Hebert, Jackie, MKaid, Raylander, Soulvender, Veni.",
+			"versionNumber": "1.1.1"
+		},
+		{
+			"languageTag": "ru-RU",
+			"languageFullName": "Русский",
+			"author": "Nessie_A_WA97, D4N5T3P, Edith, lrddd, Brainy-Stormie, IceSpire, towelie84, mctaylors, Solidus Cumcer",
+			"versionNumber": "1.0.2"
+		},
+		{
+			"languageTag": "tr-TR",
+			"languageFullName": "Türkçe",
+			"author": "Çevirenler: Legitname1337, Ömer Ünal, RTE, Ray_, Mr Wheatley, Xavier Renegade Angel, Legio, Scape",
+			"versionNumber": "1.0.1"
+		},
+		{
+			"languageTag": "zh-cn",
+			"languageFullName": "简体中文",
+			"author": "Hydracerynitis, duke325, ponyweeb, Skugra, GoblinGo, ciinore",
+			"versionNumber": "1.0.0"
 		}
 	]
 }

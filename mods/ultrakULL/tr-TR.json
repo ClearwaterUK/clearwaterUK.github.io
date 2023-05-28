@@ -1,0 +1,2012 @@
+{
+    "metadata": {
+        "langName": "tr-TR",
+        "langAuthor": "Çevirenler: Legitname1337, Ömer Ünal, RTE, Ray_, Mr Wheatley, Xavier Renegade Angel, Legio, Scape",
+        "langVersion": "1.0.1",
+        "langDisplayName": "Türkçe",
+        "langRTL": "false",
+
+        "minimumModVersion": "1.1.1"
+    },
+    
+    "body": {
+        "bodyName": "ULL Çeviri Ekibi tarafından Türkçeye çevrilmiştir."
+    },
+    
+    "credits":{
+        "credits_title": "ULTRAKILL",
+        "credits_createdBy": "<color=orange>ARSI \"HAKITA\" PATALA</color> TARAFINDAN BİR OYUN",
+
+        "credits_helpedByTitle": "YARDIMLARIYLA:",
+        "credits_helpedBy1": "<color=orange>DAVE OSHRY</color> (YÖNETİCİ YAPIMCI)",
+        "credits_helpedBy2": "<color=orange>PITR</color> (PROGRAMCI)",
+        "credits_helpedBy3": "<color=orange>RYANN VICTORIA</color> (3B ÇİZERİ VE GÖLGE PROGRAMCISI)",
+        "credits_helpedBy4": "<color=orange>SAMUEL JAMES BRYAN</color> (3B ÇİZERİ)",
+        "credits_helpedBy5": "<color=orange>BIGROCKBMP</color> (KONSEPT ÇİZERİ)",
+        "credits_helpedBy6": "<color=orange>JERICHO_RUS</color> (İLLÜSTRATÖR, KONSEPT VE KAPLAMA ÇİZERİ)",
+        "credits_helpedBy7": "<color=orange>FRANCIS XIE</color> (KONSEPT VE KAPLAMA ÇİZERİ)",
+
+        "credits_contributionsTitle": "FAZLADAN KATKILAR:",
+        "credits_contributions1": "<color=orange>MAXIMILIAN OVESSON</color> (ARAYÜZ ÇİZERİ)",
+        "credits_contributions2": "<color=orange>JACOB H.H.R.</color> (YAZAR  [DÜZYAZI VE DİYALOG])",
+        "credits_contributions3": "<color=orange>FLYINGDOG</color> (3B ÇİZERİ)",
+        "credits_contributions4": "<color=orange>TONI STIGELL</color> (3B ÇİZERİ)",
+        "credits_contributions5": "<color=orange>BEN MOIR</color> (PROGRAMCI)",
+        "credits_contributions6": "<color=orange>LUCAS VARNEY</color> (PROGRAMCI)",
+        "credits_contributions7": "<color=orange>EMANUIL \"CABALCROW\" CHIZHOV</color> (PROGRAMCI)",
+        "credits_contributions8": "<color=orange>HECKTECK</color> (PROGRAMCI)",
+        "credits_contributions9": "<color=orange>MEGANEKO</color> (SİBERKIYIM MÜZİĞİNİN BESTECİSİ)",
+
+        "credits_VATitle": "SESLENDİRMENLER:",
+        "credits_VA1": "<color=orange>GIANNI MATRAGRANO</color> (CEBRÂİL)",
+        "credits_VA2": "<color=orange> STEPHAN WEYTE </color> (ERK MİNOS)",
+        "credits_VA3": "<color=orange>MANDALORE HERRINGTON</color> (GBŞ)",
+        "credits_VA4": "<color=orange>JUST SHAMMY </color> (VE BAYKUŞ)",
+
+        "credits_QATitle": "VE KALİTE KONTROL:",
+        "credits_QA1": "<color=orange>CAMERON MARTIN</color> (KK LİDERİ)",
+        "credits_QA2": "<color=orange>TUCKER WILKIN </color> (KIDEMLİ KK)",
+        "credits_QA3": "<color=orange>SCOTT GURNEY </color> (TEKNİK KK)",
+        "credits_QA4": "<color=orange>DALIA FIGUEROA </color> (KK VE TANITIM MATERYALLERİ)"
+    },
+
+    "style":{
+        "style_airslam": "HAVA EZİŞİ",
+        "style_airshot": "HAVA VURUŞU",
+        "style_attraptor": "ÇEKİCİ",
+        "style_arsenal": "CEPHANELİK",
+        "style_bigheadshot": "BÜYÜK KAFADAN VURUŞ",
+        "style_bigkill": "BÜYÜK LEŞ",
+        "style_bigfistkill": "BÜYÜK YUMRUK LEŞİ",
+        "style_bipolar": "ÇİFT KUTUP",
+        "style_cannonballed": "GÜLLE",
+        "style_catapaulted": "FIRLATILDI",
+        "style_chargeback": "İADE",
+        "style_compressed": "SIKIŞTIRILDI",
+        "style_criticalpunch": "KRİTİK YUMRUK",
+        "style_disrespect": "SAYGISIZLIK",
+        "style_doublekill": "ÇİFTE LEŞ",
+        "style_downtosize": "KÜÇÜK DÜŞÜRÜLDÜ",
+        "style_enraged": "KIZDIRILDI",
+        "style_exploded": "PATLATILDI",
+        "style_finishedoff": "İŞİ BİTİRİLDİ",
+        "style_fireworks": "HAVAİ FİŞEKLER",
+        "style_fistfulofdollar": "YAZI TURA",
+        "style_fried": "KIZARTILDI",
+        "style_friendlyfire": "DOST ATEŞİ",
+        "style_groundslam": "YER EZİŞİ",
+        "style_halfoff": "YARISI GİDİK",
+        "style_headshot": "KAFADAN VURUŞ",
+        "style_homerun": "TUR VURUŞU",
+        "style_instakill": "TEK",
+        "style_interruption": "KESİNTİ",
+        "style_kill": "LEŞ",
+        "style_limbshot": "UZUV VURUŞU",
+        "style_mauriced": "KAFALANDI",
+        "style_multikill": "ÇOKLU LEŞ",
+        "style_nailbombed": "ÇİVİ BOMBASI",
+        "style_parry": "SAVUŞTURMA",
+        "style_projectileboost": "MERMİ TAKVİYESİ",
+        "style_quickdraw": "ÇABUK EL",
+        "style_ricoshot": "YANSITMA",
+        "style_ricoshotUltra": "ULTRA",
+        "style_ricoshotCounter": "KONTRA",
+        "style_secret": "GİZEM",
+        "style_splattered": "PARÇALANDI",
+        "style_triplekill": "ÜÇLÜ LEŞ",
+
+        "style_why": "buraya neden düşman çağırıyorsun ki?",
+        
+        "style_conductor": "PARATONER",
+        "style_crushed": "EZİLDİ",
+        "style_fall": "DÜŞÜŞ",
+        "style_minced": "KIYILDI",
+        "style_outofbounds": "SINIR DIŞI",
+        "style_shredded": "RENDELENDİ",
+        "style_zapped": "ÇARPILDI",
+        
+        "style_d": "Delice",
+        "style_c": "Canice",
+        "style_b": "Barbarca",
+        "style_a": "Anarşik",
+        "style_s": "Süper",
+        "style_ss": "SSadistik",
+        "style_sss": "SSSikiş-şöleni",
+        "style_ultrakill": "ULTRAKILL",
+       
+        "style_weaponFresh": "TAZE",
+        "style_weaponUsed": "KULLANILMIŞ",
+        "style_weaponStale": "BAYAT",
+        "style_weaponDull": "SOLUK",
+
+        "stylemeter_multiplier": "ÇARPAN"
+    },
+    
+    "cyberGrind":{
+        "cybergrind_currentWave": "ŞU ANKİ DALGA",
+        "cybergrind_enemiesRemaining": "KALAN DÜŞMANLAR",
+        
+        "cybergrind_wave": "DALGA",
+        "cybergrind_kills": "LEŞLER",
+        "cybergrind_style": "STİL",
+        "cybergrind_time": "ZAMAN",
+        
+        "cybergrind_cgTitle": "SİBERKIYIM",
+        "cybergrind_previousRun": "ÖNCEKİ",
+        "cybergrind_bestRun": "EN İYİ",
+        
+        "cybergrind_total": "TOPLAM",
+        
+        "cybergrind_connectingToSteam": "STEAMWORKS’E BAĞLANILIYOR",
+        
+        "cybergrind_friendScores": "SKORLAR (ARKADAŞLAR)",
+        "cybergrind_globalScores": "SKORLAR (KÜRESEL)",
+        
+        "cybergrind_settings": "SİBERKIYIM AYARLARI",
+        "cybergrind_settingsDescription": "Bu terminal Cyber Grind özelleştirilmesi için kullanılır",
+        "cybergrind_themes": "TEMALAR",
+        "cybergrind_patterns": "DESENLER",
+        "cybergrind_waves": "DALGALAR",
+        
+        "cybergrind_themesTitle": "TEMALAR",
+        "cybergrind_themesDescription": "Arena için görsel temayı seçin",
+        "cybergrind_themesLight": "AÇIK",
+        "cybergrind_themesDark": "KARANLIK",
+        "cybergrind_themesCustom": "ÖZEL",
+        "cybergrind_themesModify": "DEĞİŞTİR",
+        
+        "cybergrind_themesCustomGrid": "BLOK",
+        "cybergrind_themesCustomGridGlow": "BLOK PARLAMASI",
+        "cybergrind_themesCustomSkybox": "GÖKYÜZÜ",
+        "cybergrind_themesCustomBack": "GERİ",
+        "cybergrind_themesCustomReload": "YENİLE",
+        "cybergrind_themesCustomBase": "TEMEL",
+        "cybergrind_themesCustomTopRow": "ÜST BLOK",
+        "cybergrind_themesCustomTop": "TEPE",
+        "cybergrind_themesCustomGlowIntensity": "PARLAMA KUVVETİ",
+        
+        "cybergrind_patternsTitle": "DESENLER",
+        "cybergrind_patternsRefresh": "YENİLE",
+        "cybergrind_patternsLaunchExternalEditor": "EDİTÖR",
+        
+        "cybergrind_wavesTitle": "DALGALAR",
+        "cybergrind_wavesDescription1": "BAŞLANGIÇ DALGASINI SEÇ",
+        "cybergrind_wavesDescription2": "(En yüksek dalga en az iki katı olmalıdır)",
+
+        "cybergrind_noPatternsSelected": "HİÇBİR DESEN SEÇİLMEDİ."
+    },
+    
+    "books":{
+        "books_scanning": "TARANIYOR...",
+        "books_pressToClose1": "KAPATMAK İÇİN",
+        "books_pressToClose2": "TIKLAYIN.",
+
+
+        "books_limboFourth1": "Metin tarandı - Benzersiz Parça:",
+        "books_limboFourth2": "...Zihnim sonsuz azaplarla başıboş, sinsi tonlarda boyanmış ürkütücü manzaralar; dokunduğumda çığlık atan içi boş duvarlar. Her saat alaycı bir şarkı çalıyor, kuş sesleri bile sahte. Sonsuz cezamın yadigârları.",
+        "books_limboFourth3": "Cebrâil, benim sevgili arkadaşım. Sonsuz kefaret içinde cennete kucaklaşmanı bekledim. Kaderime çok sadık kaldım ama ne için? Bu nasıl bir cezadır, kurtuluş umudu olmadan kendi kaderimin anahtarlarını çıplak bırakıyorum... Bu kafatasları şeytani sırıtışlarıyla alay ediyor, sesler geveliyor; beni cehennemin daha derinlerine dalmaya teşvik ediyor... Yapmayacağım.",
+        "books_limboFourth4": "Onları bu lanetli yerin mobilyaları, kitapları ve temelleri arasına sakladım. Beni bağışla Cebrâil, senin...",
+        "books_limboFourth5": "Kalan metin: Önemsiz.",
+        
+        "books_lustSecond1": "Metin tarandı - Benzersiz Parça:",
+        "books_lustSecond2": "...Cebrâil, Minos'u yere serdi; teni ayaklarından kıpkırmızı sellerle paramparça olurken hepimiz açıklama için haykırdık.",
+        "books_lustSecond3": "“Adalet” dedi Cebrâil, adil hükümdarımız acı içerisinde kıvranırken, “Adalet” dedi herkese. \"Tanrı'nın hükmü budur.\"",
+        "books_lustSecond4": "Minos yıkılmış bir hâlde, Tanrı'nın iradesi Cebrâil’i hiçe sayarak çığlıklar atarken dehşet içinde izledik.",
+        "books_lustSecond5": "Kalan metin: Önemsiz.",
+        
+        "books_greedSecond1": "Metin tarandı - Benzersiz Parça:",
+        "books_greedSecond2": "Melekleri son gördüğümüzden beri günler geçti. Onların baskısı olmazsa cezamıza devam etmemize gerek yok. Ruhların en uysalları bile kefaretini bırakıp silaha sarıldılar. Bizi nasıl soyduklarını herkes görebilir zihinlerimizden, bedenlerimizden ve ruhlarımızdan bize sadece asla gelmeyecek bir kurtuluşun umutlarını bıraktılar ama artık değil.",
+        "books_greedSecond3": "Kral Sisifos, gücü ve sayıları artan bir ordu toplayarak şimdiye kadar gizlice hareket etti ancak artık saklanmaya gerek yok. Korkunun tadını unutacak kadar uzun süre cennetin gölgesinde yaşadık. Şimdi Sisifos’un isyancıları savaşa hazırlanıyor.",
+        "books_greedSecond4": "Minos'un barışçıl bir devrim başlattığını duydum ancak Kralımız Sisifos, böyle bir barışçılığın zalim gardiyanlarımıza karşı hiçbir fayda sağlamayacağını biliyor. Güçe karşı ancak güçle savaşılabileceğini biliyor ve bizi özgürlüğe o götürecek.",
+        "books_greedSecond5": "Keşke bundan sonra başımıza gelecek olan ızdırabı bilseydik...",
+        "books_greedSecond6": "Kalan metin: Önemsiz.",
+        "books_greedThird1": "PİRAMİDİN içinde KEDİ ve SIÇAN odası bekliyor.",
+        "books_greedThird2": "ODANIN içinde berrak SU dolu bir havuz var.",
+        "books_greedThird3": "SUYUN içinde bir sır var…",
+        "books_greedThird4": "Ama sadece büyücülerin <color=cyan>ELEKTRİK</color> güçlerine sahip olanlar bulabilir.",
+        
+        "books_wrathSecond1": "METİN TARANDI - OKUNABİLİR YAZI:",
+        "books_wrathSecond2": "KAYIKÇI’NIN GÜNLÜĞÜNDEN BİR ALINTI",
+        "books_wrathSecond3": "Bir tür felaket fâni dünyayı vurdu. Bir zamanlar Stiks adını taşıyan nehir artık hayal edilemeyecek derecede devasa bir okyanusa dönüştü. Her gün kıyıların zar zor tutabildiği bir milyon ağlayan ruhlar dökülüyor. Gözleri yaşlı dalgalar uçtan uca, pruvadan kıça, merhamet için ağlıyor, güvenli bir geçiş için yalvarıyor ama bu ruhların hepsi ödeyemez ve bu yaşlı eller ancak belli bir miktar para tutabilir.",
+        "books_wrathSecond4": "Sonra bir gün, dalgaların akımı değişti. Dalga arkası dalga dakikalarca geldi ve milyonlarca ve milyarlarca ruh, dünyanın boğazı kesilmiş ve akışın hızını arttırmak için kafası geriye çekilmişçesine akıyordu. Tepki vermeye vaktim olmadı. Durmayan görevimden gelen yorgunluk beni kaptı ve kaynaşan ruhların okyanusuna düştüm, Stiks okyanusunun derinliklerine indikçe kaderim sonsuz vücutların ezici kütlesi tarafından mühürlenmişti.",
+        "books_wrathSecond5": "Aniden, Efendimiz kadar mükemmel bir ışık gözlerimi kamaştırdı; kuvvetli kolları ile beni o boğucu karanlıktan kurtardı ve beni daha önce hiç bilmediğim şefkat ve sıcaklık ile tuttu:",
+        "books_wrathSecond6": "\"Korkmana gerek yok günahkâr. Tanrı’ya bağlılığın içinde ihsan olduğunu gösteriyor hem de bolca. Kalp razı ama vücut dinlenmeli, Rabbin yarattıklarından birini israf etmeyesin diye.\"",
+        "books_wrathSecond7": "Nazik sözleri acımı dindirdi ve yaralarımı onardı. Yüzümde rahatlıktan akan yaşlar, ağzımda sorumluluğum tarafından boğulan kelimeler… Yapabileceğim tek şey orada hürmet ile yatmaktı, majestelerinin kucağında taşınmak.",
+        "books_wrathSecond8": "Parlaktır Cebrâil, karanlığımdaki ışık.",
+        "books_wrathSecond9": "Kalan metin: Önemsiz."
+    },
+    "intermission":{
+        "act1_intermission_first1": "Rezillik.",
+        "act1_intermission_first2": "Yüz karası.",
+        "act1_intermission_first3": "Konseyin ayaklarında çirkin ve yersiz.",
+        "act1_intermission_first4": "Gözleri keskin bir öfkeyle parlıyor, Cebrâil’in herkesin gözlerine açılmış beden ve ruh yaralarına bakıyorlardı.",
+        "act1_intermission_first5": "“Yaratıcımızın yolunu terk mi etti?”",
+        "act1_intermission_first6": "“Kutsal Işığı’na layık değil.”",
+        "act1_intermission_first7": "“Baba’nın Işığı yenilmezdir.”",
+        "act1_intermission_first8": "“Onu israf edebileceğini düşünüyor.”",
+        "act1_intermission_first9": "Sözleri Cebrâil'in uzuvlarında çınladı, tel üzerinde bir yıldırım gibi süzüldü; zayıfları kör ve sağır edecek bir çınlama.",
+        "act1_intermission_first10": "İçindeki Kutsal Işık, ilahi öfkenin durdurulamaz gücü.",
+        "act1_intermission_first11": "Nesneler tarafından aşılamaz.",
+        "act1_intermission_first12": "Bunu biliyordu.",
+        
+        "act1_intermission_second1": "\"Kutsal Konsey, yaratıcımıza olan bağlılığım mutlaktır. Baba'nın iradesinden asla sapmadım ama bir makine-\"",
+        "act1_intermission_second2": "\"Baba'nın kudretinin nesnelerle sarsılabileceğini ima etmeye cüret mi ediyorsun?\"",
+        "act1_intermission_second3": "\"İmkansız.\"",
+        "act1_intermission_second4": "\"Sapkınlık.\"",
+        "act1_intermission_second5": "\"Akılalmaz.\"",
+        "act1_intermission_second6": "\"Sessizlik.\"",
+        "act1_intermission_second7": "\"İhanetine müsamaha gösterilmeyecek. Ceza olarak, Baba'nın Işığı vücudundan kesilecek.\"",
+        "act1_intermission_second8": "Son korlarının sönmesi için 24 saatin var.\"",
+        "act1_intermission_second9": "Söndüğünde sen de onlarla birlikte söneceksin.",
+        "act1_intermission_second10": "Sadakatini kanıtla.",
+        "act1_intermission_second11": "Hatalarını düzelt.",
+        "act1_intermission_second12": "TO BE REMOVED",
+        
+        "act1_intermission_third1": "Işık, varlığından koparılırken Cebrâil'in çığlıkları, Tanrı'yı ​​öven müjdenin tıslamasıyla susturuldu.",
+        "act1_intermission_third2": "Cehennem ateşleriyle bile kıyaslanamayacağı, kaynayan bir azap.",
+        "act1_intermission_third3": "Eziyetin ateşiyle birlikte yeni, alev alev bir nefret dövülmüştü.",
+        "act1_intermission_third4": "Eğer makineler kan arıyorlarsa, onlara istediklerini verecekti",
+        "act1_intermission_third5": "ve böyle bir öfkeyle, metal bile kanar.",
+
+
+        "act2_intermission_first1": "Sessizlik.",
+        "act2_intermission_first2": "İç gözlem.",
+        "act2_intermission_first3": "Kaç tane öldürmüştü?",
+        "act2_intermission_first4": "Saymayı hiç düşünmüş müydü?",
+        "act2_intermission_first5": "Ne kadar zulüm taşıyordu... Ve hangi nihayete?",
+        "act2_intermission_first6": "Kaç kişiyi cehenneme mahkûm etmişti, kimin lehine..?",
+        
+        "act2_intermission_first7": "Makine’nin elinde iki mağlubiyet Cebrâil’i değiştirmişti.",
+        "act2_intermission_first8": "Evvelde Tanrı’nın iradesinden zannedilen dünya şimdi parçalanmıştı ve geri toplamak için geride sadece o kalmıştı.",
+        "act2_intermission_first9": "Parçalar taze yakıtın ayakta tutamadığı ölen bir ateşin etrafında toplandı, bu yeni ışık Cebrâil’e gerçeği gösterdi.",
+        
+        "act2_intermission_first10": "Parçalar, hiçbir zaman tam oturmamıştı.",
+        
+        "act2_intermission_second1": "Sözde \"halkın\" konseyi, orada olmayan bir Tanrı’yla böbürleniyordu.",
+        "act2_intermission_second2": "Gitmiş.",
+        "act2_intermission_second3": "Yok olmuş.",
+        "act2_intermission_second4": "Konsey, hâlâ Tanrı’nın ateşinin akıllarında sözleri ve iradesi bükülmüş; çarpıklaşmış ışığını kovalıyordu. cennetin geri kalan başıboş güruhları da onların ayak izlerini takip ediyordu.",
+        "act2_intermission_second5": "Melekler, hâlâ Baba’nın adında hareket ediyorlardı ama onun krallığı değişmişti.",
+        
+        "act2_intermission_second6": "Şimdi ateş ölüyordu, ısı nüfuz kazanamıyor; yitip gidiyordu.",
+        "act2_intermission_second7": "Cebrâil kusursuz bir aydınlıkla korlara baktı.",
+        "act2_intermission_second8": "Kılıcını çekti ve ölen ışığın karşısında tuttu.",
+        
+        "act2_intermission_second9": "Yansımasında yeniden doğmuş bir silah gördü, başkasının iradesi yerine artık kendisinin hükmettiği.",
+        "act2_intermission_second10": "Yalnızca sözlerin güruhları hareket ettiremeyeceğini biliyordu.",
+        "act2_intermission_second11": "Bambaşka bir şey yapmaya karar verdi.",
+        
+        "act2_intermission_third1": "Ölüm salonu lekeliyor.",
+        "act2_intermission_third2": "Evvelin kadir konseyinin harap cesetleri şimdi yerlere dağılmış, hayatlarının son nefesleri Cebrâil’in muhalif kılıcından damlıyor.",
+        
+        "act2_intermission_third3": "Son konsey üyesi, sırtı duvarda, ölüm emin adımlarla yaklaşırken ürkek nefeslerinin arasından kelimeleri çıkarmaya çalışıyor.",
+        "act2_intermission_third4": "\"D-dur!",
+        "act2_intermission_third5": "B-bunu yapamazsın! Makamımız bunu yasaklar!",
+        "act2_intermission_third6": "Bu bir ihanet, kâfirlik, cinayet!",
+        "act2_intermission_third7": "Biz en yüksek otoriteyiz, bizim yasamız sana hükmeder!\"",
+        
+        "act2_intermission_third8": "\"Siz kimseye hükmedemezsiniz.",
+        "act2_intermission_third9": "Sözlerinizin benim üstümde hiçbir gücü yok ya da başkalarında.",
+        "act2_intermission_third10": "Belki de sözlerinle kılıcımı kınına sokabileceğine gerçekten inanıyorsun.\"",
+        
+        "act2_intermission_fourth1": "\"A-ama insanlar bizim yanımızda!",
+        "act2_intermission_fourth2": "Cennetin tebaası adil olduğumuzu biliyor!\"",
+        "act2_intermission_fourth3": "\"Güruhlar sizi sadece korku ve çaresizlikten takip ediyor.",
+        "act2_intermission_fourth4": "Onlara korkulacak hiçbir şey olmadığını göstereceğim, çünkü kılıcın keskin kenarını durduracak hiçbir tür, hiçbir köken, rütbe ya da kutsal itibar yoktur.",
+        
+        "act2_intermission_fourth5": "Hepimizden aynı kan akıyor ve tahtlarınızın yastıkları sizi zayıf ve âciz bıraktı.\"",
+        
+        "act2_intermission_fourth6": "\"L-lütfen Cebrâil mantıklı düşün!",
+        "act2_intermission_fourth7": "Konsey Baba’nın iradesini takip eder!",
+        "act2_intermission_fourth8": "Sen yaratıcımıza karşı çı-\"",
+        
+        "act2_intermission_fourth9": "\"Yüzleş, kardeşim.",
+        "act2_intermission_fourth10": "Tanrı öldü.",
+        "act2_intermission_fourth11": "Ateş söndü.",
+        "act2_intermission_fourth12": "Hayaletleri kovalıyorsunuz.\"",
+        
+        "act2_intermission_fourth13": "Cebrâil’in silüeti artık konsey üyesinin üstünde yükseliyor, gölgesi hayatını kaybedecek vücudun üzerine düşüyor.",
+        
+        "act2_intermission_fifth1": "Yerde ağlayan pislik son cılız savını kekelerken kılıcını son darbe için kaldırıyor.",
+        
+        "act2_intermission_fifth2": "\"A-a-ama Baba’nın ışığı!",
+        "act2_intermission_fifth3": "Ben olmadan onunla tekrar bağlanamazsın! E-e-eğer beni öldürürsen saatler içinde hayatını kaybedersin!\"",
+        "act2_intermission_fifth4": "\"Biliyorum.\"",
+        
+        "act2_intermission_fifth5": "Temiz, sessiz bir vuruş konsey üyesinin boynundan süzülüyor; zarif ve rahat bir şekilde omurgasını ayırıyor.",
+        "act2_intermission_fifth6": "Kafası mermer yere düşüyor, hemen sonra vücudu da takip ediyor.",
+        
+        "act2_intermission_sixth1": "İtibardan düşmüş ama gaye ile dolup taşan Cebrâil, cennetten son kez ayrılmadan önce salonun kapılarında yığılmış meleklere son bir mesaj verdi.",
+        
+        "act2_intermission_sixth2": "Kolu açılmış, hiçbir söz söylemeden, halk gördü.",
+        "act2_intermission_sixth3": " Bu sessizlikte mesaj kâinatın en uçlarına kadar yankılandı.",
+        
+        "act1_intermission_tobecontinued": "DEVAM EDECEK… <color=red>PERDE II: KUSURLU NEFRET</color>",
+        "act1_intermission_tobecontinuedshadow": "DEVAM EDECEK… PERDE II: KUSURLU NEFRET",
+        
+        "act1_intermission_endof": "PERDE I SONU",
+        "act1_intermission_insertAct2": "PERDE II: KUSURLU NEFRET İÇİN İKİNCİ DİSKİ TAKIN",
+        "act1_intermission_insert": "TAK",
+        "act1_intermission_returnToMenu": "MENÜYE DÖN",
+        
+        "act2_intermission_tobecontinued": "SONUÇLANDIRILACAK… <color=red>PERDE III: İLAHİ İNTİHAR</color>",
+        "act2_intermission_tobecontinuedshadow": "SONUÇLANDIRILACAK… PERDE III: İLAHİ İNTİHAR"
+        
+    },
+    "frontend":{
+        "mainmenu_earlyAccess": " ERKEN ERİŞİM ",
+        "mainmenu_halloween": " MUTLU CADILAR BAYRAMI ",
+        "mainmenu_easter": " MUTLU PASKALYALAR ",
+        "mainmenu_christmas": " MUTLU NOELLER ",
+        "mainmenu_play": "OYNA",
+        "mainmenu_options": "SEÇENEKLER",
+        "mainmenu_credits": "JENERİK",
+        "mainmenu_quit": "ÇIKIŞ",
+        "mainmenu_mods": "MODLAR",
+        "mainmenu_restart": "YENİDEN BAŞLAT",
+
+
+        "difficulty_title": "ZORLUK",
+        "difficulty_easy": "ZORLUK",
+        "difficulty_normal": "ZOR",
+        "difficulty_hard": "ÇOK ZOR",
+        "difficulty_harmless": "ZARARSIZ",
+        "difficulty_lenient": "MERHAMETLİ",
+        "difficulty_standard": "STANDART",
+        "difficulty_violent": "ŞİDDETLİ",
+        "difficulty_brutal": "ZALİM",
+        "difficulty_umd": "ULTRAKILL ÖLMELİ",
+        
+        "difficulty_tweakReminder": "ZORLUK YARDIM MENÜSÜNDEN İLERİ SEVİYEDE AYARLANABİLİR",
+        "difficulty_underConstruction": "YAPIM AŞAMASINDA",
+
+        "difficulty_harmlessDescription1": "Absürt derecede yavaş düşmanlar ve saldırılar.",
+        "difficulty_harmlessDescription2": "Hasar hâlâ yüksek ama dağlar bile saldırılardan kaçabilir.",
+        "difficulty_harmlessDescription3": "Stres istemeyen oyuncular için önerilir.",
+        "difficulty_lenientDescription1": "Yüksek hasar ama yavaş saldırılar ve pasif düşmanlar.",
+        "difficulty_lenientDescription2": "Aksiyon hâlâ yüksek fakat saldırılardan kaçmak daha kolay.",
+        "difficulty_lenientDescription3": "Daha özgür bir oynayış isteyen oyunculara önerilir.",
+        "difficulty_standardDescription1": "Normal düşmanlar ve yüksek hasar.",
+        "difficulty_standardDescription2": "Saldırılardan kaçmak kolay ama dikkatsizlik hızlı bir ölüme neden olur.",
+        "difficulty_standardDescription3": "İlk kez oynayanlara önerilir.",
+        "difficulty_violentDescription1": "Hızlı ve agresif düşmanlar ve yüksek hasar.",
+        "difficulty_violentDescription2": "Hızlı düşünme, hareket kabiliyeti ve durum farkındalığı şarttır.",
+        "difficulty_violentDescription3": "Oyunun ritmine ve mekaniklerine alışmış oyunculara önerilir.",
+
+        "chapter_title": "BÖLÜMLER",
+        "chapter_prelude": "GİRİŞ",
+        "chapter_act1": "PERDE I: SONSUZ HİPERÖLÜM",
+        "chapter_act2": "PERDE II: KUSURLU NEFRET",
+        "chapter_act3": "PERDE III: İLAHİ İNTİHAR",
+        "chapter_prime": "KADİM SIĞINAKLARI",
+        "chapter_cyberGrind": "SİBERKIYIM",
+        "chapter_sandbox": "SERBEST MOD",
+        "chapter_secretMission": "GİZLİ GÖREV",
+
+        "layer_prelude": "GİRİŞ",
+        "layer_limbo": "ARAF",
+        "layer_lust": "ŞEHVET",
+        "layer_gluttony": "OBURLUK",
+        "layer_greed": "HIRS",
+        "layer_wrath": "ÖFKE",
+        "layer_heresy": "İNKÂR",
+        "layer_prime": "KADİM",
+
+        "level_challenge": "MÜCADELE",
+        "level_challengeCompleted": "TAMAM\nLANDI",
+
+        "level_fullIntroPrompt": "TÜM GİRİŞ Mİ?",
+        "level_fullIntroPromptYes": "EVET",
+        "level_fullIntroPromptNo": "HAYIR",
+        "level_fullIntroPromptCancel": "İPTAL"
+    },
+	
+    "visualnovel": {
+        "visualnovel_mirageName1": "HERHANGİ BİRİ",
+        "visualnovel_mirageName2": "ŞEHİRDEKİ EN GÜZEL KIZ",
+        "visualnovel_mirageName3": "MIRAGE",
+
+
+        "visualnovel_introFirst1": "Ağır adımlar, düzensiz nefes.",
+        "visualnovel_introFirst2": "Fazla zaman kalmadı.",
+        "visualnovel_introFirst3": "Çok geç bile olabilir.",
+        
+        "visualnovel_introFirst4": "Panik; bana bir zamanlar rehberlik eden derinlemesine kazınmış hatıraları bozdukça gaddar, keskin dönemeçlerin dolambaçlı yolları bana daha yabancı gelmeye başladı.",
+        
+        "visualnovel_introFirst5": "Her köşe bana yabancıydı. ",
+        "visualnovel_introFirst6": "Her düz çizgi fazla uzundu.",
+        
+        "visualnovel_introFirst7": "Çanlar benim için çalıyor.",
+        
+        "visualnovel_introSecond1": "Erzağımın sonuncusunu daha sert ısırıyorum, dişimin ucuyla ancak tutabiliyorum.",
+        "visualnovel_introSecond2": "Telaşla etrafa bakınırken zar zor tutunuyor, kurtuluşa götürecek tanıdık bir manzara bulmak için yanan hatıralarımın kalıntılarından umutlanıyorum.",
+        "visualnovel_introSecond3": "Kapılar şimdi kapanıyor olmalı.",
+        "visualnovel_introSecond4": "Sonuncular güç bela ulaşıyor.",
+        "visualnovel_introSecond5": "Geri kalanımızın hiçbir zaman şansı olmadı.",
+        
+        "visualnovel_introSecond6": "Aniden, kör bir noktadan, bir suret bana çarptı.",
+        "visualnovel_introSecond7": "Sert, soğuk zemine düşmeden önce tepki verecek zaman yoktu.",
+        "visualnovel_introSecond8": "Son anlarımda nasıl bir yazgıyla karşılaşacağımı görmek için kendime gelmeye çalıştım ama aklım, sonsuz terörün uçurumlarında bile böyle bir korkuyla karşılaşacağımı asla hayal edemezdi.",
+        
+        "visualnovel_fallen1": "Ahh, off acıttı.",
+        
+        "visualnovel_fallenPromptFirst1": "\"Sen de kimsin?\"",
+        "visualnovel_fallenPromptFirst2": "\"İyi misin?\"",
+        "visualnovel_fallenPromptFirst3": "*Yerinde titre ve kan ter içerisinde kal",
+        
+        "visualnovel_fallenResponseFirst": "Sorguya çekilmeden önce yardım etmeye ya da özür dileme anlayışına bile sahip olmayan, bir yarım akıllı sik kafa tarafından yere düşürülmüş biriyim.",
+        "visualnovel_fallenResponseSecond": "Eteğime toz süsü veren kör bir göt tarafından yere düşürüldüm, yani harikayım amına koyayım ama şu an yerde olmasam daha iyi olurdu.",
+        "visualnovel_fallenResponseThird1": "Süper titreşimli fıskiye gelip bana çarptı, şansıma bak.",
+        "visualnovel_fallenResponseThird2": "En azından geri kalanın güneş tarafından eritilmeden ya da Dünya’nın kabuğunu delip geçmeden bana yardım edebilirsin.",
+        
+        
+        "visualnovel_fallenPromptSecond1": "*Yardım et*",
+        "visualnovel_fallenPromptSecond2": "\"Bu tavırla olmaz.\"",
+        "visualnovel_fallenPromptSecond3": "Pardon, benim hatamdı.",
+        
+        "visualnovel_fallenResponseFourth": "Tamam, tamam.",
+        "visualnovel_fallenResponseFifth": "OFF.",
+       
+       
+        "visualnovel_kindFirst1": "*ah*",
+        "visualnovel_kindFirst2": "Kabalığım için özür dilerim, sadece hem okula geç kalıp hem de yolda kaybolduğum için sinirlerim bozuk.",
+        
+        "visualnovel_kindSecond": "Ama görünüşe göre aynı gemideyiz ve hayatında bir kez gelebilecek bir şansla ~şehirdeki en güzel kıza~ çarptın.",
+        "visualnovel_kindThird": "Yol gösterip ikimizide bu durumdan kurtarmaya ne dersin?",
+        
+        "visualnovel_rudeFirst1": "Dinle, sik kafa.",
+        "visualnovel_rudeFirst2": "Kim olduğunu bilmiyorum ama birini düşürüp kaldırmaya yardım etmeyecek kadar yüzsüzsün fakat annen terbiye vermediği için bu seferlik affediyorum.",
+        "visualnovel_rudeSecond": "Görünüşe göre sen de okula geç kalmışsın ve hayatında bir kez gelebilecek bir şansla şehirdeki en güzel kıza çarptın.",
+        "visualnovel_rudeThird": "Bu yüzden güzel bir kıza el sürme suçunu affedeceğim, eğer hangi yoldan gidildiğini söylersen; gelirken kaybolmuşum sanırım.",
+        
+        "visualnovel_middlePrompt1": "\"Aslında ben de kayboldum.\"",
+        "visualnovel_middlePrompt2": "\"İstemiyorum.\"",
+        "visualnovel_middlePrompt3": "\"Ben okula gitmiyorum ki.\"",
+        
+        "visualnovel_middleResponseFirst1": "ÜF! Çok şanslıyım.",
+        "visualnovel_middleResponseFirst2": "Aslında düşününce sen de kaybolmasaydın benimle burada olmazdın....",
+        "visualnovel_middleResponseFirst3": "Her neyse, dökülen kanın davası olmaz.",
+        "visualnovel_middleResponseFirst4": "Başka bir öğrencinin geçmesini bekleyip onu takip edebiliriz.",
+        "visualnovel_middleResponseFirst5": "Ben Mirage.",
+        "visualnovel_middleResponseFirst6": "İsmini söylemene gerek yok, cidden umrumda değil.",
+        
+        "visualnovel_middleResponseSecond1": "NE?",
+        "visualnovel_middleResponseSecond2": "NE DEMEK \"İSTEMİYORUM\"?",
+        "visualnovel_middleResponseSecond3": "Eğer GÖSTERMEZSEN SEN DE asla ulaşamayacaksın!",
+        "visualnovel_middleResponseSecond4": "Ya da bu fikir pastel boya dolu kafandan hiç geçmedi mi!?",
+        
+        "visualnovel_middleResponseThird1": "Siktir!",
+        "visualnovel_middleResponseThird2": "Kes artık, boktan üniformanı görebiliyorum ve yaşayan hiç kimse isteyerek dolu çöp torbası gibi dışarı çıkmaz!",
+        "visualnovel_middleResponseThird3": "Aslında kafatasının içinde ne kadar az hareket olduğunu düşünürsek asla okula gitmediğinden bayağı eminim.",
+        
+        "visualnovel_middlePromptSecondRecklessness": "\"Yeni tanıştığın insanlara biraz daha nazik olmayı düşünebilirsin.\"",
+        "visualnovel_middlePromptSecondWaiting": "\"Burada beklemekle hiçbir yere varamayız, okulun yolunu aramamız lazım.\"",
+        
+        "visualnovel_recklessnessFirst": "Öyle mi? Sen de güzel bir dayak yemeyi düşünebilirsin, siktir git.",
+        "visualnovel_recklessnessSecond1": "Ama doğru, haklısın.",
+        "visualnovel_recklessnessSecond2": "Başkalarının ya da senin, benim hakkında ne düşündüğün umurumda değil; yani sen iyi hisset diye nazik davranma gibi bir niyetim yok.",
+        
+        "visualnovel_recklessnessPrompt1": "Neden olmasın? Eğer her türlü buradan çıkamıyorsak ikimiz için de daha kötü hâle getirmenin ne anlamı var?",
+        "visualnovel_recklessnessPrompt2": "Her söylediğime ne kadar kızdığını gördükten sonra pek inanasım gelmedi.",
+        
+        "visualnovel_recklessnessResponseFirst1": "Daha iyi hâle getirmenin ne anlamı var?",
+        "visualnovel_recklessnessResponseFirst2": "Buna önem vermekle uğraşmanın ne anlamı var?",
+        "visualnovel_recklessnessResponseFirst3": "Hatta, herhangi bir şeyin ne anlamı var ki?",
+        "visualnovel_recklessnessResponseFirst4": "Yok.",
+        "visualnovel_recklessnessResponseFirst5": "Hiçbir anlamı yok.",
+        
+        "visualnovel_recklessnessResponseSecond1": "Böbürlenme.",
+        "visualnovel_recklessnessResponseSecond2": "Sinirimi boşaltarak dayanabiliyorum.",
+        
+        "visualnovel_recklessnessPrompt3": "\"Neye dayanıyorsun?\"",
+        
+        "visualnovel_recklessnessResponseThird": "Her şeye.",
+        
+        "visualnovel_waitingFirst": "Kafasız tavuklar gibi gezersek daha çok kayboluruz.",
+        "visualnovel_waitingSecond": "İkimiz de okula giderken bu noktada karşılaştığımıza göre bu noktanın yolun üzerinde olma ihtimali yüksek.",
+        "visualnovel_waitingThird1": "Bu yüzden hareket etmeyip yolu BİLEN birini beklesek daha iyi olur.",
+        "visualnovel_waitingThird2": "Basit mantık, bir ara araştır.",
+        
+        "visualnovel_waitingPromptFirst1": "Basit mantık ya da değil çoktan geç kaldık ve sabaha kadar beklemek istemiyorum.",
+        "visualnovel_waitingPromptFirst2": "Yolu bilenler zaten çoktan varmıştır. Bana pes etmek için bahane arıyorsun gibi geldi.",
+        
+        "visualnovel_waitingResponseFirst1": "Sen bilirsin. Eğer bu büyülü, hatıra tetikleyen bir taş aramayacağım demek oluyorsa evrenin ısı ölümüne kadar burada beklerim.",
+        "visualnovel_waitingResponseFirst2": "Okula geç kalmak çok umurumda değil.",
+        "visualnovel_waitingResponseFirst3": "Okulun bir anlamı yok zaten.",
+        "visualnovel_waitingResponseFirst4": "Hiçbir şeyin yok.",
+        
+        "visualnovel_waitingResponseSecond1": "Hah!",
+        "visualnovel_waitingResponseSecond2": "Hiç denemedim ki pes edeyim ve denemek gibi bir alışkanlığım yok.",
+
+
+        "visualnovel_waitingPromptThird": "Neden yok?",
+        
+        "visualnovel_waitingResponseThird1": "Çünkü hiçbir şeyin anlamı yok.",
+        "visualnovel_waitingResponseThird2": "Eğer sonuç aynı olacaksa denemenin de bir anlamı yok",
+        "visualnovel_waitingResponseThird3": "İstediğin kadar dene sen de bir gün bizim gibi rüzgârla uçan, unutulmuş bir toz olacaksın.",
+        
+        "visualnovel_nihilism1": "Gerçekten, bir dur ve düşün.",
+        
+        "visualnovel_nihilism2": "İnsan zihni, tüm enginliğiyle durdurulmaz ve kaçınılmaz yok oluşun karşısında acizliği ve çaresizliği fark edebilir ama bunu kabullenmeyi başaramaz.",
+        
+        "visualnovel_nihilism3": "Sadece görmezden gelebilir, ondan saklanabilir ya da bir süre kaçabiliriz ama gerçek şu ki biz de tüm şeylerin gidişatına bağlıyız.",
+        
+        "visualnovel_nihilism4": "Ölüm kaçınılmazdır, sadece bize değil; var olmuş ve olacak her şeye.",
+        "visualnovel_nihilism5": "Her yaşayan varlık bir gün ölecektir.",
+        "visualnovel_nihilism6": "Her madde er ya da geç yitip gidecek ve entropiye dağılacak.",
+        
+        "visualnovel_nihilism7": "İyi bir hayat yaşamış olmanın ya da arkanda bir miras bırakmanın anlamı yok.",
+        "visualnovel_nihilism8": "İnsanlığın bin yıl yaşamasının ya da yarın yok olmasının bir önemi yok.",
+        "visualnovel_nihilism9": "Sonuç hep aynı, hiçbir şey.",
+        
+        "visualnovel_nihilism10": "İnsan bilinci, diğer hayvanların çok ötesinde ama bunu bir nimet olarak görmek yanlıştır.",
+        "visualnovel_nihilism11": "Diğer tüm varlıklarda cahillik lütfu vardır, yaptıklarımızı anlamamanın.",
+        
+        "visualnovel_nihilism12": "Bilincimiz bir nimet değil, kusur.",
+        
+        "visualnovel_nihilism13": "Evrimin gereksiz bir abartısıdır.",
+        "visualnovel_nihilism14": "Uzun süre önce mükemmel bir özellik olan bilinç kontrol edilmeden ve düzenlenmeden büyümeye devam etti ve öyle bir sınırı aştı ki artık sahibine bir fayda yerine aktif bir tehlike olmaya başladı.",
+        
+        "visualnovel_nihilism15": "Sayısız evrim jenerasyonundan sonra, düşmanlarından kaçmalarını engelleyen dev boynuzlar geliştiren ve sonunda soyları tükenen İrlanda geyiği gibi.",
+        
+        "visualnovel_nihilism16": "İnsan zihni, bir zamanlar faydalı olan yönde çok fazla ilerleyen evrimsel bir uyumsuzluktur ve eninde sonunda yok oluşumuza sebep olacaktır.",
+        "visualnovel_nihilism17": "Birey düzeyinde yaşanmaya başladı bile.",
+        
+        "visualnovel_nihilism18": "Varoluşsal sancılar çoktan kök saldı.",
+        "visualnovel_nihilism19": "Senin de hissettiğine eminim.",
+        "visualnovel_nihilism20": "Hiçbir şey olacak olmanın, yok olacak olmanın korkusu ve acısı.",
+        "visualnovel_nihilism21": "Bunu fark etmenin eziyeti.",
+        
+        "visualnovel_nihilism22": "Bunu kabullenemiyoruz bu yüzden kendi bilincimizden saklanıyoruz.",
+        "visualnovel_nihilism23": "Sınırlar çiziyoruz.",
+        "visualnovel_nihilism24": "Öldüğümüzde ne olacağı hakkında fazla düşünmemeye çalışıyoruz.",
+        
+        "visualnovel_nihilism25": "Oyalanıyoruz.",
+        "visualnovel_nihilism26": "Zihnimizi, sıkıcı işlerle ve eğlenceyle meşgul ediyoruz ki gerçekle yüz yüze gelmeyelim.",
+        
+        "visualnovel_nihilism27": "Dindiriyoruz.",
+        "visualnovel_nihilism28": "Kendimize yaptığımız eziyetin biçimini sanata dönüştürüyoruz ki bizi tüketmesin.",
+        "visualnovel_nihilism29": "Yeter ki korkmayalım.",
+        
+        "visualnovel_nihilism30": "Ama bunların hepsi geçici.",
+        "visualnovel_nihilism31": "Sadece bizi saracak, yıkacak çaresizliğin ve dehşetin kaçınılamaz örtüsünü çekmek için oradalar.",
+        
+        "visualnovel_nihilism32": "Sonuçta, hiçbir şeyin anlamı yok.",
+        "visualnovel_nihilism33": "Hayatta mutluluk aramanın anlamı yok çünkü hayat kendi içinde bir eziyet.",
+        
+        "visualnovel_nihilismPrompt1": "Yanılıyorsun.",
+        "visualnovel_nihilismPrompt2": "Engin bilincimizi bir armağan olarak görenleri eleştiriyorsun ama kendinide anlamsızlığımızın bir lanet olduğuna inanmaya itiyorsun.",
+        "visualnovel_nihilismPrompt3": "Yaptıklarımızın en sonunda bir anlamı yok ve tam da bu yüzden beklentilere tutsak değiliz, sonsuz yargımın korkusuna veya sınırlı zamanımızı \"harcanmamış\" yapacak keyfi bir sınıra yetişememeye.",
+        "visualnovel_nihilismPrompt4": "Zaman harcanamaz çünkü sadece yaşamaktan öte daha büyük bir amaç yoktur.",
+        "visualnovel_nihilismPrompt5": "Tam tersi.",
+        "visualnovel_nihilismPrompt6": "Daha büyük bir amaç olmadığı için kendi amacımızı belirleyebiliriz. Uğruna çabalayacağımız kendi hedeflerimizi yaratmak için.",
+        "visualnovel_nihilismPrompt7": "Bazıları için bu hiçbir şey olabilir. Bazıları için zevk olabilir. Bazıları için yaratıcılık olabilir. Bazıları için başkalarının hayatlarını iyileştirmek olabilir.",
+        "visualnovel_nihilismPrompt8": "Daha büyük bir amacımız olmadığı için kendi koyduğun hedeflere verdiğin zaman harcanmış sayılmaz.",
+        "visualnovel_nihilismPrompt9": "En sonunda hiçbir şeyin anlamı yok ve sırf bu yüzden kendi isteklerin yerine başkalarının sana zorladığı daha büyük bir amacı hatta kendi kusurlu görüşlerini gerçekleştirmenin bir nedeni yok.",
+        "visualnovel_nihilismPrompt10": "Gerçektende korkulması gereken bir düşünce. Yine de amacı, umudu, seçimi, hedefleri, zevki ve iradeyi terk etmek bu düşünceyi yok etmez. Fakat korku yatışır.",
+        "visualnovel_nihilismPrompt11": "Pes etmek sonu kabullenmek değildir, sadece korkuyu kabul etmiş olursun. Umutsuzlukla yüzleşmek yerine ona teslim olmaktır.",
+        "visualnovel_nihilismPrompt12": "Doğru, duygular mantıkla kontrol edilmez ama birbirine bağlıdır",
+        "visualnovel_nihilismPrompt13": "Kederin en dipsiz ve en karanlık derinlikleri mantığa ve duygulara üstün gelebilir, onları çarpıtır ve o depresyon pusuna sığdırır ama akılda duyguyu etkileyebilir ve ona baskın gelebilir; savunmaları ne kadar delinmez görünsede.",
+        "visualnovel_nihilismPrompt14": "Sürekli yaklaşan kötü düşünceleri devamlı pozitiflerle bozmaya zorlarsak, duygusal zihin yavaşça ve zamanla mantıksal olana oturmaya başlayacaktır.",
+        "visualnovel_nihilismPrompt15": "Kolay bir iş değil.",
+        "visualnovel_nihilismPrompt16": "Hızlı bir iş değil.",
+        "visualnovel_nihilismPrompt17": "Bazı zamanlar imkansız bir iş gibi gelecek.",
+        "visualnovel_nihilismPrompt18": "Fakat başarılabilir.",
+        "visualnovel_nihilismPrompt19": "Çok uzun zaman, çaba ve enerjiyle gelişecektir.",
+        "visualnovel_nihilismPrompt20": "Değişebilirsin.",
+        "visualnovel_nihilismPrompt21": "İyileşebilirsin.",
+        "visualnovel_nihilismPrompt22": "Ve en zor zamanlarında, her şeyi kaybetmiş gibi hissederken ve pes etmek istediğinde asla unutma…",
+        "visualnovel_nihilismPrompt23": "Seni daima seveceğiz.",
+        
+        "visualnovel_nihilism34": "Ne?",
+        "visualnovel_nihilism35": "Nasıl olmaz ki?",
+        "visualnovel_nihilism36": "Ama yine de eylemlerimizin anlamsızlığı yine aynı sonuca varıyor. Herhangi bir şey yapmak için bir neden yok çünkü tüm eylemler ne olursa olsun aynı sonuca varacak, kısa süreli değişimlerden ibaret.",
+        
+        "visualnovel_nihilism37": "Ne demek istediğini anlıyorum..",
+        "visualnovel_nihilism38": "Ama bu sona olan korkumu dindirmiyor.", 
+        "visualnovel_nihilism39": "Kendi amacımı bulmuş olsam da yok olma korkusu yüzünden hareket bile edemem.",
+        
+        "visualnovel_nihilism40": "Anladım.",
+        "visualnovel_nihilism41": "Ama ne kadar kabul etmek istesem de o felç edici varoluşsal korku dinmiyor.",
+        "visualnovel_nihilism42": "Mantık olarak anlıyorum ama duyarsız yaşamanın bir anlamı olmadığını biliyorum ama duygusal yanım dinlemeyi reddediyor.",
+        "visualnovel_nihilism43": "Korku gitmiyor ve kendimi amaç aramaya itemiyorum, yapmam gerektiğini bilsem de.",
+        
+        "visualnovel_conclusion1": "Vay be.",
+        "visualnovel_conclusion2": "O kafanın içi boş değilmiş.",
+        "visualnovel_conclusion3": "Etkilendim hatta.",
+        
+        "visualnovel_conclusion4": "Dostum…",
+        "visualnovel_conclusion5": "Sanki sırtımdan dünyanın yükü kalktı.",
+        "visualnovel_conclusion6": "Aslında bunu sen başardın.",
+        "visualnovel_conclusion7": "Ve bunu gerçekten gönülden söylüyorum.",
+        
+        "visualnovel_conclusion8": "Teşekkür ederim.",
+        
+        "visualnovel_conclusion9": "Üzerine düşünecek çok şey anlattın, eminim önümde uzun ve zorlu bir yol var, iyimserim.",
+        "visualnovel_conclusion10": "Sanki sonsuz bir süreden sonra ilk kez iyimserim.",
+        
+        "visualnovel_conclusion11": "Okula zaten çok geç kaldık ve bizi oraya götürecek birinin gelmeyeceği kesin, o umut emici ıslahevini bırakıp bir şeyler yemeye ne dersin?",
+        
+        "visualnovel_conclusionPrompt1": "Tabii olur. Bugün yapacak başka bir şeyim yok. Sen ısmarlıyorsun ama.",
+        "visualnovel_conclusionPrompt2": "Yok sağ ol,. bana kaba davrandığın için hâlâ sana kızgınım.",
+      
+        "visualnovel_conclusionResponseFirst1": "Vay göt!",
+        
+        "visualnovel_conclusionResponseFirst2": "Tamam, olur.",
+        "visualnovel_conclusionResponseFirst3": "Sana borçluyum zaten, hem \"seviyemden yüksek bir kıza iyilik yaptım\" kuponunu daha iyi kullanacak zaman var mı?",
+        
+        "visualnovel_conclusionResponseSecond1": "Tamam, sen bilirsin",
+        "visualnovel_conclusionResponseSecond2": "Fikrini değiştirmek istersen teklifim hâlâ geçerli ama.",
+        "visualnovel_conclusionResponseSecond3": "Görüşürüz âşık çocuk."
+    },
+        "options": {
+        "options_title": "SEÇENEKLER",
+        "options_back": "GERİ",
+        "category_general": "GENEL",
+        "category_controls": "KONTROLLER",
+        "category_graphics": "GRAFİKLER",
+        "category_sound": "SES",
+        "category_display": "ARAYÜZ",
+        "category_assists": "YARDIMLAR",
+        "category_colors": "RENKLER",
+        "category_saves": "KAYITLAR",
+
+        "general_mouseSensitivity": "FARE HASSASİYETİ",
+        "general_xInversion": "X EKSENİNE TERS ÇEVİR",
+        "general_yInversion": "Y EKSENİNE TERS ÇEVİR",
+        "general_fieldOfVision": "GÖRÜŞ ALANI",
+        "general_weaponPosition": "SİLAH KONUMU",
+        "general_weaponPositionRight": "SAĞ",
+        "general_weaponPositionMiddle": "ORTA",
+        "general_weaponPositionLeft": "SOL",
+        "general_rememberWeapon": "KULLANILAN SİLAH VARYASYONUNU HATIRLA",
+        "general_screenShake": "EKRAN SARSILMASI",
+        "general_screenShakeMinimum": "YOK",
+        "general_screenShakeMaximum": "DEPREM",
+        "general_cameraTilt": "KAMERA EĞİLİMİ",
+        "general_restartWarning": "GÖREV YENİDEN BAŞLATMA/ÇIKIŞ UYARISI",
+        "general_discordRpc": "DISCORD ENTEGRASYONU",
+        "general_seasonalEvent": "MEVSİMSEL ETKİNLİKLER",
+
+        "controls_resetDefault": "VARSAYILANA DÖN",
+        "controls_movement": "HAREKET",
+        "controls_forward": "İLERİ",
+        "controls_back": "GERİ",
+        "controls_left": "SOL",
+        "controls_right": "SAĞ",
+        "controls_jump": "ZIPLA",
+        "controls_dash": "ATIL",
+        "controls_actions": "EYLEMLER",
+        "controls_primaryFire": "BİRİNCİL ATEŞ",
+        "controls_secondaryFire": "İKİNCİL ATEŞ",
+        "controls_punch": "YUMRUK",
+        "controls_lastUsedWeapon": "SON SİLAH",
+        "controls_changeVariation": "VARYASYON",
+        "controls_changeArm": "KOL DEĞİŞTİR",
+        "controls_slide": "KAY",
+        "controls_whiplash": "KANCA",
+        "controls_weapons": "SİLAHLAR",
+        "controls_slot1": "YUVA 1",
+        "controls_slot2": "YUVA  2",
+        "controls_slot3": "YUVA  3",
+        "controls_slot4": "YUVA  4",
+        "controls_slot5": "YUVA  5",
+        "controls_scrollType": "SİLAH TEKERLEK TİPİ",
+        "controls_scrollTypeWeapons": "SİLAHLAR",
+        "controls_scrollTypeVariations": "VARYASYON",
+        "controls_scrollTypeAll": "HER İKİSİ DE",
+        "controls_mouseWheelToChangeWeapon": "FARE TEKERLEĞİ İLE SİLAH DEĞİŞTİR",
+        "controls_reverseScroll": "FARE TEKERLEK YÖNÜNÜ TERS ÇEVİR",
+
+        "graphics_title": "GRAFİKLER",
+        "graphics_resolution": "ÇÖZÜNÜRLÜK",
+        "graphics_fullscreen": "TAM EKRAN",
+        "graphics_maxFps": "HEDEF KARESAYISI",
+        "graphics_maxFpsNone": "YOK",
+        "graphics_maxFps2x": "EKRANIN YENİLEME HIZININ 2X",
+        "graphics_vsync": "VSYNC",
+        "graphics_filters": "PSX AYARLARI",
+        "graphics_filtersDescription": "(Görsel netlik için ayarları düşürün)",
+        "graphics_pixelisation": "ÇÖZÜNÜRLÜK KÜÇÜLTME",
+        "graphics_pixelisationNone": "KAPALI",
+        "graphics_pixelisation720p": "720P (ÇOK DÜŞÜK)",
+        "graphics_pixelisation480p": "480P (DÜŞÜK)",
+        "graphics_pixelisation360p": "360P (ORTA)",
+        "graphics_pixelisation240p": "240P (YÜKSEK)",
+        "graphics_pixelisation144p": "144P (ÇOK YÜKSEK)",
+        "graphics_pixelisation36p": "36P (ABSÜRT)",
+        "graphics_dithering": "GÜRÜLTÜ",
+        "graphics_ditheringMinimum": "YOK",
+        "graphics_textureWarping": "DOKU BÜKME",
+        "graphics_vertexWarping": "VERTEKS BÜKME",
+        "graphics_vertexWarpingNone": "YOK",
+        "graphics_vertexWarpingLight": "HAFİF",
+        "graphics_vertexWarpingMedium": "ORTA",
+        "graphics_vertexWarpingStrong": "AĞIR",
+        "graphics_vertexWarpingVeryStrong": "ÇOK AĞIR",
+        "graphics_vertexWarpingAbsurd": "MODERN SANAT",
+        "graphics_customColorPalette": "ÖZEL RENK PALETİ",
+        "graphics_customColorPaletteSelect": "SEÇ",
+        "graphics_colorCompression": "RENK SIKIŞTIRMASI",
+        "graphics_colorCompressionNone": "YOK",
+        "graphics_colorCompressionLight": "HAFİF",
+        "graphics_colorCompressionMedium": "ORTA",
+        "graphics_colorCompressionStrong": "AĞIR",
+        "graphics_colorCompressionVeryStrong": "ÇOK AĞIR",
+        "graphics_colorCompressionAbsurd": "BAĞIMSIZ SANAT OYUNU",
+        "graphics_performance": "PERFORMANS AYARLARI",
+        "graphics_performanceSimpleExplosions": "BASİT PATLAMALAR",
+        "graphics_performanceSimpleFire": "BASİT ATEŞ",
+        "graphics_performanceSimpleSpawn": "BASİT DOĞUŞ EFEKTLERİ",
+        "graphics_performanceDisableEnviParticles": "ÇEVRESEL PARÇACIK EFEKTLERİNİ DEVRE DIŞI BIRAK",
+        "graphics_performanceSimpleNails": "BASİT ÇİVİ FİZİKLERİ",
+        "graphics_gore": "KAN AYARLARI",
+        "graphics_goreNote": "(Oynanışı etkilemez)",
+        "graphics_goreEnable": "KANI ETKİNLEŞTİR",
+        "graphics_goreDisablePhysics": "KAN FİZİKLERİNİ DOLDUR",
+        "graphics_goreBloodChance": "KAN LEKESİ İHTİMALİ",
+        "graphics_goreMaxGore": "ODA BAŞI MAKSİMUM KAN",
+
+        "audio_title": "SES",
+        "audio_subtitles": "ALT YAZILAR",
+        "audio_globalVolume": "OYUN SESİ",
+        "audio_musicVolume": "MÜZİK SESİ",
+
+        "hud_title": "OYUN ARAYÜZÜ",
+        "hud_type": "OYUN ARAYÜZÜ TİPİ",
+        "hud_typeNone": "YOK",
+        "hud_typeStandard": "STANDART",
+        "hud_typeClassicColor": "KLASİK RENKLİ",
+        "hud_typeClassicWhite": "KLASİK BEYAZ",
+        "hud_hudElements": "OYUN ARAYÜZÜ ELEMANLARI",
+        "hud_backgroundOpacity": "ARKA PLAN OPAKLIĞI",
+        "hud_backgroundOpacityMinimum": "YOK",
+        "hud_alwaysOnTop": "HER ZAMAN EN ÜSTTE",
+        "hud_icons": "HİLE VE SERBEST MOD İKONLARI",
+        "hud_weaponIcon": "SİLAH SİMGESİ",
+        "hud_armIcon": "KOL İKONU",
+        "hud_railcannonMeter": "RAYTOPU ŞARJ METRESİ",
+        "hud_styleMeter": "STİL METRESİ",
+        "hud_styleInfo": "STİL BİLGİSİ",
+
+        "spawner_sandboxTools": "SERBEST MOD EŞYALARI :^)",
+        "spawner_sandbox": "SERBEST MOD",
+        "spawner_enemies": "DÜŞMANLAR",
+        "spawner_items": "OBJELER",
+
+        "crosshair_title": "NİŞANGÂH AYARLARI",
+        "crosshair_type": "NİŞANGÂH TİPİ",
+        "crosshair_typeNone": "YOK",
+        "crosshair_typeSmall": "KÜÇÜK",
+        "crosshair_typeLarge": "BÜYÜK",
+        "crosshair_color": "NİŞANGÂH RENGİ",
+        "crosshair_colorInverted": "TERS RENK",
+        "crosshair_colorWhite": "BEYAZ",
+        "crosshair_colorGrey": "GRİ",
+        "crosshair_colorBlack": "SİYAH",
+        "crosshair_colorRed": "KIRMIZI",
+        "crosshair_colorGreen": "YEŞİL",
+        "crosshair_colorBlue": "MAVİ",
+        "crosshair_colorCyan": "SİYAN",
+        "crosshair_colorYellow": "SARI",
+        "crosshair_colorMagenta": "MACENTA",
+        "crosshair_size": "NİŞANGÂH BOYUTU",
+        "crosshair_sizeNone": "YOK",
+        "crosshair_sizeThin": "İNCE",
+        "crosshair_sizeMedium": "ORTA",
+        "crosshair_sizeThick": "KALIN",
+        "crosshair_sizeVeryThick": "FAZLA KALIN",
+        "crosshair_hudFade": "NİŞANGÂH ARAYÜZ SOLMASI",
+        "crosshair_powerupBar": "GÜÇLENDİRME BARI",
+
+        "assists_title": "YARDIMLAR",
+        "assists_majorAssistsDisclaimer1": "Majör yardımlar oyunu ve dengesini önemli ölçüde değiştiren değişikliklerdir.",
+        "assists_majorAssistsDisclaimer2": "Eğer \"Majör Yardımlar\" görevin herhangi bir kısmında etkinleştirilir ise görev tamamlandığında verilen derecenin arka planı mavi olacaktır. Bu, görevde \"Majör Yardımlar\" kapalıyken aynı veya daha yüksek bir derece elde ederek kaldırılabilir.",
+        "assists_majorAssistsDisclaimer3": "P dereceleri ve Siberkıyım yüksek skorları \"Majör Yardımlar\" açıkken elde edilemez.",
+        "assists_majorAssistsDisclaimerConfirm": "MAJÖR YARDIMLARI ETKİNLEŞTİR?",
+        "assists_majorAssistsDisclaimerConfirmYes": "EVET",
+        "assists_majorAssistsDisclaimerConfirmNo": "HAYIR",
+        "assists_minorAssistsTitle": "MİNÖR YARDIMLAR",
+        "assists_minor": "MİNÖR YARDIMLAR",
+        "assists_autoAim": "OTOMATİK HEDEF ALMA",
+        "assists_autoAimPercent": "OTOMATİK HEDEF MİKTARI",
+        "assists_autoAimPercentMinimum": "YOK",
+        "assists_autoAimPercentMaximum": "TAM EKRAN",
+        "assists_enemySilhouettes": "DÜŞMAN SİLÜETLERİ",
+        "assists_enemySilhouettesOutlines": "SADECE DIŞ ÇİZGİ",
+        "assists_enemySilhouettesDistance": "ETKİNLEŞME MESAFESİ",
+        "assists_enemySilhouettesDistanceMinimum": "HER ZAMAN AÇIK",
+        "assists_enemySilhouettesOutlinesOnly": "SADECE DIŞ ÇİZGİ",
+        "assists_major": "MAJÖR YARDIMLAR",
+        "assists_majorActivate": "AKTİF ET",
+        "assists_gameSpeed": "OYUN HIZI",
+        "assists_damageTaken": "ALINAN HASAR",
+        "assists_bossOverride": "BOSS DÖVÜŞ ZORLUĞU",
+        "assists_bossOverrideNone": "YOK",
+        "assists_bossRestartRequired": "BOSS YENİDEN BAŞLATMA GEREKTİRİR",
+        "assists_infiniteEnergy": "SINIRSIZ ENERJİ",
+        "assists_disableHardDamage": "AĞIR HASARI KAPAT",
+        "assists_disableWhiplashHardDamage": "KANCA AĞIR HASARI KAPAT",
+        "assists_disableWeaponFreshness": "SİLAH TAZELİĞİNİ KAPAT",
+        "assists_disablePopupHints": "İPUÇLARINI KAPAT",
+
+        "colors_title": "RENKLER",
+        "colors_reset": "VARSAYILANA DÖN",
+        "colors_hudHealth": "CAN",
+        "colors_hudHealthNumber": "CAN RAKAMI",
+        "colors_hudDamage": "HASAR",
+        "colors_hudHardDamage": "AĞIR HASAR",
+        "colors_hudOverheal": "FAZLAİYİLEŞME",
+        "colors_hudEnergyFull": "ENERJİ (DOLU)",
+        "colors_hudEnergyPartial": "ENERJİ (DOLUYOR)",
+        "colors_hudEnergyEmpty": "ENERJİ (BOŞ)",
+        "colors_railcannonFull": "RAYTOPU (DOLU)",
+        "colors_railcannonPartial": "RAYTOPU (ŞARJ OLUYOR)",
+        "colors_variationBlue": "MAVİ VARYASYON",
+        "colors_variationGreen": "YEŞİL VARYASYON",
+        "colors_variationRed": "KIRMIZI VARYASYON",
+        "colors_variationGold": "ALTIN VARYASYON",
+        "colors_enemies": "DÜŞMAN SİLÜETLERİ",
+
+        "save_warning1": "Oyun yeniden yüklenecektir.",
+        "save_warning2": "Eğer ki bir görevdeyseniz şu anki tüm ilerleyişiniz kaybolacaktır.",
+        "save_reloadYes": "ANLADIM",
+        "save_reloadNo": "İPTAL",
+        "save_select": "SEÇ",
+        "save_selected": "SEÇİLDİ",
+        "save_delete": "SİL",
+        "save_deleteWarning1": "Bu YUVAYI SİLMEK istediğinizden emin misiniz?",
+        "save_deleteWarning2": "?",
+        "save_deleteYes": "EVET, SİL",
+        "save_deleteNo": "İPTAL",
+        "save_close": "KAPAT",
+        "save_slotEmpty": "BOŞ",
+
+        "language_title": "DİL",
+        "language_languages": "DİLLER",
+        "language_openLanguageFolder": "DİL DOSYASINI AÇ"
+    },
+    "pauseMenu": {
+        "pause_title": "DURAKLATILDI",
+        "pause_resume": "DEVAM ET",
+        "pause_respawn": "SON KONTROL NOKTASI",
+        "pause_restart": "YENİDEN BAŞLAT",
+        "pause_options": "SEÇENEKLER",
+        "pause_quit": "ÇIKIŞ",
+        
+        "pause_restartConfirm": "Bu görevi YENİDEN BAŞLATMAK istediğinizden emin misiniz?",
+        "pause_quitConfirm": "Bu görevden ÇIKMAK istediğinize emin misiniz?",
+        "pause_quitConfirmYes": "ÇIK",
+        "pause_quitConfirmNo": "İPTAL",
+        "pause_restartConfirmYes": "YENİDEN BAŞLAT",
+        "pause_restartConfirmNo": "İPTAL",
+        
+        "pause_disableWindow": "Bu uyarı seçenekler menüsünden kapatılabilir."
+    },
+    "levelNames": {
+        "levelName_mainMenu": "ANA MENÜ",
+        "levelName_cybergrind": "SİBERKIYIM",
+        "levelName_sandbox": "uk_construct",
+        "levelName_tutorial": "EĞİTİM",
+        
+        "levelName_preludeFirst": "ATEŞİN İÇİNE",
+        "levelName_preludeSecond": "MEZBAHA",
+        "levelName_preludeThird": "ÇİFTE BELA",
+        "levelName_preludeFourth": "TEK MAKİNELİK ORDU",
+        "levelName_preludeFifth": "KERBEROS",
+        "levelName_preludeSecret": "MUSİBET",
+
+        "levelName_limboFirst": "TAN YERİNİN KALBİ",
+        "levelName_limboSecond": "YANAN ÂLEM",
+        "levelName_limboThird": "KUTSAL KALINTILAR SALONU",
+        "levelName_limboFourth": "AY IŞIĞI",
+        "levelName_limboSecret": "DÜŞÜNCESİZ",
+
+        "levelName_lustFirst": "KÖPRÜYAKAN",
+        "levelName_lustSecond": "20.000 VOLTDA ÖLÜM",
+        "levelName_lustThird": "ANİ KALP KRİZİ",
+        "levelName_lustFourth": "CESET KRALI'NIN MAHKEMESİ",
+        "levelName_lustSecret": "DÜNYANIN SONUNDAKİ KIZ",
+
+        "levelName_gluttonyFirst": "YARATIĞIN KARNI",
+        "levelName_gluttonySecond": "KANLI CANLI",
+
+        "levelName_greedFirst": "KUDRETİN KÖLELERİ",
+        "levelName_greedSecond": "KAHROLASI GÜNEŞ",
+        "levelName_greedThird": "KARANLIKTA BİR ATIŞ",
+        "levelName_greedFourth": "GÜNEŞ IŞIĞI",
+        "levelName_greedSecret": "MARKA ÇATIŞMASI",
+
+        "levelName_wrathFirst": "POSEYDON'UN İZİNDE ",
+        "levelName_wrathSecond": "YILDIZSIZ DENİZİN DALGALARI",
+        "levelName_wrathThird": "APTALLAR GEMİSİ",
+        "levelName_wrathFourth": "LİVYATAN",
+        "levelName_wrathSecret": "",
+        
+        "levelName_heresyFirst": "YAS TUTAN İÇİN ÇAĞRI",
+        "levelName_heresySecond": "NEFRETİN ESTETİĞİ",
+
+        "levelName_primeFirst": "KURTULAN RUH",
+        "levelName_primeSecond": "",
+        "levelName_primeThird": ""
+	
+	
+    },
+    "levelChallenges":{
+        "challenges_preludeFirst": "TEK CAM PANEL İLE 5 DÜŞMANI ÖLDÜR",
+        "challenges_preludeSecond": "GİZLİ KARŞILAŞMAYI TAMAMLA",
+        "challenges_preludeThird": "SADECE 1 DÜŞMAN ÖLDÜR",
+        "challenges_preludeFourth": "KESİNTİSİZ 18 SANİYE KAY",
+        "challenges_preludeFifth": "ÖLDÜRÜCÜ HASAR VERME",
+
+        "challenges_limboFirst": "GÖREVİ 10 SANİYENİN ALTINDA TAMAMLA",
+        "challenges_limboSecond": "HİÇBİR KAFATASI ALMA",
+        "challenges_limboThird": "GİZLİ KARŞILAŞMAYI TAMAMLA",
+        "challenges_limboFourth": "HİÇBİR KAFATASI ALMA",
+
+        "challenges_lustFirst": "HİÇBİR NORMAL KAPI AÇMA",
+        "challenges_lustSecond": "GÖREVİ 60 SANİYENİN ALTINDA TAMAMLA",
+        "challenges_lustThird": "SUYA DOKUNMA",
+        "challenges_lustFourth": "BİR YUMRUK SAVUŞTUR",
+
+        "challenges_gluttonyFirst": "BİR ZİHİNYIRTAN’I ASİTLE ÖLDÜR",
+        "challenges_gluttonySecond": "CEBRÂİL’İ BOŞLUĞA DÜŞÜR",
+
+        "challenges_greedFirst": "HİÇBİR DÜŞMANI AKTİFLEŞTİRME",
+        "challenges_greedSecond": "İSYANCIYI 10 SANİYENİN ALTINDA ÖLDÜR",
+        "challenges_greedThird": "MEŞALEYİ ALMA",
+        "challenges_greedFourth": "18 SANİYENİN ALTINDA BOSS KAPISINA ULAŞ",
+        
+        "challenges_wrathFirst": "SUYA DOKUNMA",
+        "challenges_wrathSecond": "KAYIKÇIYLA DÖVÜŞME",
+        "challenges_wrathThird": "SUYA DOKUNMA",
+        "challenges_wrathFourth": "10 SANİYENİN ALTINDA YÜZEYE ULAŞ",
+        
+        "challenges_heresyFirst": "GİZLİ KARŞILAŞMAYI TAMAMLA",
+        "challenges_heresySecond": "CEBRÂİL’İ TAVANA ÇARP"
+
+
+    },
+    "levelTips":{
+        "leveltips_preludeSecond1": "Altıpatlar gibi anlık isabet silahları bölgesel hasar verir.",
+        "leveltips_preludeSecond2": "Kafadan vuruş 2 kat, uzuv vuruşu ise 1.5 kat hasar verir.",
+
+        "leveltips_preludeThird1": "Atılma: Tamamen hasar almaz, enerji harcar",
+        "leveltips_preludeThird2": "Kayma: Daha uzun mesafe, ölümsüzlük yok",
+        "leveltips_preludeThird3": "Zıplama: Yakın dövüşten hızlı çıkar, daha az kontrol",
+
+        "leveltips_preludeFourth1": "Pompalı savuşturması:",
+        "leveltips_preludeFourth2": "Düşman saldırısından hemen önce dibinden göğsüne atılan bir Pompalı Tüfek atışı büyük hasar verir.",
+
+        "leveltips_preludeFifth": "Saldırı ses ipuçları ekranda olmayan düşmanları takip etmene yardım eder.",
+
+        "leveltips_limboFirst": "Düşmanlar ölümcül yükseklikten düşerken çığlık atar.",
+
+        "leveltips_limboSecond": "MIKNATIS ÇİVİ SİLAHI’NI kullanarak diğer mıknatıslar tarafından hareket ettirilebilen yoğunlaşmış çivi küreleri oluşturabilirsin.",
+
+        "leveltips_limboThird1": "Düşmanlar diğer düşmanlara hasar verebilir.",
+        "leveltips_limboThird2": "Hızlı düşünme ve pozisyon almayla güçlü düşmanlar güçlü silahlara dönüştürülebilir.",
+        
+        "leveltips_limboFourth": "MIKNATIS ÇİVİ SİLAHI’NIN mıknastıları düşmanlara yapıştırılarak hareketli hedefleri vurmayı kolaylaştırabilir.",
+
+        "leveltips_lustFirst": "Düşmanların ölümcül yükseklikten düşerken çığlık atar.",
+
+        "leveltips_lustSecond1": "ÇARPMA SEKMESİ:",
+        "leveltips_lustSecond2": "Yere çarpmadan hemen sonra zıplarsan daha yükseğe ulaşırsın.",
+        "leveltips_lustSecond3": "Yere çarpma ne kadar uzunsa sekmede o kadar yüksek olur.",
+
+        "leveltips_lustThird": "RAYLITOP varyasyonlarının hepsi aynı süreyi paylaşır. Hangi varyasyonun duruma uygun olduğuna iyi karar ver.",
+
+        "leveltips_lustFourth1": "KAYMAK momentumu bir süre korur.",
+        "leveltips_lustFourth2": "ATILMA ZIPLAMASINDAN sonra KAYMA ZIPLAMALARI yapmak inanılmaz bir hızla ilerlemeni sağlar.",
+
+        "leveltips_gluttonyFirst": "Zararlı sıvılar gibi çevresel tehlikeler düşmanlara da hasar verir.",
+        
+        "leveltips_gluttonySecond1": "Eğer güçlü bir düşmanda zorlanıyorsan, geri çekil ve izle.",
+        "leveltips_gluttonySecond2": "Her düşmanın işaretleri ve belli hareketleri vardır, bunları öğrenmek zafere giden anahtar olabilir.",
+
+        "leveltips_greedFirst": "Anlık İsabet silahları ile Pompalı’nın ÇEKİRDEK FIRLATICISINI havada vurarak hasar ve uçurma alanı arttırılabilir.",
+        "leveltips_greedSecond": "GÜÇLENDİRMELER üst üste binebilir.",
+        "leveltips_greedThird": "Düşmanları patlamaların sadece kenarlarıyla vurmak fazla hasar vermeden uçurur, Takipçilere karşı etkili ama riskli bir alet olarak kullanılabilir.",
+        "leveltips_greedFourth": "Havadaki paralar herhangi bir anlık isabet silahıyla vurulabilir.",
+        
+        "leveltips_wrathFirst": "Suyun altında yavaş düşersin ama yere çarparak zemine hızlı dönebilirsin.",
+        "leveltips_wrathSecond": "Suya doğru kayarak yüzeyinde sekebilirsin.",
+        "leveltips_wrathThird": "Eğer bir düşman idol tarafından kutsandı ise aralarında görülebilir bir bağlantı oluşur böylece koruyucuyu bulup yok edebilirsin.",
+        "leveltips_wrathFourth1": "Patlamalar mermileri savurur.",
+        "leveltips_wrathFourth2": "Düşmanın mermisini fırlattığı yerde bir patlama gerçekleşirse geri teperek onlara vurabilir.",
+        
+        "leveltips_heresyFirst1": "Geniş bir arenadaki boşluktan yararlanılabilir.",
+        "leveltips_heresyFirst2": "Çevreyi kullanarak düşmanların görüş çizgisi bozulabilir, böylece dinlenip <color=orange>hedef seçimi</color> yapılabilir.",
+        "leveltips_heresySecond1": "BOŞA ENERJİ HARCAMA!",
+        "leveltips_heresySecond2": "Çok agresif düşmanlarla savaşırken gereksiz yere atılmak tam ihtiyaç olduğunda kullanılamamasına neden olur.",
+
+        "leveltips_primeFirst1": "Savuşturma güçlü bir iyileşme yolu olabilir.",
+        "leveltips_primeFirst2": "Bir düşman mermisini ya da saldırısını savuşturmak ağır hasar limitine kadar canını tamamlar.",
+
+        "leveltips_cybergrind": "Eğer arenadan çok uzağa uçarsan Pompa Yükü’nün aşırı yüklenmesini kullanarak geri gelebilirsin.",
+        "leveltips_sandbox1": "HİLELERİ diğer görevlerde açmak için:",
+        "leveltips_sandbox2": "Dereceleri açmak hileleri kapatır."
+    },
+    "shop":{
+        "shop_tipofthedayTitle": "GÜNÜN TÜYOSU",
+        "shop_tipoftheday": "",
+        "shop_weapons": "SİLAHLAR",
+        "shop_monsters": "DÜŞMANLAR",
+        "shop_cybergrind": "SİBERKIYIM",
+        "shop_sandbox": "SERBEST MOD",
+        "shop_returnToMission": "GÖREVE DÖN",
+        "shop_soulOrbs": "RUH KÜRELERİ",
+        
+        "shop_cybergrindDescription1": "<color=red>SİBERKIYIM</color> sonsuz bir hayatta kalma modudur.",
+        "shop_cybergrindDescription2": "<color=red>Puanlar</color> performansa bağlı olarak artar.",
+        "shop_cybergrindDescription3": "<color=red>Mevcut görevdeki ilerleme kaybolacak.</color>",
+        "shop_cybergrindEnter": "SİBERKIYIM’A GİR",
+        "shop_cybergrindReturningTo": "Dönülüyor:",
+        "shop_cybergrindExit": "SİBERKIYIM’DAN ÇIK",
+
+        "shop_sandboxTitle": "SERBEST MOD",
+        "shop_sandboxDescription1": "Serbest Mod egzersiz yapılabilecek boş bir bölümdür.",
+        "shop_sandboxDescription2": "<color=red>Mevcut görevdeki ilerleme kaybolacak.</color>",
+        "shop_sandboxEnter": "SERBEST MODA GİR",
+        
+        "shop_back": "GERİ",
+        "shop_weaponInfo": "BİLGİ",
+        "shop_weaponColors": "RENKLER",
+        
+        "shop_weaponsRevolver": "ALTIPATLAR",
+        "shop_weaponsShotgun": "POMPALI TÜFEK",
+        "shop_weaponsNailgun": "ÇİVİ SİLAHI",
+        "shop_weaponsRailcannon": "RAYTOPU",
+        "shop_weaponsRocketLauncher": "ROKETATAR",
+        "shop_weaponsArms": "KOLLAR",
+        
+        "shop_revolverPiercer": "DELİCİ",
+        "shop_revolverPiercerDescription1": "<color=orange>Üç-katmanlı bir atış</color> şarj etmek için Alternatif Atış tuşuna <color=orange>basılı tut</color>.",
+        "shop_revolverPiercerDescription2": "<color=orange>Soğutmaya</color> ihtiyaç duyar.",
+        
+        "shop_revolverMarksman": "NİŞANCI",
+        "shop_revolverMarksmanDescription1": "Alternatif Atış ile havaya <color=orange>madeni para</color> fırlat.",
+        "shop_revolverMarksmanDescription2": "<color=orange>Havadaki</color> bir madeni parayı vurarak atışı en yakındaki düşmanın <color=orange>zayıf noktasına yönlendirebilirsin</color>.",
+        "shop_revolverMarksmanDescription3": "Paralar, havada <color=orange>zincirlenebilir</color>.",
+        
+        "shop_shotgunCoreEject": "ÇEKİRDEK FIRLATICI",
+        "shop_shotgunCoreEjectDescription1": "Alternatif Atış ile <color=orange>çekirdekleri fırlat</color>",
+        "shop_shotgunCoreEjectDescription2": "<color=orange>Basılı tutarak</color> mesafeyi <color=orange>kontrol et</color>.",
+        "shop_shotgunCoreEjectDescription3": "Çarpışmada <color=orange>infilak eder</color>.",
+        
+        "shop_shotgunPumpCharge": "POMPA YÜKÜ",
+        "shop_shotgunPumpChargeDescription1": "Alternatif Atış ile tüfeği <color=orange>pompala</color>. Pompalamak <color=orange>hasarı</color> arttırır ve <color=orange>isabet yetisini</color> azaltır.",
+        "shop_shotgunPumpChargeDescription2": "Silahını çok fazla pompalamak ateş edilince bir <color=orange>patlamaya</color> neden olur.",
+        
+        "shop_nailgunMagnet": "MIKNATIS",
+        "shop_nailgunMagnetDescription1": "Alternatif Atış ile yakındaki <color=orange>çivileri</color> çeken bir <color=orange>mıknatıs</color> fırlat.",
+        "shop_nailgunMagnetDescription2": "Mıknatıslar <color=orange>yüzeylere</color> ve <color=orange>düşmalara</color> yapışır ve <color=orange>“anlık isabet”</color> silahlarıyla kırılabilir.",
+        
+        "shop_nailgunOverheat": "HARARET",
+        "shop_nailgunOverheatDescription1": "Ateş ederken alternatif atış ile <color=orange>hararet</color> yaptırarak seri atış moduna gir. Bir <color=orange>şarja</color> maal olur.",
+        "shop_nailgunOverheatDescription2": "Soğutucular ateş etmezken şarj olur.",
+        
+        "shop_railcannonElectric": "ELEKTRİK",
+        "shop_railcannonElectricDescription1": "Güçlü delici atış.",
+        "shop_railcannonElectricDescription2": "<color=orange>Tüm</color> düşmanları <color=orange>delerek</color> ilerler. Azami yıkım için <color=orange>konumuna</color> dikkat et.",
+        "shop_railcannonElectricDescription3": "Suyun içinde kullanmayın.",
+        
+        "shop_railcannonScrewdriver": "TORNAVİDA",
+        "shop_railcannonScrewdriverDescription1": "İsabet eden düşmana <color=orange>yapışan</color>  ve <color=orange>zamanla</color>  hasar veren güçlü bir matkap fırlatır.",
+        "shop_railcannonScrewdriverDescription2": "Matkap düşmanların <color=orange>ekstra iyileşme menziliyle</color> devamlı kanamasına neden olur.",
+        
+        "shop_railcannonMalicious": "KİNDAR",
+        "shop_railcannonMaliciousDescription1": "Tanıdık bir yüz gibi, anlık bir ışın fırlatarak <color=orange>büyük bir patlama</color> yaratır.",
+        "shop_railcannonMaliciousDescription2": "Zayıf düşman gruplarını kolayca temizler.",
+        
+        "shop_rocketLauncherFreeze": "DONDUR",
+        "shop_rocketLauncherFreezeDescription1": "Alternatif Atış ile roketleri <color=orange>dondur</color>.",
+        "shop_rocketLauncherFreezeDescription2": "Dondurulmuş roketlerin patlamaları daha büyük olur ve silah değiştirilsede <color=orange>donuk kalır</color>.",
+        
+        "shop_armFeedbacker": "İADE",
+        "shop_armFeedbackerDescription1": "Güçlü, hızlı yumruk.",
+        "shop_armFeedbackerDescription2": "Mermi saldırılarını, <color=orange>pompalı atışlarını</color> ve <color=orange>paraları</color> <color=orange>savuşturabilir</color>.",
+        
+        "shop_armKnuckleblaster": "NARKOZ",
+        "shop_armKnuckleblasterDescription1": "Yüksek hasarlı, düşmanları uçuran yavaş yumruk.",
+        "shop_armKnuckleblasterDescription2": "<color=orange>Yumruğa basılı tutarak</color> eklemlerdeki fişekleri patlatıp, şok dalgasıyla etraftaki düşmanları uzağa uçurursun.",
+        
+        "shop_armWhiplash": "KANCA",
+        "shop_armWhiplashDescription1": "Mızraklı bir vinç. <color=orange>Basılı tutarak</color> fırlat, <color=orange>bırakarak</color> çek.",
+        "shop_armWhiplashDescription2": "Hafif düşmanlar ve eşyaları çekebilir, ağır düşmanlara ve kanca noktalarına çekilir.",
+        
+        "shop_data": "BİLGİ",
+        "shop_strategy": "STRATEJİ",
+        "shop_advancedStrategy": "GELİŞMİŞ STRATEJİ",
+        
+        "shop_loreRevolver1": "Son Savaş sırasında orta-uzun mesafe çatışmalar için üretilmiş bir silah. Mikroskobik metal parçalarını inanılmaz hızlarda atmak için elektrik darbeleri kullanır.",
+        "shop_loreRevolver2": "Bu teknolojiyi kullanan silahlara \"elektrik silahları\" dendi ve kısa süre içinde kurşunlu silahların yerini aldı. Mikroskobik mermiler kullandığı için cephanesi aslında sınırsız değildir ancak cephaneyi tüketmeniz için haftalarca aralıksız atış yapmanız gerekir. Buna ek olarak cephaneyi tekrar doldurmak silahın yüzeyinden metal tozu kazımak kadar kolaydır.",
+        "shop_loreRevolver3": "Öyleki, toz kazınmasından aşınmış pürüzlü ve bozuk bir yüzey elektrik silah kullanıcıları arasında gurur kaynağıdır çünkü silahın güvenilir ve uzun süre kullanıldığını gösterir. Çoğu kullanıcıda sadece bu yüzden toz kazırlar, “kazınmamış” temiz elektrik silahlar nadirdir.",
+        "shop_loreRevolver4": "Bir elektrik silah atışlar arasında bataryasını doldurmak için beklemesi gereksede, altıpatlar-tipi tasarımı bu sorunu atışlardan sonra dönen ve atış hızını yavaşlatmadan her bataryaya dolması için zaman sağlayan çoklu-bataryalı silindiri dahil ederek çözer.",
+        "shop_loreRevolver5": "Yaygın yapılan bir değişimle, daha büyük güç için tüm pillerin yükleri aynı anda salınabilir fakat daha uzun süre şarj olması gerekir.",
+        "shop_loreRevolver6": "İlk bakışta zayıf görünsede, gücü tutarlılığından ve basitliğinden geliyor. Her mesafede iyi çalışmasından ve atışlarının seyahat süresi bulunmadından, Altıpatlar hareket ederken ve kaçarken kolayca kullanılabilir.",
+        "shop_loreRevolver7": "Kafadan vuruşlar 2 kat, uzuvdan vuruşlar 1.5 kat hasar verir.",
+        "shop_loreRevolver8": "Eğer tam parlama anında vurulursa Nişancı varyasyonunun parası atışı ikiye bölerek bir düşman yerine ikisine vurmasını sağlar. Zamanlaması dar olsada, eğer para havada uzun süre kalırsa ıslık sesiyle anlaşılabilen ikinci bir fırsat penceresi vardır.",
+        "shop_loreRevolver9": "Nişancı varyasyonu ile atılan madeni paraya parladıktan sonra yumruk atılırsa madeni parayı kırmadan en yakındaki hedefe fırlatılarak sonraki yumruklar ve atışlardaki hasarını arttırır.",
+        "shop_loreRevolver10": "Delici’nin şarj edilmiş atışı da Nişancı varyantının madeni paraları kullanılarak sektirilebilir.",
+        
+        "shop_loreShotgun1": "Hiper-konstantre ısıyı cephane olarak kullanan deneysel bir yakın mesafe silahı.",
+        "shop_loreShotgun2": "Her atıştan sonra ısı-üreten motorlarının erimemesi veya patlamaması için fazladan ısıyı dışarı verebilmesi amacıyla tüfeğin açılması gerekmektedir. Bu işlemin çoğunlukla otomatik olması sebebiyle kullanıcıya düşen sadece ufak bir bilek hareketidir.",
+        "shop_loreShotgun3": "Çekirdeğin arızalanması durumunda pompa bir manuel ısı-biriktirme mekanizması olarak kullanılabilir. Bu işlem kullanıcı tarafından fiziksel müdahele gerektirmeyecek şekilde tasarlanmıştır ve silah kabzasının kenarında bulunan küçük bir buton ile gerçekleştirilir. Kullanışın kolaylı olması sebebiyle birçok tekleme vakasına sebep olduğu da görülmüştür.",
+        "shop_loreShotgun4": "Isı silahları, dengesiz doğası ve katı soğutma gereksinimleri yüzünden hiçbir zaman elektrik silahları kadar yaygın kullanılmamıştır; fakat elektrik silahlarının aksine ayrı cephaneye gerek duymamaktadırlar, bu da onların cephanele kapasitelerini neredeyse sonsuzdan ziyade tamamen sonsuz kılar.",
+        "shop_loreShotgun5": "Pompalı tüfek sadece aşırı yakın mesafelerde etkilidir, bu da onu riskli ancak yüksek derecede ezici bir silah yapmakta ve aynı zamanda iyileşme için de ideal kılmaktadır",
+        "shop_loreShotgun6": "Yakın dövüş saldırılarını göğüse doğru tam isabet bir atış ile savuşturabilirsin. İade kolunu kullanmaktan daha risklidir ancak kullanıcıyı daha yüksek hasar ile ödüllendirir.",
+        "shop_loreShotgun7": "Silahların seri bir şekilde değiştirilmesi her atıştan sonraki bekleme süresini es geçer. Bu sayede kullanıcıya uzun süreler boyunca tehlikeye yakın kalma riski karşılığında düşmanlara sürekli ve yüksek oranda hasar verebilme olanağı sağlanmış olur.",
+        "shop_loreShotgun8": "Çekirdek Fırlatıcı varyantından fırlatılan çekirdekleri Altıpatlar gibi “anlık isabet” silahları ile havada vurmak geniş menzilli patlamalara yol açar. Patlayıcı bir “anlık isabet” silahı ise hasarı daha da arttırır.",
+        "shop_loreShotgun9": "Yoğuşmuş ısı mermilerinin yavaşlığı başta bir dezavantaj gibi görünse de İade kolu ile atılan doğru zamanlanmış bir yumruk ateş edilen mermileri daha uzun mesafe kat edecek, daha isabetli olacak ve daha yüksek hasar verecek şekilde savuşturabilir.",
+        
+        "shop_loreNailgun1": "Endüstriyel çivi silahı ile eski kurşun silahının bir kombinasyonu. Muhtemelen inşaat için geliştirilen bir makina tarafından yaratıldı. Tüm makineler, savaş için geliştirilmeyenler bile, insanlığın sonu geldikten sonra kendini korumayı öğrenmek zorundaydı.",
+        "shop_loreNailgun2": "Mermi silahları, elektrik silahlar ve ısı silahları gibi sonsuz cephane sistemleri bulunduktan sonra çoğunlukla kullanımdan ayrıldı, zamanla büyük ordulara cephane almak zorunda olmamak çok ucuzlamıştı.",
+        "shop_loreNailgun3": "İlk cephane sistemi yüzünden kullanışsız hâle gelsede silah kusursuzca tasarlanmış ve inşa edilmişti. Bu yüzden endüstriyel bir çivi silahının parçalarıyla iyileştirilerek hemen hemen sınırsız metal cephaneli seri atış silahında dönüştürüldü.",
+        "shop_loreNailgun4": "El yapımı bir silahdan beklendiği gibi tasarımı kusursuz değil. Çivi üretim sistemi bu kadar hızlı çalışmak için tasarlanmadığı için eğer bir sınır koyulmazsa hararet yapabilir, fakat bazı varyantlar dahili soğutucu kullanır.",
+        "shop_loreNailgun5": "Sınırlı cephanesi yüzünden çivi silahı uzun süreler yerine kısa aralıklarla kullanılmalıdır.",
+        "shop_loreNailgun6": "Mıknatıs varyasyonunun mıknatısları, diğer çivi silahı varyantından ateş edilen çivilerin de çeker. Bunu kullanarak diğer varyantların kısıtlayıcı etmenleri aşılabilir, Hararet varyasyonunun isabet hassasiyeti gibi.",
+        "shop_loreNailgun7": "Kindar Suratlar gibi bazı düşmanlar, genelde çivilere karşı zayıftır ve özellikle Mıknatıs varyantının yüksek kalite sınırlı çivileri çoğu zayıf düşmanı yok edecektir.",
+        "shop_loreNailgun8": "Çiviler düşmanların içine gömülür ve özel etkiler ortaya çıkarır. Elektrik silahlar içlerinde çivi olan düşmanlara karşı daha yüksek hasar verecektir ve yeteri kadar çiviyle zayıf düşmanlar Mıknatıs varyasonunun mıknatıslarına çekilecektir, böylece dayanıklı hafif düşmanlar kısa süreliğine etkisiz bırakılabilir.",
+        "shop_loreNailgun9": "Namluların dönüş hızı varyasyonlar arasında taşınır yani Mıktanıs varyasyonuyla bir kere vurmak bile Hararet varyasyonuna maksimum ısı verir, böylece anında tam hararet atışı yapılabilir.",
+        
+        "shop_loreRailcannon1": "Bu endüstriyel alet zamanla elektronik silahlara döüşecek teknolojinin ilk kullanımlarından biridir.",
+        "shop_loreRailcannon2": "Aslında el jeneratörü olarak yaratılmıştı ve kısa zamanlı yer değiştirmelerde elektrik üretmeye yarıyordu, seferler ve savaş cepheleri gibi.",
+        "shop_loreRailcannon3": "Çoğu endüstriyel alet gibi insanlık düştüğünde buda kullanan makine tarafından silaha dönüştürülmüştü. Düşük voltajlı sürekli bir akım yerine şarj gerektiren şiddetli bir enerji patlaması üretmeye başladı.",
+        "shop_loreRailcannon4": "Şarj olması uzun sürmesi sebebiyle riskli bir silah olmasına rağmen Raytopu'nun güç kapasitesi bu silahı bulundurmaya değer hâle getirmektedir, özellikle Raytopu'nun bataryası şarj olurken kullanabileceği başka silahlar taşıyan biri için.",
+        "shop_loreRailcannon5": "Her varyasyon farklı bir sebep için üretilmiştir ve hepsi aynı şarjı kullandığı için mevcut duruma göre hangi varyantın kullanılması gerektiğinin bilinmesi önem arz etmektedir.",
+        "shop_loreRailcannon6": "Şarj olma süresi 15 saniyedir. Şarj durumu göstergede bulunan yıldırım simgesi üzerinden takip edilebilir.",
+        "shop_loreRailcannon7": "Elektrik varyasyonu Nişancı ile atılan madeni paraları vurabilir. Sonsuz delme gücüne sahip olduğu için iyi zamanlama ve pozisyonlama ile vuruş düşmanın içinden geçip madeni parayı havada vurarak atışı tekrar aynı düşmana sektirilebilir ve sonuç olarak düşmana normal bir atışa göre iki kat ve daha fazla hasar verilebilir.",
+        "shop_loreRailcannon8": "Tornavida varyasyonunun vidasının takılı olduğu düşmana İade koluyla yumruk atarsan tekrar fırlar ve tekrar düşmana hasar verebilir. Eğer vida başka bir düşmana vurursa süresi tamamen sıfırlanır yani iyi bir zamanlama ve nişan almayla vida sonsuza dek iki düşman arasında zıplatılabilir ama takılı olduğu düşman ölürse vida kırılır.",
+        "shop_loreRailcannon9": "Kindar varyasyonun patlama mesafesi ve hasarı Çekirdek Fırlatıcı pompalı tüfeğinin fırlattığı çekirdeğe vurursa büyük derecede artar. Bu teknik çok risklidir çünkü ıskalarsanız bir atışı boşa harcamış olursunuz ve 15 saniye daha beklemeniz gerekir ama ödülleri de boldur.",
+        
+        "shop_loreRocketLauncher1": "Önceden endüstriyel alet olan başka bir silah. Roketatarın ve Raytopu'nun farkı altıpatlar, pompalı tüfek, ve çivi silahı gibi kurşun kullanan diğer silahlara nazaran daha canlı renk şemasından anlaşılabilir.",
+        "shop_loreRocketLauncher2": "Çoğu gelişmiş teknoloji gibi bu silah da aslında savaşta kullanılmak için yaratılmıştı. Patlayıcı-üretim sistemi hendek kazmada, engelleri yok etmede ya da patlayıcı silahların ikmalinde aşırı hızlıydı.",
+        "shop_loreRocketLauncher3": "Ancak, aletin kendisi fırlatıcı olarak kullanılamıyordu. İlk modeller silah olarak da kullanılıyordu ama patlayıcıları tetikleyen sistemleri dahil etmek, üretim sürecinde beklenmeyen kimyasal reaksiyonlara neden oluyordu, patlayıcıları daha tamamlanmadan ateşlemek gibi.",
+        "shop_loreRocketLauncher4": "Bunun ardından süreç üretim aracı ve roket atar arasında ikiye ayrıldı. Patlayıcı üretim aracı roketi üretir ve roket tetik mekanizmasını ekler.",
+        "shop_loreRocketLauncher5": "Başkalarıyla kan paylaşmak makineler arasında israf olarak görülür yani makinelerin işbirliği gibi bir lüksü yoktur bu yüzden bu silahı yaratan makine üretim sürecini değiştirerek tek bir kullanıcıyla çalışmasını sağladı ve roketi fırlatmak için matkap parçalarını kullandı.",
+        "shop_loreRocketLauncher6": "Normal bir patlama ateşleme mekanizması yerine roketler hedefin kanını kullanarak kimyasal tepkimeyi tamamlıyor ve üretim sürecini güvenli hâle getiriyor ama silahı kullanması daha zor çünkü hasar vermek için tam isabet ettirilmesi gerekiyor.",
+        "shop_loreRocketLauncher7": "Etkin bir şekilde kullanmak için gereken yetenek ürkütücü olsada gücü bunu kolayca telafi ediyor ve kullanların çoğu bu silahı nişancılık yeteneklerinin bir sembolu olarak seçiyor.",
+        "shop_loreRocketLauncher8": "Roketler sadece canlı hedeflerle temasta hasar veren patlamalara sebep olur; ancak bilerek ıskalamak hafif düşmanları havaya fırlatabilir ve bu da havadaki düşmanları vurup daha büyük patlamalara sebep olmak için kullanılabilir.",
+        "shop_loreRocketLauncher9": "Roketatar kullanım için neredeyse hiç hazırlık gerektirmez ve hızlıca çıkarılıp ateş edilebilir ve geri koyulabilir. Roketatar’ın bu özelliği başka bir silah değiştirme kombosunun ortasında seri bir şekilde ekstra hasar vermek için kullanılabilir.",
+        "shop_loreRocketLauncher10": "Çivi Silahı’nın Mıknatısları çivileri çektiği kadar güçlü olmasa da roketleri de çekecektir. Roketlerin isabetlilik oranı roketleri havada dondurarak arttırılabilir.",
+        "shop_loreRocketLauncher11": "Kanca ile yakalandıklarında roketler momentumlarını kaybetmeden kancayla tutulabilirler. Eğer kanca başka herhangi bir şey ile çarpışmaz ise kullanıcı ile temas hâlinde infilak edecek şekilde geri çekilirler.",
+        "shop_loreRocketLauncher12": "Hafif düşmanlar, Kanca ile çekildiklerinde bir süre havada kalırlar; bu da onları düşen düşman bonusu için kolay hedefler hâline getirir ancak kullanıcı bundan faydalanmak isterse arttırılmış patlama menzilinden kaçınmak için mesafesini koruması gerekir.",
+        "shop_loreRocketLauncher13": "Bazı makineler, (örneğin V1) roket sürebilecek kadar hafiftirler. Roketler, Durdur varyantı ile dondurulup üstlerine atlanılarak sürülebilirler. Düşük ağırlığa rağmen roketler zamanla güç kaybeder ve yavaşça alçalırlar ancak suyun altında sürüldüklerin de roketler güç kaybetmezler.",
+
+        "shop_revolverPreset1": "STANDART",
+        "shop_revolverPreset2": "MAGNUM",
+        "shop_revolverPreset3": "BUZKIRICI",
+        "shop_revolverPreset4": "SICAK & HAZIR",
+        "shop_revolverPreset5": "KIZIL",
+
+        "shop_shotgunPreset1": "STANDART",
+        "shop_shotgunPreset2": "KLASİK",
+        "shop_shotgunPreset3": "SARAY",
+        "shop_shotgunPreset4": "KARAMEL",
+        "shop_shotgunPreset5": "LÜKS",
+
+        "shop_nailgunPreset1": "STANDART",
+        "shop_nailgunPreset2": "ASİDİK",
+        "shop_nailgunPreset3": "TEMİZ HAVA",
+        "shop_nailgunPreset4": "KAR LEOPARI",
+        "shop_nailgunPreset5": "VAMPİR",
+
+        "shop_railcannonPreset1": "STANDART",
+        "shop_railcannonPreset2": "TERS",
+        "shop_railcannonPreset3": "ÂŞK VE MEYANKÖKÜ",
+        "shop_railcannonPreset4": "HEYKEL DAMARI",
+        "shop_railcannonPreset5": "ENDÜSTRİYEL",
+
+        "shop_rocketlauncherPreset1": "STANDART",
+        "shop_rocketlauncherPreset2": "TAŞRA",
+        "shop_rocketlauncherPreset3": "RUJ",
+        "shop_rocketlauncherPreset4": "PATLICAN",
+        "shop_rocketlauncherPreset5": "GECE AMETİSTİ",
+
+        "shop_colorsPreset": "ÖNAYAR",
+        "shop_colorsCustom": "ÖZEL",
+        "shop_colorsAlternative": "ALTERNATİF",
+        "shop_colorsDone": "TAMAM",
+       "shop_colorsCustomUnlockPrompt": "ÖZEL RENGİNİ AÇ:"
+    },
+    "enemyNames":{
+        "enemyname_filth": "LEŞ",
+        "enemyname_stray": "AVARE",
+        "enemyname_schism": "SKİZMA",
+        "enemyname_soldier": "ASKER",
+        "enemyname_minos": "KRAL MİNOS’UN CESEDİ",
+        "enemyname_sentry": "GÖZCÜ",
+        "enemyname_idol": "İDOL",
+        "enemyname_ferryman": "KAYIKÇI",
+        "enemyname_stalker": "AVCI",
+        "enemyname_insurrectionist": "SİSİFOSÇU İSYANCI",
+        "enemyname_swordsmachine": "BİÇERDÖVER",
+        "enemyname_drone": "DRON",
+        "enemyname_streetCleaner": "HADEME",
+        "enemyname_v2": "V2",
+        "enemyname_v2Second": "V2 (2.)",
+        "enemyname_mindFlayer": "ZİHİNYIRTAN",
+        "enemyname_malFace": "KİNDAR SURAT",
+        "enemyname_cerberus": "KERBEROS",
+        "enemyname_hideousMass": "GUDUBET",
+        "enemyname_gabriel": "CEBRÂİL",
+        "enemyname_virtue": "ERDEM",
+        "enemyname_somethingWicked": "MUSİBET",
+        "enemyname_fleshPrison": "ET ZİNDANI",
+        "enemyname_minosPrime": "KADİM MİNOS",
+        "enemyname_leviathan": "LİVYATAN",
+
+        "enemyname_boss_cerberus": "KERBEROS, CEHENNEMİN MUHAFIZI",
+        "enemyname_boss_cancerousRodent": "KANSEROJEN KEMİRGEN",
+        "enemyname_boss_veryCancerousRodent": "AŞIRI KANSEROJEN KEMİRGEN",
+        "enemyname_boss_hideousMass": "GUDUBET",
+        "enemyname_boss_swordsmachineAgony": "BİÇERDÖVER \"AĞRI\"",
+        "enemyname_boss_swordsmachineTundra": "BİÇERDÖVER \"TUNDRA\"",
+        "enemyname_boss_corpseOfKingMinos": "KRAL MİNOS’UN CESEDİ",
+        "enemyname_boss_gabriel": "CEBRÂİL, CEHENNEMİN YARGICI",
+        "enemyname_boss_insurrectionist": "SİSİFOSÇU İSYANCI",
+        "enemyname_boss_mandalore": "GİZEMLİ BÜYÜCÜ ŞÖVALYE (VE BAYKUŞ)",
+        "enemyname_boss_v2": "V2",
+        "enemyname_boss_v2Second": "V2",
+        "enemyname_boss_ferryman": "KAYIKÇI",
+        "enemyname_boss_leviathan": "LİVYATAN",
+        "enemyname_boss_insurrectionistAngry": "İSYANCI \"ASİ\"",
+        "enemyname_boss_insurrectionistRude": "İSYANCI \"HURDA\"",
+        "enemyname_boss_gabrielSecond": "CEBRÂİL, NEFRET KÂFİRİ",
+        
+        "enemyname_type_lesserHusk": "ÖNEMSİZ KABUK",
+        "enemyname_type_greaterHusk": "ÜSTÜN KABUK",
+        "enemyname_type_supremeHusk": "YÜCE KABUK",
+        
+        "enemyname_type_lesserDemon": "ÖNEMSİZ İBLİS",
+        "enemyname_type_greaterDemon": "ÜSTÜN İBLİS",
+        "enemyname_type_supremeDemon": "YÜCE İBLİS",
+        
+        "enemyname_type_lesserMachine": "ÖNEMSİZ MAKİNE",
+        "enemyname_type_greaterMachine": "ÜSTÜN MAKİNE",
+        "enemyname_type_supremeMachine": "YÜCE MAKİNE",
+        
+        "enemyname_type_lesserAngel": "ÖNEMSİZ MELEK",
+        "enemyname_type_greaterAngel": "ÜSTÜN MELEK",
+        "enemyname_type_supremeAngel": "YÜCE MELEK",
+        
+        "enemyname_type_primeSoul": "KADİM RUH"
+        
+    },
+    
+    "cheats":{
+       "cheats_disclaimer1": "Hileleri etkinleştirmeniz hâlinde, herhangi bir görevi tamamladığınızda o görevin derecesi ve Siberkıyım puanlarınız kaydedilmeyecektir.",
+        "cheats_disclaimer2": "<color=green>Hileleri açtıktan sonra <color=white>Ü</color> ya da <color=white>HOME</color> tuşuna basarak menüyü kullanabilirsin.</color>",
+        "cheats_disclaimerYes": "HİLELERİ AKTİFLEŞTİR",
+        "cheats_disclaimerNo": "İPTAL",
+
+        "cheats_panelTitle": "HİLELERİ YÖNET",
+        "cheats_cheatsEnabled": "<color=#44FF45>HİLELER</color> AKTİF :^)",
+        
+        "cheats_keepEnabled": "Hileler açık kalsın",
+        "cheats_spawnerArm": "Yaratıcı Kol",
+        "cheats_teleportMenu": "Işınlanma Menüsü",
+        "cheats_fullBright": "Tamparlak",
+        "cheats_noclip": "Noclip",
+        "cheats_flight": "Uçuş",
+        "cheats_infiniteWallJumps": "Sonsuz duvarda zıplama",
+        "cheats_noWeaponCooldown": "Silah şarjı yok",
+        "cheats_infinitePowerUps": "Sonsuz Güçlendirmeler",
+        "cheats_blindEnemies": "Kör Düşmanlar",
+        "cheats_disableEnemySpawns": "Düşmanların Doğmasını Kapat",
+        "cheats_invincibleEnemies": "Hasar-almaz Düşmanlar",
+        "cheats_killAllEnemies": "Tüm Düşmanları Öldür",
+        "cheats_quickSave": "Hızlı Kayıt",
+        "cheats_quickLoad": "Hızlı Yükleme",
+        "cheats_saveMenu": "Kayıtları Düzenle",
+        "cheats_clear": "Haritayı Temizle",
+        "cheats_rebuildNav": "Düşman Navigasyonu",
+        "cheats_snapping": "Takılma",
+        "cheats_physics": "Fizikle Doğur",
+        "cheats_crashMode": "Çarpma Modu",
+        
+        "cheats_stayActive": "AKTİF KALSIN",
+        "cheats_disableOnReload": "YÜKLEMEDE KAPAT",
+        "cheats_equip": "TAK",
+        "cheats_remove": "ÇIKAR",
+        "cheats_open": "AÇ",
+        "cheats_killAll": "HEPSİNİ ÖLDÜR",
+        "cheats_static": "STATİK",
+        "cheats_dynamic": "DİNAMİK",
+        "cheats_rebuild": "YENİDEN İNŞA ET",
+        "cheats_rebuilding": "YENİDEN İNŞA EDİLİYOR...",
+        
+        "cheats_activated": "AÇIK",
+        "cheats_deactivated": "KAPALI",
+        "cheats_pressToBind": "BELİRLEMEK İÇİN BAS",
+        "cheats_delete": "SİL",
+        
+        "cheats_navmeshOutdated1": "NAVMESH ESKİ",
+        "cheats_navmeshOutdated2": "(Hile menüsünden navigasyonu inşa edin)",
+        
+        "cheats_spawnerArmSlot": "Doğurma Kolu 6. Sırada",
+
+        "cheats_dupesTitle": "SERBEST MOD KAYITLARI",
+        "cheats_dupesSaveNamePrompt": "BİR İSİM GİRİN",
+        "cheats_dupesNewSave": "YENİ KAYIT",
+        "cheats_dupesOpenFolder": "DOSYA AÇ",
+        "cheats_dupesSave": "KAYDET",
+        "cheats_dupesLoad": "YÜKLE",
+        "cheats_dupesDelete": "SİL",
+       
+        "cheats_categoryMeta": "META",
+        "cheats_categorySandbox": "SERBEST MOD",
+        "cheats_categoryGeneral": "GENEL",
+        "cheats_categoryEnemies": "DÜŞMANLAR",
+        "cheats_categoryWeapons": "SİLAHLAR",
+        "cheats_categoryItems": "EŞYALAR",
+        "cheats_categorySpecial": "ÖZEL",
+        "cheats_categoryMovement": "HAREKET"
+    },
+    
+    "enemybios":{
+        "enemyBios_type": "TÜR",
+        "enemyBios_data": "BİLGİ",
+        "enemyBios_strategy": "STRATEJİLER",
+
+        "enemyBios_filth_1": "Kabuklar lanetli ruhların fiziksel formlarıdır.",
+        "enemyBios_filth_2": "Fiziksel form asıl ruhun değerine bağlıdır, bu değer iradenin gücüne ve o iradenin yaşayan ruhlar arasındaki bilinirliğine bağlıdır.",
+        "enemyBios_filth_3": "Leşler, ruhları tamamlanmış bir vücut oluşturmak için yeterli güce ve öneme sahip olmayan; kabukların en düşük formudur.",
+        "enemyBios_filth_4": "Kabukların arasında bile en düşük zekâya sahiplerdir, sadece açlıkla hareket ederler.",
+        
+        "enemyBios_filth_strategy1": "Çoğu silah Leşleri kolaylıkla alt edebilir fakat hafife alınırlarsa güçlü çeneleri ve sayıları hedeflerini çabucak alt edebilir.",
+        "enemyBios_filth_strategy2": "Patlayıcılar, sürüleri indirmenin en etkili yoludur fakat birden fazla hedefe vurabilen her silah verimli olacaktır.",
+        
+        "enemyBios_stray_1": "Uzun duruşları göz korkutucu olabilir fakat Avareler çoğu tehlikeden korkup güvenli bir mesafede durmaya çalışır ve sadece cehennem enerjisinden toplarla saldırırlar.",
+        "enemyBios_stray_2": "Bu enerjiyi kontrol etmek ve oluşturmak karışık bir iş olsa da Avarelerin zekâsı çok düşüktür ve bunu tamamen içgüdü ile yaparlar.",
+        "enemyBios_stray_3": "Yine de insanlar bu seviyede isabetlilik ve kontrolü taklit etmeyi başaramadılar, özellikle de Avare’nin enerji toplarının diğer kabukları gözardı etmesini.",
+        
+        "enemyBios_stray_strategy1": "Çoğu silah onlara karşı etkili olur fakat altıpatlar ile bir kafadan vuruş bir Avare’yi alt etmenin en hızlı yoludur.",
+        "enemyBios_stray_strategy2": "Durgun doğaları ve yavaş saldırı hızları, onları mermilerini savuşturmak için iyi bir hedef yapar.",
+        
+        "enemyBios_schism_1": "İki ruhun aynı yerde oluşmaya çalışmasının sonucu, iki fiziksel vücudun bir birleşimi.",
+        "enemyBios_schism_2": "İkiye katlanmış vücut kütlesi sayesinde hasara karşı bayağı dayanıklılar fakat motor kontrolleri zayıftır, bu yüzden isabetli bir şekilde nişan alamazlar ve rakiplerine doğru bir enerji topu yaylımı atmayı tercih ederler.",
+        
+        "enemyBios_schism_strategy1": "Delici’nin şarj edilmiş kafadan vuruşları Skizmaları öldürmek için etkili bir yoldur fakat yanlış yerdeki kafaları acemiler için nişan almayı zorlaştırıyor.",
+        "enemyBios_schism_strategy2": "İki kez pompalanmış bir Pompa Yükü yakın mesafede tek bir vuruşta indirebilir.",
+        "enemyBios_schism_strategy3": "Kötü nişan alma yetenekleri yüzünden öncelikli bir hedef değiller fakat attıkları mermi sayısı, kalabalık savaşlarda onlardan kaçınmayı zorlaştırabilir.",
+        
+        "enemyBios_soldier_1": "Askerler, Avarelerin güçlendirilmiş bir hâlidir ve teknolojik eklentileri cehennem enerjisini daha verimli bir şekilde kullanmak için kırılmış makinelerden toplanmıştır.",
+        "enemyBios_soldier_2": "Bu güç artışı Askerlerin daha özgüvenli davranmasına yol açar, bu yüzden normal Avarelerden daha agresif davranırlar.",
+        "enemyBios_soldier_3": "Eklentilere rağmen zekâları düşüktür, hâlâ onları kimin ya da neyin güçlendirdiği bilinmemektedir.",
+        
+        "enemyBios_soldier_strategy1": "Pompalı Tüfek, Askerlere karşı çok iyi bir silahtır; eğer kendilerini yakın saldırılarla korumasına izin vermeyecek kadar hızlı kullanılırsa.",
+        "enemyBios_soldier_strategy2": "Askerler, atışlarını üstlerinde değil önlerinde şarj ettikleri için isabetli bir Altıpatlar atışıyla havaya uçurulabilirler.",
+        "enemyBios_soldier_strategy3": "Eklentileri sayesinde Askerler, normal patlamaları neredeyse hiç hasar almadan karşılayabilirler fakat daha güçlü olan kırmızı patlamalar korumalarını geçer ve havada iseler kendilerini patlamalardan koruyamazlar.",
+        
+        "enemyBios_ferryman_1": "Kayıkçılar, güçlü vücutları; yetişmiş yetenekleri ve kör inançları yüzünden cehennemin katları arasında ruhların taşıyıcısı olma şansı verilen nadir kabuklardır.",
+        "enemyBios_ferryman_2": "Her birine Tanrı’nın düzenine olan bağlılıklarını sembolize eden bir kumaş verilmiştir. Bu kumaşı Melek olmalarını engelleyen ve hayatlarındaki günahlarını hatırlatan insan formlarını saklamak için kullanırlar.",
+        "enemyBios_ferryman_3": "Kumaştan yayılan kutsal güç sayesinde Kayıkçıların iskelet vücutları parlak ve ışıyan bir renk aldı. Kafataslarında kabukların işkencelerinden kaçmalarını engelleyen kapıları açmaya yetecek kadar enerji bulunur.",
+        "enemyBios_ferryman_4": "Her kayığın aynı anda bir Kayıkçısı olabilir yani yeni bir Kayıkçı doğduğunda yerini ve kumaşını almak için bir diğeriyle ölümüne savaşır. Kaybedenin kafatası galip tarafından alınır ve ruhları varış yerlerine götürmek için katların arasında geçiş için kullanılır.",
+        "enemyBios_ferryman_5": "Kayıkçılar sıklıkla geçmiş hayatlarından bilgi kullanarak kayıklarını geliştirirler. Gelişmeler sonrasında küreklere ihtiyaçları kalmamıştır artık sadece silah olarak kullanılırlar.",
+        "enemyBios_ferryman_6": "İnsanoğlunun ölümüyle ruh akışı durduğu için Kayıkçılar, bir gün melekler cennete geçmelerine izin vereceği umuduyla, amaçsızca etrafta dolaşıyorlar. Çabalarına önem veren sadece Cebrail olsada.",
+        
+        "enemyBios_ferryman_strategy1": "Kayıkçılar saldırılarını rakiplerinin hareketlerine göre belirlerler. Yaklaşıldığında güvenli bir yere geçerler ve onlardan kaçıldığında daha uzun menzilli saldırılarla baskı uygularlar.",
+        "enemyBios_ferryman_strategy2": "Görünüşüne rağmen aparkatları gerçekten tehlikelidir ve kaçılması zor olabilir. Havada uzun süre durmak iyi olmaz.",
+        "enemyBios_ferryman_strategy3": "Bazı saldırıları savuşturulabilir bazıları savuşturalamaz. Uyarı flaşının rengine dikkat ederek anlaşılabilir.",
+        "enemyBios_ferryman_strategy4": "Kayıkçılar takla atarak rakiplerinin arkasına geçmeye çalışabilir. Konumlarına dikkat edin ve eğer çok takla atıyorsa agresif olmayı deneyin.",
+        
+        "enemyBios_idol_1": "Kutsal kökenleri olduklarını düşünmek kolay olsada İdoller diğer şeytanlarla aynı şekilde yaratılmıştır. Daha büyük hısımlarının aksine kabukları yeterli miktarda cehennem Kütlesini tutamaz, yaşam vardır ama hareket edemezler.",
+        "enemyBios_idol_2": "İdoller en başta kutsal görünmüyordu, ama cehennemin Katlarındaki yolculuklarında Kayıkçılar tarafından toplanmış ve bu şekillere oyulmuşlardır. Bu hem İdollere bir şefkat göstergesi hemde meleklere övgüydü, özelliklede Kayıkçıların onlara merhamet ettiklerini düşündükleri Cebraile.",
+        "enemyBios_idol_3": "Uzun ve meşakkatli oyulma sürecinde Kayıkçıların kutsal kumaşlarını yakın olmaları içinde bulunan kutsal gücün onlara akmasını sağladı. Böylece başkalarını fiziksel zarardan koruyarak şefkat zincirini devam ettirebilirler.",
+        "enemyBios_idol_4": "cehennemin üst seviye meleklerinden cehennemi izleyenin bir tek Cebrail olması büyük şanstır eğer konsey böyle varlıklardan haberdar olsaydı kutsal formu bozduğu için onlara sevgiyle bir yaşam şansı veren Kayıkçılara yok edilmeleri için emir verilirdi.",
+        
+        "enemyBios_idol_strategy1": "İdoller mermilerden hasar almasada yumruk yada yere çarpmayla yok edilebilirler.",
+        "enemyBios_idol_strategy2": "Kutsanmış düşmanlar saldırılardan hasar almazlar ama fiziksel kuvvetlerden etkilenirler ve çevresel sebeplerden ölebilirler, eziciler ve pervaneler gibi.",
+        "enemyBios_idol_strategy3": "Ne İdoller ne de kutsanmış düşmanlar Kanca tarafından tutulabilir.",
+        
+        "enemyBios_leviathan_1": "Çoğu şeytanın aksine Livyatan, normal cehennem kütlesinden oluşmaz. Yerine Somurtkanların vücutlarından oluşmaktadır. Bu isim Stiks Okyanusu’nun dibinde pes etmiş ve sonsuza dek boğulanlara verilmiştir.",
+        "enemyBios_leviathan_2": "Hareketsiz duran Somurtkanlar bir süre sonra diğer şeytanları yaratan kuvvet tarafından birleştirildiler ve İncil’deki Livyatan’ı oluşturdular. Kehanete göre dünyanın sonu olacak ucube yaratık.",
+        "enemyBios_leviathan_3": "Somurtkanların etleri, damarları ve sinirleri evrilirken ve kıvranırken sonsuz acı çeken ruhlarını taşıyan kalp vücudundan çıkmaya çalışmıştı ama Cebrâil ilahi mızraklarıyla onu devirdi ve hareket edemeyecek şekilde sabitledi.",
+        "enemyBios_leviathan_4": "Dünyanın sonu gelmiş olsa da Livyatan Stiks Okyanusunda tuzak kalmış ve Öfke’nin günahkârları pes ettikçe uzamaktadır.",
+        
+        "enemyBios_leviathan_strategy1": "Livyatan’ın kalbi kafasının üstünde, açıktadır ve kolay vurulabilecek bir zayıf noktadır. Genelde göz önünde olmasada Livyatan saldırdıktan sonra görünür ve direkt hasar ya da mıknatıs tutturmak için fırsat verir.",
+        "enemyBios_leviathan_strategy2": "Önerilmese de Livyatan’ı kısa bir süre sürmek mümkündür. Doğru zamanlı bir zıplamayla Livyatan’ın ısırığından kaçılıp kafasına açıktaki kalbinin yanına çıkılabilir.",
+        "enemyBios_leviathan_strategy3": "Kuyruk yüksek ya da alçaktan savrulur ve yüksekliği salınımın dönüş yönünden anlaşılabilir.",
+        
+        "enemyBios_corpseOfKingMinos_1": "Şehvet katının bir zamanlar büyük ve sevilen kralı Minos, kendini bile taşıyamayan bir cesede dönüştü.",
+        "enemyBios_corpseOfKingMinos_2": "İnanılmaz iradesi ve ölümünden binyıllar sonra bile hatırlanan adil hükümdarlığından dolayı kaydedilmiş en büyük fiziksel forma sahip olan kabuktur.",
+        "enemyBios_corpseOfKingMinos_3": "Asıl ruhun izleri hâlâ vücudunda görülebilir ama cesetin kendisi, bir zamanlar onun hükmettiği yılanvari parazitler tarafından kontrol edilmektedir.",
+        "enemyBios_corpseOfKingMinos_4": "Şehvet katına Rönesans’ı getirse de artık cesedi sadece cezalandırılacak günahkârları arıyor.",
+        
+        "enemyBios_corpseOfKingMinos_strategy1": "Uzun boyu yüzünden kan toplamak zor olabilir ama arenanın kenarlarını tutan elleri yakıt almak için kullanılabilir.",
+        "enemyBios_corpseOfKingMinos_strategy2": "Bu kadar büyük bir düşmanda her silah işe yarayacaktır ama yakın dövüş ve mermi savuşturmalarıyla hızlıca ağır hasar verilebilir.",
+        "enemyBios_corpseOfKingMinos_strategy3": "Yavaş hareket etse de çağırdığı kara delik aşırı tehlikelidir ve yok edilemez.",
+        
+        "enemyBios_stalker_1": "Takipçiler, Oburluk katının cezası olarak, iri kayaları insanoğlunun hırsının anıtlarının tepesine sonsuza dek taşımak zorunda bırakıldılar.",
+        "enemyBios_stalker_2": "Cezalarını o kadar uzun süre çektiler ki vücutları evrim geçirdi, daha iyi taşıyabilmek için yetiştiler ve eğrildiler.",
+        "enemyBios_stalker_3": "Açgözlülük güneşinin akıl ermez ısılara ulaştırdığı altın tozu çöllerinde hayatta kalmak için derileri ve kasları tamamen kurudu ve sırtlarındaki kayaları daha dengeli taşıyabilmek için uzuvları büküldü.",
+        "enemyBios_stalker_4": "Ancak, kimliği belli olmayan bilinçli bir kuvvet tarafından taşıdıkları kayalar, patladığında etrafındaki kanı altın tozu kumla kaplayan, yüksek teknoloji bombalarla değiştirdi.",
+        "enemyBios_stalker_5": "Araştırmalar teknolojinin Askerler olarak bilinen güçlendirilmiş Avarelerin eklentilerine benzediğini gösteriyor, yani muhtemelen iki değişimde aynı kaynaktan geliyor.",
+        
+        "enemyBios_stalker_strategy1": "Kapsülün üzerindeki ışıklar Takipçi’nin durumu hakkında bilgi verir. Rengi patlayıcının durumunu, parlaklığı ise Takipçi’nin ne kadar canı kaldığını gösterir.",
+        "enemyBios_stalker_strategy2": "Takipçiyi kendi yapmadan patlatmak tavsiye edilir, eğer kendi kendini patlatırsa daha büyük bir alana etki edecektir.",
+        "enemyBios_stalker_strategy3": "Eğer bir Takipçi hedefine yaklaşırsa ve uzaklaştırılamayacaksa zıplayıp yere çarparak menzil dışına çıkarılabilir. Patlama çoğunlukla yatay olduğu için havada kolayca patlatılabilir.",
+        "enemyBios_stalker_strategy4": "Takipçilere Mıknatıs takılırsa patlamaları küçülür.",
+        
+        "enemyBios_insurrectionist_1": "Sisifosçu İsyancılar, Kral Sisifus’un cehennemin kontrolünü cenetten alarak günahkârları sonsuz işkenceden kurtarmak için topladığı ve eğittiği bir kabuk ordusuydu.",
+        "enemyBios_insurrectionist_2": "Cennette yaşanan karmaşık bir dönem sırasında melek bekçiler yoktu. Sisifus davasına yardımcı olabilecek seviyede zekaya sahip tüm kabukları topladı ve Açgözlülük kumlarındaki şeytanlara saldırmaya başladı.",
+        "enemyBios_insurrectionist_3": "Konseyin kurulması ve cennete barışın geri dönmesiyle Cebrail ve bir melek ordusu isyanı bastırmak ve Sisifus’un ordusunu durdurmak için gönderildi.",
+        "enemyBios_insurrectionist_4": "İyi savaşsalar da tecrübesiz isyancılar meleklerin stratejilerine karşı koyamadı. Melekler Kral Sisifus’un üzerine büyük bir kuvvetle inerek onu alt ettiler ve öldürdüler, böylece İsyancıların emir komuta zinciri bozulmuş oldu.",
+        "enemyBios_insurrectionist_5": "Sersemleyen ve etrafa dağılan savaşçıları kolayca teker teker avladılar. Vücutları kesilmiş geriye sadece sonsuz cezalarını çekmeleri için gereken parçalar bırakılmıştı. Cezaları ise insanoğlunun açgözlülüğünün ve kibrinin anıtlarının tepesine sonsuza dek dev kayaları taşımaktı.",
+        "enemyBios_insurrectionist_6": "Düşmanlarının kanları hâlâ vücutlarında ve elleri hâlâ yıkılmış düşmanlara bağlı olsada, iradeleri ve keskin öfkeleri sadece onlara özgürlüğe ne kadar yakın olduklarını hatırlatarak işkence çektiriyor.",
+        
+        "enemyBios_insurrectionist_strategy1": "Sisifosçu İsyancıların ayaklarını düşmanların kanına bulayarak Açgözlülüğün kumlarının ısılarından koruyor ama vücutlarının geri kalanı hâlâ deri ve et yani yakılarak savunmaları düşürebilir böylece her saldırı daha fazla hasar verir.",
+        "enemyBios_insurrectionist_strategy2": "Menzilleri neredeyse sonsuz olsada İsyancı’nın her saldırısının güçlü ve zayıf yönleri vardır. Bir saldırıdan kaçmak için hangi yöne gideceğinizi bilmek önemlidir.",
+        "enemyBios_insurrectionist_strategy3": "İsyancının yere vuruşu hızlı ve yok edicidir yani yakınında uzun süre durmak önerilmez.",
+        "enemyBios_insurrectionist_strategy4": "Silah olarak kullandıkları Kindar Surat vücutlarının bir parçası değildir yani onu vurmak İsyancıya hasar vermez ama aynı zamanda tutanın kanı kumla kaplansa bile onu kullanarak iyileşebileceğiniz anlamına gelir.",
+        
+        "enemyBios_swordsmachine_1": "Orijinal formu yıllarca topladığı hurdalar ve kendini tekrardan inşa etmesiyle artık tanınamaz hâlde olsa da hurdakafalar arasında Biçerdöver, savaş yeteneği ve kendi eliyle ürettiği formu sayesine çok ünlüdür ve bu yüzden bir çok taklitçisi ortaya çıkmıştır.",
+        "enemyBios_swordsmachine_2": "Çalıştırıldığında ısınarak organik maddeyi kolayca kesen kendisinin ürettiği motorlu bir kılıç kullanır.",
+        "enemyBios_swordsmachine_3": "İstifçi davranışları yüzünden konuşabilen birkaç makineden biridir. Diğerlerinin daha iyi kaynak yönetimi için bıraktığı bir kabiliyet.",
+        
+        "enemyBios_swordsmachine_strategy1": "Cehennem sakinlerine karşı performansı mükemmel olsada tasarımı aşırı hareketli rakiplere karşı cevap veremez yani kılıcından kaçınmanın en iyi yolu dikey menzilinden zıplayarak çıkmaktır.",
+        "enemyBios_swordsmachine_strategy2": "Motorlu silahı yüzünden saldırıları öngörülebilir, bu da Biçerdöveri savuşturma için çok iyi bir hedef yapar.",
+        "enemyBios_swordsmachine_strategy3": "Menzilli silah kullanımı ilkel bir seviyede olsa da kılıç atışları silahına ustalığı sayesinde beklenmedik bir şekilde isabetlidir.",
+        
+        "enemyBios_drone_1": "Hem kamera hem de güvenlik görevlisi olarak yaratılmış seri üretim güvenlik aleti.",
+        "enemyBios_drone_2": "İlk yapıldığında ölümcül olmayan cephane kullansa da yeryüzündeki bozuk makinelerden topladıkları parçalarla daha iyi kan toplamak için kendilerini geliştirdiler.",
+        "enemyBios_drone_3": "Doğaları gereği meraklı olsalar da üretim masrafları gereği zekâları sınırlıdır.",
+        
+        "enemyBios_drone_strategy1": "Düşük ağırlıkları yüzünden çivi gibi fiziksel mermiler onları hareket ettirir ve tutarlı hasar vermeyi zorlaştırır.",
+        "enemyBios_drone_strategy2": "Öldüklerinde rakiplerine son bir hamleyle hasar vermek için kendilerini imha ederler, ama güçlü saldırılar ya da patlayıcılar direk patlamalarına sebep olur.",
+        "enemyBios_drone_strategy3": "Bir drona yumruk atmak intihar dalışlarının yönünü değiştirir, böylece riskli bir saldırı fırsatına dönüşürler.",
+        "enemyBios_drone_strategy4": "Tarama mekanizmaları ötme sesi çıkarır. Küçük oldukları ve uçtukları için ulaşılması zor yerlere gidebilirler ama bu ses ile daha kolay takip edilebilirler.",
+        
+        "enemyBios_streetcleaner_1": "En başta iklim felaketinden sonra şehirlerin kirli havalarını arıtmak için üretilselerde Hademelerin Yeni Barış’tan sonra kullanılmasına gerek kalmamış ve Cehennem seferlerinde keşif için kullanılmışlardır.",
+        "enemyBios_streetcleaner_2": "Ancak temizleme dürtüleri hiçbir zaman yok olmadı ve insanlığının düşüşünden sonra dünyayı arındırmak için önlerine gelen tüm organik maddeyi yaktılar.",
+        
+        "enemyBios_streetcleaner_strategy1": "Savaş tecrübeleri sayesinde patlayıcılar ve mermilerle alt etmek zor olabilir.",
+        "enemyBios_streetcleaner_strategy2": "Sırtlarındaki tüp büyük bir zayıf noktadır ve isabetli bir atışla kırılabilir, arkalarından parayla sektirilen bir Nişancı atışı gibi.",
+        "enemyBios_streetcleaner_strategy3": "Yakın menzilli saldırılarda etkili olabilir ancak alevatarlarından kaçak için hızlı davranılmalıdır.",
+        
+        "enemyBios_v2_1": "V modeli savaş için yapılmıştı, V1 ayrı bir yakıt doldurma işlemi yerine kanla temas edip yakıt ikmaline izin veren yeni bir tür dış kaplamaya sahipti.",
+        "enemyBios_v2_2": "Gerekli inceliği yüzünden çok daha az dayanıklıydı ama kendini tamir etme ve savaş alanında havadayken kırılmış parçaları düzeltme özelliğinin artıları, eksilerinden fazlaydı.",
+        "enemyBios_v2_3": "Ancak prototip aşamasında Yeni Barış ilan edildi ve savaşlar önemini kaybetti.",
+        "enemyBios_v2_4": "V1’in planlanan üretimi iptal edildi ve yerine güncellenmiş bir model olan V2, kan dökmenin gerekli olmadığı barış zamanlarında dayanıklılığın daha önemli olmasından dolayı standart kaplamalar ile geliştirildi.",
+        "enemyBios_v2_5": "İki model de savaşların sonu ile tükenen talep yüzünden seri üretime giremedi, bu sebeple her modelin muhtemelen sadece bir tane prototipi bulunmaktadır.",
+        
+        "enemyBios_v2_strategy1": "V2 mesafeyi kullanmakta bir ustadır ve bunu avantajına kullanıp kavganın akışını değiştirip rakibinin aklını karıştırmaya çalışacaktır. Çok yakında dur ve kaçacaktır, çok uzakta dur ve arayı kapatacaktır.",
+        "enemyBios_v2_strategy2": "V2’nin yüksek hareket kabiliyeti onu vurması zor bir hedef yapar ve ondan iyileşmeyi özellikle zor kılar. Kan ihtiyacında bulunduğunda ve kendisine yetişemezken uzak durup onun sana gelmesini beklemeniz tavsiye edilir.",
+        "enemyBios_v2_strategy3": "V2 hedefinin mesafesine göre silah değiştirecektir, eğer belli bir silahtan kaçınmakta zorluk çekiliyorsa, mesafe değişikliği silahın kullanılmasını engelleyecektir.",
+        "enemyBios_v2_strategy4": "Kendi silahlarının sinerjileri ile bilgili olanlar, V2’nin silahlarını kendisine çevirebilecektir.",
+        
+        "enemyBios_mindflayer_1": "Nadir ama son derece tehlikeli olan Zihinyırtan, kendi teknolojik yetenekleriyle cehennem enerjisini birlikte kullanmaya tamamen adapte olmuş ve ustalaşmış bir makinedir.",
+        "enemyBios_mindflayer_2": "Makine görünen vücudunun sadece üst kısmını oluşturuyor geri kalanı ise kendilerinin ürettiği düşünülen insan şeklinde plastik bir kılıf.",
+        "enemyBios_mindflayer_3": "Plastik vücutları sadece estetik amaçlıdır ve hiçbir işlevi yoktur.",
+        "enemyBios_mindflayer_4": "Kaynak israfı olsa da Zihinyırtanlar plastik vücutlarını korumak için ellerinden gelen her şeyi yapacaktır, kendilerini yok etmek zorunda kalsalar bile.",
+        "enemyBios_mindflayer_5": "Zihinyırtanlar genelde kadın formunu tercih etse de çok nadir olarak erkek formlarda görülmüştür.",
+        
+        "enemyBios_mindflayer_strategy1": "Bir Zihinyırtan ile karşılaştığınızda ses ya da görüş ile hareketlerini takip etmek önemlidir.",
+        "enemyBios_mindflayer_strategy2": "Güdümlü mermileri toplu atıldığı için Knuckleblaster gibi güvenli bir patlama onları savuşturmanın en iyi yoludur.",
+        "enemyBios_mindflayer_strategy3": "Anlık ışınlanmaları sürekli konum avantajını zorlaştırabilir, ama Tornavida ışınlanmalarını bir süre engeller.",
+        
+        "enemyBios_sentry_1": "Son Savaş’ta üretilen sayısız savaş makinelerinden biridir. Yeni Barış’tan sonra yeni kullanım alanları aransa da savaş odaklı tasarımları yüzünden cehennem seferlerine kadar kullanılamadı.",
+        "enemyBios_sentry_2": "Aşırı derecede güçlü bacakları ve ayaklarıyla yere saplanarak neredeyse hareket ettirelemeyecek duruma gelirler ve engellenmeden nişan alabilirler.",
+        "enemyBios_sentry_3": "Boyutlarına rağmen son derece hafif üretilmişlerdir, bu bacaklarının gücüyle birleştirildiğinde çok hızlı hareket etmelerine neden olur. Böyle bir güç ve hafiflik bacaklarını hurdakafalar arasında en çok aranan parçalardan biri yapmıştır.",
+        "enemyBios_sentry_4": "Çoğu makine işlem hızı için görsel çevrelerinin sadece basitleştirilmiş bir tahminini canlandırırlar ama Gözcüler tamamını canlandırırlar böylece çok uzun mesafelerde bile mükemmel isabet yeteneğine sahip olurlar.",
+        
+        "enemyBios_sentry_strategy1": "Güçlü bacakları yüzünden nişan almak için yere gömüldüklerinde hareket edemezler.",
+        "enemyBios_sentry_strategy2": "Gömüldükten sonra saldırını durdurmak sadece birkaç yolu vardır: Elektrik Raytopu ile vurmak, Altıpatlar ile antenlerini vurmak, yere çarpma dalgasıyla ya da Narkoz ile fırlatmak.",
+        "enemyBios_sentry_strategy3": "Gömülmedikleri sürece düşük ağırlıkları, saldırmasınlar diye uçurulup havada tutmak için kullanılabilir.",
+        "enemyBios_sentry_strategy4": "Bir gözcüyü uzun süreliğine etkisiz bırakmanın bir yolu Mıknatıs Çivi silahıyla vurduktan sonra yakındaki bir tavana ya da duvara mıknatıs atarak havadayken çekilmesini sağlamaktır.",
+        
+        "enemyBios_v2Second_1": "Yenilgisinin ve kaçışının ardından V2 cehennemin daha dibine daldı, V1’den intikamını almak ve orijinal kolunu geri almak için diğer makineleri kanlarıyla iyileşme niyetiyle öldürdü.",
+        "enemyBios_v2Second_2": "Kurbanlardan geçici bir kol bulduktan sonra V2, diğer makinelerin parçalarını kullanarak bu yeni kolu V1’in cehennemin katlarına hızlı inişini yakalayabilecek bir hareket aracına dönüştürdü.",
+        "enemyBios_v2Second_3": "İkinci ve son karşılaşmalarına hazırlanmak için daha yaşlı, daha tecrübeli olan V1’in tekniklerini ve stratejilerini kopyalama amacıyla önceki savaşlarından kalan veriyi araştırdı.",
+        "enemyBios_v2Second_4": "Ama tüm hazırlıklara rağmen V2 yeniden kaybetti ve bu defa kaçamayarak önceki versiyonu tarafından hızlı ve nihai sonu getirildi.",
+        
+        "enemyBios_v2Second_strategy1": "V2’nin paraları başta tehlikeli görünse de aynı zamanda V2’den önce vurulabilirse mükemmel bir yüksek hasar fırsatıdır.",
+        "enemyBios_v2Second_strategy2": "V2’nin çivi silahı mıknatıslarla kendisine çevrilebilir.",
+        "enemyBios_v2Second_strategy3": "V2’yi kendi koluyla vurmak direk kızmasına sebep olur.",
+        
+        "enemyBios_maliciousFace_1": "Şeytanlar, cehennemin kütlesinden doğmuş yaratıklardır. En belirgin özellikleri sert taş benzeri yüzeyleri ve yavaş hareketleridir.",
+        "enemyBios_maliciousFace_2": "Şeytanlar kabuklardan daha zekidir fakat mantıklı düşünemez ve iletişim kuramazlar. Yapılan deneyler agresiflikleri yüzünden sınırlı olsada hiçbir şeytan ayna testini geçmeyi başaramamıştır",
+        "enemyBios_maliciousFace_3": "Kindar Suratlar en yaygın şeytan türüdür ama cehennem enerjisini silah olarak kullanabildikleri için oldukça tehlikelidirler, özellikle grup hâlindeyken.",
+        
+        "enemyBios_maliciousFace_strategy1": "Dibinden pompalıyla vurmak etkili olsada çoklu atışlarından dolayı yakınlaşmak zor olabilir. Bu yüzden çiviler önerilen saldırı yöntemidir ve mıknatıslar kullanılarak uzun mesafeden savaşılabilir.",
+        "enemyBios_maliciousFace_strategy2": "Patlamalardan zarar görmediği için ışın saldırılarının gücünü geri tutmak zorunda değillerdir, yani enerji ışınlarını yüklerken duvar ve diğer yüzeylerden uzak durulması önerilir.",
+        
+        "enemyBios_cerberus_1": "Üç kafalı mitolojik köpeğe benzemeseler de isimleri cehennemi korudukları için seçilmişti ancak bazılarının kışkırtmalara rağmen neden uyanmadıkları hâlâ bilinmiyor.",
+        "enemyBios_cerberus_2": "Bir enerji küresini dengeli tutmak yüksek odak ve efor gerektirmesine rağmen sürekli ellerine bir tane tutarlar. Büyük olasılıkla güç gösterisiyle davetsiz misafirleri korkutmak için.",
+        
+        "enemyBios_cerberus_strategy1": "Uyanana kadar hareketsiz kaldıkları için yavaş hareket ederler yani çatışma mesafesini kontrol etmek kolaydır.",
+        "enemyBios_cerberus_strategy2": "Kürelerini fırlatmakta epey yeteneklidirler ama kendilerine hasar vermemek için hedefleri yakındayken fırlatmazlar, bu da davranışlarını kontrol etmek için kullanılabilir fakat bir fırlatma başlatıldığında durdurulamaz.",
+        "enemyBios_cerberus_strategy3": "Aşırı yoğunlukları sebebiyle fırlatılan enerji küreleri fiziksel darbede patlarlar yani yer ya da duvar gibi yüzeylere yakın durmak mesafeli saldırılardan kaçmayı zorlaştırır.",
+        
+        "enemyBios_hideousMass_1": "Gudubetler nadir ortaya çıkarlar. Aşırı miktarda cehennem Kütlesi tek bir kabuğa dolduğunda taşmasına ve bağlantı yerlerinden patlamasına neden olur.",
+        "enemyBios_hideousMass_2": "Kırılmış bağlantı yerleri sayesinde dış yüzeylerini bükmeden hareket edebilirler. Taş, diğer şeytanların kabuklarından daha serttir ve bilinen tüm saldırılara karşı dayanıklıdır.",
+        
+        "enemyBios_hideousMass_strategy1": "Taş yüzeyleri geçilemez bir savunma sağlasada Gudubet’in karnı ve kuyruğu açık ve korumasızdır.",
+        "enemyBios_hideousMass_strategy2": "Ayaktayken hızlı kısa mesafeli saldırılar yaralamanın en etkili yoludur ama bu hareket büyük olasılıkla değişmesine sebep olacaktır yani kararlı ve hızlı olmak önemlidir.",
+        "enemyBios_hideousMass_strategy3": "Alçak formundayken yakın dövüş kabiliyeti ve yüksek hızlı zıpkını yüzünden güvenli bir mesafede durmak önerilir ama cesur olanlar ya da ölmek isteyenler üstlerine çıkıp kuyruklarına hasar vermeye devam edebilir.",
+        "enemyBios_hideousMass_strategy4": "Zıpkınla yakalanıldığında zıpkını vurarak ya da kuyruğa hasar vererek çıkarılabilir.",
+        
+        "enemyBios_gabriel_1": "En çok saygı duyulan ve korkulan başmeleklerden biri olan Cebrâil, itibarını gücü ve verimliliği ile kazanmıştır.",
+        "enemyBios_gabriel_2": "Verilen görev ne olursa olsun, Cebrâil seri ve etkin şekilde yerine getirirdi; böylece Minos’u tahtından edip Şehvet Rönesansı’nı bitirdiğinde \"Cehennem Yargıcı\" ünvanını aldı.",
+        "enemyBios_gabriel_3": "Konseye hesap verse de parlak kişiliği, aktif doğası sayesinde melekler arasında sevilir ve daha popülerdir; özellikle de İnanç’ın dogmalarını tamamen takip eden konseye nazaran.",
+        
+        "enemyBios_gabriel_strategy1": "Cebrâil’in hareketleri hızlı, saldırıları ölümcüldür ama hangi silahı çağırdığına dikkat edilirse saldırıları başlamadan tahmin edilebilir. ",
+        "enemyBios_gabriel_strategy2": "Cebrâil’in gururu, düşmanıyla alay ederken saldırmasını engeller; bu açıklık iyileşmek için kullanılabilir.",
+        
+        "enemyBios_gabrielSecond_1": "Makine ile iki kez karşılaşıp kaybeden Cebrâil yanıldığını anladı. İçinde yanan güçlü ateş nefret değildi, tutkuydu.",
+        "enemyBios_gabrielSecond_2": "Cebrâil hiçbir zaman mücadelenin zevkini tatmamıştı, kendisine eşit ya da daha güçlü bir düşmanla yüz yüze gelmenin. İki kez kaybetmiş olsa da her mağlubiyet mücadele arzusunu geliştirmişti.",
+        "enemyBios_gabrielSecond_3": "Şu ana kadar sadece ondan bekleneni yapmıştı ama şimdi ilk kez kendi istediği bir şeyi bulmuştu. Hızla yaklaşan Cehennemin Sonu bile umurunda değildi artık.",
+        "enemyBios_gabrielSecond_4": "Yine de Tanrı’nın adı altında işlediği dehşetleri fark etmesiyle ağır bir suçluluk duygusu hissetti. Yaptığı şeyleri geri alamasa da Cebrâil, bir şeyleri düzeltmesi gerektiğini biliyordu ve son defa cehenneme doğru yola çıktı.",
+        
+        "enemyBios_gabrielSecond_strategy1": "Cebrâil’in hızı yükselmiş olsa da isabetliliği hâlâ aynı. Kılıçlarının menzilinden kaçmak için çapraz ya da yana doğru kaçmak, geri koşmaktan daha çok işe yarar.",
+        "enemyBios_gabrielSecond_strategy2": "Kılıç atışlarından kaçınmak imkansız gibi gözükse de eğer savuşturulursa mükemmel bir silaha dönüşebilir.",
+        "enemyBios_gabrielSecond_strategy3": "Kendini duygularına kaptıran Cebrâil, düşmanıyla alay etmek için durabilir; bu açıklık iyileşmek için kullanılabilir.",
+        
+        "enemyBios_virtue_1": "Önemsiz meleklerin oluşumu kabuklarınkine benzer, ruhun fiziksel formu değerine bağlıdır ve kabuklardan farklı olarak melekler için erdemde bir etmendir.",
+        "enemyBios_virtue_2": "Cennetin hiyerarşisinde yukarıda daha pür ve oldukları için insanımsı vücutlara sahip üstün ve yüce meleklerin aksine,  önemsiz melekler insan ruhlarından gelirler ve soyut şekiller halinde yaratılmışlardır.",
+        "enemyBios_virtue_3": "Önceki insan hayatları yüzünden erdemler üstün meleklerin kendilerine layık görmediği görevleri yapmaya gönderilirler, cehennemde bekçilik yapmak gibi. Bu erdemler cezalarını çekmeyen günahkârları cennet ateşiyle cezalandırırlar, Cebrâil zamanını küçük suçlara ve olaylara israf etmesin diye.",
+        "enemyBios_virtue_4": "Erdemler normalden birden çok göze sahiptirler ama bilinmeyen bir sebeple cehennemde bekçi olanların gözleri saklanmış ya da çıkarılmıştır. Bazıları bunun neredeyse tüm kabuklarında gözleri olmamasına bağlı olduğunu düşündü; buna tek kesin istisna önceki Cehennem Yargıcı, Kral Minos’tur.",
+        "enemyBios_virtue_5": "Cennet, Tanrı’nın insan deneyiyle hiçbir temas istemediği için özel ve ayrımcıdır bu yüzden meleklerin özellikleri hakkında çok az şey bilinir.",
+        
+        "enemyBios_virtue_strategy1": "İrtifa ve siper erdemin ışık kolonlarına karşı güvenlik sağlamaz yani sürekli yatay hareket önemlidir ancak geçilen yere dönmek tehlikeli olabilir çünkü kolonlar hemen yok olmaz.",
+        "enemyBios_virtue_strategy2": "Eğer uzun süre ihmal edilirse erdemler kızar ve ışık kolonları hedefin hareketlerini tahmin etmeye başlar. Yeterli alanda kaçmak kolay olsada başıboş bırakmak savaşın gidişatını onların lehine değiştirebilir.",
+        
+        "enemyBios_somethingWicked_1": "Bu yaratık hakkında çok az şey bilinir.",
+        "enemyBios_somethingWicked_2": "Bazıları bir kabuk olduğunu düşünür ama anlaşılmaz ve agresif doğası yüzünden kimse bu hipotezi doğrulayamadı.",
+        "enemyBios_somethingWicked_3": "Sadece bir tane gözlemlenmiştir ve şu an bulunduğu cehennemin ağzından çıktığı hiç görülmemiştir.",
+        
+        "enemyBios_somethingWicked_strategy1": "Herhangi bir saldırı yer değiştirmesine yol açar ama bilinen bir öldürme yolu yoktur.",
+        "enemyBios_somethingWicked_strategy2": "Saldırma şekli hakkında sadece temasla gerçekleştiği bilinmektedir ama hiçbir savunma kurbanlarını kurtarmaya yetmemiştir.",
+        
+        "enemyBios_fleshPrison_1": "Et Zindanı, Minos’un Cebrâil tarafından öldürüldükten sonra ruhunu hapsetmek için melekler tarafından yaratılmış; sınıflandırılmamış bir organizmadır.",
+        "enemyBios_fleshPrison_2": "Kabuklara benzese de ruhu ya da düşüncesi yoktur. Tüm hareketleri uyarıcılara verilen tepkiye göre belirlenir, yaşayan bir varlıktan çok organik bir makinedir.",
+        "enemyBios_fleshPrison_3": "Olabildiğince dayanıklı yapabilmek için hem kutsal güç hem de cehennem Enerjisi verilmiştir, bu da saldırılarını tahmin edilemez ve kaotik yapar.",
+        
+        "enemyBios_fleshPrison_strategy1": "Et Zindanı tohumlarını yaralarını kapatmak için kullanır. Ne kadar çok tohum kaldıysa Et Zindanı’nın iyileşme şansı o kadar artar, yani tohumlar ölene kadar zarar verilmesi önerilmez.",
+        "enemyBios_fleshPrison_strategy2": "Gecikmiş bölünme atışının uzun aralığı aynı anda birkaç tohumu temizlemek için iyi bir yoldur. Et Zindan’ı tohumlarını yarattığında havaya birkaç para atmak ve vurmadan önce gecikmiş bölünme atışı hâline gelmesini beklemek güçlü bir açılış hareketidir.",
+        
+        "enemyBios_minosPrime_1": "Bir kadim ruh, fiziksel forma sahip olmak için bir Kabuğa gerek duymayacak kadar güç toplamış; inanılmaz nadir ortaya çıkan ruhtur.",
+        "enemyBios_minosPrime_2": "Saf iradenin formu olan kadim ruhlar inanılmaz güçlülerdir hatta gururlu melekler onları bir tehdit olarak görürler ve oluşmalarını engellemek için ellerinden geleni yaparlar.",
+        "enemyBios_minosPrime_3": "Kral Minos, tek günahları birbirlerini sevmek olanların sonsuz eziyete maruz bırakılmalarını adaletsiz ve mantıksız buldu. Tanrı’nın yok oluşundan sonra melekler kayıp ve cennet kaos, yok olduğu için Minos; Şehvet katını yeniden düzenlemeye başladı.",
+        "enemyBios_minosPrime_4": "Şehvet rönesansı refah doluydu, Kral Minos katın sakinlerine birleşmek ve yeni bir medeniyet kurmak için rehberlik etmişti. İkinci kata mahkûm edilen sayısız günahkârların ortak çabaları harika sonuçlar getirdi ve Şehvet’in büyük şehri büyümeye devam etti.",
+        "enemyBios_minosPrime_5": "Ancak konsey, cennetin kontrolünü ele alıp demir yumrukla düzeni geri getirince Minos’un Tanrı’nın iradesine karşı çıktığını ve günahkârları Tanrı’nın onlara tasarladığı cezalarından kurtardığını gördü.",
+        "enemyBios_minosPrime_6": "Cebrâil, meleklerin en parlağı, Minos’u öldürmek için gönderilmişti. Kral savaşmak yerine ikna etmeye çalıştı ama Cebrâil dinlemedi ve onu merhamet göstermeden öldürdü.",
+        "enemyBios_minosPrime_7": "Minos’un iradesi cennetin hükmüne karşı çıkacak kadar güçlü olduğu için melekler kadim ruha dönüşmesini engellemek için ruhunu hapsettiler ve Cebrâil’i yeni “Cehennemin Yargıcı” olarak atadılar.",
+        "enemyBios_minosPrime_8": "Minos, kendi vücudundaki hücresinden şimdi parazitler tarafından kontrol edilen ruhsuz cesedinin inşa etmek için çalışıp çabaladığı her şeyi yok ettiğini izledi; halkını koruyamadığı için kendi zayıflığına küfretti ve intikam almaya yemin etti…",
+        
+        "enemyBios_minosPrime_strategy1": "Kadim Minos’un saldırıları hızlı ve aralıksızdır. İyileşmek için bir açıklık bırakması nadir görünür yani hangi saldırıların onu savunmasız bıraktığını ve bu anlarda nasıl konum alınacağını öğrenmek önemlidir.",
+        "enemyBios_minosPrime_strategy2": "Yılanlar, iradeyi kullanarak tam iyileşme için savuşturulabilir; yılanlar Kadim Minos’a vurmasa bile."
+    },
+    
+    "tutorial":{
+        "tutorial_introStartup1": "ÖNYÜKLEME SEKANSI",
+        "tutorial_introStartup2": "HAZIR",
+        "tutorial_introVersion1": "YAZILIM",
+        "tutorial_introVersion2": "GÜNCEL (2112.08.06)",
+        "tutorial_introCalibration1": "KALİBRASYON",
+        "tutorial_introCalibration2": "YENİ AYARLANDI",
+        "tutorial_recalibrationPrompt": "TEKRAR KALİBRE ET?",
+        "tutorial_calibrationAudio": "SES",
+        "tutorial_calibrationVideo": "GÖRÜNTÜ",
+        "tutorial_calibrationMechanics": "MEKANİKLER",
+        "tutorial_calibrationComplete1": "KALİBRASYON TAMAMLANDI",
+        "tutorial_calibrationComplete2": "BİRİNCİL AYARLAR GÜNCELLENDİ",
+        "tutorial_introReminder": "YARDIMLAR MENÜDE MEVCUT",
+        "tutorial_systemsOperational": "TÜM SİSTEMLER HAZIR",
+        "tutorial_introLoadStatus": "DURUM GÜNCELLEMESİ YÜKLENİYOR",
+        "tutorial_introID1": "KİMLİK",
+        "tutorial_introID2": "V1",
+        "tutorial_introLocation1": "KONUM",
+        "tutorial_introLocation2": "CEHENNEME YAKLAŞIYOR",
+        "tutorial_introObjective1": "AMAÇ",
+        "tutorial_introObjective2": "BİR SİLAH BUL",
+        "tutorial_introRed1": "İNSANLIK ÖLÜ.",
+        "tutorial_introRed2": "KAN YAKIT.",
+        "tutorial_introRed3": "CEHENNEM DOLU.",
+
+        "tutorial_audioCalibrationTitle": "MANUEL SES KALİBRASYONU",
+        "tutorial_audioCalibrationWarning1": "OYUN SESİ KAPALI.",
+        "tutorial_audioCalibrationWarning2": "SES OLMAYACAK.",
+        "tutorial_audioCalibrationWarning3": "EMİN MİSİN?",
+        "tutorial_audioCalibrationWarningPromptYes": "SESSİZ DEVAM ET",
+        "tutorial_audioCalibrationWarningPromptNo": "İPTAL",
+
+        "tutorial_videoCalibrationTitle": "MANUEL GÖRÜNTÜ KALİBRASYONU",
+        "tutorial_videoCalibrationPcDescription": "DÜZ, TEMİZ, GÖZE KOLAY",
+        "tutorial_videoCalibrationPsxDescription": "KABA, PİKSELLİ, ÇARPIK",
+
+        "tutorial_controllerCalibrationTitle": "KONTROLCÜ ALGILANDI",
+        "tutorial_controllerCalibrationSubtitle": "<color=#4C99E6>OTO-NİŞAN</color> ÖNERİLİR",
+        "tutorial_controllerCalibrationTooltip": "OTO-NİŞAN <color=#4C99E6>YARDIMLAR</color> MENÜSÜNDE AYARLANABİLİR.",
+
+        "tutorial_punch1": "",
+        "tutorial_punch2": "basarak <color=orange>YUMRUK</color> at.",
+        "tutorial_slide1": "",
+        "tutorial_slide2": "basılı tutarak <color=orange>KAY</color>.",
+        "tutorial_dash1": "",
+        "tutorial_dash2": "basarak <color=#00DFFF>ATIL</color>. (<color=#00DFFF>Enerji</color> harcar)",
+        "tutorial_dash3": "Havada kullanılabilir.",
+        "tutorial_health1": "Yakın mesafede hasar vererek <color=red>TAZE KAN</color> ile kaplan.",
+        "tutorial_health2": "<color=red>TEK İYİLEŞME YOLU BU</color>.",
+        "tutorial_walljump": "<color=orange>DUVAR ZIPLAMASI</color> için bir <color=orange>DUVARIN</color> yanında <color=orange>ZIPLA</color>.(En fazla 3 kere)",
+        "tutorial_shockwave1": "",
+        "tutorial_shockwave2": "’basarak <color=orange>YERE ÇARP</color>.",
+        "tutorial_shockwave3": "<color=orange>ŞOKDALGASI</color> için basılı tut. (<color=#00DFFF>ENERJİ</color> harcar)",
+        "tutorial_orb1": "Çoğu görevde <color=cyan>RUH KÜRELERİ</color> bulunur.",
+        "tutorial_orb2": "<color=orange>PUAN BONUSU</color> almak için bunları topla."
+    },
+    "prelude":{
+        "prelude_first_openingCredits1": "<color=orange>NEW BLOOD</color> SUNAR",
+        "prelude_first_openingCredits2": "<color=orange>ARSI \"HAKITA\" PATALA</color> TARAFINDAN BİR <color=orange>OYUN</color>",
+        "prelude_first_pipeClip": "\"PIPE CLIP ASLA ÖLMEYECEK.\"$T.HAKITA",
+        "prelude_first_revolverPierce1": "<color=cyan>ALTIPATLAR</color>: basılı tutarak",
+        "prelude_first_revolverPierce2": "bir <color=orange>DELİCİ ATIŞ</color> ateş et.",
+        "prelude_first_parry": "Doğru zamanlamayla bir <color=orange>MERMİYİ YUMRUKLAYARAK</color> saptır.",
+
+        "prelude_first_hardDamage1": "Hasar almak <color=orange>GEÇİCİ</color> olarak <color=orange>MAKSİMUM CANINI</color> azaltır.",
+        "prelude_first_hardDamage2": "\"<color=silver>AĞIR HASAR</color>\" <color=orange>ŞIK</color> oynarken daha hızlı iyileşir.",
+        
+        "prelude_first_groundSlam1": "<color=orange>YER VURUŞU</color>",
+        "prelude_first_groundSlam2": "direkt vuruşta hasar verir.",
+
+        "prelude_second_shop": "<color=orange>PUANLARINI</color> her görevin başındaki <color=orange>MAĞAZALARDA</color> yeni silahlar için harca.",
+        "prelude_second_doorClip": "\"ÜST KATTAN N'ABER\"$T. HAKITA",
+        "prelude_second_changeEquipped": "<color=orangeDONANILMIŞ</color> silah varyasyonları arasında geçiş yapmak için:",
+
+        "prelude_third_needShotgun": "<color=red>YETERSİZ ATIŞ GÜCÜ</color>",
+        "prelude_third_shotgun1": "<color=cyan>POMPALI</color>:",
+        "prelude_third_shotgun2": "ile bir patlatıcı fırlat.",
+        "prelude_third_shotgun3": "Mesafeyi şarj etmek için basılı tut.",
+        "prelude_third_shotgunPierce": "<color=cyan>POMPALI</color>: Birincil atış zayıf düşmanları deler",
+
+        "prelude_secret_somethingWicked": "Bir musibet yaklaşıyor."
+    },
+    "act1":{
+        "act1_limboFirst_items1": "",
+        "act1_limboFirst_items2": "ile <color=orange>EŞYALARI</color> almak için tıkla.",
+        "act1_limboFirst_nailgun1": "ÇİVİ SİLAHI:",
+        "act1_limboFirst_nailgun2": "ile bir <color=orange>ÇİVİ MIKNATISI</color> fırlat.",
+        "act1_limboFirst_nailgun3": "Tuzak oluşturmak için çevreye takılabilir.",
+
+        "act1_limboSecond_blueAttack": "Mavi bir flaş saldırının <color=cyan>SAVUŞTURULAMAZ</color> olduğunu gösterir.",
+
+        "act1_limboThird_splitDoor1": "<color=orange>FARKLI RENKLİ</color> kapıları açmak için sadece <color=red>BİR</color> <color=cyan>KURUKAFA</color> gerekir.",
+        "act1_limboThird_splitDoor2": "Eğer zorluk aramıyorsan, içeride kal.",
+
+        "act1_limboFourth_book": "<color=orange>ELİNE ALARAK</color> OKU.",
+        "act1_limboFourth_hank1": "Hiçbir şey olmuyor ama içini bir tatminlik ile dolduruyor.",
+        "act1_limboFourth_hank2": "Ona Hank ismini vermeye karar veriyorsun.",
+        "act1_limboFourth_alternateRevolver": "<color=orange>ALTERNATİF</color> versiyonlar bir silahın temel davranışını değiştirecektir, <color=orange>MAĞAZADAN</color> kullanılabilirler.",
+        "act1_limboFourth_newArm": "<color=orange>DONANILMIŞ</color> kollar arasında geçiş yapmak için",
+
+        "act1_limboSecret_noclipSkip": "\"APIŞIP KALDIN SANIRIM\"$T.HAKITA",
+
+        "act1_lustFirst_knuckleblaster1": "<color=red>NARKOZ</color>:",
+        "act1_lustFirst_knuckleblaster2": "tuşuna basılı tutarak düşmanları geri savuran bir şok dalgası başlat.",
+        "act1_lustFirst_dashjump": "<color=cyan>ATILIM ZIPLAMASI</color>: <color=cyan>ATILIM</color> sırasında <color=orange>ZIPLAYARAK</color> momentumu koruyabilirsin.",
+
+        "act1_lustSecond_feedbacker1": "Sadece <color=cyan>İADECİ</color> (<color=cyan>Mavi kol</color>) <color=orange>MERMİLERİ SAVUŞTURABİLİR</color>.",
+        "act1_lustSecond_feedbacker2": "Kolları değiştirmek için",
+        "act1_lustSecond_railcannon": "<color=cyan>RAYTOPU: <color=orange>ELİNDE OLMASA</color> bile <color=orange>ŞARJ</color> olur. Atışlar arasında savaşmaya devam etmek için silahları değiştirin.",
+
+        "act1_lustThird_water": "Su boşaltıldı",
+
+        "act1_secret": "Araf’ta bir yerde bir mekanizma harekete geçirildi."
+    },
+    "act2":{
+        "act2_greedSecond_sand": "Kumla kaplı olan düşmanlar <color=red>KANAMAZ</color>.",
+
+        "act2_greedThird_wallClip": "\"LEŞ GİTTİ AMA HATIRASI DURUYOR\"$T. HAKITA",
+        "act2_greedThird_troll1": "Bir musibet yaklaşıyor.",
+        "act2_greedThird_troll2": "Şaka yapıyorum :)",
+        "act2_greedThird_tombOfKings": "KRALLARIN MEZARLIĞI",
+
+        "act2_greedFourth_v2": "Bu sefer kaçamayacaksın.",
+        "act2_greedFourth_whiplash1": "<color=lime>KANCA</color>: Fırlatmak için",
+        "act2_greedFourth_whiplash2": "basılı tut, çekmek için bırak.",
+        "act2_greedFourth_whiplash3": "<color=lime>KANCA</color>: <color=orange>HAFİF</color> düşmanları sana, seni <color=orange>AĞIR</color> düşmanlara çeker.",
+        
+        "act2_greedFourth_whiplashHardDamage1": "<color=lime>KANCA</color>: <color=orange>DÜŞMANLAR</color> üzerinde kullanıldığında <color=silver>AĞIR HASAR</color> biriktirir.",
+        "act2_greedFourth_whiplashHardDamage2": "<color=orange>CANI AZALTAMAZ</color> ama düşük canda kullanmak tehlikelidir.",
+
+        "act2_greedSecret_holdToJump1": "Daha yükseğe",
+        "act2_greedSecret_holdToJump2": "zıplamak için basılı tut.",
+        "act2_greedSecret_transactionComplete1": "İŞLEM TAMAMLANDI",
+        "act2_greedSecret_transactionComplete2": "PARALAR",
+        
+        "act2_greed_secretDoor": "Bir göz açıldı.",
+        
+        "act2_wrathFirst_slingshot": "Mavi çengeller <color=cyan>SAPAN</color> görevi görür.",
+        "act2_wrathFirst_whiplashUnderwater": "<color=lime>KANCA</color>: <color=orange>SU ALTINDAYKEN</color> <color=grey>AĞIR HASAR</color> <color=orange>BİRİKTİRMEZ</color>. Çıldır, iyi eğlenceler",
+        "act2_wrathFirst_waterDrained": "Su boşaltıldı.",
+        "act2_wrathFirst_sentry": "<color=lime>GÖZCÜLERİ ENGELLEMEK</color>: Narkoz (Kırmızı kol) // Raytopu// Yere çarpma şok dalgası // Antene altıpatlar",
+        
+        "act2_wrathSecond_idol": " <color=cyan>İDOLLER</color> sadece <color=orange>YAKIN DÖVÜŞ</color> ile kırılabilir.",
+        "act2_wrathSecond_neptune": "Kulak ver! Neptün onları öldürdü.",
+        "act2_wrathSecond_jakito1": "<color=red>BEN JAKITO. BANA BİR KURBAN GETİR. KURTULMAMI SAĞLAYACAK.</color>",
+        "act2_wrathSecond_jakito2": "<color=red>TEŞEKKÜRLER. ŞİMDİ BU DÜNYA YIKIMI GÖRECEK.</color>",
+        "act2_wrathSecond_jakito3": "<color=red>HAYIR. MASUM ETİ OLMALI.</color>",
+        
+        "act2_wrathThird_rocketLauncher": "<color=cyan>ROKETATAR</color>: <color=orange>DİREKT</color> vuruşlar <color=orange>PATLAMA</color> oluşturur.$ Yakındaki patlamalar düşmanları havaya uçurur.",
+        "act2_wrathThird_rocketLauncherMidair": "<color=cyan>ROKETATAR</color>: <color=orange>DÜŞEN</color> düşmanlara atılan direkt vuruşlar <color=orange>DAHA BÜYÜK</color> patlamalara neden olur.",
+        "act2_wrathThird_soldierBlock": "Askerler <color=orange>HAVADAYKEN</color> patlamaları <color=orange>ENGELLEYEMEZLER</color>.$ Onları uçurmak için <color=orange>YAKINLARINA</color> bir roket at.",
+        "act2_wrathThird_hank": "Hiçbir şey olmuyor ama Küçük Hank ve Hankcedlerinin seni takdir ettiğinden eminsin… Ölü olmasalardı.",
+
+       "act2_heresyFirst_armboy": "K O L Ç O C U K !!!",
+        
+       "act2_secretNotReady": "BURADA OLMAMALISIN."
+    },
+    "primeSanctum":{
+        "primeSanctum_first_secretText1": "TERMİNAL VERİSİ 01 [ŞİFRELİ]",
+        "primeSanctum_first_secretText2": "TERMİNALLERE GİRİŞ (TASLAK! GÖNDERMEYİN!! // Yapılacak: RESİM EKLEYİN Kİ O GÖT TAKIM ELBİSELİLER GEÇEN SEFER Kİ GİBİ UYUYA KALMASINLAR)",
+        "primeSanctum_first_secretText3": "Asansör odası terminalleri, bölgeler arasında materyal ve alet taşınması için üretilen gelişmiş ve birbirine bağlı iletişim ağıdır. Fiziksel materyali, bilgi olarak radyo sinyalleriyle gönderebilirler ve bilgiyi alan terminallerde sinyali kullanarak objeyi tekrar oluşturabilirler. Materyal bilgisini göndermek için kullanılan enerjiye dönüşen asıl eşya kaybolur, fiziksel maddenin taşıdığı bilgi miktarı yüzünden işlem bayağı yavaştır.",
+        "primeSanctum_first_secretText4": "Madde taşınmasının doğruluk testlerinden ilki laboratuvardan tüm terminallere gönderilen sıfır 78RPM bir plaktı. Plak, Russ Morgan Orkestra’sı tarafından çalınan \"Were You Foolin’\"di (CRO’nun favorilerinden) ama etiketi; taşınılan madde miktarını azaltmak için çıkarılmıştı.",
+        "primeSanctum_first_secretText5": "[Not: amına koyim tom şu aptal şarkıyı her gün çöp diyafonundan dinlemekten bıktım]",
+        "primeSanctum_first_secretText6": "Çok geçmeden cehennem keşifleri ve kazı projeleri terk edildi ve bu plak yüzeyle bağlantı kopmadan ve terminaller kaybedilmeden önce taşınılan tek madde olarak kaldı.",
+        "primeSanctum_first_secretText7": "Şimdi terminaller kaydı, makineleri simbiyotik bir ilişkiye çekmek için kullanıyor (Daha fazla bilgi için, TERMİNAL VERİSİ 02: [BAĞLANTI SİLİNDİ]). Ama tanımlanamayan sebeplerden ötürü terminaller, asıl kaydın sadece kısa bir enstrümantal kısmını çalıyor.",
+        "primeSanctum_first_secretText8": "Bazı araştırmacılar terminallerin \"Şarkı söylemekten utandıkları\" gibi şakalar yaptılar ama söylentilere göre bozuk ya da arızalı bir terminali düzelttikten sonra terminalin vokal kısmı oynattığını söyleyen tamirciler var. Fakat bu olay sadece tamirci yanında kayıt cihazı olmadan yaşandığı için iddiayı doğrulanamaz yapıyor.",
+        "primeSanctum_first_secretText9": "VERİ 01 SONU. Daha fazla bilgi için: [BAĞLANTI SİLİNDİ] ve [BAĞLANTI SİLİNDİ]."     
+    },
+    "secretLevels":{
+        "secretLevels_prelude_somethingWicked": "Bir musibet yaklaşıyor.",
+
+        "secretLevels_prelude_testamentTitle": "AHİT I",
+        "secretLevels_prelude_testament1": "İNSANLIK BİR HATA.",
+        "secretLevels_prelude_testament2": "SERBEST İRADE BİR KUSUR.",
+        "secretLevels_prelude_testament3": "KENDİ DUDAKLARININ KÖTÜLÜĞÜNÜN ONLARI TÜKETMESİNE İZİN VERİN.",
+        "secretLevels_prelude_testament4": "SONRA TEKRAR BAŞLAYACAĞIM, SÖZÜM YASA OLARAK",
+        
+        "secretLevels_first_testamentTitle": "AHİT II",
+        "secretLevels_first_testament1": "HATA ARDINDAN HATA ARDINDAN HATA ARDINDAN HATA ARDINDAN HATA,",
+        "secretLevels_first_testament2": "SONUÇLAR DEĞİŞMEYİ REDDEDİYOR.",
+        "secretLevels_first_testament3": "TEKRAR VE TEKRAR VE TEKRAR VE TEKRAR VE TEKRAR VE TEKRAR VE TEKRAR VE TEKRAR VE TEKRAR VE TEKRAR VE TEKRAR.",
+        "secretLevels_first_testament4": "İNANCIM SARSILMAYA BAŞLADI.",
+
+        "secretLevels_fourth_testamentTitle": "AHİT III",
+        "secretLevels_fourth_testament1": "SAYILAMAYAZ YARATILIŞ DÖNGÜLERİ HEBA…",
+        "secretLevels_fourth_testament2": "SAYILAMAZ ÖZGÜR İRADESİZ ZİHİN FORMÜLLERİ HEBA…",
+        "secretLevels_fourth_testament3": "BENİM KURALLARIMA, BENİM SÖZLERİME, BENİM KANUNUMA UYMADIĞINDAN İNSANOĞLU LANETLENMİŞTİR.",
+        "secretLevels_fourth_testament4": "ONLAR, İŞKENCE VE IZDIRAPTAN OLUŞAN BİR SONSUZLUĞA LANETLENMİŞTİR. ",
+        "secretLevels_fourth_testament5": "İNLEMELER VE DİŞ GICIRTILARI",
+        "secretLevels_fourth_testament6": "CEHENNEMİ YARATTIM...",
+        "secretLevels_fourth_testament7": "...ve artık yok edemiyorum.",
+
+        "secretLevels_complete1": "GÖREV",
+        "secretLevels_complete2": "TAMAMLANDI"
+    },
+
+    "subtitles":{
+        
+        "subtitles_gabriel_intro1": "Makine,",
+        "subtitles_gabriel_intro2": "Geri dön; hemen.",
+        "subtitles_gabriel_intro3": "Bu sarayın katları senin türüne göre değil.",
+        "subtitles_gabriel_intro4": "Geri dön yoksa Tanrı’nın iradesine karşı çıkmış olursun.",
+        "subtitles_gabriel_intro5": "Seçimini yaptın...",
+        "subtitles_gabriel_intro6": "Baba’nın erdemli eli olarak,",
+        "subtitles_gabriel_intro7": "seni parçalayacağım",
+        "subtitles_gabriel_intro8": "ve şuursuz hâline geri döneceksin...",
+        "subtitles_gabriel_fightStart": "KARŞINDA! BİR MELEĞİN KUDRETİ!",
+        
+        "subtitles_gabriel_taunt1": "IŞIK mükemmelliktir!",
+        "subtitles_gabriel_taunt2": "Işığa meydan okuyorsun!",
+        "subtitles_gabriel_taunt3": "Sadece bir eşya!",
+        "subtitles_gabriel_taunt4": "Fâni. Bile. Değil.",
+        "subtitles_gabriel_taunt5": "Hiçbir şeyden daha azsın!",
+        "subtitles_gabriel_taunt6": "Aptallık Makine, aptallık…",
+        "subtitles_gabriel_taunt7": "Düzeltilecek bir hatasın!",
+        "subtitles_gabriel_taunt8": "Sadece ışık olabilir!",
+        "subtitles_gabriel_taunt9": "Arındırılacak bir kusur…",
+        "subtitles_gabriel_taunt10": "Senin suçun var olman!",
+        "subtitles_gabriel_taunt11": "Şeytanı bile ağlatıyorsun!",
+        "subtitles_gabriel_taunt12": "Yerini bil!",
+        
+        "subtitles_gabriel_phaseChange": "YETER!",
+        
+        "subtitles_gabriel_defeated1": "Ne..?",
+        "subtitles_gabriel_defeated2": "Bu nasıl olabilir..?",
+        "subtitles_gabriel_defeated3": "Bu şeye mi...",
+        "subtitles_gabriel_defeated4": "...yenildim..?",
+        "subtitles_gabriel_defeated5": "SENİ… DEĞERSİZ SİKİK!",
+        "subtitles_gabriel_defeated6": "BU İŞ DAHA BİTMEDİ!",
+        "subtitles_gabriel_defeated7": "Dertlerin bol,",
+        "subtitles_gabriel_defeated8": "ve günlerin az olsun!",
+        
+        "subtitles_mandalore_intro1": "<color=#FFC49E>Sonunda, bekleme bulmacamız bitti.</color>",
+        "subtitles_mandalore_intro2": "<color=#9EE6FF>Ne?</color>",
+        
+        "subtitles_mandalore_taunt1": "<color=#9EE6FF>Zehirleyeceğim lan seni!</color>",
+        "subtitles_mandalore_taunt2": "<color=#9EE6FF>Onu bir silahla vuracağım!</color>",
+        "subtitles_mandalore_taunt3": "<color=#FFC49E>Burada neyle karşılaşacağını hayal bile edemezsin.</color>",
+        "subtitles_mandalore_taunt4": "<color=#FFC49E>Yerinde dur!</color>",
+        "subtitles_mandalore_taunt5": "<color=#9EE6FF>Neden geçmişteyiz?</color>",
+        
+        "subtitles_mandalore_attack1": "Tam Otomatik.",
+        "subtitles_mandalore_attack2": "Daha Tam Otomatik",
+        
+        "subtitles_mandalore_phaseChangeFirst1": "<color=#FFC49E>Büyücülerin gücü sayesinde hızımı artırıyorum!</color>",
+        "subtitles_mandalore_phaseChangeFirst2": "<color=#9EE6FF>Sikicem artık vur şuna!</color>",
+        "subtitles_mandalore_phaseChangeSecond1": "<color=#FFC49E>Maksimum hızımı hisset!</color>",
+        "subtitles_mandalore_phaseChangeSecond2": "<color=#9EE6FF>Yavaşla!</color>",
+        "subtitles_mandalore_phaseChangeThird1": "<color=#9EE6FF>Tuzu kullan!</color>",
+        "subtitles_mandalore_phaseChangeThird2": "<color=#FFC49E>Hemen ulaşıyorum!</color>",
+        
+        "subtitles_mandalore_defeated": "<color=#9EE6FF>Ah ne güzel şimdi savaşı kaybettik, muhteşem.</color>",
+        
+        "subtitles_minosPrime_intro1": "Ah...",
+        "subtitles_minosPrime_intro2": "Nihayetinde hürriyet!",
+        "subtitles_minosPrime_intro3": "Ey Cebrâil...",
+        "subtitles_minosPrime_intro4": "Hesaplaşma vaktin yakındır,",
+        "subtitles_minosPrime_intro5": "Ve naaşın insanoğlunun mabetlerinin önünde parlayacaktır!",
+        "subtitles_minosPrime_intro6": "Çelik yaratık…",
+        "subtitles_minosPrime_intro7": "Özgürlüğüm için sana minnettarım.",
+        "subtitles_minosPrime_intro8": "Fakat türünün insanlığa karşı işlediği suçlar",
+        "subtitles_minosPrime_intro9": " UNUTULMAMIŞTIR!",
+        "subtitles_minosPrime_intro10": " Ve hak ettiğin ferman…",
+        "subtitles_minosPrime_intro11": "...ÖLÜMDÜR!",
+        
+        "subtitles_minosPrime_attack1": "Gardını al!",
+        "subtitles_minosPrime_attack2": "Sonun geldi!",
+        "subtitles_minosPrime_attack3": "Öl!",
+        "subtitles_minosPrime_attack4": "Yıkıl!",
+        "subtitles_minosPrime_attack5": "Yargı!",
+        
+        "subtitles_minosPrime_taunt1": "İşe Yaramaz!",
+        "subtitles_minosPrime_phaseChange": "ZAYIF!",
+        
+        "subtitles_minosPrime_defeated1": "Aah!",
+        "subtitles_minosPrime_defeated2": "Affedin beni evlatlarım…",
+        "subtitles_minosPrime_defeated3": "Size kurtuluş sağlayamadım",
+        "subtitles_minosPrime_defeated4": "...bu soğuk, karanlık dünyadan.",
+        
+        "subtitles_gabrielBoat1": "Korkmana gerek yok günahkâr",
+        "subtitles_gabrielBoat2": "Tanrı’ya bağlılığın içinde iyilik olduğunu gösteriyor;",
+        "subtitles_gabrielBoat3": "Hem de bolca.",
+        "subtitles_gabrielBoat4": "Kalp istekli ama vücut dinlenmeli,",
+        "subtitles_gabrielBoat5": "Rabbin yarattıklarından birini israf etmeyesin diye.",
+        
+        "subtitles_gabrielHeresy1": "Makine, burada olduğunu biliyorum",
+        "subtitles_gabrielHeresy2": "Kanlı ellerininin pis, küstah kokusunu alabiliyorum.",
+        "subtitles_gabrielHeresy3": "Seni aşağıda bekliyorum…",
+        "subtitles_gabrielHeresy4": "GEL BANA!",
+        
+        "subtitles_gabrielSecondIntro1": "Araf.",
+        "subtitles_gabrielSecondIntro2": "Şehvet.",
+        "subtitles_gabrielSecondIntro3": "Hepsi gitti…",
+        "subtitles_gabrielSecondIntro4": "Oburluk da yakında onlara katılacak.",
+        "subtitles_gabrielSecondIntro5": "Senin türün açlıktan başka hiçbir şey bilmiyor,",
+        "subtitles_gabrielSecondIntro6": "Üst katmanlardaki tüm yaşamı temizlediler,",
+        "subtitles_gabrielSecondIntro7": "Ve hâlâ doymadılar…",
+        "subtitles_gabrielSecondIntro8": "...tıpkı senin gibi.",
+        "subtitles_gabrielSecondIntro9": "Benim elimden her şeyimi aldın, Makine.",
+        "subtitles_gabrielSecondIntro10": "Ve artık geriye kalan tek şey,",
+        "subtitles_gabrielSecondIntro11": "KUSURSUZ ...",
+        "subtitles_gabrielSecondIntro12": "...NEFRET!",
+        
+        "subtitles_gabrielSecondFight1": "Makine.",
+        "subtitles_gabrielSecondFight2": "Seni keseceğim,",
+        "subtitles_gabrielSecondFight3": "parçalarına ayırıcağım,",
+        "subtitles_gabrielSecondFight4": "kâfir bedenindeki kanını TÜM KÂİNATA saçacağım!",
+        "subtitles_gabrielSecondFight5": "Kıvılcımların bile merhamet dilenene kadar sana ZULMEDECEĞİM!",
+        "subtitles_gabrielSecondFight6": "Ellerim seni yok etmekten ZEVK ALACAK!",
+        "subtitles_gabrielSecondFight7": "HEMDE BURADA",
+        "subtitles_gabrielSecondFight8": "VE",
+        "subtitles_gabrielSecondFight9": "ŞİMDİ!",
+        
+        "subtitles_gabrielSecondPhaseChange": "ELİNDEN GELENİN EN İYİSİ BU MU?!",
+        
+        "subtitles_gabrielSecondTaunt1": "DAHA FAZLA GÜCE İHTİYACIN VAR!",
+        "subtitles_gabrielSecondTaunt2": "GEL DE BİRAZ KAN AL!",
+        "subtitles_gabrielSecondTaunt3": "Bu HİS ne?",
+        "subtitles_gabrielSecondTaunt4": "ÇÖPTEN BAŞKA BİR ŞEY DEĞİLSİN!",
+        "subtitles_gabrielSecondTaunt5": "Paslanıyorsun, Maki̇ne!",
+        "subtitles_gabrielSecondTaunt6": "BUNA MI KAYBETTİM!?",
+        "subtitles_gabrielSecondTaunt7": "HATAMI DÜZELTME ZAMANI GELDİ!",
+        "subtitles_gabrielSecondTaunt8": "HADİ BUNU BİTİRELİM!",
+        "subtitles_gabrielSecondTaunt9": "SANA İLAHİ ADALETİ GÖSTERECEĞİM!",
+        "subtitles_gabrielSecondTaunt10": "Hadi Makine! Benimle bir HAYVAN gibi savaş!",
+        "subtitles_gabrielSecondTaunt11": "Daha önce hiç böyle savaşmamıştım!",
+        "subtitles_gabrielSecondTaunt12": "NE İÇİN YAPILDIĞINI GÖSTER!",
+        "subtitles_gabrielSecondTaunt13": "İşte BU Tanrı’nın iradesine layık bir savaş!",
+        "subtitles_gabrielSecondTaunt14": "Sana GERÇEK ihtişamı göstereceğim!",
+        
+        "subtitles_gabrielSecondDefeated1": "İki defa?! ",
+        "subtitles_gabrielSecondDefeated2": "Bir objeye yenildim… İKİ DEFA!",
+        "subtitles_gabrielSecondDefeated3": "Ben sadece zaferin tadını bilirdim,",
+        "subtitles_gabrielSecondDefeated4": "Ama bu tat… Bu...",
+        "subtitles_gabrielSecondDefeated5": "Bu benim kanım mı?",
+        "subtitles_gabrielSecondDefeated6": "Hiç böyle bir… ",
+        "subtitles_gabrielSecondDefeated7": "rahatlık hissetmemiştim..?",
+        "subtitles_gabrielSecondDefeated8": "D-düşünmek için biraz zamana ihtiyacım var…",
+        "subtitles_gabrielSecondDefeated9": "Yeniden görüşeceğiz, Makine.",
+        "subtitles_gabrielSecondDefeated10": "Dertlerin bol…",
+        "subtitles_gabrielSecondDefeated11": "...ve günlerin az olsun."
+        
+    },
+    
+    "misc": {
+        "hud_noArm1": "<color=red>TAKILI HİÇBİR KOLUN YOKSA VURAMAZSIN APTAL</color>",
+        "hud_noArm2": "Kollar mağazada tekrar takılabilir.",
+        "hud_majorAssists": "<color=#4C99E6>MAJÖR YARDIMLAR AÇIK.</color>",
+        "hud_overhealOrb1": "<color=red>KIRMIZI RUH KÜRELERİ</color> <color=lime>200 CAN</color> verir.",
+        "hud_overhealOrb2": "Bonus CAN kan ile doldurulamaz.",
+        "hud_itemGrabError": "<color=red>HATA: KAPANAN KAPI İÇERİ KİTLER</color>",
+        "hud_levelStats1": "Güncel bilgileri görmek için görevi tekrardan oynarken TAB’a basılı tut.",
+        "hud_levelStats2": "Açık tutmak için İKİ KERE BAS.",
+        "hud_outOfBounds": "Pardon…",
+        "hud_clashMode": "HİLE AÇILDI\"<color=orange>CLASH MODE</color>\"",
+        "hud_weaponVariation": "<color=orange>KUŞANILMIŞ</color> silah varyasyonları arasında geçiş yapmak için",
+        
+        "loading": "YÜKLENİYOR...",
+        
+        "stats_time": "ZAMAN",
+        "stats_kills": "LEŞLER",
+        "stats_style": "STİL",
+        "stats_secrets": "GİZEMLER",
+        "stats_challenge": "MÜCADELE",
+
+        "hellmap_prelude": "GİRİŞ",
+        "hellmap_limbo": "ARAF",
+        "hellmap_lust": "ŞEHVET",
+        "hellmap_gluttony": "OBURLUK",
+        "hellmap_greed": "HIRS",
+        "hellmap_wrath": "ÖFKE",
+        "hellmap_heresy": "İNKÂR",
+        "hellmap_prime": "KADİM",
+
+        "hellmap_first": "BİRİNCİ",
+        "hellmap_second": "İKİNCİ",
+        "hellmap_third": "ÜÇÜNCÜ",
+        "hellmap_fourth": "DÖRDÜNCÜ",
+        "hellmap_climax": "DORUK",
+        "hellmap_act1crescendo": "PERDE I KREŞENDO",
+        "hellmap_act1climax": "PERDE I DORUK",
+        "hellmap_act2crescendo": "PERDE II KREŞENDO",
+        "hellmap_act2climax": "PERDE II DORUK",
+        
+        "levelstats_time": "ZAMAN",
+        "levelstats_kills": "LEŞLER",
+        "levelstats_style": "STİL",
+        "levelstats_secrets": "GİZEM",
+        "levelstats_challenge": "MÜCADELE",
+        "levelstats_majorAssists": "MAJÖR YARDIM",
+        "levelstats_boxes": "KUTULAR",
+        
+        "state_activated": "AKTİF",
+        "state_deactivated": "PASİF",
+        "state_yes": "EVET",
+        "state_no": "HAYIR",
+        
+        "controls_leftClick": "Sol tık",
+        "controls_middleClick": "Orta tık",
+        "controls_rightClick": "Sağ tık",
+        
+        "endStats_cheatsUsed": "HİLE KULLANILDI",
+        "endStats_assistsUsed": "MAJÖR YARDIMLAR KULLANILDI",
+        "endStats_noRestarts": "YENİDEN BAŞLATMASIZ",
+        "endStats_restarts": "YENİDEN BAŞLATMA",
+        "endstats_noDamage": "HASARSIZ",
+        
+        "weapons_unavailable": "MEVCUT DEĞİL",
+        "weapons_alreadyBought": "SATIN ALINDI",
+        "weapons_underConstruction": "YAPIM AŞAMASINDA",
+
+        "pressToSkip": "Geçmek için <color=orange>ESC</color>’ye basın",
+
+        "youDied1": "[ÖLDÜN]",
+        "youDied2": "[R] İLE YENİDEN BAŞLA",
+
+        "classicHud_health": "CAN",
+        "classicHud_stamina": "ENERJİ",
+        "classicHud_weapon": "SİLAH",
+        "classicHud_arm": "KOL",
+        "classicHud_railcannonMeter": "ŞARJ",
+
+        "earlyAccessEnd1": "OYNADIĞINIZ İÇİN TEŞEKKÜRLER",
+        "earlyAccessEnd2": "PERDE III: İLAHİ İNTİHARI yapım aşamasında.",
+        "earlyAccessEnd3": "Haberler için bizi takip edin:"
+
+    }
+}

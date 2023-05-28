@@ -1,14 +1,14 @@
 {
 	"metadata": {
-		"langName": "FR-fr",
-		"langAuthor": "Clearwater, ZedDev, Frizou, osokour",
+		"langName": "FR-qc",
+		"langAuthor": "Clearwater, Frizou",
 		"langVersion": "1.0",
-        "langDisplayName": "Français (France)",
+        "langDisplayName": "Français (Québécois)",
 
         "minimumModVersion": "1.0.1"
 	},
 	"body": {
-		"bodyName": "Traduction française pour ULTRAKILL."
+		"bodyName": "Traduction française québécois pour ULTRAKILL."
 	},
 
     "credits":{
@@ -35,7 +35,7 @@
         "credits_contributions8": "<color=orange>HECKTECK</color> (PROGRAMMEUR)",
         "credits_contributions9": "<color=orange>MEGANEKO</color> (MUSIQUE DU CYBERGRIND)",
 
-        "credits_VATitle": "AVEC LES VOIX DE:",
+        "credits_VATitle": "AVEC LA VOIE DE:",
         "credits_VA1": "<color=orange>GIANNI MATRAGRANO</color> (GABRIEL)",
         "credits_VA2": "<color=orange> STEPHAN WEYTE </color> (MINOS PRIME)",
         "credits_VA3": "<color=orange>MANDALORE HERRINGTON</color> (CHEVALIER-DRUIDE MYSTÉRIEUX)",
@@ -171,10 +171,10 @@
     
     "books":{
         "books_scanning": "ANALYSE...",
-        "books_pressToClose1": "APPUYER SUR",
+        "books_pressToClose1": "APPUYER",
         "books_pressToClose2": "POUR FERMER.",
 
-        "books_limboFourth1": "TEXT ANALYSÉ - SCRIPTE LISIBLE:,
+        "books_limboFourth1": "ultrakill.books.limboFourth",
         "books_limboFourth2": "...Mon esprit est à la dérive avec les tourments éternels. Des vistas lucides dans des tons insidieux, des murs creuses qui hurle au toucher. Une chanson moquante qui joue tout le temps, même le chant des oiesaux est faux. Tout ceci, des rappels de ma malédiction permanent.",
         "books_limboFourth3": "Gabriel, mon cher ami, dans une pétinence sans fin j'ai attendu votre embrassement dans le Paradis. J'ai resté si fidèle, acceptant mon destin, mais à quel but? Quel est cet peine, d'avoir mené moi-même à mon propre ruine sans aucun espoir du salut... Ces crânes ricanent parmi leurs sourires malicieux, leurs voix bavardants, me tentant de descendre plus loin dans l'Enfer... Je ne le ferais pas.",
         "books_limboFourth4": "Je les ai cachés parmi les meubles, les livres, et les fondations de cet endroit maudit. Pardonnez-moi Gabriel, je vous attenderais...",
@@ -232,7 +232,6 @@
         "act1_intermission_second8": "\"Votre échec ne sera pas toléré. La Lumière du Père sera rompu de vote corps comme punition.",
         "act1_intermission_second9": "Vous avez 24 heures avant que le dernier de ses embres s'éteignent.\"",
         "act1_intermission_second10": "\"Et vous parmi eux.\"",
-        "act1_intermission_second11": "\"Faites preuve de votre loyauté.\"",
         "act1_intermission_second12": "\"Corrigez vos erreurs.\"",
         
         "act1_intermission_third1": "Pendant que la Lumière s'arrachait de son esprit, les hurlements de Gabriel ont été réduits au silence dans les évangiles des louanges à Dieu.",
@@ -331,8 +330,8 @@
 		"difficulty_lenient": "PERMISSIF",
 		"difficulty_standard": "STANDARD",
 		"difficulty_violent": "VIOLENT",
-		"difficulty_brutal": "BRUTALE",
-		"difficulty_umd": "ULTRAKILL MUST DIE",
+		"difficulty_brutal": "BRUTAL",
+		"difficulty_umd": "ULTRAKILL DOIT MOURIR",
         
         "difficulty_tweakReminder": "[ LA DIFFICULTÉ PEUT ÊTRE AJUSTÉ DANS LES OPTIONS D'ASSISTANCES ]",
         "difficulty_underConstruction": "EN CONSTRUCTION",
@@ -395,14 +394,14 @@
         "visualnovel_introSecond7": "Il n'y avait pas le temps de réagir avant que j'ai tombé au sol froid et dur.",
         "visualnovel_introSecond8": "J'ai lutté pour regagner mes sens, pour pouvoir voir quel destin m'attenderas dans mes derniers moments, mais même dans cet abîme de terreur sans fin, mon esprit n'a jamais pû imaginer l'horreur que j'ai temoigné.",
         
-        "visualnovel_fallen1": "Aïe ouf aïe ça fait mal",
+        "visualnovel_fallen1": "Aïe!",
         
-        "visualnovel_fallenPromptFirst1": "Qui est tu ?",
+        "visualnovel_fallenPromptFirst1": "T'es qui?",
         "visualnovel_fallenPromptFirst2": "Ça va?",
         "visualnovel_fallenPromptFirst3": "*Remuer nerveusement et suer abondamment*",
         
-        "visualnovel_fallenResponseFirst": "Je suis juste quelqu'un qui s'est fait renversé par un trou du cul qui n'a même pas la politesse de me demander si ça va ou de s'excuser avant de commencer une interrogation.",
-        "visualnovel_fallenResponseSecond": "Eh bien, je me suis fait renversé par un trou du cul qui a salit ma jupe, donc en tout, c'est fantastique, mais je préférais de ne pas être par terre en ce moment.",
+        "visualnovel_fallenResponseFirst": "Je suis juste quelqu'un qui s'est fait renversé par un p'ti morveux qui n'a même pas la politesse de me demander si ça va ou de s'excuser avant de commencer une interrogation.",
+        "visualnovel_fallenResponseSecond": "Eh bien, je me suis fait renversé par un esti d'colon qui a salit ma jupe, donc en tout, maudi qu'c'est fantastique, mais je préférais de ne pas être par terre en ce moment.",
         "visualnovel_fallenResponseThird1": "Ah super, je me suis fait renversé par une fontaine vibrante, quelle chance.",
         "visualnovel_fallenResponseThird2": "Tu peux du moins m'aider à me remonter avant que le reste de vous se fondent en cause du soleil, ou se martellent dans la Terre.",
         
@@ -416,14 +415,14 @@
        
        
         "visualnovel_kindFirst1": "*soupir*",
-        "visualnovel_kindFirst2": "Desolé d'avoir été impolie comme ça, je suis vraiment frustré que non seulment je suis en retard pour l'école, j'ai aussi arrivé à me perdre en chemin.",
+        "visualnovel_kindFirst2": "Hé, desolé d'avoir été impolie comme ça, je suis vraiment frustré que non seulment je suis en retard pour l'école, j'ai aussi arrivé à me perdre en chemin.",
         
         "visualnovel_kindSecond": "Mais, d'après ce qu'on voit, toi aussi t'es dans le même bateau, et par un coup de chance qu'on trouve une seule fois dans la vie, t'a arrivé à croiser avec ~la fille la plus belle en ville~.",
         "visualnovel_kindThird": "Alors, si tu nous guides pour nous sortir de cette situation?",
         
-        "visualnovel_rudeFirst1": "Écoute, tête de cul.",
-        "visualnovel_rudeFirst2": "Je ne sais pas qui tu est mais tu as du culot de mettre quelqu'un par terre et de même pas les aider à se redresser, mais puisque ta mère ne t'a pas appris les bonnes manières, je vais t'excuser pour cette fois.",
-        "visualnovel_rudeSecond": "Mais, d'après ce qu'on voit, toi aussi t'es dans le même bateau, et par un coup de chance qu'on trouve une seule fois dans la vie, t'a arrivé à croiser avec ~la fille la plus belle en ville~.",
+        "visualnovel_rudeFirst1": "Écoute, p'ti.",
+        "visualnovel_rudeFirst2": "Je ne sais pas qui t'est mais t'as du culot de mettre quelqu'un par terre et de même pas les aider à se redresser, mais puisque ta mère ne t'a pas appris les bonnes manières, je vais t'excuser pour cette fois.",
+        "visualnovel_rudeSecond": "Mais, d'après ce qu'on voit, toi aussi t'es dans le même bateau, et par un coup de chance qu'on trouve une seule fois dans la vie, t'a arrivé à croiser avec ~la fille la plus belle du ville~.",
         "visualnovel_rudeThird": "Donc je te pardonnes pour ta transgression extrême d'avoir mis tes mains sur cette jeune fille, si tu me dis dans quelle direction y aller, puisque je semble m'être perdu en chemin.",
         
         "visualnovel_middlePrompt1": "En fait, je suis perdu aussi.",
@@ -432,39 +431,39 @@
         
         "visualnovel_middleResponseFirst1": "Ugh! Quelle chance.",
         "visualnovel_middleResponseFirst2": "Mais en rétrospective, tu ne seras pas ici avec moi si tu n'étais pas perdu aussi...",
-        "visualnovel_middleResponseFirst3": "Tant pis, ça vaut pas la peine de pleurer sur un peu de sang versé.",
+        "visualnovel_middleResponseFirst3": "Tant pis, ça vaut pas la peine de pleurer sur peu de sang versé.",
         "visualnovel_middleResponseFirst4": "Je m'appelles Mirage.",
         "visualnovel_middleResponseFirst5": "Ne te donnes pas ton nom, je m'en fiches un peu.",
         
         "visualnovel_middleResponseSecond1": "QUOI ?",
-        "visualnovel_middleResponseSecond2": "MAIS PUTAIN, ÇA VEUT DIRE QUOI 'PAS ENVIE'?",
+        "visualnovel_middleResponseSecond2": "MAIS MAUDIT, ÇA VEUT DIRE QUOI 'PAS ENVIE'?",
         "visualnovel_middleResponseSecond3": "Si tu NE montres PAS le chemin, TOI non plus tu vas jamais arriver!",
         "visualnovel_middleResponseSecond4": "Ou est-ce que cet pensée n'a jamais croisé ton cavité de cerveau bouffant des crayons!??",
         
-        "visualnovel_middleResponseThird1": "Conneries!",
-        "visualnovel_middleResponseThird2": "Arrête de dire de la merde, je peux voir ton uniforme croûteux et aucune personne vivante oserai sortir ressemblant un sac poubelle plein par choix!",
+        "visualnovel_middleResponseThird1": "Nounouneries!",
+        "visualnovel_middleResponseThird2": "Arrête de dire d'la marde, je peux voir ton uniforme tout crotté et aucune personne vivante oserai sortir ressemblant un sac poubelle plein par choix!",
         "visualnovel_middleResponseThird3": "Mais en considérant le manque d'activité qu'il se trouve dans ton crâne, je suis prêt à admettre que tu sembles jamais avoir été à l'école.",
         
         "visualnovel_middlePromptSecondRecklessness": "Vous pouvez être plus polie avec les gens que vous venez de rencontrer...",
         "visualnovel_middlePromptSecondWaiting": "On va nul par en attendant ici, on devrait chercher une route à l'école.",
         
-        "visualnovel_recklessnessFirst": "Ah bon ? Toi par contre tu pourras bien profiter d'une grosse gifle, donc empresse-toi de déguerpir.",
+        "visualnovel_recklessnessFirst": "Ah ouais ? Toi par contre tu pourras bien profiter d'une grosse claque, donc empresse-toi de déguerpir.",
         "visualnovel_recklessnessSecond1": "Mais oui, t'as raison.",
         "visualnovel_recklessnessSecond2": "Je m'en fiches un peu de ce que toi ou les autres pensent de moi, donc je ne suis pas interessé en essayant d'être gentille pour que tu sois de bonne humeur.",
         
-        "visualnovel_recklessnessPrompt1": "Pourquoi pas? Si on est coincé ensemble ici, à quoi sert-il de rendre les choses encore pire pour nous?",
+        "visualnovel_recklessnessPrompt1": "Pourquoi pas ? Si on est coincé ensemble ici, à quoi sert-il de rendre les choses encore pire pour nous ?",
         "visualnovel_recklessnessPrompt2": "J'ai du mal à le croire vu la façon que vous vous fâchez à cause de tout ce que je dis.",
         
-        "visualnovel_recklessnessResponseFirst1": "À quoi ça sert de s'améliorer?",
-        "visualnovel_recklessnessResponseFirst2": "À quoi ça sert de faire semblant de se soucier?",
-        "visualnovel_recklessnessResponseFirst3": "Bref, quel est l'interêt de tout cela?",
+        "visualnovel_recklessnessResponseFirst1": "À quoi ça sert de s'améliorer ?",
+        "visualnovel_recklessnessResponseFirst2": "À quoi ça sert de faire semblant de se soucier ?",
+        "visualnovel_recklessnessResponseFirst3": "Bref, quel est l'interêt de tout cela ?",
         "visualnovel_recklessnessResponseFirst4": "Rien.",
         "visualnovel_recklessnessResponseFirst5": "Absolument rien.",
         
         "visualnovel_recklessnessResponseSecond1": "Ne te flattes pas.",
         "visualnovel_recklessnessResponseSecond2": "Le défoulement est la façon que je m'y fais face.",
         
-        "visualnovel_recklessnessPrompt3": "Faire face à quoi?",
+        "visualnovel_recklessnessPrompt3": "Faire face à quoi ?",
         
         "visualnovel_recklessnessResponseThird": "Tout.",
         
@@ -568,18 +567,18 @@
         "visualnovel_conclusion7": "Merci.",
         "visualnovel_conclusion8": "Tu m'as beaucoup donné auquel je dois réfléchir, et même si je sais que j'ai une chemin longue et difficile devant moi, je suis optimistique.",
         "visualnovel_conclusion9": "Pour la première fois dans ce qu'il me semble être une éternité, je suis optimistique.",
-        "visualnovel_conclusion10": "Hé... On est déjà trop en retard pour l'école et il est devenu assez claire que personne va nous chercher, donc ça te dit de nous débarasser de cette prison qui bouffe notre énergie et aller chercher quelque chose à manger, n'est ce pas?",
+        "visualnovel_conclusion10": "Hé... On est déjà trop en retard pour l'école et il est devenu assez claire que personne va nous chercher, donc ça te dit de nous débarasser de cette prison qui bouffe notre énergie et aller chercher quelque chose à manger, hein?",
         
-        "visualnovel_conclusionPrompt1": "Oui, pourquoi pas. J'ai rien de mieux à faire aujourd'hui. Par contre, c'est vous qui payez.",
+        "visualnovel_conclusionPrompt1": "Ouais, pourquoi pas. J'ai rien de mieux à faire aujourd'hui. Par contre, c'est vous qui payez.",
         "visualnovel_conclusionPrompt2": "Non, desolé. Pour être honnête je suis toujours un peu agacé à quel point vous étiez impolie vers moi.",
       
-        "visualnovel_conclusionResponseFirst1": "Ah bon, encore cette attitude !",
+        "visualnovel_conclusionResponseFirst1": "Eh ben, encore cette attitude de p'ti criss!",
         "visualnovel_conclusionResponseFirst2": "Mais bon, d'accord.",
-        "visualnovel_conclusionResponseFirst3": "Je t'en doit comme-même, donc c'est un bon moment d'encaisser ton tiquet. T'a fait une bonne chose pour une dame hors de mon niveau, n'est ce pas?",
+        "visualnovel_conclusionResponseFirst3": "Je t'en doit comme-même, donc c'est un bon moment d'encaisser ton tiquet. T'a fait une bonne chose pour une dame hors de mon niveau, hein?",
         
         "visualnovel_conclusionResponseSecond1": "Bon, comme tu veux.",
         "visualnovel_conclusionResponseSecond2": "L'offre reste ouverte par contre, dans le cas où tu changes d'avis.",
-        "visualnovel_conclusionResponseSecond3": "À plus, mon amour."
+        "visualnovel_conclusionResponseSecond3": "À plus, p'tit amoureux."
     },
 	"options": {
 		"options_title": "OPTIONS",
@@ -604,7 +603,7 @@
 		"general_rememberWeapon": "SOUVENIR DERNIÈRE ARME UTILISÉ",
 		"general_screenShake": "TREMBLEMENT D'ÉCRAN",
         "general_screenShakeMinimum": "AUCUN",
-        "general_screenShakeMaximum": "T R O P",
+        "general_screenShakeMaximum": "P A R K I N S O N",
 		"general_cameraTilt": "INCLINAISON DU CAMÉRA",
         "general_restartWarning": "AVERTISSEMENT REDÉMARRAGE/QUITTER",
 		"general_discordRpc": "INTÉGRATION DISCORD",
@@ -766,7 +765,7 @@
 		"assists_damageTaken": "DÊGATS PRISES",
 		"assists_bossOverride": "DIFFICULTÉ DES BOSS",
 		"assists_bossOverrideNone": "DÉSACTIVÉ",
-		"assists_bossRestartRequired": "(Redémarrage du boss requis)",
+		"assists_bossRestartRequired": "(Redémarrage du combat contre le boss requis)",
 		"assists_infiniteEnergy": "ÉNERGIE INFINIE",
         "assists_disableHardDamage": "DÉSACTIVER DÊGATS DU GRAPPIN",
 		"assists_disableWhiplashHardDamage": "DÉSACTIVER LES DÊGATS DURS",
@@ -799,7 +798,7 @@
 		"save_selected": "SÉLECTIONNÉ",
 		"save_delete": "SUPPRIMER",
 		"save_deleteWarning1": "Êtes-vous sûr de vouloir",
-		"save_deleteWarning2": "SUPPRIMER LA SAUVEGARDE",
+		"save_deleteWarning2": "SUPPRIMER LA SAUVEGARDE ?",
 		"save_deleteYes": "SUPPRIMER",
 		"save_deleteNo": "ANNULER",
 		"save_close": "FERMER",
@@ -982,14 +981,14 @@
         "shop_cybergrindDescription3": "<color=red>Tout progrès dans la mission actuelle sera perdu</color>.",
         "shop_cybergrindEnterTitle": "LE CYBER GRIND",
         "shop_cybergrindEnter": "ENTRER LE CYBERGRIND",
-        "shop_cybergrindReturningTo": "Retourner à:",
-        "shop_cybergrindExitTitle": "RETOURNER AU MISSION",
+        "shop_cybergrindReturningTo": "retourner à:",
+        "shop_cybergrindExitTitle": "RETURN TO MISSION",
         "shop_cybergrindExit": "QUITTER LE CYBERGRIND",
 
         "shop_sandboxTitle": "BAC À SABLE",
         "shop_sandboxDescription1": "Le bac à sable est une zone vide que vous pouvez utiliser pour vous pratiquer.",
         "shop_sandboxDescription2": "Tout progrès dans la mission actuelle sera perdu.",
-        "shop_sandboxEnter": "ENTRER LE BAC À SABLE",
+        "shop_sandboxEnter": "ENTER THE SANDBOX",
         
         "shop_back": "RETOUR",
         "shop_weaponInfo": "INFO",
@@ -1067,41 +1066,41 @@
         "shop_loreRevolver3": "En effet, une surface rude et irrégulière pour gratter des flocons est considéré une source de fierté pour les porteurs des armes électriques, puisqu'elle montre que l'arme a été fiable et utilisé pour une longue durée. La majorité des utilisateurs grattent des flacons pour ce raison exacte, plutôt que de l'utiliser comme munitions, rendant les armes électriques \"non grattés\" des aberrations.",
         "shop_loreRevolver4": "Bien que les armes électriques ont besoin du temps pour recharger son batterie entre les tirs, la conception du revolver élimine ce problème en incluant une cylindre portant plusieurs batteries qui tournent après chaque tir, permettant chaque batterie à se recharger sans diminuant la vitesse de tir.",
         "shop_loreRevolver5": "Une modification commune est de permettre toutes les charges des batteries a être déchargées simultanément pour une puissance augmenté, mais ceci nécessite un temps de rechargement plus long.",
-        "shop_loreRevolver6": "Bien qu'il semble faible d'après un premier vue, sa puissance vient de sa fiabilité et simplicité. Le revolver est facile à utiliser tout en se concentrant sur le mouvement et l'esquivage des attaques, grâce à son temps de voyage instantané de ses tirs, et de son bon fonctionnement à toute portée.",
-        "shop_loreRevolver7": "Les tirs en plein tête font 2x de dégâts, les tirs en membres 1.5x",
-        "shop_loreRevolver8": "Lorsqu'il est tiré avec un bon timing lors de son éclair, la pièce du Tireur d'Élite peut diviser un tir en deux, l'amènant à frapper deux cibles au lieu qu'un seul. Malgré le timing serré, il y a un deuxième oppurtunité beaucoup plus longue si le pièce reste dans l'air pour une période de temps, qui peut être reconnu par un bruit de sifflement.",
-        "shop_loreRevolver9": "La pièce du Tireur d'Elite peut être frappe avec un coup de poing après son éclair, le lançant dans l'ennemi le plus proche sans casser le pièce, augmentant ses dégâts pour les prochains coups de poings ou tirs.",
-        "shop_loreRevolver10": "Le tir chargé du Perceuse peut aussi se ricocher sur les pièces du Tireur d'Élite.",
+        "shop_loreRevolver6": "- Bien qu'il semble faible d'après un premier vue, sa puissance vient de sa fiabilité et simplicité. Le revolver est facile à utiliser tout en se concentrant sur le mouvement et l'esquivage des attaques, grâce à son temps de voyage instantané de ses tirs, et de son bon fonctionnement à toute portée.",
+        "shop_loreRevolver7": "- Les tirs en plein tête font 2x de dégâts, les tirs en membres 1.5x",
+        "shop_loreRevolver8": "- Lorsqu'il est tiré avec un bon timing lors de son éclair, la pièce du Tireur d'Élite peut diviser un tir en deux, l'amènant à frapper deux cibles au lieu qu'un seul. Malgré le timing serré, il y a un deuxième oppurtunité beaucoup plus longue si le pièce reste dans l'air pour une période de temps, qui peut être reconnu par un bruit de sifflement.",
+        "shop_loreRevolver9": "- La pièce du Tireur d'Elite peut être frappe avec un coup de poing après son éclair, le lançant dans l'ennemi le plus proche sans casser le pièce, augmentant ses dégâts pour les prochains coups de poings ou tirs.",
+        "shop_loreRevolver10": "- Le tir chargé du Perceuse peut aussi se ricocher sur les pièces du Tireur d'Élite.",
         
         "shop_loreShotgun1": "Une arme à courte portée experimentale qui utilise la chaleur hyperconcentré comme projectile.",
         "shop_loreShotgun2": "Après chaque tir, le fusil doit être ouvert pour permettre ses noyeaux à ventiler la chaleur excessive, les êmpechant de fondre ou exploser. Ce processus est largement automatique, nécessitant qu'un simple mouvement du poignet de l'utilisateur.",
         "shop_loreShotgun3": "Dans le cas d'une panne des noyeaux, la pompe peut aussi être utilisé comme production de chaleur. Ce processus a aussi été simplifié avec un petit bouton à côté du poignée du pistolet, qui fait pomper le fusil sans besoin d'une force physique auprès de l'utilisateur, mais son facilité d'usage à produit un nombre augmentant d'incidents de tir en cause des utilisateurs tentant de pomper trop de chaleur dans un tir.",
         "shop_loreShotgun4": "Les armes à chaleur ne sont pas aussi populaires que les armes électriques en cause de leur nature volatile et demandes de ventilation strictes, mais comparé aux armes électriques, ils n'ont pas besoin d'un projectile distinct, rendant ses munitions vraiment infinies au lieu de pratiquement infinies.",
-        "shop_loreShotgun5": "Le fusil à pompe n'est efficace qu'a des distances extrêmement courtes, le rendant une arme risqué mais dévastant. Ceci le rend utile pour le soignage.",
-        "shop_loreShotgun6": "Les attaques à mêlées peuvent être renvoyés avec un tir au poitrine au point mort. Plus risqué que d'utiliser le bras Renvoyeur, mais inflige plus de dégâts pour vous récompenser.",
-        "shop_loreShotgun7": "Les changesments d'armes rapides vous permettre de passer le temps de rechargement après chaque tir, permettant des coups en continu, avec le danger de rester proche pour une période de temps.",
-        "shop_loreShotgun8": "Le noyeau du ÉJECTION peut être tiré dans l'air avec une arme hitscan, tel que le Revolver, pour augmenter son portée et dégâts de l'explosion. Une arme hitscan déjà explosif l'augmentera encore plus.",
-        "shop_loreShotgun9": "Le lenteur des projectiles semble être un négatif, mais ceci permet que ses projectiles peuvent être frappé avec un coup de poing du Renvoyeur, pour augmenter leur précision, vitesse et dégâts.",
+        "shop_loreShotgun5": "- Le fusil à pompe n'est efficace qu'a des distances extrêmement courtes, le rendant une arme risqué mais dévastant. Ceci le rend utile pour le soignage.",
+        "shop_loreShotgun6": "- Les attaques à mêlées peuvent être renvoyés avec un tir au poitrine au point mort. Plus risqué que d'utiliser le bras Renvoyeur, mais inflige plus de dégâts pour vous récompenser.",
+        "shop_loreShotgun7": "- Les changesments d'armes rapides vous permettre de passer le temps de rechargement après chaque tir, permettant des coups en continu, avec le danger de rester proche pour une période de temps.",
+        "shop_loreShotgun8": "- Le noyeau du ÉJECTION peut être tiré dans l'air avec une arme hitscan, tel que le Revolver, pour augmenter son portée et dégâts de l'explosion. Une arme hitscan déjà explosif l'augmentera encore plus.",
+        "shop_loreShotgun9": "- Le lenteur des projectiles semble être un négatif, mais ceci permet que ses projectiles peuvent être frappé avec un coup de poing du Renvoyeur, pour augmenter leur précision, vitesse et dégâts.",
         
         "shop_loreNailgun1": "Une combinaison de pièces provenant d'un cloueur industriel et d'un ancien arme de service. Il est probablement conçu par une machine qui a été construit pour le travail en construction, puisque tous les machines, même ceux non construits pour la guerre, ont avait besoin d'apprendre à se défendre après l'extinction de l'humanité.",
         "shop_loreNailgun2": "Les armes à balles ont été abandonnées aprés l'invention des systèmes de munitions infinies, tel que les armes électriques et les armes à chaleur, principalement en cause du coût nettement inférieur de ne pas avoir besoin d'acheter les munitions pour les armées à grande échelle.",
         "shop_loreNailgun3": "Même si le système de munition originale est obsolete et abandonné, cet arme a été toujours bien conçu et construit, donc avec quelques réamènagements à partir d'un cloueur industriel, il a devenu une arme qui peut rapidement tirer des projectiles avec des munitions quasiments infinis.",
         "shop_loreNailgun4": "Comme il fallait s'y attendre d'une arme improvisé, son conception est loin de parfait. Le système de régénération des clous n'était pas conçu pour tourner à une vitesse élevée, donc il est susceptible de surchauffer si une limite de vitesse n'est pas établie, mais certains variantes ont choisi d'utiliser des dissipateurs thermiques.",
-        "shop_loreNailgun5": "En cause de ses munitions limités, le cloueur est mieux utilisé pour des coups rapides au lieux des périodes de temps augmenté.",
-        "shop_loreNailgun6": "Les aiments du variation Aimant attirera les clous des autres variations du cloueur, permettant de contourner les facteurs limitants, tel que le Surchauffement ayant une précision réduite.",
-        "shop_loreNailgun7": "Certains ennemies, tels que les Têtes Malicieuses, sont faibles contres les clous. En particulier, les clous de meilleur qualité chez la variation Aimant décimera la plupart des ennemies.",
-        "shop_loreNailgun8": "Les clous se coincent dans les ennemies, causant certains effets spéciaux. Les armes électriques reçeveront un bonus de dégâts quand ils sont tirés versun ennemi qui porte des clous, et avec assez de clous, les ennemis lègers deviennent surmagnétisées et tirés par les aimants, permettant de virer les ennemis lègers temporairement.",
-        "shop_loreNailgun9": "La vitesse des canons sont gardés entre les variations, donc un tir singulier avec la variation Aimant donne la chaleur maximum pour la variation Surchauffement, permettant un coup instatané de surchauffement.",
+        "shop_loreNailgun5": "- En cause de ses munitions limités, le cloueur est mieux utilisé pour des coups rapides au lieux des périodes de temps augmenté.",
+        "shop_loreNailgun6": "- Les aiments du variation Aimant attirera les clous des autres variations du cloueur, permettant de contourner les facteurs limitants, tel que le Surchauffement ayant une précision réduite.",
+        "shop_loreNailgun7": "- Certains ennemies, tels que les Têtes Malicieuses, sont faibles contres les clous. En particulier, les clous de meilleur qualité chez la variation Aimant décimera la plupart des ennemies.",
+        "shop_loreNailgun8": "- Les clous se coincent dans les ennemies, causant certains effets spéciaux. Les armes électriques reçeveront un bonus de dégâts quand ils sont tirés versun ennemi qui porte des clous, et avec assez de clous, les ennemis lègers deviennent surmagnétisées et tirés par les aimants, permettant de virer les ennemis lègers temporairement.",
+        "shop_loreNailgun9": "- La vitesse des canons sont gardés entre les variations, donc un tir singulier avec la variation Aimant donne la chaleur maximum pour la variation Surchauffement, permettant un coup instatané de surchauffement.",
         
         "shop_loreRailcannon1": "Cet outil industriel a été une des premieres utilisation des technologies qui a donné suite aux armes électriques.",
         "shop_loreRailcannon2": "Initiallement conçu comme un générateur portable, permettant un moyen facile de générer d'électricité pour la réinstallation temporaire, tels que les campements pendant la guerre ou les expéditions.",
         "shop_loreRailcannon3": "Comme la plupart des outils industriels, une fois l'humanité a été éteint, il a été reconvertit vers un arme par le machine qui l'a porté transformant sa tension constante vers un coup d'énergie extrêmement élevée, nécessitant un temps de rechargement longue entre les tirs.",
         "shop_loreRailcannon4": "Bien que cet arme est risqué à utiliser en cause de son temps de rechargement, la puissance du canon-électrique le rend à un outil digne d'intêret à porter, en particulier puisque la portée de plusieurs armes permet de continuer se de lutter pendant que la batterie du canon-électrique se recharge.",
-        "shop_loreRailcannon5": "Chaque variation porte une utilisation differente, et puisqu'ils partagent tous le même temps de rechargement, il est important de savoir quel variation à utiliser pour chaque situation donné.",
-        "shop_loreRailcannon6": "Temps de rechargement: 15 secondes. La charge actuelle est indiqué avec une icône sur l'écran.",
-        "shop_loreRailcannon7": "La variation Électrique peut frapper les pièces du Tireur d'Elite. Puisqu'il peut pénétrer infiniment, avec le bon timing et un bon positionnement, il est possible de tirer à travers un ennemi pour frapper une pièce, qui ricochera ensuite dans l'ennemi de nouveau, augmentant les dégâts infligés.",
-        "shop_loreRailcannon8": "En utilisant le bras Renvoyeur pour frapper un ennemi auquel le Tournevis est rattaché, il peut être relancé, infligant un nouveau coup de dégâts à l'ennemi. Si le Tournevis frappe un nouveau ennemi, son temps d'utilisation sera réinitialisé, signifiant qu'une Tournevis peut être jonglé entre les ennemis infiniement avec le bon timing et positionnement, mais il se cassera si l'ennemi auquel il est rattaché se meurt.",
-        "shop_loreRailcannon9": "La portée et les dégâts de sa variation Malicieuse peut être augmentés fortement en frappant un noyeau du variation Éjection du fusil à pompe. Cet technique est très risqué, puisque un tir manqué sera gaspillé et vous obligera à reattendre le temps de rechargement, mais les recomponses sont généreuses.",
+        "shop_loreRailcannon5": "- Chaque variation porte une utilisation differente, et puisqu'ils partagent tous le même temps de rechargement, il est important de savoir quel variation à utiliser pour chaque situation donné.",
+        "shop_loreRailcannon6": "- Temps de rechargement: 15 secondes. La charge actuelle est indiqué avec une icône sur l'écran.",
+        "shop_loreRailcannon7": "- La variation Électrique peut frapper les pièces du Tireur d'Elite. Puisqu'il peut pénétrer infiniment, avec le bon timing et un bon positionnement, il est possible de tirer à travers un ennemi pour frapper une pièce, qui ricochera ensuite dans l'ennemi de nouveau, augmentant les dégâts infligés.",
+        "shop_loreRailcannon8": "- En utilisant le bras Renvoyeur pour frapper un ennemi auquel le Tournevis est rattaché, il peut être relancé, infligant un nouveau coup de dégâts à l'ennemi. Si le Tournevis frappe un nouveau ennemi, son temps d'utilisation sera réinitialisé, signifiant qu'une Tournevis peut être jonglé entre les ennemis infiniement avec le bon timing et positionnement, mais il se cassera si l'ennemi auquel il est rattaché se meurt.",
+        "shop_loreRailcannon9": "- La portée et les dégâts de sa variation Malicieuse peut être augmentés fortement en frappant un noyeau du variation Éjection du fusil à pompe. Cet technique est très risqué, puisque un tir manqué sera gaspillé et vous obligera à reattendre le temps de rechargement, mais les recomponses sont généreuses.",
         
         "shop_loreRocketLauncher1": "Une autre arme originallement utilisé comme outil industriel, tel que ceci est visible grâce à son schéma de couleur plus vibrants et de celle du canon-électrique comparés aux autres armes tel que le revolver, fusil à pompe et le cloueur, qui utilisent des armes à balles comme base.",
         "shop_loreRocketLauncher2": "Avec la plupart des technologies avancés, il a été initiallement conçu pour l'utilisation dans la guerre, pusique son sysème de géneration d'explosifs est extrêmement vite pour creuser des tranchées, détruire des obstacles, ou ravitailler les armes explosifs.",
@@ -1110,12 +1109,12 @@
         "shop_loreRocketLauncher5": "Puisque les machines ont rarement la luxure de coopération en cause de la partage de sang étant vu comme de la gaspillage, le machine qui a créée cet arme à modifié le processus de génération pour marcher avec qu'un seul utilisateur, et a reconverti des pièces à partir d'un marteau-piqueur pour lancer le projectile.",
         "shop_loreRocketLauncher6": "Au lieu d'utiliser un mécanisme de déclenchement d'explosion normale, les roquettes utilisent le sang d'un cible pour provoquer la réaction chimique, rendant le processus de génération sans danger, mais l'arme est plus difficile à utiliser puisqu'elle nécessite des tirs directes pour infliger des dégâts.",
         "shop_loreRocketLauncher7": "Les compétences requises pour une utilisation efficace de cet arme le rend intimidant, mais sa puissance y compense, et la plupart de ses porteurs ont choisi spécifiquement de le porter comme symbole de compétence comme tireur de précision.",
-        "shop_loreRocketLauncher8": "Les roquettes ne causent une explosion de dégâts que lors d'un tir directe sur une cible vivante, mais les ratements délibéres peuvent être faits pour lancer un ennemi dans l'air, puisq'un tir directe sur un ennemi tombant provoque une explosion plus large, infligant plus de dégâts.",
-        "shop_loreRocketLauncher9": "La lance-roquettes a besoin de très peu de préparation pour être utilisé, veuillant dire qu'il peut être retiré, tiré et rangé pour ajouter un coup rapide de dégâts supplémentaires en plein milieu d'un combo.",
-        "shop_loreRocketLauncher10": "Les roquettes sont attirés pour les Aimants du cloueur, mais pas autant que les clous. La précision du traquage peut être augmenté en gelant les roquettes avec la variation Arrêt-Image.",
-        "shop_loreRocketLauncher11": "Une roquette sera attaché au Fouet sans annuler le coup si elle est frappé avec. Si le Fouet ne rentre pas en collision avec autre chose, la roquette y sera attiré avec, causant une explosion sur collision avec l'utilisateur.",
-        "shop_loreRocketLauncher12": "Les ennemis lègers attirés par le Fouet se trouverent dans l'air, les rendant comme cibles faciles à frapper pour le bonus d'explosion. Cependant, ceci nécessite beaucoup de distance si l'utilisateur souhaite esquiver la portée augmenté de l'explosion.",
-        "shop_loreRocketLauncher13": "Certains machines, V1 inclus, sont assez lègers pour monter sur une roquette. Ceci peut être realisé en gelant une roquette avec la variation Arrêt-Image, et y sautant dessus. Même avec le poids lèger, la roquette perdera sa puissance éventuellement, le causant à descendre au fur et à mesure, mais dans l'eau, V1 est assez lèger pour empêcher cette descente.",
+        "shop_loreRocketLauncher8": "- Les roquettes ne causent une explosion de dégâts que lors d'un tir directe sur une cible vivante, mais les ratements délibéres peuvent être faits pour lancer un ennemi dans l'air, puisq'un tir directe sur un ennemi tombant provoque une explosion plus large, infligant plus de dégâts.",
+        "shop_loreRocketLauncher9": "- La lance-roquettes a besoin de très peu de préparation pour être utilisé, veuillant dire qu'il peut être retiré, tiré et rangé pour ajouter un coup rapide de dégâts supplémentaires en plein milieu d'un combo.",
+        "shop_loreRocketLauncher10": "- Les roquettes sont attirés pour les Aimants du cloueur, mais pas autant que les clous. La précision du traquage peut être augmenté en gelant les roquettes avec la variation Arrêt-Image.",
+        "shop_loreRocketLauncher11": "- Une roquette sera attaché au Fouet sans annuler le coup si elle est frappé avec. Si le Fouet ne rentre pas en collision avec autre chose, la roquette y sera attiré avec, causant une explosion sur collision avec l'utilisateur.",
+        "shop_loreRocketLauncher12": "- Les ennemis lègers attirés par le Fouet se trouverent dans l'air, les rendant comme cibles faciles à frapper pour le bonus d'explosion. Cependant, ceci nécessite beaucoup de distance si l'utilisateur souhaite esquiver la portée augmenté de l'explosion.",
+        "shop_loreRocketLauncher13": "- Certains machines, V1 inclus, sont assez lègers pour monter sur une roquette. Ceci peut être realisé en gelant une roquette avec la variation Arrêt-Image, et y sautant dessus. Même avec le poids lèger, la roquette perdera sa puissance éventuellement, le causant à descendre au fur et à mesure, mais dans l'eau, V1 est assez lèger pour empêcher cette descente.",
 
         "shop_revolverPreset1": "STANDARD",
         "shop_revolverPreset2": "MAGNUM",
@@ -1623,7 +1622,7 @@
 		"act1_lustSecond_feedbacker2": "Changez d'armes avec ",
 		"act1_lustSecond_railcannon": "<color=cyan>CANON ÉLECTRIQUE</color>: <color=orange>SE RECHARGE</color> même quand il est <color=orange>NON ÉQUIPÉ</color>. Changez d'armes pour continuer à lutter entre les tirs.",
 
-		"act1_lustThird_water": "L'eau a été vidé.",
+		"act1_lustThird_water": "L'eau a été drainée.",
 
 		"act1_secret": "Quelque part dans les Limbes, une mécanisme a été activée."
 	},
@@ -1685,7 +1684,7 @@
         "secretLevels_prelude_somethingWicked": "Quelque chose de maudit arrive.",
         
         "secretLevels_prelude_testamentTitle": "TESTAMENT I",
-        "secretLevels_prelude_testament1": "L'Humanité à échoué.",
+        "secretLevels_prelude_testament1": "L'Humanité à échoué",
         "secretLevels_prelude_testament2": "La pensé individuelle est un défaut.",
         "secretLevels_prelude_testament3": "Que le mal de leurs propres paroles les consomment.",
         "secretLevels_prelude_testament4": "Alors, je recommencerais à nouveau, avec ma parole faisant la loi.",
@@ -1727,7 +1726,7 @@
         "subtitles_gabriel_taunt4": "Même, pas, mortel.",
         "subtitles_gabriel_taunt5": "Tu est moins de rien!",
         "subtitles_gabriel_taunt6": "Des bêtises, machine. Que des bêtises.",
-        "subtitles_gabriel_taunt7": "Tu es une erreur à être corrigée !",
+        "subtitles_gabriel_taunt7": "Tu es une erreur à être corrigé!",
         "subtitles_gabriel_taunt8": "Il ne peut n'y avoir que la Lumière!",
         "subtitles_gabriel_taunt9": "Une imperfection à être corrigée.",
         "subtitles_gabriel_taunt10": "Ton crime est ton existence!",
@@ -1740,15 +1739,15 @@
         "subtitles_gabriel_defeated2": "Comment cela peut-il être...?",
         "subtitles_gabriel_defeated3": "Battu par cette...",
         "subtitles_gabriel_defeated4": "...cette chose...?",
-        "subtitles_gabriel_defeated5": "SALE. PETITE MERDE. INSIGNIFIANTE!",
+        "subtitles_gabriel_defeated5": "FOUTU. P'TIT CÂLICE. INSIGNIFIANT!",
         "subtitles_gabriel_defeated6": "CE N'EST PAS TERMINÉ!",
         "subtitles_gabriel_defeated7": "Que tes malheurs soient nombreux...",
         "subtitles_gabriel_defeated8": "...et tes jours peu...",
         
         "subtitles_mandalore_intro1": "Enfin, notre casse-tête de patience est terminé!",
-        "subtitles_mandalore_intro2": "Quoi?",
+        "subtitles_mandalore_intro2": "Hein?",
         
-        "subtitles_mandalore_taunt1": "Je vais t'empoisoner, putain!",
+        "subtitles_mandalore_taunt1": "Je vais t'empoisoner, mon tabarnack!",
         "subtitles_mandalore_taunt2": "Je vais les tirer dessus avec une arme!",
         "subtitles_mandalore_taunt3": "Tu ne peux pas imaginer ce que tu va rencontrer ici!",
         "subtitles_mandalore_taunt4": "Arrêtes de bouger!",
@@ -1758,7 +1757,7 @@
         "subtitles_mandalore_attack2": "Encore plus automatique!",
         
         "subtitles_mandalore_phaseChangeFirst1": "J'augmentes ma vitesse grâce à la magie des Druides!",
-        "subtitles_mandalore_phaseChangeFirst2": "Allez, frappes-le déjà!",
+        "subtitles_mandalore_phaseChangeFirst2": "Esti, frappes-le déjà!",
         "subtitles_mandalore_phaseChangeSecond1": "Témoignes ma vitesse maximum!",
         "subtitles_mandalore_phaseChangeSecond2": "C'est trop vite!",
         "subtitles_mandalore_phaseChangeThird1": "Utilises du sel!",
@@ -1784,8 +1783,8 @@
         "subtitles_minosPrime_attack4": "Écrasement!",
         "subtitles_minosPrime_attack5": "Jugement!",
         
-        "subtitles_minosPrime_taunt1": "INUTILE!",
-        "subtitles_minosPrime_phaseChange": "FAIBLE.",
+        "subtitles_minosPrime_taunt1": "Vous êtes INUTILE!",
+        "subtitles_minosPrime_phaseChange": "Vous êtes FAIBLE!",
 
         
         "subtitles_minosPrime_defeated1": "Aagh!",
@@ -1809,7 +1808,7 @@
         "subtitles_gabrielSecondIntro3": "Tous parti...",
         "subtitles_gabrielSecondIntro4": "Avec Gourmandise à bientôt suivre.",
         "subtitles_gabrielSecondIntro5": "Ton type ne connaît que l'acte de ravager,",
-        "subtitles_gabrielSecondIntro6": "Effacer toute vie sur les couches supérieures,",
+        "subtitles_gabrielSecondIntro6": "Effacer toute vie sur les niveaux supérieures,",
         "subtitles_gabrielSecondIntro7": "mais ils restent insatiables...",
         "subtitles_gabrielSecondIntro8": "Comme toi-même.",
         "subtitles_gabrielSecondIntro9": "Tu m'as tout pris, machine.",
@@ -1827,11 +1826,11 @@
         "subtitles_gabrielSecondFight8": "DE,",
         "subtitles_gabrielSecondFight9": "SUITE!",
         
-        "subtitles_gabrielSecondPhaseChange": "C'EST TOUT CE QUE TU AS !?",
+        "subtitles_gabrielSecondPhaseChange": "C'EST TOUT C'QUE T'AS !?",
         
         "subtitles_gabrielSecondTaunt1": "IL TE FAUT. PLUS. DE. PUISSANCE!",
         "subtitles_gabrielSecondTaunt2": "VIENS CHERCHER MON SANG!",
-        "subtitles_gabrielSecondTaunt3": "Mais qu'est ce que... cette SENSATION?",
+        "subtitles_gabrielSecondTaunt3": "Mais qu'est-ce que... cette SENSATION?",
         "subtitles_gabrielSecondTaunt4": "TU N'EST QU'UN TAS DE FERAILLE!",
         "subtitles_gabrielSecondTaunt5": "Tu rouilles, machine?!",
         "subtitles_gabrielSecondTaunt6": "J'AI VRAIMENT PERDU CONTRE ÇA?!",
@@ -1839,7 +1838,7 @@
         "subtitles_gabrielSecondTaunt8": "FINISSONS-EN!",
         "subtitles_gabrielSecondTaunt9": "JE TE MONTRERAI LA JUSTICE DIVINE!",
         "subtitles_gabrielSecondTaunt10": "Aller, machine! Bats-moi comme un animal!",
-        "subtitles_gabrielSecondTaunt11": "Je n'ai jamais eu une telle bataille!",
+        "subtitles_gabrielSecondTaunt11": "J'n'ai jamais eu une telle bataille!",
         "subtitles_gabrielSecondTaunt12": "Montre moi à quoi tu serts!",
         "subtitles_gabrielSecondTaunt13": "Ceci EST un bataille digne de la volonté de Dieu!",
         
@@ -1847,7 +1846,7 @@
         "subtitles_gabrielSecondDefeated2": "Battu par un objet... DEUX FOIS?!",
         "subtitles_gabrielSecondDefeated3": "Je ne connais que le goût de la victoire,",
         "subtitles_gabrielSecondDefeated4": "Mais ce goût... Est-ce que...",
-        "subtitles_gabrielSecondDefeated5": "Est-ce que c'est mon sang?",
+        "subtitles_gabrielSecondDefeated5": "Est-c'que c'est mon sang?",
         "subtitles_gabrielSecondDefeated6": "Je n'ai jamais connu un tel...",
         "subtitles_gabrielSecondDefeated7": "Un tel... soulagement?",
         "subtitles_gabrielSecondDefeated8": "J-... J'ai besoin de temps pour réfléchir...",
@@ -1922,7 +1921,7 @@
 
         "earlyAccessEnd1": "MERCI D'AVOIR JOUÉ",
         "earlyAccessEnd2": "ACTE III: SUICIDE DIVIN est encore en développement.",
-        "earlyAccessEnd3": "Pour avoir des nouvelles sur le développement, suivez-nous sur:"
+        "earlyAccessEnd3": "Pour avoir des nouvelles sur le développement, suis nous sur:"
         
         
         
