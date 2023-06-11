@@ -1,12 +1,12 @@
 {
 	"metadata": {
 		"langName": "ru-RU",
-		"langAuthor": "Nessie_A_WA97, D4N5T3P, Edith, lrddd, Brainy-Stormie, IceSpire, towelie84, mctaylors, S☻lidus Cumcer, Filin, Ega1232387",
+		"langAuthor": "Nessie_A_WA97, D4N5T3P, Edith, lrddd, Brainy-Stormie, IceSpire, towelie84, mctaylors, Solidus Cumcer, Filin, Ega1232387",
 		"langVersion": "1.1.1",
 		"langDisplayName": "Русский",
 		"langRTL": "false",
 
-		"minimumModVersion": "1.2.0"
+		"minimumModVersion": "1.2.1"
 	},
 	"body": {
 		"bodyName": "Русский перевод игры ULTRAKILL."
