@@ -24,6 +24,12 @@
 			"versionNumber": "2.2"
 		},
 		{
+			"languageTag": "fi-TA",
+			"languageFullName": "Filipino",
+			"author": "mxkyle, MecanicWithAPistol, FinnianNiko",
+			"versionNumber": "1.0"
+		},
+		{
 			"languageTag": "fr-FR",
 			"languageFullName": "Français",
 			"author": "Clearwater, ZedDev, Frizou, osokour",
