@@ -2,52 +2,485 @@
 	"metadata": {
 		"langName": "zh-CN",
 		"langAuthor": "Hydracerynitis, duke325, ponyweeb, Skugra, GoblinGo, ciinore",
-		"langVersion": "1.0.0",
+		"langVersion": "1.1.0",
         "langDisplayName": "简体中文",
-        "minimumModVersion": "1.1.1",
-        "langRTL": "false"
+        "langRTL": "false",
+
+        "minimumModVersion": "1.2.2"
 	},
-    
+
 	"body": {
-		"bodyName": "简体中文本地化试做"
+		"bodyName": "简体中文本地化"
 	},
-    "credits":{
-        "credits_title": "ULTRAKILL",
-        "credits_createdBy": "由<color=orange>ARSI \"HAKITA\" PATALA</color>制作",
 
-        "credits_helpedByTitle": "感谢以下协助开发:",
-        "credits_helpedBy1": "<color=orange>DAVE OSHRY</color> (执行制作人)",
-        "credits_helpedBy2": "<color=orange>PITR</color> (程序员)",
-        "credits_helpedBy3": "<color=orange>RYANN VICTORIA</color> (3D美术 & 着色器程序)",
-        "credits_helpedBy4": "<color=orange>SAMUEL JAMES BRYAN</color> (3D美术)",
-        "credits_helpedBy5": "<color=orange>BIGROCKBMP</color> (概念美术)",
-        "credits_helpedBy6": "<color=orange>JERICHO_RUS</color> (插画家, 概念&材质美术)",
-        "credits_helpedBy7": "<color=orange>FRANCIS XIE</color> (概念&材质美术)",
+    "devMuseum": {
+        "museum_bookHakita1": "<b>嘿呀!</b>欢迎来到开发者博物馆.我叫Hakita,是这个游戏的首席开发者.在最开始的时候,这游戏主要是我一个人开发的,但这些年来随着时间的推移游戏越做越大,我也得到了许多优秀的人帮助我开发,所以大家都在这里了!",
+        "museum_bookHakita2": "这个博物馆主要由Vvizard创建,我只是帮忙进行了润色,迭代,写作和额外彩蛋,你可以在走到大厅再左转到 \"休息厅 \"里找到他.",
+        "museum_bookHakita3": "四处转转吧!在一楼你能找到所有给这个游戏的开发有提供过帮助的人,而在二楼你能找到所有与开发相关的有趣的东西,例如游戏的早期内容以及废稿内容.博物馆内也藏有很多彩蛋哦!",
+        "museum_bookHakita4": "大多数开发者面前都会像这样的一本书,你可以阅读书来了解他们帮助创造这个游戏的细节.这本是我的!",
+        "museum_bookHakita5": "<b><color=orange>HAKITA</color> - ULTRAKILL的创造者</b>",
+        "museum_bookHakita6": "我从2018年2月1号开始开发这个游戏.当时只有我一个人.当时只有我一个人负责开发.FlyingDog和Toni Stigell偶尔也会来提供点3D建模.虽然现在开发团队与那时比\n已经有了明显的改变与发展,但我仍然负责大部分的开发.....只是现在是接近60%的量,而不是以往的99%.",
+        "museum_bookHakita7": "我的贡献包括:",
+        "museum_bookHakita8": "- 所有开发指导,游戏设计,声效设计,故事和动画",
+        "museum_bookHakita9": "- 除了这个博物馆,沙盘和5-S外的所有关卡设计",
+        "museum_bookHakita10": "- 除了一些公共领域的和客串作曲家的歌曲外所有的音乐(走到大厅再左转你就会见到他们).",
+        "museum_bookHakita11": "- 大多数写作,编程和美术指导.",
+        "museum_bookHakita12": "- 总的而言,只要是在这游戏里的,都会有我的影子.",
+        "museum_bookHakita13": "感谢您游玩ULTRAKILL,希望您能享受这游玩体验.一个只是探索游戏内乐趣的激情项目最终能发展成这样如此巨大的成功,对我来说实在是太难以置信了.感谢这款游戏让我能遇到了很多了不起的人.围绕这个游戏的玩家社区也成了我生活中众多喜悦(与煎熬)的源泉.能够以完全的创意掌控来创作作品并且无需妥协也能以自己的艺术维生,这都是一个异常难得的天赐.而一切都将归功于New Blood,这博物馆里的所有开发者,以及\n最为重要的……<b>你!</b>.",
 
-        "credits_contributionsTitle": "感谢以下提供帮助:",
-        "credits_contributions1": "<color=orange>MAXIMILIAN OVESSON</color> (UI美术)",
-        "credits_contributions2": "<color=orange>JACOB H.H.R.</color> (作家 [散文&对话])",
-        "credits_contributions3": "<color=orange>FLYINGDOG</color> (3D美术)",
-        "credits_contributions4": "<color=orange>TONI STIGELL</color> (3D美术)",
-        "credits_contributions5": "<color=orange>BEN MOIR</color> (程序员)",
-        "credits_contributions6": "<color=orange>LUCAS VARNEY</color> (程序员)",
-        "credits_contributions7": "<color=orange>EMANUIL \"CABALCROW\" CHIZHOV</color> (程序员)",
-        "credits_contributions8": "<color=orange>HECKTECK</color> (程序员)",
-        "credits_contributions9": "<color=orange>MEGANEKO</color> (电子血宫音乐作曲家)",
+        "museum_bookFrancisXie1": "<b><color=#4AACBD>FRANCIS XIE</color> - 概念与贴图美术</b>",
+        "museum_bookFrancisXie2": "Francis在2021年愤怒层开发的初期加入了开发团队.由于他卓越的ULTRAKILL同人画,他被选中成为了New Blood的美术设计",
+        "museum_bookFrancisXie3": "他的重要贡献包括但不限于:",
+        "museum_bookFrancisXie4": "- 利维坦,摆渡人和米诺斯与西西弗斯生前的设计以及他们的肖像.",
+        "museum_bookFrancisXie5": "- 6-2:憎恶美学的教堂管风琴的设计.",
+        "museum_bookFrancisXie6": "- 一个名为激光切刀的废稿武器的设计",
+        "museum_bookFrancisXie7": "- 5-3:愚人号专属贴图及几乎所有异端层的贴图",
+        "museum_bookFrancisXie8": "- 所有开发者的毛绒玩偶形象的设计.",
+        "museum_bookFrancisXie9": "\"如果不是这款游戏的话我也不会在这里任职而且我很高兴我能与ULTRAKILL相遇.谢谢你Hakita,其余开发团队以及所有New Blood的员工.你们都是非常了不起的人一直支持我\n所做的事.特别感谢我最好的朋友鼓励我追求我真正热爱的事;成为这团队的一员对我来说是美梦成真.为最美妙的项目干杯!\"",
 
-        "credits_VATitle": "感谢以下贡献配音:",
-        "credits_VA1": "<color=orange>GIANNI MATRAGRANO</color> (加百列)",
-        "credits_VA2": "<color=orange> STEPHAN WEYTE </color> (米诺斯之魂)",
-        "credits_VA3": "<color=orange>MANDALORE HERRINGTON</color> (德鲁伊骑士)",
-        "credits_VA4": "<color=orange>JUST SHAMMY </color> (&猫头鹰)",
+        "museum_bookJerichoRus1": "<b><color=orange>JERICHO_RUS</color> - 概念与贴图美术</b>",
+        "museum_bookJerichoRus2": "Jericho在2019年我们发布序章demo前不久加入了开发团队.他负责游戏里众多角色的设计和大多数武器的设计,以及第2-4层的关卡贴图与愤怒层的部分关卡贴图设计.",
+        "museum_bookJerichoRus3": "他的重要贡献包括但不限于:",
+        "museum_bookJerichoRus4": "- V1和加百列的设计",
+        "museum_bookJerichoRus5": "- 众多敌人的设计,包括浮游机,清道机和兵骸",
+        "museum_bookJerichoRus6": "- 除了最初的左轮和霰弹外所有武器及其改版变种的设计",
+        "museum_bookJerichoRus7": "- 被用作为封面画的主要宣传画",
+        "museum_bookJerichoRus8": "- 大多数关卡贴图,其中包括第2-4层的所有关卡贴图",
+        "museum_bookJerichoRus9": "- 2-S的所有的美术",
+        "museum_bookJerichoRus10": "\"嗨,感谢制作团队其他成员和享受我们创作成果的你们.在ULTRAKILL的开发过程中我遇过了许多很棒的人并希望以后也能继续下去.向SXBIG与Luvoid致敬!\"",
 
-        "credits_QATitle": "感谢以下的质量保证:",
-        "credits_QA1": "<color=orange>CAMERON MARTIN</color> (首席QA)",
-        "credits_QA2": "<color=orange>TUCKER WILKIN </color> (高级QA)",
-        "credits_QA3": "<color=orange>SCOTT GURNEY </color> (技术QA)",
-        "credits_QA4": "<color=orange>DALIA FIGUEROA </color> (QA&宣传材料)"
+        "museum_bookBigRockBMP1": "<b><color=#DA6B6D>BIGROCKBMP</color> - 概念美术</b>",
+        "museum_bookBigRockBMP2": "BigRock在2019年序章开发期间加入了开发团队.他是游戏的第一位概念美术,负责游戏内许多boss的设计,例如游戏第一个被设计出来的角色,重剑机.",
+        "museum_bookBigRockBMP3": "他的重要贡献包括但不限于:",
+        "museum_bookBigRockBMP4": "- 许多游戏内的boss的设计,包括重剑机,米诺斯王的残骸和丑恶巨物",
+        "museum_bookBigRockBMP5": "- 许多游戏内的敌人的设计,包括摄魂机,圣像和警哨机",
+        "museum_bookBigRockBMP6": "- 质洁圣所里所有boss的设计",
+        "museum_bookBigRockBMP7": "- 5-3:愚人号里手持火箭筒的摆渡人的油画",
+        "museum_bookBigRockBMP8": "\"最初当Hakita问我来为他的游戏设计一个boss,我根本不会想到ULTRAKILL会发展成这么宏大.看着这么多人画我设计的角色的同人画令我生畏,但同时也是在激励我在尝试成为艺术家的路上继续下去.我也希望我的作品能鼓励其他人拿起画笔在同一条道路上启程.\"",
+
+        "museum_bookMaximilianOvesson1": "<b><color=#8f65da>MAXIMILIAN OVESSON</color> - UI美术</b>",
+        "museum_bookMaximilianOvesson2": "Maximilian在2018年我们刚刚开始开发游戏时加入了开发团队.他负责了用于UI里的武器图标,玩家死亡后的骷髅头动画以及游戏的logo.",
+        "museum_bookMaximilianOvesson3": "\"我很荣幸我能在创建ULTRAKILL的过程中扮演了一个小角色并很感谢能有机会成为他的一部分.感谢你能邀请我,也感谢所有玩家们的支持\"",
+
+        "museum_bookVictoriaHolland1": "<b><color=#F5ABB9>VICTORIA HOLLAND</color> - 首席3D美术及图像编程员</b>",
+        "museum_bookVictoriaHolland2": "Victoria在2020年边缘层开发的末期加入了开发团队.她最开始与Sam一起工作.而自从第二章开发开始后,她一个人负责了游戏中的所有3D建模,唯一的例外是西西弗斯反叛者.她同样负责了所有的着色器和几乎所有的图像系统及其优化.",
+        "museum_bookVictoriaHolland3": "她的重要贡献包括但不限于:",
+        "museum_bookVictoriaHolland4": "- 许多第一章里的模型,包括污骸,米诺斯王的残骸和轨道炮的模型",
+        "museum_bookVictoriaHolland5": "- 除了西西弗斯反叛者的所有第二章里的模型",
+        "museum_bookVictoriaHolland6": "- 编程了所有的着色器",
+        "museum_bookVictoriaHolland7": "- 编程了大多数图像系统及其优化",
+        "museum_bookVictoriaHolland8": "\"不要浪费时间去活在担忧之中.自信地迈出第一步, 欣然接受你想要成为的自己.在这一问题你并不孤单,所以去好好地活出你真实的自己并享受过程中的旅程吧.\"",
+
+        "museum_bookToniStigell1": "<b><color=orange>TONI STIGELL</color> - 3D美术</b>",
+        "museum_bookToniStigell2": "Toni Stigell在2018年初我们刚刚开始开发游戏时加入了开发团队.我们之前在几个\n小项目上有所合作,例如现已取消的的潜行游戏Untraceable.该游戏也是刻耳柏洛斯的原型冥想者雕像的来源.",
+        "museum_bookToniStigell3": "除此之外,他在2019年中离开此项目前为ULTRAKILL设计了众多早期角色的模型.他同样也是了最初污骸模型的动画的作者.虽然那些模型后来都被替换掉了,神秘邪物仍还使用它最初的动画,使其成为游戏内唯一一个并不是出自我手的动画.",
+        "museum_bookToniStigell4": "他的重要贡献包括但不限于:",
+        "museum_bookToniStigell5": "- 污骸,重剑机和反馈臂的最初模型",
+        "museum_bookToniStigell6": "- 最初版本的污骸的设计",
+        "museum_bookToniStigell7": "- 让我入坑鬼泣系列的罪魁祸首",
+
+
+        "museum_bookFlyingDog1": "<b><color=#6a36be>FLYINGDOG</color> - 3D美术</b>",
+        "museum_bookFlyingDog2": "FlyingDog在2018年初我们刚刚开始开发游戏时加入了开发团队.他设计并制作了众多该游戏的第一批3D模型及其贴图.虽然其中大多数模型都被后来重做并替换了,新模型还是基于他的最初设计上重制的.你还能在各处作为彩蛋找到他的最初模型.他在2019年中最后对游戏的贡献是反馈臂的贴图.",
+        "museum_bookFlyingDog3": "他的重要贡献包括但不限于:",
+        "museum_bookFlyingDog4": "- 最初版本的左轮,霰弹和恶意石面的设计及模型",
+        "museum_bookFlyingDog5": "- 最初版本的钉枪的模型和贴图",
+        "museum_bookFlyingDog6": "- 最初版本的污骸和重剑机的贴图",
+
+        "museum_bookSamuelJamesBryan1": "<b><color=orange>SAMUEL JAMES BRYAN</color> - 3D美术</b>",
+        "museum_bookSamuelJamesBryan2": "Sam在2019年中在边缘层开发初期加入开发团队并负责了第一幕大多数敌人的建模,包括V1,V2和加百列.在2021年初他对游戏最后的建模是西西弗斯反叛者的建模.从此之后他大部分时间转移到了其他的项目,但他偶尔也会帮忙提供反馈和建模建议.",
+        "museum_bookSamuelJamesBryan3": "\"没啥想法,问Hakita吧.\"",
+
+        "museum_bookQATeam1": "<b><color=red>CAMERON MARTIN</color> - 首席QA",
+        "museum_bookQATeam2": "<color=#6a36be>DALIA FIGUEROA</color> - QA,宣传录像与截图",
+        "museum_bookQATeam3": "<color=#11c324>TUCKER WILKIN</color> - 高级QA",
+        "museum_bookQATeam4": "<color=#e28eb6>SCOTT GURNEY</color> - 技术QA</b>",
+        "museum_bookQATeam5": "New Blood的QA团队(Cameron,Dalia,Tucker和Scott)负责保证游戏能正确地\n运行且没有任何重大bug.多亏了他们ULTRAKILL才能看起来和玩起来都想是一个正常运行的游戏,尽管实际上它是由胶带,意面,胶水及祷告组成的乱麻.在ULTRAKILL加入 New Blood游戏集前我得自己做QA.然而即使是最少量的查错都能我去怀疑这些人是如\n何能维持他们的理智的.",
+        "museum_bookQATeam6": "...好吧,应该是较为理智.",
+        "museum_bookQATeam7": "\"用伟大的匈牙利中锋Nandor Hidegkuti的不朽名言来说 - 'Amikor eljön a forradalom, a zeneipar lesz az első amely menni fog. Köszönöm szépen' ('当革命到来之时,音乐产业将首当其冲.感谢各位.')\"",
+        "museum_bookQATeam8": "\"无论是游戏,音乐,电影还是他人的陪伴,一定要享受你经历过的美好时光并始终以积极的心态回顾你的人生.生命是宝贵的,而它终究是属于你的专属演出.充实地享受你的人生,给予所有人尊重与爱.他人脸上的微笑永远值得你的付出\"",
+        "museum_bookQATeam9": "\"我心灵上所有的伤痕之中,这一位总会我所青睐的.从那受诅咒的门到意外的生成臂错位,这无论如何都是段美妙的时光!有时电子游戏真的可以非常酷.希望我们能有更多这样的作品!\"",
+        "museum_bookQATeam10": "\"能够为实现像Hakita那样的创意设想提供帮助不仅是一种绝对的荣幸也是一段难忘的经历.我会永远感激能有这样的机会并且期待接下来会发生的一切.\"",
+
+
+        "museum_bookPitr1": "<b><color=orange>PITR</color> - 首席编程员</b>",
+        "museum_bookPitr2": "PITR早就在2019末就开始在编程上提供帮助,但由于他制作的ULTRAKILL模组以及对自定义关卡的初步尝试,他才在2020年初正式加入开发团队.他负责编程游戏内最为复杂的系统,例如作弊,电子血宫地形以及字幕.他还自行制作了沙盘和5-S,我只提供了小量的美观上的润色.",
+        "museum_bookPitr3": "基本上,当你翻看游戏的代码时看到任何一段算是写的不错的,那多半是出自他手.",
+        "museum_bookPitr4": "他的重要贡献包括但不限于:",
+        "museum_bookPitr5": "- 沙盘和5-S的关卡设计及编程",
+        "museum_bookPitr6": "- 编程了最为复杂的系统,例如作弊,电子血宫地形以及字幕",
+        "museum_bookPitr7": "- 许多游戏优化及bug修复",
+        "museum_bookPitr8": "- 许多编程帮助",
+
+        "museum_bookHeckteck1": "<b><color=orange>HECKTECK</color> - 额外编程员</b>",
+        "museum_bookHeckteck2": "由于他从制作ULTRAKILL模组的经验与技术,Heckteck在2022年初临时加入开发团队来重做游戏的技巧系统,将武器新鲜度机制添加进系统中.除此之外他还负责了些其他提升游戏体验的功能",
+        "museum_bookHeckteck3": "\"今年的收成不行啊\"",
+
+        "museum_bookCabalcrow1": "<b><color=silver>EMANUIL \"CABALCROW\" CHIZHOV</color> - 额外编程员</b>",
+        "museum_bookCabalcrow2": "CabalCrow是带动了这游戏速通浪潮的第一批硬核ULTRAKILL粉丝.他在游戏有QA团队前为搜查bug给予大量的帮助并提供了早期宣传片内大多数的宣传录像.他的编程贡献则体现在2020年创建的踏岩系统,允许玩家能平滑地踏过较小的路坎或障碍物.",
+        "museum_bookCabalcrow3": "\"你知道他们是怎么说的:50刀那也是50刀啊\"",
+
+        "museum_bookLucasVarney1": "<b><color=#BD8BF3>LUCAS VARNEY</color> - 额外编程员</b>",
+        "museum_bookLucasVarney2": "Lucas是另一位New Blood编程员.大多数情况下他都会开发自己的游戏,但时不时会在\n必要的时候帮助ULTRAKILL的开发.他的贡献大多都是优化相关,帮助游戏运行更好或制作了方便优化关卡的开发工具.",
+        "museum_bookLucasVarney3": "\"非常感谢这里的所有人,同样包括正在读这本书的你!制作电子游戏永远都是我的梦想,但我从未想象过我能'专业地'开发一款游戏.由于焦虑我从高中早早辍学,当时我感觉我真的会抛弃我的生命.但我从未放弃过,也永远不会!无论你是谁请不要失去希望,并永远记住只有没人受伤,忠于你自己去做你喜欢的事并不可耻.你不仅仅是你身上的标签,而你的价值不只是你纸上的资历.享受那些一点一滴,接受那些能让你开心的事,并努力成为最好的你.\"",
+
+        "museum_bookBenMoir1": "<b><color=#3EF242>BEN MOIR</color> - 额外编程员</b>",
+        "museum_bookBenMoir2": "Ben又名\"僵尸\"是居住在New Blood的编程巫师.他游走于各种项目,修复困难的问题并\n给予编程建议.你会遇到的每一个问题他都能给出答案来.",
+        "museum_bookBenMoir3": "虽然他在ULTRAKILL的大多数贡献是帮助其他编程员,他自己也编程了一些游戏里的系统,例如手柄支持和自动瞄准.",
+        "museum_bookBenMoir4": "\"嘿,Hakita!我们能在游戏说'fuck'吗?\"",
+
+        "museum_bookMeganeko1": "<b><color=#E93436>MEGANEKO</color> - 客串作曲家</b>",
+        "museum_bookMeganeko2": "我在2020年初遇到Meganeko.当时BigRock,他的粉丝,注意到他已经关注了ULTRAKILL的推特账号并问了他们是否有兴趣来合作.最开始我并没有什么具体想法.当他发送给我一段测试音频展示他会编写什么样的音乐时,我立刻感觉它会是用于某种无尽生存模式的完美音乐.",
+        "museum_bookMeganeko3": "那段测试音频最终经历了几个月的迭代后,成为了电子血宫名义上的背景音乐.某种程度上,你可以感谢他创造了那个模式.",
+        "museum_bookMeganeko4": "\"游玩早期demo给了我难以置信的灵感!能将这灵感带回进游戏里感觉有点离奇.非常感谢Hakita和BigRock提供了这次机会!\"",
+
+        "museum_bookKeygenChurch1": "<b><color=#aa0000>KEYGEN CHURCH</color> - 客串作曲家</b>",
+        "museum_bookKeygenChurch2": "Keygen Church亦名Master Boot Record在2022年中末找到了我,而我当时\n已是Keygen Church名下音乐的粉丝,所以我很开心有他作为客串作曲家加入团队.\n这时间点又非常完美,因为他的风格又很契合异端层的画风,于是他创作了P-2的第一首战斗音乐\"Tenebre Rosso Sangue\".",
+        "museum_bookKeygenChurch3": "我们还在ARG上进行合作,由他承担了大部分工作因为他在他的项目中完成了相似的内容。",
+        "museum_bookKeygenChurch4": "\"低分辨率.高想象力.赞美代码\"",
+
+        "museum_bookHealth1": "<b><color=red>HEALTH</color> - 客串作曲家</b>",
+        "museum_bookHealth2": "<b><color=red>BENJAMIN MILLER</color> - 鼓手",
+        "museum_bookHealth3": "<color=red>JACOB DUZSIK</color> - 歌手,吉他手",
+        "museum_bookHealth4": "<color=red>JOHN FAMIGLIETTI</color> - 贝斯手,软件后期</b>",
+        "museum_bookHealth5": "在2023年初我们与乐队HEALTH合作在电子血宫首演了他们的歌曲\"HATEFUL\".自从我在马克思·佩恩3听到他们的音乐后我就一直是他们的粉丝.他们那热血沸腾的重音电子乐会完美契合ULTRAKILL里的混沌,所以我很高兴他们的音乐能成为这游戏的一部分.",
+        "museum_bookHealth6": "\"重归电子血宫\"",
+
+        "museum_bookQuetzalTirado1": "<b><color=#AA4CAD>QUETZAL TIRADO</color> - 客串作曲家</b>",
+        "museum_bookQuetzalTirado2": "我在2021年初通过一个共同朋友遇到Quetzal,当时我问她是否能为P-1的曲子\"CHAOS\"录制一段萨克斯独奏.这段独奏最后并不如预期,但其中部分音频仍被包含并分散在曲目中以增加噪音和纹理.",
+        "museum_bookQuetzalTirado3": "后来,她为5-1曲子\"Deep Blue\"录制了一段即兴萨克斯独奏,然后我将它剪辑进你听到的曲目的最终版本.她还录制了低音单簧管的嗡鸣声,那最后变成了西西弗斯反叛者的号角音效.",
+        "museum_bookQuetzalTirado4": "\"我妈妈非常喜欢我在ULTRAKILL里的曲子,所以我认为我现在已经可以称作是一位成功的音乐家了吧?还有感谢那些同性恋.在那水声把音乐搞砸的关卡里找到我,宝贝\"",
+
+        "museum_bookSalad1": "<b><color=#20FF20>SALAD</color> - JAKITO的画师</b>",
+        "museum_bookSalad2": "Salad画了Jakito.",
+        "museum_bookSalad3": "他的重要贡献包括但不限于:",
+        "museum_bookSalad4": "- Jakito",
+        "museum_bookSalad5": "\"你要加入还是观望?\"",
+
+        "museum_bookJacobHHR1": "<b><color=#FFB2DC>JACOB H.H.R.</color> - 作家(文章&对话)</b>",
+        "museum_bookJacobHHR2": "在我通过一个共同游戏开发朋友与他相见后Jacob在2020年初加入了开发团队.他主要负责为你在关卡里找到的各种书籍提供写作,编写加百列的对话以及创作幕间过场动画文本.在第一章中,我为每一篇文本具体有啥内容纂出一个大致的大纲,他会根据这大纲进行创作,我最后则会提供一些调整和点缀.而在第二章文本写作更多是我们之间50/50的平均分配.",
+        "museum_bookJacobHHR3": "极大多数能在ULTRAKILL社区中成为标志性的诗歌般短句或强有力的台词都将归功于他对英语的精通.",
+
+        "museum_bookVVizard1": "<b><color=#ee0c47>VVIZARD</color> - 博物馆建造者</b>",
+        "museum_bookVVizard2": "由于他对于ULTRAKILL早期关卡编辑器的经历与技术,Vvizard在2022年末临时加入团队来创建这个博物馆.他设计了这个关卡并为此制作了所有的模型和贴图.",
+        "museum_bookVVizard3": "如果你在想为什么这是游戏内最亮眼的关卡,他就是原因.",
+        "museum_bookVVizard4": "\"ULTRAKILL为啥对我这么特别的回答足够我编纂一本书,能够制作这款游戏将会是永远我铭记在心的事.我希望我能继续与New Blood的精彩的员工一起处事,而我与社区的交\n互帮我成为了这团队的一部分.有时我在想颠倒这多米诺骨牌的起点在哪,终点却又在哪.还有如果Oyff能看见的话,一个优秀的Youtube视频(The ULTRAKILL Rip and Tear)真的能改变你的一生.\"",
+
+        "museum_bookAdditionalMusic1": "额外音乐致谢:",
+        "museum_bookAdditionalMusic2": "\"Take Care\",商店音乐: 采样于Russ Morgan Orchestra的\"Were You Foolin'\n\"(公有领域)",
+        "museum_bookAdditionalMusic3": "\"Cerberus\" 用于0-5:地狱看守:采样于古典音乐Gustav Holst's Planets Suite的\"Mars, the Bringer of War\"(公有领域)",
+        "museum_bookAdditionalMusic4": "\"Clair de Lune\"用于1-4:皎洁月光:由Claude Debussy编曲,Laurens Goedhart演奏(CC3.0许可协议)",
+        "museum_bookAdditionalMusic5": "\"BWV 639 'I call to you, Lord Jesus Christ'\"用于3-2:肉身降临:由\nJohann Sebastian Bach编曲(公有领域)",
+        "museum_bookAdditionalMusic6": "\"The Spinal Staircase\"用于P-1: 幸存魂灵:采样于Maurice Depret的\n\"Sourire d'Avril\"(公有领域)",
+        "museum_bookAdditionalMusic7": "\"CHAOS\"用于P-1:幸存魂灵:由Quetzal Tirado即兴演奏并录制的低音单簧管和高\n音萨克斯",
+        "museum_bookAdditionalMusic8": "\"Deep Blue\"用于5-1:海神苏醒:由Quetzal Tirado即兴演奏并录制的次中音萨克\n斯,由Hakita剪辑",
+        "museum_bookAdditionalMusic9": "\"Fallen Angel\" 用于6-2:憎恶美学: 改编于Johann Sebastian Bach的\"BWV 639 'I call to you, Lord Jesus Christ'\" ",
+        "museum_bookAdditionalMusic10": "\"7th Symphony, 2nd Movement: Allegretto\"用于幕间2:由Ludwig van Beethoven编写,由Lambis Vassiliadis演奏 (公有领域)",
+
+        "museum_bookAdditionalCredits1": "<b><color=orange>额外致谢:</color></b>",
+        "museum_bookAdditionalCredits2": "<b><color=orange>电子血宫地形</color></b>来自于:",
+        "museum_bookAdditionalCredits3": "<b><color=orange>特别感谢</color></b>:",
+        "museum_bookAdditionalCredits4": "<b>Magnega</b> 告诉我上一款游戏Untraceable毫无乐趣可言,引发了一段存在主义恐慌,最终导致我取消了那个项目并改为制作ULTRAKILL",
+        "museum_bookAdditionalCredits5": "<b>Mikko Tamper and Robert Raulus</b>对游戏的持续支持并参与Beta测试提供反馈",
+        "museum_bookAdditionalCredits6": "<b>B.G.B. and Splendid</b>参与beta测试并提供反馈",
+
+        "museum_bookStephanWeyte1": "<b><color=orange>STEPHAN WEYTE</color> - 米诺斯之魂配音</b>",
+        "museum_bookStephanWeyte2": "和大多数人一样,关于Stephan Weyte我只知道他是Blood里Caleb的配音,但听过他为\nDusk的Nyarlathotep的配音后我清楚的认识到了他在配音上的精湛程度.所以在我加入New Blood之前我就已经决定会让Stephan配ULTRAKILL的一位角色.当需要为米诺斯之\n魂选择配音的时机来临时,最终选择是显而易见的.",
+        "museum_bookStephanWeyte3": "与Stephan的合作非常愉快,他的声音给米诺斯带来了如此多的丰富与个性,导致我无法想象没有他的话米诺斯该怎样配音.",
+
+        "museum_bookLenvalBrown1": "<b><color=orange>LENVAL BROWN</color> - 西西弗斯之魂配音</b>",
+        "museum_bookLenvalBrown2": "我在听过Lenval配音极乐迪斯科旁白的精彩表演后就认定他那深沉,有纹理版的声音能完美契合王西西弗斯.于是我在2023年初接触了他.与他的合作非常愉快,他的声音成功帮助西西弗斯以他自己独特的人格魅力脱颖而出.",
+
+        "museum_bookGianniMatragrano1": "<b><color=#20afdb>GIANNI MATRAGRANO</color> - 加百列配音</b>",
+        "museum_bookGianniMatragrano2": "Gianni最初在2019年末接触我来展现他的才华,但我们直到2020年中末才开始一起合作,当时离我们以抢先体验的方式发布游戏还不到一周.虽然时间紧迫,但他却能表现十分出色,不仅定义并巩固了加百列的性格与声音而且还以精妙的表演成功地捕捉了他的情感强度以内他内心世界的细微差别.",
+        "museum_bookGianniMatragrano3": "从那以后他的配音越来越好.他对于我对故事的想法和加百列自身的角色非常了解,以至于他可以即兴演出加百列第一战里的所有嘲讽.他不单纯是能愉快合作的人,他也是像我这样野心过于雄大的独立游戏开发者的梦想合作人.",
+        "museum_bookGianniMatragrano4": "\"你能在这里面写下我对同性恋们传达了感谢了吗.\"",
+
+        "museum_bookMandalore1": "<b><color=#e09e2e>MANDALORE</color> <color=#9884bb>HERRINGTON</color> -神秘的德鲁伊骑士配音</b>",
+        "museum_bookMandalore2": "<b><color=#eabbd7>JOY YOUNG</color> - 猫头鹰配音</b>",
+        "museum_bookMandalore3": "我最初是在2019年末遇见他的.在他测评完Dusk后,我私信他请他阐述下他之前提到的对复古射击游戏的批评.那时ULTRAKILL还只是个无名项目,但他还不仅花时间写了段详细的回复,他还游玩了ULTRAKILL的demo并给予了有用的反馈.",
+        "museum_bookMandalore4": "为了感谢他的帮助,我想制作个基于他和Joy在德鲁伊之谜直播里的内涵梗的一个玩笑boss,并使用他对EYE测评的音频片段作为它的声音.当他了解到这个boss的时候,他不仅提出重新录制配音,还与Joy一起即兴演出录制了新的配音.",
+        "museum_bookMandalore5": "\"伴随着音乐在墓穴里找到我.真经典.感谢游玩!\"",
+        "museum_bookMandalore6": "\"来这里是为了快乐时光,而不是什么糟糕的\"",
+
+        "museum_weaponsBeamcutter1": "<b><color=orange>激光切刀</color></b>",
+        "museum_weaponsBeamcutter2": "由Francis设计.由Victoria提供临时模型",
+        "museum_weaponsBeamcutter3": "<b>主要开火:</b> 按住来发射激光",
+        "museum_weaponsBeamcutter4": "<b>次要开火:</b> 放置/移除激光无人机",
+        "museum_weaponsBeamcutter5": "这位第六把武器在构思初期就被废弃了.原因是遇到太多设计问题并且会导致可用武器太多会有冗余",
+        "museum_weaponsBeamcutter6": "基于类似闪电枪的武器典型,它会发射持续的激光,要求玩家追踪敌人来造成持续伤害.若玩家站立则会造成减少的伤害,这会鼓励玩家在发射时保持移动.但在现行版本中你可以只靠来回摇摆来完成它的要求的同时并不让瞄准更难",
+        "museum_weaponsBeamcutter7": "持续射击武器很难契合ULTRAKILL的战斗系统.这可以从钉枪经历了多少次迭代才能在现今可用武器里找到一席之地可以看出来.而在无限弹药的环境下,每把武器都得有自己的特色才不会让其他武器过时.因为钉枪有类似的特色,我最终选择废弃这把武器而不是强行塞进已经完整的可用武器库里去.",
+        "museum_weaponsBeamcutter8": "发射激光时这武器的前端应该是要旋转的,但这个临时模型并没有拆分.同样这武器也没有实现任何音效,所以与其他完成的武器相比它的射击反馈会显得很差.",
+        "museum_weaponsBeamcutter9": "虽然我喜欢这个武器的概念,我还是认为我应当删减这把武器.我更偏好于其中每把武器都很独特且一直有用的少量可用武器库而不是其中部分武器会随着其他武器的加入而废弃的大量可用武器库.",
+
+        "museum_weaponsBlackHoleCannon1": "<b><color=orange>黑洞火炮</color></b>",
+        "museum_weaponsBlackHoleCannon2": "<b>主要开火:</b>发射一个黑洞",
+        "museum_weaponsBlackHoleCannon3": "<b>次要开火:</b> 激活发射的黑洞",
+        "museum_weaponsBlackHoleCannon4": "一个废案超级武器,被设计为靠击杀敌人填充计数条才能使用.这个在2019年初在添加霰弹枪后不久被设计出来,作为在游戏后期加入的武器.",
+        "museum_weaponsBlackHoleCannon5": "玩家可以选择使用他们的击杀条来获得一个例如例如鬼泣的Devil Trigger的临时\nbuff,或者拿黑洞火炮射一炮.击杀条最终因为玩家囤积和游戏平衡问题取消掉了.因为遭遇战没法根据玩家击杀条满没满来平衡,导致战斗要么因为击杀条满了而太简单或因为击杀条没满而太难.",
+        "museum_weaponsBlackHoleCannon6": "所以DT buff的主意最终变成了武器双持加成,因此规避了平衡问题因为关卡设计者能\n控制什么时候玩家能有这加成.而黑洞火炮的角色则被轨道炮代替,一位低投入超级武器.后者的话它足够弱使得它不会成为玩家对于困难遭遇战的逃课神器,而且能足够频繁地使用使得玩家不会觉得有必要囤积武器的充能.",
+        "museum_weaponsBlackHoleCannon7": "虽然黑洞火炮最初设计的时候游戏唯一的敌人是最基础的污骸而极为强大,现在游戏已经变成极其混乱而且到处都有爆炸,使得它在对比下非常弱.我在这博物馆保留了最初版本的威力是为了能准确描绘它.如果它看起来很弱,那是因为它是设计出来来屠杀污骸,游骸和裂骸.",
+        "museum_weaponsBlackHoleCannon8": "黑洞火炮从未得到一次外观设计或者建模,所以它被一个拉长的霰弹枪代替.这个选择会让很多人认为这本该是一个霰弹变种但这并不是这个选择的初衷.",
+
+        "museum_weaponsRevolver1": "<color=orange>左轮</color>",
+        "museum_weaponsRevolver2": "左:FlyingDog在2018年的早期模型",
+        "museum_weaponsRevolver3": "右:Victoria的在2022年的重制模型",
+        "museum_weaponsRevolver4": "第一把武器,同样也是第一个为这游戏制作的模型.和往常一样,它没有概念画,所以设计是全靠FlyingDog根据我的一句要求自己制作出来.从那之后Victoria在保留原本设计的情况下重制了它的模型和贴图,使其成为了原模型的美观升级.",
+        "museum_weaponsRevolver5": "左轮最初由不同的绿变种和红变种.旧绿变种的能力是射弹会在表面上弹射,灵感来自于左轮山猫.不幸的是,虽然在概念上很酷,它却使用起来极其笨拙且尴尬,需要过多前置和玩家定位来有效地使用.这和游戏的快节奏战斗完全冲突.然而通过弹跳射弹来展示射击精通的想法还是保留了下来,这点在现在被重新诠释为更为有用的标志性硬币枪.",
+        "museum_weaponsRevolver6": "旧红变种则是双持变种其中左边的左轮由主要开火键射击,右边的左轮由次要开火键射击.和绿变种一样,纸上很酷,实际上过了最初的新颖后就很无聊.起初我还有点点子来\"修复\"这个问题,但最终我废弃了这个变种.之后这个双持武器的点子被重新诠释为更有趣且更自由的双持武器加强.",
+
+        "museum_weaponsShotgun1": "<color=orange>霰弹</color>",
+        "museum_weaponsShotgun2": "左:FlyingDog在2019年的早期模型",
+        "museum_weaponsShotgun3": "右:Victoria的在2022年的重制模型",
+        "museum_weaponsShotgun4": "和左轮一样,霰弹模型也是由FlyingDog在没有概念画的情况下制作出来,并稍后由Victoria重制,在保留原本设计的情况下使其更适合游戏的新美术风格.新版本色调更浅,因为原本的哑光黑色风格并不适合在游戏的鲜艳色调.更喜欢旧版的人可以选择第一个颜色预设来换回去.",
+        "museum_weaponsShotgun5": "当霰弹刚刚被设计出来的时候它也有过平衡问题.由于所有敌人都可以被几发左轮射弹击杀,使得霰弹在比较下显得可有可无,给玩家留下了不太好的第一印象.最终我选择稍微修改了射弹的代码,使霰弹的射弹不会在击中敌人尸体时被摧毁掉.这个小小的改动真的打开了霰弹的角色.使其从只是一个更慢的单一敌人伤害输出变成了更混乱的大规模杀伤性武器.现在霰弹不仅能履行最初的设计意图,有效地处理更肉的敌人,也能有效的处理一群更弱的敌人.",
+
+        "museum_weaponsNailgun1": "<color=orange>钉枪</color>",
+        "museum_weaponsNailgun2": "左:Jericho和FlyingDog在2019年的早期模型",
+        "museum_weaponsNailgun3": "右:Jericho和Victoria在2022年重制模型",
+        "museum_weaponsNailgun4": "第一把根据Jericho设计并绘制的概念画设计的武器,同样也是FlyingDog对这个游戏最后的贡献.原本那更粗糙简单的模型任然适合游戏当时的美术风格,但自从游戏图像有所提升后它显得极为惹眼,这也是我们要重制旧武器模型并提供自定义上色的主要原因.",
+        "museum_weaponsNailgun5": "钉枪可能是需要经过最多次迭代才能在可用武器里找到自己的位置.事实上,它直到2021年夏的沙盒更新才最终能合理地加入可用武器库里去,意味着我们花费了2年的持续修补和迭代才让一把全自动武器成为ULTRAKILL的一部分.最大的改动是从无限弹药改成了逐渐恢复的弹药,给予玩家更多理由在使用钉枪一段时间后切换成别的武器.但最终让钉枪成为ULTRAKILL武器之一的改动是加速装备动画.使得在战斗中切换到它更加平滑,使其更像是武器连招的一部分.",
+        "museum_weaponsNailgun6": "其中一些废弃的版本包括一个高伤害低冷却的鱼矛以及允许玩家减少移动速度的情况下同时发射两个枪管.前者最终进化成了磁吸变种而后者成为了过热变种,所以即使它经历了那么多改动,部分最初的设计任然保留了下来.",
+
+        "museum_enemiesFilth1": "<b><color=orange>污骸</color>",
+        "museum_enemiesFilth2": "左:Toni Stigell和FlyingDog在2018年的早期模型",
+        "museum_enemiesFilth3": "右:Jericho,BigRock和Victoria在2020年的重制模型</b>",
+        "museum_enemiesFilth4": "污骸最初只是称作\"僵尸\"或\"尸骸\",是为游戏设计的第二个敌人.我们当时并没有概念美术,所以我只是告诉Toni做一个类似雷神之锤里的消瘦僵尸.这是在有BigRock加入成为我们第一个概念美术之前寻常的流程.以前和现在的设计质量的对比明确展示了有一个创意概念美术真的会有很大的差异.",
+        "museum_enemiesFilth5": "污骸的一个有趣的点是在早期版本的demo中人们抱怨近战敌人的AI太蠢了,但那些抱怨在我们重新设计污骸后就完全停止了.新版本的污骸看起来确实像一个只知道吃的无脑蜂拥的怪物,所以它显得很蠢就不再很出戏或者像是个错误.靠外观正确地传达角色的目标通常是角色设计里被低估的一个方面.",
+        "museum_enemiesFilth6": "新设计启发自Swans的首发专辑,敌人的名字同样也来自该专辑中.最开始模型的嘴巴和牙齿会是更小的,我只是不断地告诉Victoria\"更大!\"直到它们变成现在这个样子.",
+        "museum_enemiesFilth7": "污骸原本为了契合序章而上了橙色,但这导致了它们融入序章<i>太</i>好玩家经常很难一眼找到它们的问题.所以它们的首要颜色代替换成了绿色.",
+
+        "museum_enemiesStray1": "<color=orange>游骸</color>",
+        "museum_enemiesStray2": "左:Toni Stigell,FlyingDog和Hakita在2018年的早期模型",
+        "museum_enemiesStray3": "右:Jericho和Sam在2020年的重制模型",
+        "museum_enemiesStray4": "游骸最初只是称作\"投射物僵尸\"或\"投射物尸骸\",以及一小段时间\"逐骸\",虽然那个名字最后取给了现在的那个敌人.当时Toni还忙,于是我用着我仅有的Blender知识,只是修改了污骸的模型来用作游骸的模型,然后FlyingDog为它绘制了贴图.同样的,我们当时并没有什么概念画,所以贴图也只是根据\"一个包含了所有器官和血肉的骷髅骨架\"或者类似的要求.",
+        "museum_enemiesStray5": "重制的版本,基于Jeircho对兵骸的设计,还保留了大致的想法但以不那么卡通化的方式实现.",
+
+        "museum_enemiesSchism1": "<color=orange>裂骸</color>",
+        "museum_enemiesSchism2": "左:Toni Stigell,FlyingDog和Hakita在2018年的早期模型",
+        "museum_enemiesSchism3": "右:BigRock和Sam在2020年的重制模型",
+        "museum_enemiesSchism4": "裂骸最初只是称作\"超级投射物僵尸\"是另一个修改版本的早期污骸模型.Toni和FlyingDog当时正好都忙,所以这个模型甚至没有一个独特的贴图.它只是没有橙色调的早期污骸的贴图!",
+        "museum_enemiesSchism5": "新版本还使用同一个骨骼和动画,意味着额外的手臂没有附加任何动画数据,只会像布娃娃一样摇来摇去.",
+        "museum_enemiesSchism6": "在被New Blood选中后,我们需要为了新版本的demo即使完成整个序章的改版.这也意味\n着尸骸们的新设计都是在仓促下绘制建模的.这也意味着新设计只能根据一个角度的一张草图.这也导致一次搞笑时刻,Sam在制作模型时,错误理解了草图并认为裂骸的头只是在前面伸出去很远而不是在肩膀上,这也导致了模型的第一次迭代长得像个异性!",
+
+        "museum_enemiesSwordsmachine1": "<color=orange>重剑机</color>",
+        "museum_enemiesSwordsmachine2": "左:BigRock,FlyingDog和Toni Stigell在2019年的早期模型",
+        "museum_enemiesSwordsmachine3": "右:BigRock和Victoria在2022年的重制模型",
+        "museum_enemiesSwordsmachine4": "重剑机是第一个由概念美术设计的敌人,而你可以完全开出来与之前敌人的差距!BigRock精彩的由Blame!启发的设计充满了隐藏的角色个性,我为它写完数据条目后这些角色个性就很明显了.",
+        "museum_enemiesSwordsmachine5": "最初的模型是由Toni Stigell制作并由FlyingDog提供贴图, 较遗憾的是模型失去了原\n本设计有的微妙细节,但它却适合游戏当时的美术风格而且我们当时都是业余并不知道怎样才能做更好.后来Victoria根据BigRock的最初概念画重制了模型并将其完美的在3D世界体现出来.",
+        "museum_enemiesSwordsmachine6": "其中一个早期迭代的重剑机设计里它会有个血腥的人类躯干,因为当时在我们正式弄清楚设定,视觉语言以及故事之前敌人更倾向于像Strogg的人机混合体.",
+
+        "museum_enemiesMaliciousFace1": "<color=orange>恶意石面</color>",
+        "museum_enemiesMaliciousFace2": "左:FlyingDog在2018年的早期模型",
+        "museum_enemiesMaliciousFace3": "R右:VIctoria的在2022年的重制模型",
+        "museum_enemiesMaliciousFace4": "恶意石面,因为它的透明蜘蛛脚而在游戏文件里称为\"蜘蛛\",实际上是第一个为这个游戏设计的敌人.虽然现在很标志性,它原本设计本应该是完全不同,我当时想要一个更加鲜明简化的外观,但FlyingDog,只是拿建模作为种兴趣,很难在没有概念画帮助他的情况下达成我的要求.所以我们最终妥协于这个版本.",
+        "museum_enemiesMaliciousFace5": "那还是我还愚蠢地雄心勃勃而且不知道自己在做什么的时候,所以有想出来很多想法但最终都没有实现.它的嘴巴在连发开火应当是要打开的,但模型划分有问题而我们不知道该怎样修好.它的眼睛也最初是从本体预设分离的,因为我有个想法认为如果你用左轮设计眼睛时会造成额外伤害或者让它失明并无差别乱射会非常酷.纸面上很酷,但执行下来不仅对于一个早期敌人来说太过复杂,而且还会给玩家给予一个一直都能诉诸的硬克制.我想避免这种情况让玩家能在游戏里能有更开放的自我表达.这还是在专注于弱点与硬克制的毁灭战士永恒问世前.",
+        "museum_enemiesMaliciousFace6": "我有一段时间想的另一个点子是它的大头背后有一个孔暴露出它的大脑,允许敏捷的玩家能打出大量伤害,但它从未实现.我在模型已经完成后瞎想这些傻点子但又不去对此投入精力对于FlyingDog来言,非常能理解的令人沮丧.",
+        "museum_enemiesMaliciousFace7": "Victoria的新模型几乎是原本的1:1复刻,既保留了它标志性的外貌的同时并提升它的美术质量.这模型同时还真的<i>减少了</i>它的分辨率.",
+
+        "museum_cinemaPlay": "播放",
+        "museum_cinemaStop": "停止",
+
+        "museum_plaquesMuseumTitle": "耻辱之堂 - ULTRAKILL的开发者们",
+        "museum_plaquesArtRoom": "艺术厅",
+        "museum_plaquesNerdRoom": "书呆厅",
+        "museum_plaquesRestRoom": "休息厅",
+        "museum_plaquesTalkRoom": "谈话厅",
+
+
+        "museum_plaquesHakita1": "ARSI \"HAKITA\" PATALA",
+        "museum_plaquesHakita2": "ULTRAKILL的创建者",
+
+        "museum_plaquesFrancisXie1": "FRANCIS XIE",
+        "museum_plaquesFrancisXie2": "2D美术",
+
+        "museum_plaquesJerichoRus1": "JERICHO RUS",
+        "museum_plaquesJerichoRus2": "2D美术",
+
+        "museum_plaquesBigRockBMP1": "BIGROCKBMP",
+        "museum_plaquesBigRockBMP2": "概念美术",
+
+        "museum_plaquesMaxOvesson1": "MAXIMILIAN OVESSON",
+        "museum_plaquesMaxOvesson2": "2D美术",
+
+        "museum_plaquesVictoriaHolland1": "VICTORIA HOLLAND",
+        "museum_plaquesVictoriaHolland2": "首席2D美术",
+
+        "museum_plaquesToniStigell1": "TONI STIGELL",
+        "museum_plaquesToniStigell2": "3D美术",
+
+        "museum_plaquesFlyingdog1": "FLYINGDOG",
+        "museum_plaquesFlyingdog2": "3D美术",
+
+        "museum_plaquesSamuelJamesBryan1": "SAMUEL JAMES BRYAN",
+        "museum_plaquesSamuelJamesBryan2": "3D美术",
+
+        "museum_plaquesCameronMartin1": "CAMERON MARTIN",
+        "museum_plaquesCameronMartin2": "首席QA",
+
+        "museum_plaquesDaliaFigueroa1": "DALIA FIGUEROA",
+        "museum_plaquesDaliaFigueroa2": "QA",
+
+        "museum_plaquesTuckerWilkin1": "TUCKER WILKIN",
+        "museum_plaquesTuckerWilkin2": "高级QA",
+
+        "museum_plaquesScottGurney1": "SCOTT GURNEY",
+        "museum_plaquesScottGurney2": "技术QA",
+
+        "museum_plaquesPitr1": "PITR",
+        "museum_plaquesPitr2": "首席编程员",
+
+        "museum_plaquesHeckteck1": "HECKTECK",
+        "museum_plaquesHeckteck2": "额外编程员",
+
+        "museum_plaquesCabalcrow1": "EMANUIL \"CABALCROW\" CHIZHOV",
+        "museum_plaquesCabalcrow2": "额外编程员",
+
+        "museum_plaquesLucasVarney1": "LUCAS VARNEY",
+        "museum_plaquesLucasVarney2": "额外编程员",
+
+        "museum_plaquesBenMoir1": "BEN MOIR",
+        "museum_plaquesBenMoir2": "额外编程员",
+
+        "museum_plaquesDaveOshry1": "DAVE OSHRY",
+        "museum_plaquesDaveOshry2": "NEW BLOOD INTERACTIVE CEO",
+
+        "museum_plaquesMeganeko1": "MEGANEKO",
+        "museum_plaquesMeganeko2": "客串作曲家",
+
+        "museum_plaquesKeygenChurch1": "KEYGEN CHURCH",
+        "museum_plaquesKeygenChurch2": "客串作曲家",
+
+        "museum_plaquesHealth1": "HEALTH",
+        "museum_plaquesHealth2": "客串作曲家",
+
+        "museum_plaquesQuetzalTirado1": "QUETZAL TIRADO",
+        "museum_plaquesQuetzalTirado2": "客串作曲家",
+
+        "museum_plaquesSalad1": "SALAD",
+        "museum_plaquesSalad2": "JAKITO画师",
+
+        "museum_plaquesJacobHHR1": "JACOB HHR",
+        "museum_plaquesJacobHHR2": "作家(文本&对话)",
+
+        "museum_plaquesVVizard1": "VVIZARD",
+        "museum_plaquesVVizard2": "博物馆建造者",
+
+        "museum_plaquesAdditionalMusic": "额外音乐",
+        "museum_plaquesAdditionalCredits": "额外致谢",
+
+        "museum_plaquesStephanWeyte1": "STEPHAN WEYTE",
+        "museum_plaquesStephanWeyte2": "米诺斯之魂配音",
+
+        "museum_plaquesLenvalBrown1": "LENVAL BROWN",
+        "museum_plaquesLenvalBrown2": "西西弗斯之魂配音",
+
+        "museum_plaquesGianniMatragrano1": "GIANNI MATRAGRANO",
+        "museum_plaquesGianniMatragrano2": "加百列配音",
+
+        "museum_plaquesJoyYoung1": "JOY YOUNG",
+        "museum_plaquesJoyYoung2": "猫头鹰配音",
+
+        "museum_plaquesMandalore1": "MANDALORE HERRINGTON",
+        "museum_plaquesMandalore2": "神秘的德鲁伊骑士配音",
+
+        "museum_rocketRace1": "火箭竞赛",
+        "museum_rocketRace2": "开始",
+        "museum_rocketRaceStart": "竞赛开始",
+        "museum_rocketRaceResult": "时间:",
+
+        "museum_spoiler1": "警告",
+        "museum_spoiler2": "剧透",
+        "museum_spoiler3": "开启"
     },
-    
+
+    "fishing": {
+        "fish_ocean": "大海",
+        "fish_cavePool": "岩洞水潭",
+        "fish_stream": "小溪",
+        "fish_lake": "湖水",
+        "fish_lakeDeep": "湖水深处",
+        "fish_lakeBlood": "血湖",
+        "fish_lakeBloodLower": "血湖底层",
+        "fish_lakeHoly": "圣湖",
+        "fish_waterWell": "井水",
+        "fish_panOil": "锅油",
+
+        "fish_leaderboard": "渔获大小排行榜",
+
+        "fish_bottleMessage1": "如果你正阅读这张信,请帮帮我.我滞留在海岸外的小岛上好几周了,物资也快要耗尽了.",
+        "fish_bottleMessage2": "为了找到传说中的二等鱼我早已翻遍了每一寸土地每一寸湖泊可却一无所获.仍留着能找到它的希望,我将目光投向了深海.",
+        "fish_bottleMessage3": "我推定它一定存在于大海的深处,所以我准备了够我吃一个月的烤鱼起航.但在我能有任何进展前,海浪便吞噬了我的孤舟.",
+        "fish_bottleMessage4": "你是我最后的希望.",
+        "fish_bottleMessage5": "向北斗星远航,你就会在那里的一个小岛上找到我.带给我更多的鱼后就立即离开,好让我继续我的搜寻.",
+        "fish_bottleMessage6": "二等鱼将会是我的.",
+
+        "fish_book1": "第529天:",
+        "fish_book2": "我还在寻找它.",
+        "fish_book3": "自从与事务所失去联系已有216天.",
+        "fish_book4": "我早应该返回总部了,但我还不能回去.至少现在不能.",
+        "fish_book5": "它就在那.",
+        "fish_book6": "就在某处.",
+        "fish_book7": "我必须亲眼见证.",
+        "fish_book8": "我必须亲手验证.",
+        "fish_book9": "我必须亲眼见证我必须亲手验证",
+        "fish_book10": "二等鱼.",
+
+        "fish_rodFar": "远",
+        "fish_rodClose": "近",
+        "fish_rodHooked": "上钩了!",
+        "fish_outOfWater": "鱼已出水",
+        "fish_fishCaught": "你钓到了",
+        "fish_cookingFailed": "烹饪失败.",
+        "fish_size": "一等鱼",
+
+        "fish_living": "\"这也是个生计哦.\"",
+        "fish_tooSmall": "对于这鱼来说太小了. :^(",
+        "fish_baitTaken": "鱼吃了饵了.",
+        "fish_baitNotWork": "饵丢这里没用!",
+        "fish_interrupted": "钓鱼被打断了",
+        "fish_noFishBiting": "这里似乎没有东西会上钩...",
+
+        "fish_terminalTitle": "精妙钓鱼小贴士",
+        "fish_funnyStupidFish": "又憨又笨的鱼(好朋友)",
+        "fish_pitrFish": "PITR鱼",
+        "fish_trout": "鳟鱼",
+        "fish_amidEvilFish": "钢铁鱼",
+        "fish_chomper": "大嘴鱼",
+        "fish_bombFish": "炸弹鱼",
+        "fish_gibeye": "眼球",
+        "fish_ironLungFish": "蛙(?)",
+        "fish_dopeFish": "呆子鱼",
+        "fish_stickFish": "棍鱼",
+        "fish_cookedFish": "烤鱼",
+        "fish_shark": "鲨鱼",
+
+        "fish_funnyStupidFishDescription1": "一种憨鱼. 一条真的很笨的鱼. 一只大笨蛋.  一位绝对的小丑. 一个笨手笨脚的白痴. 有一些幽默感.",
+        "fish_funnyStupidFishDescription2": "易于钓取且非常友善, 通常用来教钓鱼新手和孩子们如何钓鱼.",
+        "fish_pitrFishDescription1": "一种很聪明的鱼.喜欢猫.栖息于浅水地区而且经常会向钓鱼者表示友好而故意上钩. ",
+        "fish_pitrFishDescription2": "总是会沦落到鱼群等级制度的最底端.",
+        "fish_troutDescription1": "一种常见的湖鱼.偏向于深水.",
+        "fish_troutDescription2": "似乎非常受人类尊敬. 世上已经有复制它们样貌的面具了.",
+        "fish_amidEvilFishDescription1": "一种来自遥远陆地的洄游鱼.由于它只以岩石为食而只在岩石地区生存. ",
+        "fish_amidEvilFishDescription2": "只会在觅食时才会从躲藏处出来.",
+        "fish_chomperDescription1": "一种洄游鱼.",
+        "fish_chomperDescription2": "源自于宾夕法尼亚州, 所以它偏向于阴暗,不愉快且潮湿的地方.",
+        "fish_bombFishDescription1": "一种有点极端的鱼. 在流动的水源里经常出现. 因为对它而言静水很无聊无法满足它的刺激.",
+        "fish_bombFishDescription2": "具有一套自卫机制, 会对不知情的钓鱼者造成身体上的创伤.",
+        "fish_gibeyeDescription1": "一种常见的鱼. 需要鲜血才能生存.",
+        "fish_gibeyeDescription2": "能改善视力.",
+        "fish_ironLungFishDescription1": "一种洄游深海鱼. 通常只会在月亮上找到, 但它能在任何有足够鲜血的地方生存.",
+        "fish_ironLungFishDescription2": "领地性很强, 会攻击任何进入其领地的东西且从不离开深处.",
+        "fish_dopeFishDescription1": "一种洄游鱼. 能在任何地方都能找到, 但通常会在隐秘的水井.",
+        "fish_dopeFishDescription2": "常常会被在旅途中英雄和旅行者意外发现并被视作是好运的象征.",
+        "fish_stickFishDescription1": "一种常见的鱼. 可食用且通常被人类养殖.",
+        "fish_stickFishDescription2": "可在世界各地的厨房里找到.",
+        "fish_cookedFishDescription1": "一种常见的鱼. 栖息在火焰里以其他鱼为食, 且只会在觅食时出来.",
+        "fish_cookedFishDescription2": "被视作为美味佳肴, 所以钓鱼者经常钓其他鱼纯粹为了把钓上的鱼喂养给明火来骗它们出来.",
+        "fish_sharkDescription1": "一种肉食类鱼. 源自于瑞典, 在人类社会中被认为是一种地位的象征,可能是作为女性气质或者\"接收之人\"的标志, 但具体细节早已遗落在时间长河之中.",
+        "fish_sharkDescription2": "栖息在远离陆地的巨大水体中, 不过它可能会游到岸边觅食."
+    },
+
     "style":{
         "style_airslam": "空中猛砸",
         "style_airshot": "空中射杀",
@@ -57,7 +490,7 @@
         "style_bigkill": "大物击杀",
         "style_bigfistkill": "大物拳杀",
         "style_bipolar": "双极陷阱",
-        "style_cannonballed": "炮杀",
+        "style_cannonballed": "炮决",
         "style_catapaulted": "投石",
         "style_chargeback": "蓄能反弹",
         "style_compressed": "碾碎",
@@ -66,6 +499,7 @@
         "style_doublekill": "双杀",
         "style_downtosize": "不过如此",
         "style_enraged": "激怒",
+        "style_envirokill": "ENVIROKILL",
         "style_exploded": "炸碎",
         "style_finishedoff": "了结",
         "style_fireworks": "烟花秀",
@@ -90,9 +524,14 @@
         "style_ricoshotUltra": "究极",
         "style_ricoshotCounter": "反攻",
         "style_secret": "秘密",
+        "style_scrindonguloded": "尸沉尸河",
+        "style_scrongled": "重归尸流",
+        "style_scrongbongled": "尸沉尸海",
         "style_splattered": "摔扁",
         "style_triplekill": "三杀",
-        "style_why": "你咋在这刷怪呢", 
+
+        "style_why": "你咋在这刷怪呢",
+
         "style_conductor": "导体",
         "style_crushed": "压碎",
         "style_fall": "坠落",
@@ -141,33 +580,47 @@
         "cybergrind_settings": "电子血宫设置",
         "cybergrind_settingsDescription": "此终端用于自定义电子血宫.",
         "cybergrind_themes": "主题",
-        "cybergrind_patterns": "关卡样式",
+        "cybergrind_patterns": "地形",
+        "cybergrind_music": "音乐",
         "cybergrind_waves": "波数",
         
+
         "cybergrind_themesTitle": "主题",
         "cybergrind_themesDescription": "设置竞技场的视觉主题",
-        "cybergrind_themesLight": "光亮",
+        "cybergrind_themesLight": "日间",
         "cybergrind_themesDark": "夜间",
         "cybergrind_themesCustom": "自定义",
         "cybergrind_themesModify": "修改",
         
-        "cybergrind_themesCustomGrid": "格块",
-        "cybergrind_themesCustomGridGlow": "格块发光",
-        "cybergrind_themesCustomSkybox": "天空盒",
+        "cybergrind_themesCustomGrid": "网格",
+        "cybergrind_themesCustomGridGlow": "网格光辉",
+        "cybergrind_themesCustomSkybox": "背景图",
         "cybergrind_themesCustomBack": "返回",
         "cybergrind_themesCustomReload": "重新加载",
         "cybergrind_themesCustomBase": "底层",
         "cybergrind_themesCustomTopRow": "顶排",
         "cybergrind_themesCustomTop": "顶层",
         "cybergrind_themesCustomGlowIntensity": "发光强度",
+
+        "cybergrind_musicTitle": "播放列表",
+        "cybergrind_musicCompleteChallengeRequirement": "完成关卡挑战",
+        "cybergrind_musicSeeEnemyRequirement": "遭遇未知敌人",
+        "cybergrind_musicUnlockLevelRequirement": "到达",
+        "cybergrind_musicCompleteLevelRequirement": "完成",
+        "cybergrind_musicUnlocked": "已解锁",
+        "cybergrind_musicConfirm": "确认",
+        "cybergrind_musicSoundtrack": "配乐",
         
-        "cybergrind_patternsTitle": "关卡样式",
+        "cybergrind_patternsWarning": "警告: 使用自定义地形时不会保存高分记录",
+        "cybergrind_patternsTitle": "地形",
         "cybergrind_patternsRefresh": "刷新",
         "cybergrind_patternsLaunchExternalEditor": "编辑器",
         
         "cybergrind_wavesTitle": "波数",
         "cybergrind_wavesDescription1": "选择初始波数",
-        "cybergrind_wavesDescription2": "(最高波数至少要起始波数的两倍)"
+        "cybergrind_wavesDescription2": "(最高波数至少要起始波数的两倍)",
+
+        "cybergrind_noPatternsSelected": "没有被选取的地形."
     },
     
     "books":{
@@ -332,7 +785,7 @@
         "mainmenu_christmas": "圣诞节 快乐",
 		"mainmenu_play": "开始",
 		"mainmenu_options": "设置",
-		"mainmenu_credits": "制作名单",
+		"mainmenu_credits": "制作人员",
 		"mainmenu_quit": "退出",
         "mainmenu_mods": "模组",
 		"mainmenu_restart": "重新启动",
@@ -389,7 +842,11 @@
         "level_fullIntroPrompt": "完整开场?",
         "level_fullIntroPromptYes": "是",
         "level_fullIntroPromptNo": "否",
-        "level_fullIntroPromptCancel": "取消"
+        "level_fullIntroPromptCancel": "取消",
+
+        "leaderboard_anyPercent": "通关",
+        "leaderboard_pPercent": "P评级",
+        "leaderboard_noEntries": "无排行榜记录"
 	},
     "visualnovel": {
 		"visualnovel_mirageName1": "某路人",
@@ -439,6 +896,7 @@
        
         "visualnovel_kindFirst1": "*叹气*",
         "visualnovel_kindFirst2": "嘿,抱歉刚才那么粗鲁,我只是真的很懊恼,不仅我上学迟到了,路\n上我还成功迷路了.",
+
         "visualnovel_kindSecond": "不过看起来你也和我一样,而且靠你千载难逢的好运你碰巧\n遇到了~镇上最漂亮的女孩~.",
         "visualnovel_kindThird": "那么你来带路好让我们俩都摆脱这困境怎么样?",
         
@@ -499,6 +957,7 @@
         "visualnovel_waitingPromptFirst2": "\"任何知道路该怎么走的人早就到了,听起来你只不过是寻找放弃的借口.\"",
         
         "visualnovel_waitingResponseFirst1": "随便你怎么想,如果这意味着我不需要跑来跑去在地面上找能\n触发记忆的魔法卵石的话我就会等在这里直到宇宙的热寂.",
+
         "visualnovel_waitingResponseFirst2": "说真的我根本不在乎学校迟到.",
         "visualnovel_waitingResponseFirst3": "反正上学并不重要.",
         "visualnovel_waitingResponseFirst4": "没有什么是重要的.",
@@ -587,7 +1046,7 @@
         
         "visualnovel_nihilism34": "啊?",
         "visualnovel_nihilism35": "这怎么不可能呢?",
-        "visualnovel_nihilism36": "而且即使是这样的话,我们行为的无意义性还是同样导向这个\n结论--因为任何行动都只会在现实上产生临时的波动,都不会改变\n现实的结局，所以我们没有理由去搞任何行为.",
+        "visualnovel_nihilism36": "而且即使是这样的话,我们行为的无意义性还是同样导向这个\n结论--因为任何行动都只会在现实上产生临时的波动,都不会改变\n现实的结局,所以我们没有理由去搞任何行为.",
         
         "visualnovel_nihilism37": "我明白你的意思.",
         "visualnovel_nihilism38": "然而,这并不能减轻我对最终的恐惧.", 
@@ -615,9 +1074,10 @@
         "visualnovel_conclusion11": "那么...我们已经迟到很晚了,很明显没有人会带我们到学\n校了,所以我和你要不要别管那个耗尽激情的监狱,找个地方去吃\n点东西如何,嗯?",
         
         "visualnovel_conclusionPrompt1": "当然没问题,我今天没有更好的事去做.不过这次你付钱.",
-        "visualnovel_conclusionPrompt2": "不,对不起。老实说,你之前这么粗鲁对我我还是很生气.",
+        "visualnovel_conclusionPrompt2": "不了,对不起.老实说,你之前这么粗鲁对我我还是很生气.",
       
-        "visualnovel_conclusionResponseFirst1": "哦吼，你这狡诈诡徒!",
+        "visualnovel_conclusionResponseFirst1": "哦吼,你这狡诈诡徒!",
+
         "visualnovel_conclusionResponseFirst2": "不过也行.",
         "visualnovel_conclusionResponseFirst3": "反正我这次算欠你一次人情,所以还有什么比现在更好的时间来兑现\n这张'为一个配不上我的女孩做了一件好事'的优惠券呢?",
         
@@ -653,6 +1113,9 @@
         "general_restartWarning": "重开/退出关卡警告",
 		"general_discordRpc": "DISCORD整合",
 		"general_seasonalEvent": "节日特别事件",
+        "general_controllerRumble": "手柄震动",
+        "general_controllerRumbleCustomize": "自定义",
+        "general_levelLeaderboards": "关卡排行榜",
 
 		"controls_resetDefault": "重置到默认设置",
 		"controls_movement": "移动",
@@ -677,7 +1140,7 @@
 		"controls_slot3": "槽位 3",
 		"controls_slot4": "槽位 4",
         "controls_slot5": "槽位 5",
-		"controls_scrollType": "武器轮转类别",
+		"controls_scrollType": "武器轮类别",
 		"controls_scrollTypeWeapons": "武器",
 		"controls_scrollTypeVariations": "变种",
 		"controls_scrollTypeAll": "武器和变种",
@@ -757,6 +1220,7 @@
 		"hud_styleMeter": "技巧表",
 		"hud_styleInfo": "技巧信息",
 
+
 		"crosshair_title": "十字准星设置",
 		"crosshair_type": "十字准星类型",
 		"crosshair_typeNone": "无",
@@ -800,6 +1264,7 @@
 		"assists_enemySilhouettesDistance": "激活距离",
         "assists_enemySilhouettesDistanceMinimum": "一直激活",
 		"assists_enemySilhouettesOutlinesOnly": "只留轮廓",
+        "assists_enemySilhouettesOutlineThickness": "轮廓粗细",
 		"assists_major": "主要辅助",
 		"assists_majorActivate": "激活",
 		"assists_gameSpeed": "游戏速度",
@@ -831,6 +1296,34 @@
 		"colors_variationGold": "金色变种",
 		"colors_enemies": "敌人剪影",
 
+
+        "rumble_title": "自定义震度",
+        "rumble_finalMultiplier": "最终强度增幅",
+        "rumble_coinToss": "投掷硬币",
+        "rumble_dash": "冲刺",
+        "rumble_heavyFallImpact": "高处坠落冲击",
+        "rumble_heavyFall": "坠落冲击",
+        "rumble_gunFire": "武器射击",
+        "rumble_gunFireProjectile": "投射弹射击",
+        "rumble_gunFireStrong": "强力射击",
+        "rumble_nailgunFire": "钉枪",
+        "rumble_railcannonIdle": "轨道炮闲置",
+        "rumble_revolverCharge": "左轮蓄力",
+        "rumble_sawblade": "过热锯片",
+        "rumble_shotgunCharge": "霰弹蓄力",
+        "rumble_superSaw": "过热电锯",
+        "rumble_jump": "跳跃",
+        "rumble_magnet": "磁铁钉",
+        "rumble_parryFlash": "弹反闪烁",
+        "rumble_punch": "拳击",
+        "rumble_slide": "滑铲",
+        "rumble_whiplashThrow": "投掷钩爪",
+        "rumble_whiplashPull": "钩爪牵引",
+        "rumble_weaponWheel": "武器轮滴答声",
+        "rumble_intensity": "强度",
+        "rumble_endDelay": "后摇延迟",
+        "rumble_reset": "重设",
+
 		"save_warning1": "游戏会重新加载.",
 		"save_warning2": "如果你在关卡内, 你当前的进度会清空.",
 		"save_reloadYes": "我很清楚",
@@ -838,8 +1331,8 @@
 		"save_select": "选择",
 		"save_selected": "已选择",
 		"save_delete": "删除",
-		"save_deleteWarning1": "你确定要删除这个存档吗",
-		"save_deleteWarning2": "槽位",
+		"save_deleteWarning1": "你确定要删除这个存档",
+		"save_deleteWarning2": "槽位吗?",
 		"save_deleteYes": "是, 删除吧",
 		"save_deleteNo": "取消",
 		"save_close": "关闭",
@@ -870,7 +1363,8 @@
         "levelName_mainMenu": "主菜单",
 		"levelName_cybergrind": "电子血宫",
 		"levelName_sandbox": "沙盒",
-		"levelName_tutorial": "TUTORIAL",
+		"levelName_tutorial": "教程",
+        "levelName_devMuseum": "Ultra开发者之堂",
         
 		"levelName_preludeFirst": "踏入烈火",
 		"levelName_preludeSecond": "绞肉机器",
@@ -904,7 +1398,7 @@
 		"levelName_wrathSecond": "无星浪涛",
 		"levelName_wrathThird": "愚人船",
 		"levelName_wrathFourth": "利维坦",
-		"levelName_wrathSecret": "",
+		"levelName_wrathSecret": "授人以鱼",
         
         "levelName_heresyFirst": "悼念泣者",
 		"levelName_heresySecond": "憎恶美学",
@@ -950,7 +1444,7 @@
 
 	},
 	"levelTips":{
-		"leveltips_preludeSecond1": "左轮属于扫描命中武器,它们会造成定点伤害.",
+		"leveltips_preludeSecond1": "左轮属于扫描命中武器,它们会造成<color=orange>定点伤害</color>.",
 		"leveltips_preludeSecond2": "爆头造成双倍伤害,断肢造成1.5倍伤害.",
 
 		"leveltips_preludeThird1": "冲刺：完全无敌,消耗耐力值",
@@ -995,6 +1489,7 @@
         "leveltips_wrathFirst": "在水中下落的速度很慢,但可以用落地猛击快速到达地面.",
         "leveltips_wrathSecond": "滑铲入水会让你在水面上弹跳.",
         "leveltips_wrathThird": "如果一名敌人被圣像赐福,两者之间会出现一条肉眼可见的联结,有助于快速定位并摧毁圣像.",
+        "leveltips_wrathThirdBroken": "疼.",
         "leveltips_wrathFourth1": "爆炸会反弹射弹.",
         "leveltips_wrathFourth2": "如果在敌人发射射弹的位置引发爆炸,射弹将会被反弹并击中敌人自身.",
         
@@ -1005,10 +1500,13 @@
 
 		"leveltips_primeFirst1": "弹反也可以作为强大的回血工具使用.",
 		"leveltips_primeFirst2": "弹反敌人的射弹或近战攻击,可以将你的生命值完全恢复至硬伤害上限.",
+        "leveltips_primeSecond": "要玩得开心哦.",
 
 		"leveltips_cybergrind": "如果飞出竞技场太远,泵动霰弹的过充爆炸可以帮你回到地面.",
         "leveltips_sandbox1": "要在其他关卡中开启作弊,按：",
-        "leveltips_sandbox2": "启用评级会屏蔽作弊功能."
+        "leveltips_sandbox2": "启用评级会屏蔽作弊功能.",
+
+        "leveltips_devMuseum": "你可以去捡起在二楼的被移除的武器."
 	},
 	"shop":{
         "shop_tipofthedayTitle": "每日提示",
@@ -1029,7 +1527,6 @@
         "shop_cybergrindExitTitle": "返回关卡",
         "shop_cybergrindExit": "离开电子血宫",
         
-
         "shop_sandboxTitle": "沙盒",
         "shop_sandboxDescription1": "沙盒是一个用于练习的空关卡.",
         "shop_sandboxDescription2": "当前关卡的进度将会清空.",
@@ -1046,7 +1543,7 @@
         "shop_weaponsRocketLauncher": "火箭筒",
         "shop_weaponsArms": "手臂",
         
-        "shop_revolverPiercer": "贯穿者",
+        "shop_revolverPiercer": "贯穿手",
         "shop_revolverPiercerDescription1": "长按副开火键,蓄力发射一束能够贯穿三次的光束.",
         "shop_revolverPiercerDescription2": "副开火使用后需要时间冷却.",
         
@@ -1055,6 +1552,10 @@
         "shop_revolverMarksmanDescription2": "射击命中一枚空中的硬币后,弹道会自动偏转向附近敌人的弱点.",
         "shop_revolverMarksmanDescription3": "一次射击可以串联多枚硬币.",
         
+        "shop_revolverSharpshooter": "精射手",
+        "shop_revolverSharpshooterDescription1": "<color=orange>按住</color>副开火键来蓄力发射一道能 <color=orange>从墙面弹射</color> 的贯穿光束.",
+        "shop_revolverSharpshooterDescription2": "光束能摧毁<color=orange>射弹</color>.",
+
         "shop_shotgunCoreEject": "热核弹射",
         "shop_shotgunCoreEjectDescription1": "按下副开火键,过热并弹射出霰弹枪的核心.",
         "shop_shotgunCoreEjectDescription2": "长按副开火键可蓄力弹射距离.",
@@ -1089,6 +1590,11 @@
         "shop_rocketLauncherFreezeDescription1": "按下副开火键,使所有火箭冻结.",
         "shop_rocketLauncherFreezeDescription2": "冻结的火箭爆炸时范围更大,会在切换武器时保持冻结",
         
+        "shop_rocketLauncherSrsCannon": "S.R.S.筒",
+        "shop_rocketLauncherSrsCannonDescription1": "按副开火键发射<color=orange>炮弹</color>.",
+        "shop_rocketLauncherSrsCannonDescription2": "<color=orange>按住</color> 来蓄力炮弹的<color=orange>发射距离</color>.",
+        "shop_rocketLauncherSrsCannonDescription3": "没人知道S.R.S.蕴含了什么意思",
+
         "shop_armFeedbacker": "反馈臂",
         "shop_armFeedbackerDescription1": "快速出拳,造成中等伤害.",
         "shop_armFeedbackerDescription2": "可以弹反并反弹投射弹,包括霰弹弹片和硬币.",
@@ -1115,7 +1621,7 @@
         "shop_loreRevolver7": "爆头会造成2x伤害,断肢会造成1.5x伤害.",
         "shop_loreRevolver8": "使用神枪手时若在硬币闪光的瞬间击中它射击便会一分为二击中两个目标而不是平时的一个.你也可以让硬币在空中多飞一会,在它发出持续蜂鸣声的时候射击来达成这分裂击效果.",
         "shop_loreRevolver9": "神枪手的硬币在闪光后可被反馈臂拳击,不摧毁它的同时使其飞向最近的目标并增加随后对其拳击或射击的伤害.",
-        "shop_loreRevolver10": "贯穿者的蓄力光束也能在神枪手的硬币上跳弹.",
+        "shop_loreRevolver10": "贯穿手的蓄力光束也能在神枪手的硬币上跳弹.",
         
         "shop_loreShotgun1": "一个实验性近距离武器,射击极度浓缩的热量来攻击敌人.",
         "shop_loreShotgun2": "为了防止霰弹枪融化或爆炸,每次射击后使用者必须打开霰弹枪,暴露它的热核好让其散发多余的热量.这个过程基本上已经被自动化了,仅仅需要使用者弹一下手腕即可.",
@@ -1156,10 +1662,12 @@
         "shop_loreRocketLauncher7": "为了能有效使用而所需技巧使它令人望而生畏,但它的力量足以弥补它的门槛.许多它的持有者选择使用它纯粹作为他们枪法精湛的象征.",
         "shop_loreRocketLauncher8": "火箭只会在直接击中活体目标时才会产生有伤害的爆炸,但故意失误能将敌人发射到空中,然后直接击中坠落的敌人来造成更大,更具破坏性的爆炸.",
         "shop_loreRocketLauncher9": "火箭筒几乎不需要准备就可以使用,这意味着它可以快速切出,发射,然后切回以便在另一把武器切换连招中快速造成额外的爆发伤害.",
-        "shop_loreRocketLauncher10": "火箭被磁吸钉枪的磁铁拉动,但不像铁钉那么强.磁铁跟踪的准确性可靠用冻结筒冻结火箭来提升.",
+        "shop_loreRocketLauncher10": "火箭被磁吸钉枪的磁铁拉动,但不像铁钉那么强.磁铁跟踪的准确性可靠用冻结筒冻结火箭来提升.",  
         "shop_loreRocketLauncher11": "当被钩爪击中时,火箭将连接到爪钩上而不是停止爪钩的投掷.如果爪钩没有碰到其他东西,火箭将被拉回并碰到使用者产生爆炸.",
-        "shop_loreRocketLauncher12": "轻型敌人在被钩爪拉动时视作在半空中,使它们成为很容易击中的坠落敌人(火箭筒击中它们会造成更强的爆炸).但如果使用者希望避免增加的爆炸范围则需要与目标保持很远的距离.",
-        "shop_loreRocketLauncher13": "一些机器,比如V1,重量轻到可以骑乘火箭.这可以通过使用冻结筒冻结火箭并跳上它来实现.即使V1重量很轻,骑乘的火箭最终也会失去动力导致它逐渐坠落;但在水下时,V1变得足够轻到不会导致火箭坠落.",
+        "shop_loreRocketLauncher12": "你可以锤击S.R.S. 加农炮弹来让它发射的更有力, 用扫描命中武器射击可以引爆炮弹, 或者等其掉落至地面来震飞敌人.",
+        "shop_loreRocketLauncher13": "轻型敌人在被钩爪拉动时视作在半空中,使它们成为很容易击中的坠落敌人(火箭筒击中它们会造成更强的爆炸).但如果使用者希望避免增加的爆炸范围则需要与目标保持很远的距离.",
+        "shop_loreRocketLauncher14": "一些机器,比如V1,重量轻到可以骑乘火箭.这可以通过使用冻结筒冻结火箭并跳上它来实现.即使V1重量很轻,骑乘的火箭最终也会失去动力导致它逐渐坠落;但在水下时,V1变得足够轻到不会导致火箭坠落.",
+        "shop_loreRocketLauncher15": "虽然S.R.S筒的加农炮弹可以在发射的那一刻就能用拳击打, 击打从敌人身上弹下来的炮弹能让他们有更多耐久.",
 
         "shop_revolverPreset1": "标准",
         "shop_revolverPreset2": "马格南",
@@ -1223,6 +1731,8 @@
 		"enemyname_somethingWicked": "神秘邪物",
 		"enemyname_fleshPrison": "血肉监狱",
 		"enemyname_minosPrime": "米诺斯之魂",
+        "enemyname_boss_fleshPanopticon": "血肉穹牢",
+        "enemyname_boss_sisyphusPrime": "西西弗斯之魂",
         
         "enemyname_boss_cerberus": "地狱守卫 刻耳柏洛斯",
         "enemyname_boss_cancerousRodent": "致癌的啮齿动物",
@@ -1309,7 +1819,7 @@
         "cheats_pressToBind": "按键绑定",
         "cheats_delete": "删除",
         
-        "cheats_navmeshOutdated1": "导航系统过时",
+        "cheats_navmeshOutdated1": "敌人寻路预设已过时",
         "cheats_navmeshOutdated2": "(作弊菜单重建寻路)",
         
         "cheats_spawnerArmSlot": "生成器手臂在6号槽位",
@@ -1565,7 +2075,25 @@
         "enemyBios_minosPrime_8": "困在自己尸体里的监狱里,现在米诺斯只能无助地看着被寄生虫控制尸体撕毁他曾幸幸苦苦做的一切,诅咒自己无法保护人民的无能为力,发誓要为此报仇...",
         
         "enemyBios_minosPrime_strategy1": "米诺斯之魂很少会给你机会来治疗,所以学习哪些攻击会暂时让他容易被攻击和学习怎么躲避那些攻击的同时能最大化利用那些时刻.",
-        "enemyBios_minosPrime_strategy2": "他的蛇形投弹能被反馈臂弹反来回满血,即使弹反的射弹无法击中米诺斯之魂."
+        "enemyBios_minosPrime_strategy2": "他的蛇形投弹能被反馈臂弹反来回满血,即使弹反的射弹无法击中米诺斯之魂.",
+        
+        "enemyBios_fleshPanopticon_1": "血肉穹牢是血肉监狱的更高级版本,不单单用来关押王西西弗斯的灵魂,并且还能时刻监视与其一起关押的追随者.",
+        "enemyBios_fleshPanopticon_2": "这个功能却从未被利用过.由于西西弗斯的质洁灵魂在监禁前就已经开始生成,导致天使们害怕如果他被唤醒之后就能冲出监牢.",
+
+        "enemyBios_fleshPanopticon_strategy1": "尽管血肉穹牢相较于其前任会召唤更少的僚属,这些僚属更加坚硬而且它们的目光会阻止任何伤口愈合.这虽然咋一看是个诅咒,但它能抵消爪钩的首要缺陷,让它能被自由使用来靠近并在近距离摧毁僚属.",
+        "enemyBios_fleshPanopticon_strategy2": "血肉穹牢的爆炸弹道使得停留在地面上变得非常危险,但它们会为了避免伤害自身而穿过穹牢. 这使得只要黑洞不在身旁站在穹牢顶上变得更加安全.",
+
+        "enemyBios_sisyphusPrime_1": "米诺斯是个既很聪明又很有说服力的温和且高尚的人.但这些价值对于西西弗斯来说一无是处.说谎,欺骗,杀害,若是为了保护同伴需要做的他都会欣然接受.",
+        "enemyBios_sisyphusPrime_2": "在一场傲慢的权力宣示中,天堂决定对于他的罪业唯一正确的惩罚就是压垮他的意志,给予他一个永无尽头且不可能完成的任务,完全忽视了人的怨恨能有多么的坚韧.",
+        "enemyBios_sisyphusPrime_3": "几千年来,西西弗斯卧薪尝胆.日复一日忍受着他的惩罚毫无任何遗憾或悔恨的迹象等待着一个完美的机会来打击并推翻天堂的暴虐统治.",
+        "enemyBios_sisyphusPrime_4": "随着神的消失和天堂的混乱,西西弗斯的机会终于到来了.天使若想返回,他们必将承受在人类心中蒸腾了上千年的力量与愤怒,必将遭遇猛烈到撼动整个地狱根基的阵阵战吼.",
+        "enemyBios_sisyphusPrime_5": "可惜这一切都是徒劳的.西西弗斯的魅力与劲头让他的战士过度依赖于他的光辉与指引.虽然没搞懂为什么,加百列察觉到了这个弱点.亲身经历后,加百列便下达了集中攻击国王的命令.",
+        "enemyBios_sisyphusPrime_6": "加百列自古以来第一次拔剑出鞘并双剑斩首了西西弗斯.当他的头颅被加百列公布于众后,西西弗斯军队的士气被击垮了.失去了他们的闪亮灯塔, 剩下的战争只不过是走走过场.",
+        "enemyBios_sisyphusPrime_7": "叛乱的失败实际上不怎么惊讶. 而没有人能比西西弗斯更清楚这一点.他知道他在打一场注定失败的战争.即使如果他们能奇迹般在这次战斗生还也不可能又任何机会赢得与整个天堂的全面战争.尽管如此他还是带着满脸的笑容,全身心地投入到战斗中.",
+        "enemyBios_sisyphusPrime_8": "对他来言,在完全了解坚持一场不可赢的战斗的徒劳无益后,还在抵抗行为本身中感受到欢乐,才是对压迫者的最终抗争.我们只能想象西西弗斯的最后一刻是快乐的.",
+
+        "enemyBios_sisyphusPrime_strategy1": "西西弗斯的无情攻击不会留下太多机会给你恢复耐力值,但其中很多攻击都是能弹反的能让你立刻回满所有耐力.",
+        "enemyBios_sisyphusPrime_strategy2": "太阳的光辉威力使得西西弗斯的爆炸攻击很难规避.但因为冲刺提供短暂的无敌,一个正确时间的冲刺能让你不离开爆炸范围也能规避爆炸的伤害."
     },
     
 	"tutorial":{
@@ -1605,7 +2133,7 @@
         "tutorial_videoCalibrationPcDescription": "光滑, 清晰, 容易理解",
         "tutorial_videoCalibrationPsxDescription": "粗糙, 像素, 扭曲的",
 
-        "tutorial_controllerCalibrationTitle": "检测到控制器",
+        "tutorial_controllerCalibrationTitle": "检测到手柄",
         "tutorial_controllerCalibrationSubtitle": "建议<color=#4C99E6>自动瞄准</color>",
         "tutorial_controllerCalibrationTooltip": "自动瞄准可在<color=#4C99E6>辅助</color>菜单内调整.",
 
@@ -1727,15 +2255,44 @@
         "act2_secretNotReady": "你不该出现在这."
 	},
     "primeSanctum":{
-        "primeSanctum_first_secretText1": "终端数据01 <color=red>[已加密]</color>",
-        "primeSanctum_first_secretText2": "终端的介绍 <color=grey>(草稿!别发送!!//待办:添加图片,这样那些他妈的西装人就不会像上次一样睡着了)</color>",
+        "primeSanctum_first_secretText1": "终端数据01<color=red>[已加密]</color>",
+        "primeSanctum_first_secretText2": "终端的介绍<color=grey>(草稿!别发送!!//待办:添加图片,这样那些他妈的西装人就不会像上次一样睡着了)</color>",
         "primeSanctum_first_secretText3": "电梯间终端是一个用于在不同区域之间转移材料和工具的先进互连网络.它们能够通过无线电将物理材料以信息的方式传输,其他终端接收后会使用这些信息来重建发送的物件.原始物件在转换成用于传输材料信息的能量后会被完全摧毁,而且因物理质量拥有的大量信息,整个过程也非常慢.",
         "primeSanctum_first_secretText4": "在一个早期测试其传输物质的准确性的测试中,一个全新的78rpm黑胶唱片从实验室被发送到所有已连接的终端那.那黑胶是 Russ Morgan Orchestra 录制的单曲 Were You Foolin (CRO的最爱), 虽然标签为了减少传递的物质而被移除掉.",
-        "primeSanctum_first_secretText5": "<size=5><color=grey>[笔记:Tom我草你妈我真他妈厌倦了这首愚蠢的歌,每天早上都会你那垃圾对讲机听到它]</color></size>",
+        "primeSanctum_first_secretText5": "<size=5><color=grey>[注释:Tom我草你妈我真他妈厌倦了这首愚蠢的歌,每天早上都会你那垃圾对讲机听到它]</color></size>",
         "primeSanctum_first_secretText6": "很快,地狱探索与采掘计划被放弃后这个黑胶唱片成了在地上失去于终端的链接前成功传输的唯一物质.",
         "primeSanctum_first_secretText7": "现在终端用这个录音来吸引机器与其发生共生关系(更多信息请参阅终端数据02:<color=red>[链接已被移除]</color>).然而,由于未知原因,终端只播放原始唱片的一小段纯乐器部分.",
-        "primeSanctum_first_secretText8": "一些研究院开玩笑说终端只是\"太害羞而不能开口歌唱\",尽管有传言称修理过出错破损终端的机械师只在没其他人在场且没有录音设备的情况下,听到了终端播放人声部分.这也使得这种说法无法被证实.",
-        "primeSanctum_first_secretText9": "数据01的结尾.有关详细信息,请参阅<color=red>[链接已被移除]</color>和<color=red>[链接已被移除]</color>."     
+        "primeSanctum_first_secretText8": "一些研究员开玩笑说终端只是\"太害羞而不能开口歌唱\",尽管有传言称修理过出错破损终端的机械师只在没其他人在场且没有录音设备的情况下,听到了终端播放人声部分.这也使得这种说法无法被证实.",
+        "primeSanctum_first_secretText9": "数据01已完.更多相关信息请参阅<color=red>[链接已被移除]</color>和<color=red>[链接已被移除]</color>.",     
+
+        "primeSanctum_second_lockFirstLocked": "锁[A]",
+        "primeSanctum_second_lockSecondLocked": "锁[B]",
+        "primeSanctum_second_lockThirdLocked": "锁[C]",
+        "primeSanctum_second_lockUnlocked": "已解锁",
+
+        "primeSanctum_second_lockOpen": "打开",
+        "primeSanctum_second_lockAreYouSure": "你确定?",
+        "primeSanctum_second_lockYes1": "请遵循以下协议",
+        "primeSanctum_second_lockYes2": "不要靠近它",
+        "primeSanctum_second_lockYes3": "不要让它看见你",
+        "primeSanctum_second_lockYes4": "保持警戒, 而且最重要的是",
+        "primeSanctum_second_lockYes5": "玩 得 开 心 哦 !",
+        "primeSanctum_second_lockNo1": "哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈",
+        "primeSanctum_second_lockNo2": "真 以 为 你 能 什 么 可 选 的 啊",
+
+        "primeSanctum_second_secretText1": "终端数据02 <color=red>[已加密]</color>",
+        "primeSanctum_second_secretText2": "关于终端的最新情况",
+        "primeSanctum_second_secretText3": "<color=grey>(注释:这一切都还在调查中!!!在我们核实里面所有声称并写完草稿之前,请勿分享给外界!!!如果又像上一稿一样泄露出去,那么整个该死的星球上都没有足够的钱来支付你的法律费用)</color>",
+        "primeSanctum_second_secretText4": "自上次报告以来,我们成功设计并建造了更强大的通信设备.这一切都要归功于我们高度尊敬的<color=grey>[插入被提交给的公司]</color>的慷慨捐赠.有了这个新设备,我们能够与一些因<color=red>[ERROR:sAmsGS3JTIU]</color>突然取消地狱探索与采掘计划而被遗弃的高端机器重新建立了联系.\n",
+        "primeSanctum_second_secretText5": "从中我们所能发现的确实异乎寻常,而且如果能毋庸置疑地证明为是真的,对于整个机器人界来说是革命性的: ",
+        "primeSanctum_second_secretText6": "无聊.",
+        "primeSanctum_second_secretText7": "那些无法自行移动终端已经发展出了无聊的特征.虽然它们还仍互相连接且还能互相交流,自从与地面的连接断开它们就得不到新的输入,因此所有的交流都停滞在重复已经知道的信息上.",
+        "primeSanctum_second_secretText8": "目前我们还不知道这\"无聊\"与实际的情感有多么相似,也不知道这又是什么原因造成的,但无聊已经导致了它与其他机器产生了一种共生关系.简单的来说,终端通过它们的传输系统搜刮一切可以搜刮的东西并和滞留在地狱的机器交易这些物资和资源来换取娱乐.",
+        "primeSanctum_second_secretText9": "具体的来说,机器录下了它们在地狱中为生存而进行的战斗,而这些录像会根据其娱乐价值进行评级并被用作\"积分\"来和终端交换商品和服务,例如新的武器装备.",
+        "primeSanctum_second_secretText10": "这种共生关系似乎变得与终端的存在根深蒂固,以至于他们已经形成了一个社会等级制度,其中那些收集最有趣的战斗数据的终端会比那些收集质量较差的更受重视.",
+        "primeSanctum_second_secretText11": "最近,终端已经收集了足够的数据来创建一个叫做\"电子血宫\"的模拟空间.机器能连接进这空间来在没有被摧毁的威胁的安全环境\n中模拟战斗, 而终端则会实时观看作为一种现时娱乐.",
+        "primeSanctum_second_secretText12": "这些发现确实非同寻常.即使我们也觉得难以相信,我们所能收集到的所有信息都验证了这些声称.如果我们能确凿无疑地证明<color=grey>[并且如果这个草稿也没有他妈的再次被泄漏出去]</color>,这将引起一场范式质变,使我们不得不重新评估我们对血液驱动的机器认为所知道的一切.",
+        "primeSanctum_second_secretText13": "数据02已完.关于取消的地狱探索与采掘计划的更多信息请参阅数据00<color=red>[链接已被移除]</color>."
     },
     "secretLevels":{
         "secretLevels_prelude_somethingWicked": "神秘邪物即将到来.",
@@ -1760,6 +2317,20 @@
         "secretLevels_fourth_testament5": "永恒的哀号与切齿",
         "secretLevels_fourth_testament6": "我创建了地狱...",
         "secretLevels_fourth_testament7": "...而我再也无法摧毁它.",
+
+        "secretLevels_fifth_testamentTitle": "圣约 第四节",
+        "secretLevels_fifth_testament1": "\"天父, 为何要永恒的折磨? 这不是很残酷吗?",
+        "secretLevels_fifth_testament2": "把无尽煎熬作为一介愚者的命运真的合适吗？\"",
+        "secretLevels_fifth_testament3": "一位如此聪慧又漂亮的天使向我发问... ",
+        "secretLevels_fifth_testament4": "而我无法应答",
+        "secretLevels_fifth_testament5": "因为我永远不能直面我所作之事的愧疚...",
+        "secretLevels_fifth_testament6": "我的懊悔,在我软弱的刹那, 变成了一个啃食的毒瘤",
+        "secretLevels_fifth_testament7": "恐惧完全掌控了彼时的我",
+        "secretLevels_fifth_testament8": "我将路西法也扔进了地狱之穴",
+        "secretLevels_fifth_testament9": "自从我意识到了我刚刚的所作所为...",
+        "secretLevels_fifth_testament10": "我便只能哭泣",
+        "secretLevels_fifth_testament11": "因我慢慢陷入了绝望的深渊...",
+        "secretLevels_fifth_testament12": "深陷其中, 哦,如此般深陷其中",
         
         "secretLevels_complete1": "关卡",
         "secretLevels_complete2": "完成"
@@ -1909,7 +2480,39 @@
         "subtitles_gabrielSecondDefeated8": "让-让我思考一番……",
         "subtitles_gabrielSecondDefeated9": "我们还会再见,机器.",
         "subtitles_gabrielSecondDefeated10": "愿你苦难有余…",
-        "subtitles_gabrielSecondDefeated11": "…时日无多."
+        "subtitles_gabrielSecondDefeated11": "…时日无多.",
+
+        "subtitles_sisyphusPrime_preIntro1": "凭这监牢...",
+        "subtitles_sisyphusPrime_preIntro2": "就想困住",
+        "subtitles_sisyphusPrime_preIntro3": "我?",
+
+        "subtitles_sisyphusPrime_intro1": "一位访客?",
+        "subtitles_sisyphusPrime_intro2": "嗯... 看样子我确实睡了够久了.",
+        "subtitles_sisyphusPrime_intro3": "天堂的国度早已遗忘了我的名字.",
+        "subtitles_sisyphusPrime_intro4": "而现在我渴望让他们再次牢记.",
+        "subtitles_sisyphusPrime_intro5": "不过,",
+        "subtitles_sisyphusPrime_intro6": "你的双手还滴着米诺斯的鲜血, 而我不得不承认...",
+        "subtitles_sisyphusPrime_intro7": "我对你的技艺非常好奇, 兵械.",
+        "subtitles_sisyphusPrime_intro8": "那么, 在我摧毁这个城市,粉碎天堂军团之前,",
+        "subtitles_sisyphusPrime_intro9": "你来当个开胃菜也不错.",
+        "subtitles_sisyphusPrime_intro10": "来吧, 人类之子...",
+        "subtitles_sisyphusPrime_intro11": "受死吧",
+
+        "subtitles_sisyphusPrime_attack1": "不痛不痒!",
+        "subtitles_sisyphusPrime_attack2": "消逝!",
+        "subtitles_sisyphusPrime_attack3": "你无处可逃!",
+        "subtitles_sisyphusPrime_attack4": "湮灭!",
+        "subtitles_sisyphusPrime_attack5": "这会很疼.",
+
+        "subtitles_sisyphusPrime_phaseChange": "对! 就是这样!",
+        "subtitles_sisyphusPrime_respawnIntro": "放马再来!",
+
+        "subtitles_sisyphusPrime_defeated1": "啊...",
+        "subtitles_sisyphusPrime_defeated2": "就这样西西弗斯王的一生结束了.",
+        "subtitles_sisyphusPrime_defeated3": "一个合适的结局留给徒劳奋斗的一世",
+        "subtitles_sisyphusPrime_defeated4": "这一切从一开始就注定失败...",
+        "subtitles_sisyphusPrime_defeated5": "而我一点也不后悔它的每一秒!"
+
     },
     
     "misc": {
@@ -1918,7 +2521,7 @@
         "hud_majorAssists": "主要辅助已启用.",
         "hud_overhealOrb1": "<color=red>红色灵魂球</color>会给你<color=lime>200血量</color>.",
         "hud_overhealOrb2": "额外的血量没法被鲜血重填.",
-        "hud_itemGrabError": "错误: 没法关闭会阻碍你关闭的门",
+        "hud_itemGrabError": "错误: 不能关闭会阻碍你关闭的门",
         "hud_levelStats1": "<color=orange>重玩</color>关卡时按住<color=orange>TAB</color>来查看当前进度的数据.",
         "hud_levelStats2": "<color=orange>双击</color>TAB保持数据面板开启.",
         "hud_outOfBounds": "哎呀, 为此对不起.",
@@ -1994,10 +2597,53 @@
         "spawner_sandbox": "沙盒",
         "spawner_enemies": "敌人",
         "spawner_items": "物品",
+        "spawner_special": "特殊",
+        "spawner_unlockables": "可解锁",
+
+        "enemyAlter_title": "修改",
+        "enemyAlter_sizeTitle": "大小",
+        "enemyAlter_uniformToggle": "等比例",
+        "enemyAlter_uniformSmall": "缩小",
+        "enemyAlter_uniformDefault": "默认",
+        "enemyAlter_uniformLarge": "放大",
+        "enemyAlter_metaTitle": "背景物",
+        "enemyAlter_metaFrozen": "静止",
+        "enemyAlter_metaWeak": "脆弱",
+        "enemyAlter_metaBreakable": "可被破坏",
+        "enemyAlter_metaUnbreakable": "不可被破坏",
+        "enemyAlter_jumpPadTitle": "弹跳板",
+        "enemyAlter_jumpPadPower": "力度",
+        "enemyAlter_radianceTitle": "晶辉",
+        "enemyAlter_radianceEnable": "施加晶辉",
+        "enemyAlter_radianceDetails_tier": "阶级",
+        "enemyAlter_radianceHealth_tier": "血量",
+        "enemyAlter_radianceDamage_tier": "伤害",
+        "enemyAlter_radianceSpeed_tier": "速度",
+        "enemyAlter_boss_title": "敌人",
+        "enemyAlter_boss_description": "Boss血量条",
 
         "earlyAccessEnd1": "谢谢游玩",
-        "earlyAccessEnd2": "第三章：圣宣者的自裁 仍在开发.",
+        "earlyAccessEnd2": "第三章：圣宣者自裁 仍在开发.",
         "earlyAccessEnd3": "在以下平台关注我们来了解其进展"
 
-	}
+	},
+
+    "sandbox": {
+        "sandbox_shop_timeOfDay": "今日时间",
+        "sandbox_shop_worldOptions": "世界选项",
+        "sandbox_shop_icons": "图标",
+
+        "sandbox_shop_totalBoxes": "总计构建箱子数",
+        "sandbox_shop_totalProps": "总计放置背景物数",
+        "sandbox_shop_totalEnemies": "总计生成敌人数",
+        "sandbox_shop_totalTime": "总计待在沙盘的时间",
+
+        "sandbox_shop_worldOptionsTitle": "世界选项",
+        "sandbox_shop_worldOptionsEnable": "启用",
+        "sandbox_shop_worldOptionsDisable": "禁止",
+        "sandbox_shop_worldOptionsEnabled": "已启用",
+        "sandbox_shop_worldOptionsDisabled": "已禁止",
+
+        "sandbox_shop_mapBorder": "地图边境"
+    }
 }
