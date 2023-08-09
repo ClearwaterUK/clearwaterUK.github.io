@@ -1,54 +1,480 @@
 {
 	"metadata": {
-		"langName": "pt-BR",
-		"langAuthor": "FNChannel, Hebert, Jackie, MKaid, Raylander, Soulvender, Veni.",
-		"langVersion": "1.1.1",
+		"langName": "pt-br",
+		"langAuthor": "FNChannel, hebert, Jackie, MKaid, Raylander, Soulvender, DelksBWG, Veni.",
+		"langVersion": "1.2.1",
 		"langDisplayName": "Brazilian Portuguese",
-		"langRTL": "false",
+        "langRTL": "false",
 
-		"minimumModVersion": "1.1.1"
+		"minimumModVersion": "1.2.2"
 	},
 
 	"body": {
 		"bodyName": "Tradução em Português Brasileiro do jogo ULTRAKILL"
 	},
 
-	"credits": {
-		"credits_title": "ULTRAKILL",
-		"credits_createdBy": "UM JOGO CRIADO POR <color=orange>ARSI \"HAKITA\" PATALA</color>",
+    "devMuseum": {
+        "museum_bookHakita1": "<b>E aí!</b> Bem-vindo ao museu dos desenvolvedores. Eu sou Hakita, o principal desenvolvedor do jogo. Eu comecei a trabalhar nele principalmente por mim mesmo, mas com o passar do tempo o jogo cresceu bastante, e tive muitas pessoas maravilhosas me ajudando ao longo dos anos, então aqui estão todas elas!",
+        "museum_bookHakita2": "Esse museu foi criado principalmente por Vvizard, com apenas retoques, iteração, escrita e easter eggs adicionais feitos por mim. Você pode encontrar ele na \"Sala de Descanço\" no final do corredor, à esquerda",
+        "museum_bookHakita3": "Dê uma olhada! O primeiro andar é para todas as pessoas que me ajudaram no desenvolvimento do jogo e o segundo andar é para todos os outros tipos de coisas legais sobre o desenvolvimento, tipo conteúdo não utilizado e versões antigas de coisas. Também há muitos easter eggs escondidos pelo museu!",
+        "museum_bookHakita4": "A maioria dos desenvolvedores terão um livro tipo esse na frente deles, no qual você poderá ler detalhes de como eles ajudaram na criação do jogo. Aqui está o meu!",
+        "museum_bookHakita5": "<b><color=orange>HAKITA</color> - CRIADOR DO ULTRAKILL</b>",
+        "museum_bookHakita6": "Eu comecei o desenvolvimento do jogo no dia 1º de fevereiro de 2018. Na época, era apenas eu, com FlyingDog e Toni Stigell ocasionalmente fazendo um modelo 3D. Embora a equipe de desenvolvimento tenha mudado e crescido desde então, eu ainda faço a maior parte do trabalho sozinho... Só que agora tá mais pra 60% dele em vez dos antigo 99%",
+        "museum_bookHakita7": "Minhas contribuições incluem:",
+        "museum_bookHakita8": "- Toda a direção, game design, sound design, história e animação",
+        "museum_bookHakita9": "- Todo o level design, exceto este museu, o Sandbox e o 5-S",
+        "museum_bookHakita10": "- Todas as músicas, exceto algumas músicas de domínio público e músicas de compositores especiais (que você encontrará no final do corredor e à esquerda)",
+        "museum_bookHakita11": "- A maior parte da escrita, programação e direção de arte",
+        "museum_bookHakita12": "- De modo geral, se algo tá no jogo, eu meti o dedo nesse bolo",
+        "museum_bookHakita13": "Obrigado pro jogar, e possivelmente, gostar do ULTRAKILL. É insano pra mim que um projeto de paixão que começou apenas com base no que eu achava divertido em jogos se tornou um sucesso tão grande. Eu conheci tantas pessoas incríveis graças a esse jogo e a comunidade que cresceu em torno dele tem sido uma fonte de muita alegria (e muita angústia) em minha vida. É uma rara oportunidade poder não apenas criar um trabalho como esse com total controle criativo, mas também viver da minha própria arte sem ter que comprometer minha visão, e tudo isso graças à New Blood, a todos os desenvolvedores deste museu e, o mais importante... <b>VOCÊ!</b>\n",
 
-		"credits_helpedByTitle": "COM A AJUDA DE:",
-		"credits_helpedBy1": "<color=orange>DAVE OSHRY</color> (PRODUTOR EXECUTIVO)",
-		"credits_helpedBy2": "<color=orange>PITR</color> (PROGRAMADOR)",
-		"credits_helpedBy3": "<color=orange>RYANN VICTORIA</color> (ARTISTA 3D & PROGRAMADOR DE SHADER)",
-		"credits_helpedBy4": "<color=orange>SAMUEL JAMES BRYAN</color> (ARTISTA 3D)",
-		"credits_helpedBy5": "<color=orange>BIGROCKBMP</color> (ARTISTA CONCEITUAL)",
-		"credits_helpedBy6": "<color=orange>JERICHO_RUS</color> (ILUSTRADOR, ARTISTA DE CONCEITO & TEXTURA)",
-		"credits_helpedBy7": "<color=orange>FRANCIS XIE</color> (ARTISTA DE CONCEITO & TEXTURA)",
+        "museum_bookFrancisXie1": "<b><color=#4AACBD>FRANCIS XIE</color> - ARTISTA CONCEITUAL E DE TEXTURAS</b>",
+        "museum_bookFrancisXie2": "Francis entrou para a equipe em 2021, por volta do início do desenvolvimento da camada Fúria, quando ele foi escolhido como artista geral da New Blood graças às suas incríveis fanarts de ULTRAKILL.",
+        "museum_bookFrancisXie3": "Algumas de suas maiores contribuições incluem:",
+        "museum_bookFrancisXie4": "- Os designs do Leviatã, do Barqueiro e da versão pré-corpórea de Minos e Sísifo, e também seus retratos.",
+        "museum_bookFrancisXie5": "- O design do órgão da igreja em 6-2: ESTÉTICA DO ÓDIO",
+        "museum_bookFrancisXie6": "- O design de uma arma não utilizada chamada Cortador de Feixe",
+        "museum_bookFrancisXie7": "- As texturas exclusivas do nível 5-3: NAVIO DOS TOLOS, assim como quase todas as texturas na camada Heresia.",
+        "museum_bookFrancisXie8": "- Os designs das pelúcias de todos os desenvolvedores",
+        "museum_bookFrancisXie9": "\"Eu simplesmente não estaria aqui sem este jogo e estou muito feliz por ele ser ULTRAKILL. Agradeço ao Hakita, ao resto da equipe de desenvolvimento e a todos da New Blood por serem pessoas tão boas que sempre apoiam o que eu faço. Um agradecimento especial ao meu melhor amigo que me incentivou a buscar o que eu realmente amo; fazer parte dessa equipe foi um sonho que se tornou realidade. Um brinde ao melhor projeto!\"\n",
 
-		"credits_contributionsTitle": "COM CONTRIBUIÇÕES ADICIONAIS DE:",
-		"credits_contributions1": "<color=orange>MAXIMILIAN OVESSON</color> (ARTISTA DE IU)",
-		"credits_contributions2": "<color=orange>JACOB H.H.R.</color> (ESCRITOR [PROSA & DIÁLOGO])",
-		"credits_contributions3": "<color=orange>FLYINGDOG</color> (ARTISTA 3D)",
-		"credits_contributions4": "<color=orange>TONI STIGELL</color> (ARTISTA 3D)",
-		"credits_contributions5": "<color=orange>BEN MOIR</color> (PROGRAMADOR)",
-		"credits_contributions6": "<color=orange>LUCAS VARNEY</color> (PROGRAMADOR)",
-		"credits_contributions7": "<color=orange>EMANUIL \"CABALCROW\" CHIZHOV</color> (PROGRAMADOR)",
-		"credits_contributions8": "<color=orange>HECKTECK</color> (PROGRAMADOR)",
-		"credits_contributions9": "<color=orange>MEGANEKO</color> (COMPOSITOR DA MÚSICA DE CYBER GRIND)",
+        "museum_bookJerichoRus1": "<b><color=orange>JERICHO_RUS</color> - ARTISTA CONCEITUAL E DE TEXTURAS</b>",
+        "museum_bookJerichoRus2": "Jericho entrou para a equipe em 2019, pouco antes do lançamento da demo Prelude (Prelúdio) inicial. Ele é responsável por muitos dos designs dos personagens do jogo e pela maioria dos designs das armas, assim como todas as texturas dos níveis das camadas 2 a 4 e algumas texturas da camada Fúria.",
+        "museum_bookJerichoRus3": "Algumas de suas maiores contribuições incluem:",
+        "museum_bookJerichoRus4": "- Os designs do V1 e Gabriel",
+        "museum_bookJerichoRus5": "- Os designs de vários inimigos, como o Drone, Limpa-ruas e do Soldado",
+        "museum_bookJerichoRus6": "- O design the todas as armas e armas alternativas, com exceção do revólver e da escopeta originais",
+        "museum_bookJerichoRus7": "- A arte promocional principal, que é usada como a arte da capa do jogo",
+        "museum_bookJerichoRus8": "- A maioria das texturas dos níveis, incluindo todas as texturas das camadas 2-4",
+        "museum_bookJerichoRus9": "- Toda a arte do 2-S",
+        "museum_bookJerichoRus10": "\"Oi, obrigado ao restante da equipe de desenvolvimento e a vocês por gostarem do que criamos. Conheci muitas pessoas maravilhosas durante o desenvolvimento do ULTRAKILL e espero que isso continue acontecendo. Um abraço para SXBIG e Luvoid!\"\n",
 
-		"credits_VATitle": "COM A VOZ DE:",
-		"credits_VA1": "<color=orange>GIANNI MATRAGRANO</color> (GABRIEL)",
-		"credits_VA2": "<color=orange> STEPHAN WEYTE </color> (MINOS PRIME)",
-		"credits_VA3": "<color=orange>MANDALORE HERRINGTON</color> (MDK)",
-		"credits_VA4": "<color=orange>JUST SHAMMY </color> (&CORUJA)",
+        "museum_bookBigRockBMP1": "<b><color=#DA6B6D>BIGROCKBMP</color> - ARTISTA CONCEITUAL</b>",
+        "museum_bookBigRockBMP2": "BigRock entrou para a equipe no início de 2019, durante o desenvolvimento do Prelúdio. Ele foi o primeiro artista conceitual do jogo e responsável pelos designs de muitos dos chefes do jogo, tais como o primeiro design de personagem do jogo, a Espadáquina.",
+        "museum_bookBigRockBMP3": "Algumas de suas maiores contribuições incluem:",
+        "museum_bookBigRockBMP4": "- Os designs de muitos dos chefes do jogo, como a Espadáquina, o Corpo do Rei Minos e a Massa Horrenda",
+        "museum_bookBigRockBMP5": "- Os designs de muitos dos inimigos do jogo, como a Devoradora de Mentes, o Ídolo e a Sentinela",
+        "museum_bookBigRockBMP6": "- O design de todos os chefes nos Santuários Prime",
+        "museum_bookBigRockBMP7": "- A pintura do barqueiro segurando o lança-foguetes em 5-3: NAVIO DOS TOLOS",
+        "museum_bookBigRockBMP8": "\"Quando Hakita me pediu para fazer o design de um chefe para o jogo dele, eu não tinha ideia de que o ULTRAKILL se tornaria tão grande. Ver tantas pessoas fazendo fanarts dos personagens que desenhei é tanto intimidador quanto me inspira a continuar, tentar e crescer como artista, e espero que meu trabalho inspire alguém a pegar um lápis também.\"\n",
 
-		"credits_QATitle": "E GARANTIA DE QUALIDADE POR:",
-		"credits_QA1": "<color=orange>CAMERON MARTIN</color> (CONDUTOR DE GQ)",
-		"credits_QA2": "<color=orange>TUCKER WILKIN </color> (SENIOR DE GQ)",
-		"credits_QA3": "<color=orange>SCOTT GURNEY </color> (TÉCNICO DE GQ)",
-		"credits_QA4": "<color=orange>DALIA FIGUEROA </color> (GQ & MATERIAL PROMOCIONAL)"
-	},
+        "museum_bookMaximilianOvesson1": "<b><color=#8f65da>MAXIMILIAN OVESSON</color> - ARTISTA DE INTERFACE</b>",
+        "museum_bookMaximilianOvesson2": "Maximilian entrou para a equipe em 2018, no início do desenvolvimento do jogo. Ele é responsável pelos ícones de armas usados na interface do usuário, pela animação da caveira do fim de jogo e pelo logotipo do jogo.",
+        "museum_bookMaximilianOvesson3": "\"Tenho orgulho de ter contribuído um pouco para a criação do ULTRAKILL e sou grato pela oportunidade de fazer parte deste jogo. Obrigado por me receberem e obrigado a todos os jogadores pelo apoio.\"\n",
+
+        "museum_bookVictoriaHolland1": "<b><color=#F5ABB9>VICTORIA HOLLAND</color> - PROGRAMADORA GRÁFICA E ARTISTA 3D PRINCIPAL</b>",
+        "museum_bookVictoriaHolland2": "Victoria entrou para a equipe no início de 2020, no final do desenvolvimento da camada Limbo. Ela começou a trabalhar ao lado de Sam, mas, a partir do Ato 2, passou a ser responsável por todos os modelos 3D do jogo, com a única exceção do Insurrecionista Sísifeano. Ela também cuida da programação de todos os sombreadores e de quase todos os sistemas gráficos e otimizações.",
+        "museum_bookVictoriaHolland3": "Algumas de suas maiores contribuições incluem:",
+        "museum_bookVictoriaHolland4": "- Muitos dos modelos do Ato 1, incluindo o Sujo, o Corpo do Rei Minos e o Canhão de Raios",
+        "museum_bookVictoriaHolland5": "- Todos os modelos do Ato 2, exceto o Insurrecionista Sísifeano",
+        "museum_bookVictoriaHolland6": "- A programação de todos os sombreadores",
+        "museum_bookVictoriaHolland7": "- A programação da maioria dos sistemas gráficos e otimizações",
+        "museum_bookVictoriaHolland8": "\"Não perca tempo com medo. Dê o salto e abrace a pessoa que você quer ser. Você não está sozinho, portanto, viva seu eu autêntico e sempre aproveite a jornada.\"\n",
+
+        "museum_bookToniStigell1": "<b><color=orange>TONI STIGELL</color> - ARTISTA 3D</b>",
+        "museum_bookToniStigell2": "Toni Stigell entrou para a equipe logo no início do desenvolvimento, no começo de 2018. Nós já havíamos trabalhado juntos em alguns pequenos projetos, incluindo um jogo furtivo, agora cancelado, chamado Untraceable, que é de onde a estátua do homem pensante que acabou se tornando o Cérbero surgiu.",
+        "museum_bookToniStigell3": "Além disso, ele modelou muitos dos primeiros modelos de personagens do ULTRAKILL até deixar o projeto em meados de 2019. Ele também criou as animações do modelo original do Sujo, e embora elas já tenham sido substituídas, o Algo Sinistro ainda usa uma delas, tornando-a a única animação do jogo que não foi criada por mim.",
+        "museum_bookToniStigell4": "Algumas de suas maiores contribuições incluem:",
+        "museum_bookToniStigell5": "- Os modelos originais das carcaças, da Espadáquina e do braço Rebatedor",
+        "museum_bookToniStigell6": "- O design da versão original do Sujo",
+        "museum_bookToniStigell7": "- Quem me introduziu a DMC em primeiro lugar\n",
+
+
+        "museum_bookToniFlyingDog1": "<b><color=#6a36be>FLYINGDOG</color> - ARTISTA 3D</b>",
+        "museum_bookToniFlyingDog2": "FlyingDog entrou para a equipe logo no início do desenvolvimento no começo de 2018, projetando e criando muitos dos primeiros modelos 3D e suas texturas. Embora a maioria desses modelos tenha sido refeitos e substituídos desde então, eles ainda são baseados em seus designs originais e muitos de seus modelos originais ainda podem ser vistos aqui e ali como easter eggs. Sua última contribuição para o jogo foi a textura do braço Rebatedor em meados de 2019.",
+        "museum_bookToniFlyingDog3": "Algumas de suas maiores contribuições incluem:",
+        "museum_bookToniFlyingDog4": "- Os designs e modelos originais do revólver, da escopeta e da Face Maliciosa",
+        "museum_bookToniFlyingDog5": "- O modelo e a textura originais da pregadeira",
+        "museum_bookToniFlyingDog6": "- As texturas das versões originais das carcaças e da Espadáquina\n",
+
+        "museum_bookSamuelJamesBryan1": "<b><color=orange>SAMUEL JAMES BRYAN</color> - 3D ARTIST</b>",
+        "museum_bookSamuelJamesBryan2": "Sam entrou em meados de 2019, no início do desenvolvimento da camada Limbo, e é responsável por modelar a maioria dos inimigos no Ato 1, incluindo V1, V2 e Gabriel. Seu último trabalho de modelagem para o jogo foi o Insurrecionista Sísifeano no início de 2021, e desde então ele se dedica a outros projetos, embora ainda ajude ocasionalmente com sugestões e conselhos de modelagem.",
+        "museum_bookSamuelJamesBryan3": "\"Sei lá, pergunta pro Hakita.\"\n",
+
+        "museum_bookQATeam1": "<b><color=red>CAMERON MARTIN</color> - GARANTIA DE QUALIDADE PRINCIPAL",
+        "museum_bookQATeam2": "<color=#6a36be>DALIA FIGUEROA</color> - GARANTIA DE QUALIDADE, CONTEÚDO PROMOCIONAL & CAPTURAS DE TELA",
+        "museum_bookQATeam3": "<color=#11c324>TUCKER WILKIN</color> - GARANTIA DE QUALIDADE SENIOR",
+        "museum_bookQATeam4": "<color=#e28eb6>SCOTT GURNEY</color> - GARANTIA DE QUALIDADE TÉCNICA</b>",
+        "museum_bookQATeam5": "O time de QA da New Blood (Cameron, Dalia, Tucker e Scott) são responsáveis por garantir que o jogo rode corretamente e sem muitos bugs. É graças a eles que o ULTRAKILL parece um jogo funcional, apesar de ser uma bagunça de fita adesiva, espaguete, cola e orações por baixo. Antes do ULTRAKILL entrar para o catálogo da New Blood, eu mesmo tinha que fazer o controle de qualidade, e até mesmo essa pequena quantidade de testes de bugs me faz questionar como essas pessoas conseguem se manter sãs.",
+        "museum_bookQATeam6": "...Bem, relativamente sãs.",
+        "museum_bookQATeam7": "\"Nas palavras imortais do grande centroavante húngaro Nandor Hidegkuti - 'Amikor eljön a forradalom, a zeneipar lesz az első amely menni fog. Köszönöm szépen'\"",
+        "museum_bookQATeam8": "\"Seja em jogos, música, filmes ou na companhia de outras pessoas, não deixe de aproveitar os bons momentos que você vive e sempre olhe para a vida com uma nota positiva. A vida é preciosa, e afinal de contas, é seu próprio espetáculo. Aproveite sua vida ao máximo e dê a todos respeito e amor. Um sorriso no rosto de alguém vale muito mais do que ouro!\"",
+        "museum_bookQATeam9": "\"De todas as cicatrizes em minha psique, essa sempre será minha favorita. Daquela porta amaldiçoada à gafe acidental do braço invocador, foi uma ótima experiência mesmo assim! Às vezes, os videogames podem ser legais pra caramba. Espero que possamos ter mais deles!\"",
+        "museum_bookQATeam10": "\"Poder ajudar a concretizar uma forte visão criativa como a do Hakita foi uma honra absoluta e uma experiência inesquecível. Serei eternamente grato por essa oportunidade e estou ansioso pelo que virá a seguir!\"\n",
+
+
+        "museum_bookPitr1": "<b><color=orange>PITR</color> - PROGRAMADOR PRINCIPAL</b>",
+        "museum_bookPitr2": "PITR já começou a ajudar na programação no final de 2019, mas foi oficialmente adicionado à equipe no início de 2020 graças aos seus mods ULTRAKILL e a uma tentativa inicial de um sistema de níveis personalizados. Ele é responsável pela programação mais avançada do jogo, como o sistema de trapaças, padrões do Cyber Grind e as legendas. Ele também criou o Sandbox inteiro e o 5-S, com apenas pequenos retoques estéticos feitos por mim.",
+        "museum_bookPitr3": "Basicamente, se você der uma olhada no código do jogo e ver alguma coisa que tenha sido bem feita, provavelmente foi ele quem fez.",
+        "museum_bookPitr4": "Algumas de suas maiores contribuições incluem:",
+        "museum_bookPitr5": "- Programação e level design para o Sandbox e o 5-S",
+        "museum_bookPitr6": "- Programação para a maioria dos sistemas avançados, como trapaças, padrões do Cyber Grind e legendas",
+        "museum_bookPitr7": "- Diversas otimizações e correções de bugs na programação",
+        "museum_bookPitr8": "- Diversos tipos de ajuda de programação\n",
+
+        "museum_bookHeckteck1": "<b><color=orange>HECKTECK</color> - PROGRAMAÇÃO ADICIONAL</b>",
+        "museum_bookHeckteck2": "Heckteck entrou para a equipe temporariamente no início de 2022, graças à sua experiência e habilidades na criação de mods para o ULTRAKILL, para revisar o sistema de estilo e incluir a obsolescência, bem como outros recursos relacionados à conveniência.",
+        "museum_bookHeckteck3": "\"a colheita tá fraca esse ano\"\n",
+
+        "museum_bookCabalcrow1": "<b><color=silver>EMANUIL \"CABALCROW\" CHIZHOV</color> - PROGRAMAÇÃO ADICIONAL</b>",
+        "museum_bookCabalcrow2": "CabalCrow foi um dos primeiros fãs dedicados do ULTRAKILL que ajudaram a iniciar a cena de speedrunning do jogo. Ele também ajudou muito a descobrir bugs antes do jogo ter uma equipe de controle de qualidade e gravou a maioria dos vídeos nos primeiros trailers. Sua contribuição de programação vem na forma do sistema de escalada que ele criou em 2020, que permite que os jogadores subam e desçam suavemente em pequenos degraus e obstáculos.",
+        "museum_bookCabalcrow3": "\"você sabe o que eles falam: 50 contos é 50 contos\"\n",
+
+        "museum_bookLucasVarney1": "<b><color=#BD8BF3>LUCAS VARNEY</color> - PROGRAMAÇÃO ADICIONAL</b>",
+        "museum_bookLucasVarney2": "Lucas é outro programador da New Blood, que trabalha principalmente em seu próprio jogo mas ocasionalmente ajudando com o ULTRAKILL quando necessário. Suas contribuições têm sido principalmente relacionadas à otimização, ajudando a melhorar a execução do jogo e criando ferramentas de desenvolvimento que permitem uma otimização mais fácil por nível.",
+        "museum_bookLucasVarney3": "Muito obrigado a todos aqui, inclusive a você, que está lendo isso! Sempre foi meu sonho trabalhar com videogames, mas nunca pensei que seria \"bom o suficiente\" para fazer isso profissionalmente. Abandonei o ensino médio mais cedo devido à ansiedade e realmente senti que estava desperdiçando minha vida. Mas nunca desisti e nunca desistirei! Seja quem for que esteja por aí, nunca perca a esperança e saiba sempre que não há vergonha em ser você mesmo e fazer as coisas que ama, desde que ninguém se machuque. Você é mais do que seu rótulo e vale mais do que suas credenciais. Aproveite os pequenos momentos, abrace o que te faz feliz e seja a melhor pessoa que você pode ser.\"\n",
+
+        "museum_bookBenMoir1": "<b><color=#3EF242>BEN MOIR</color> - PROGRAMAÇÃO ADICIONAL</b>",
+        "museum_bookBenMoir2": "Ben, também conhecido como \"Zombie\", é o assistente de programação residente da New Blood. Ele vai de projeto em projeto, corrigindo problemas complicados e dando conselhos gerais sobre programação. Se houver um problema, ele conhece a solução.",
+        "museum_bookBenMoir3": "Embora a maior parte de seu trabalho no ULTRAKILL seja na forma de ajuda a outros programadores, ele também programou alguns dos sistemas do jogo, como o suporte a controles e a assistência de mira automática.",
+        "museum_bookBenMoir4": "\"Ei, Hakita! A gente pode falar 'porra' no jogo?\"\n",
+
+        "museum_bookMeganeko1": "<b><color=#E93436>MEGANEKO</color> - COMPOSITOR ESPECIAL</b>",
+        "museum_bookMeganeko2": "Eu conheci Meganeko no início de 2020 depois de BigRock, que é fã dele. Eu percebi que ele seguia a conta no Twitter do ULTRAKILL e perguntei se ele estaria interessado em colaborar. Inicialmente, eu não tinha nada específico em mente, mas quando ele me enviou um clipe de teste que mostrava o tipo de som que ele fazia, eu imediatamente percebi que era a música perfeita para um modo de sobrevivência sem fim.",
+        "museum_bookMeganeko3": "Esse clipe de teste acabou se tornando, depois de meses de iteração, a música de fundo titular do Cyber Grind. De certa forma, você pode agradecer a ele por ter causado a criação desse modo.",
+        "museum_bookMeganeko4": "\"Jogar a demo alpha me deixou incrivelmente inspirado! Conseguir mandar isso de volta ao jogo foi um pouco surreal. Muito obrigado ao Hakita e BigRock por entrarem em contato comigo!\"\n",
+
+        "museum_bookKeygenChurch1": "<b><color=#aa0000>KEYGEN CHURCH</color> - COMPOSITOR ESPECIAL</b>",
+        "museum_bookKeygenChurch2": "Keygen Church, também conhecido como Master Boot Record, me procurou em meados do final de 2022, e eu já era fã de sua música como Keygen Church, então fiquei muito feliz em tê-lo a bordo como compositor convidado. O momento também foi perfeito, já que seu estilo se encaixa muito bem na estética da camada Heresia, então ele criou o primeiro tema de batalha para o P-2, intitulado \"Tenebre Rosso Sangue\".",
+        "museum_bookKeygenChurch3": "Também colaboramos no ARG interligado, com ele fazendo a maioria do trabalho pesado, pois ele já tinha feito coisas semelhantes em seus projetos.",
+        "museum_bookKeygenChurch4": "\"Baixa Resolução. Alta Imaginação. Louve o código.\"\n",
+
+        "museum_bookHealth1": "<b><color=red>HEALTH</color> - COMPOSITOR ESPECIAL</b>",
+        "museum_bookHealth2": "<b><color=red>BENJAMIN MILLER</color> - BATERIA",
+        "museum_bookHealth3": "<color=red>JACOB DUZSIK</color> - VOCAL, GUITARRA",
+        "museum_bookHealth4": "<color=red>JOHN FAMIGLIETTI</color> - BAIXO, SOFTWARE</b>",
+        "museum_bookHealth5": "No início de 2023, colaboramos com a banda HEALTH para estrear sua música \"HATEFUL\" no Cyber Grind. Eu sou fã da banda HEALTH desde que ouvi sua música em Max Payne 3, e suas batidas eletrônicas pesadas e cheias de sangue são perfeitas para o caos de ULTRAKILL, por isso estou muito feliz que a música deles tenha se tornado parte do jogo.",
+        "museum_bookHealth6": "\"DE VOLTA AO CYBER GRIND\"\n",
+
+        "museum_bookQuetzalTirado1": "<b><color=#AA4CAD>QUETZAL TIRADO</color> - COMPOSITOR ESPECIAL</b>",
+        "museum_bookQuetzalTirado2": "Conheci a Quetzal por meio de um amigo em comum no início de 2021, quando perguntei se ela poderia gravar um solo de saxofone para a música \"CHAOS\" do P-1. O solo acabou não dando muito certo, mas partes das gravações dela ainda foram incluídas e espalhadas pela faixa para acrescentar ruído e textura.",
+        "museum_bookQuetzalTirado3": "Posteriormente, ela gravou solos improvisados de saxofone para a música do nível 5-1 \"Deep Blue\", que eu editei no que você ouve na versão final. Ela também gravou o clarinete baixo drone que se tornou o efeito sonoro da corneta do Insurrecionista Sísifeano.",
+        "museum_bookQuetzalTirado4": "\"minha mãe gostou da música que eu participo no ultrakill, então acho que a essa altura eu sou considerado uma artista de sucesso, não é? também muito obrigado aos gays, me encontre naquele nível que a água estraga a música, bebê\"\n",
+
+        "museum_bookSalad1": "<b><color=#20FF20>SALAD</color> - ARTISTA DO JAKITO</b>",
+        "museum_bookSalad2": "Salad desenhou o Jakito.",
+        "museum_bookSalad3": "Algumas de suas maiores contribuições incluem:",
+        "museum_bookSalad4": "- Jakito",
+        "museum_bookSalad5": "\"Cê tá dentro ou condimento?\"\n",
+
+        "museum_bookJacobHHR1": "<b><color=#FFB2DC>JACOB H.H.R.</color> - ESCRITOR (PROSA & DIÁLOGO)</b>",
+        "museum_bookJacobHHR2": "Jacob entrou para a equipe no início de 2020 para ajudar a escrever a prosa e o diálogo do jogo depois que o conheci por meio de um amigo desenvolvedor de jogos em comum. Ele é o principal responsável pela escrita dos vários livros que você encontra nos níveis, como também pelos diálogos de Gabriel e pela prosa das cenas de intervalo. No Ato I, eu criei um esboço geral do que eu queria que cada texto tivesse e ele escreveria com alguns ajustes e edições minhas depois, enquanto no Ato II a escrita em prosa foi dividida em partes iguais entre nós.",
+        "museum_bookJacobHHR3": "A maioria das grandes frases poéticas e versos impactantes que se tornaram icônicos na comunidade do ULTRAKILL se deve às suas habilidades com o idioma inglês.\n",
+
+        "museum_bookVVizard1": "<b><color=#ee0c47>VVIZARD</color> - DESENVOLVEDOR DO MUSEU</b>",
+        "museum_bookVVizard2": "Vvizard foi escolhido temporariamente no final de 2022 para criar esse museu graças à sua experiência e habilidades com uma versão inicial do editor de níveis ULTRAKILL. Ele projetou o nível e criou todos os modelos e texturas para ele.",
+        "museum_bookVVizard3": "Se você esteve se perguntando por que esse é o nível mais bonito do jogo, ele é o motivo.",
+        "museum_bookVVizard4": "\"O ULTRAKILL é especial para mim de uma forma que não cabe em um livro de palavras. Trabalhar nesse jogo é algo que guardarei em meu coração, sempre. Eu espero poder continuar a trabalhar com as pessoas maravilhosas da New Blood e as interações que tive com a comunidade me ajudaram a fazer parte dessa equipe. Às vezes me pergunto onde começou a queda dos dominós e onde ela vai terminar. Mas se Oyff algum dia vir isso, um bom vídeo do YouTube (The ULTRAKILL Rip and Tear) realmente pode mudar sua vida.\"\n",
+
+        "museum_bookAdditionalMusic1": "CRÉDITOS DE MÚSICA ADICIONAIS:",
+        "museum_bookAdditionalMusic2": "\"Take Care\", o tema da loja: Sampleada de \"Were You Foolin'\" da Russ Morgan Orchestra (Domínio público)",
+        "museum_bookAdditionalMusic3": "\"Cerberus\" em 0-5: CÉRBERO: Música clássica sampleada de \"Mars, the Bringer of War\" da Suíte Planets de Gustav Holst (Domínio público)",
+        "museum_bookAdditionalMusic4": "\"Clair de Lune\" em 1-4: CLAIR DE LUNE: Escrita por Claude Debussy, interpretada por Laurens Goedhart (licença CC 3.0)",
+        "museum_bookAdditionalMusic5": "\"BWV 639 'I call to you, Lord Jesus Christ'\" em 3-2: EM CARNE E OSSO: Escrita por Johann Sebastian Bach (Domínio público)",
+        "museum_bookAdditionalMusic6": "\"The Spinal Staircase\" em P-1: ALMA SOBREVIVENTE: Sampleada de \"Sourire d'Avril\" composta por Maurice Depret (Domínio público)",
+        "museum_bookAdditionalMusic7": "\"CHAOS\" em P-1: SOUL SURVIVOR: Clarinete baixo e saxofone soprano improvisado e gravado por Quetzal Tirado",
+        "museum_bookAdditionalMusic8": "\"Deep Blue\" em 5-1: IN THE WAKE OF POSEIDON: Saxophone Tenor improvisado e gravado por Quetzal Tirado, editado por Hakita",
+        "museum_bookAdditionalMusic9": "\"Fallen Angel\" em 6-2: ESTÉTICA DO ÓDIO: Adaptada de \"BWV 639 'I call to you, Lord Jesus Christ'\" por Johann Sebastian Bach",
+        "museum_bookAdditionalMusic10": "\"7th Symphony, 2nd Movement: Allegretto\" em Intervalo 2: Escrita por Ludwig van Beethoven, interpretada por Lambis Vassiliadis (Domínio público)\n",
+
+        "museum_bookAdditionalCredits1": "<b>CRÉDITOS ADICIONAIS:</b>",
+        "museum_bookAdditionalCredits2": "Agradecimentos especiais para:",
+        "museum_bookAdditionalCredits3": "<b>Magnega</b> por me dizer que meu jogo anterior, Untraceable, não era divertido, causando uma crise existencial que resultou no abandono do projeto e na criação do ULTRAKILL",
+        "museum_bookAdditionalCredits4": "<b>Mikko Tamper e Robert Raulus</b> por seu apoio contínuo, e também pelos testes beta e feedbacks",
+        "museum_bookAdditionalCredits5": "<b>B.G.B. e Splendid</b> pelos testes beta e pelo feedback\n",
+
+        "museum_bookStephanWeyte1": "<b><color=orange>STEPHAN WEYTE</color> - VOZ DO MINOS PRIME</b>",
+        "museum_bookStephanWeyte2": "Como a maioria das pessoas, eu conhecia Stephan Weyte principalmente como a voz de Caleb do Blood, mas ouvi-lo como Nyarlathotep em Dusk deixou claro que ele ainda tinha as habilidades, então, mesmo antes de entrar para a New Blood, eu já havia decidido que queria que Stephan dublasse alguém em ULTRAKILL. Quando chegou a hora de escolher a voz de Minos Prime, a escolha foi óbvia.",
+        "museum_bookStephanWeyte3": "Foi muito bom trabalhar com Stephan, e sua voz confere tanta riqueza e personalidade a Minos que realmente não consigo imaginá-lo de outra forma.\n",
+
+        "museum_bookLenvalBrown1": "<b><color=orange>LENVAL BROWN</color> - VOZ DO SÍSIFO PRIME</b>",
+        "museum_bookLenvalBrown2": "Eu entrei em contato com Lenval no início de 2023 após ouvir sua performance fantástica como o narrador em Disco Elysium e sentir que sua voz profunda e texturizada seria a combinação perfeita para o Rei Sísifo. Foi um prazer trabalhar com ele e ele realmente ajudou a fazer com que Sísifo se destacasse como um personagem único.\n",
+
+        "museum_bookGianniMatragrano1": "<b><color=#20afdb>GIANNI MATRAGRANO</color> - VOZ DO GABRIEL</b>",
+        "museum_bookGianniMatragrano2": "Gianni me procurou originalmente oferecendo seus talentos no final de 2019, mas só começamos a trabalhar juntos em meados do final de 2020, um pouco menos de uma semana antes do lançamento do jogo no Acesso Antecipado. Apesar do curto espaço de tempo, ele arrasou, não apenas definindo e solidificando o personagem e a voz de Gabriel, mas também apresentando atuações fantásticas que conseguem capturar tanto sua intensidade visceral quanto as nuances mais sutis de seu mundo interno.",
+        "museum_bookGianniMatragrano3": "Desde então, ele só melhorou, e estou muito feliz por trabalhar com alguém que entende tanto a minha visão da história quanto o personagem Gabriel tão bem que foi capaz de improvisar todas as provocações na primeira luta de Gabriel. É uma alegria trabalhar com ele e o sonho de qualquer desenvolvedor independente ambicioso como eu.",
+        "museum_bookGianniMatragrano4": "\"Dá pra escrever aí que eu mandei um obrigado para os gays.\"\n",
+
+        "museum_bookMandalore1": "<b><color=#e09e2e>MANDALORE</color> <color=#9884bb>HERRINGTON</color> - VOZ DO CAVALEIRO DRÚIDA MISTERIOSO</b>",
+        "museum_bookMandalore2": "<b><color=#eabbd7>JOY YOUNG</color> - VOZ DA CORUJA</b>",
+        "museum_bookMandalore3": "Eu conheci Mandalore no final de 2019, depois de sua análise do Dusk, quando enviei uma mensagem direta para pedir que ele explicasse algumas críticas que havia mencionado sobre os jogos de tiro retrô. Na época, o ULTRAKILL era apenas um pequeno projeto sem nome, mas ele mesmo assim dedicou tempo não apenas para escrever uma resposta detalhada, mas também para jogar a demo do ULTRAKILL e dar feedback muito útil sobre ela.",
+        "museum_bookMandalore4": "Como um agradecimento por sua ajuda, eu queria fazer uma pequena batalha de chefe com ele e a Joy, com base em algumas piadas da stream de Mystery of the Druids deles, usando clipes de sua análise do EYE como a dublagem dele. Quando ele viu o chefe, ele se ofereceu não apenas para regravar essas falas, mas também para gravar falas completamente novas com a Joy, as quais eles improvisaram juntos.",
+        "museum_bookMandalore5": "\"Venha me visitar nas tumbas com música ambiente. Que chique. Obrigado por jogar!\"",
+        "museum_bookMandalore6": "\"Estou aqui para um bom momento, não um mau momento\"\n",
+
+        "museum_weaponsBeamcutter1": "<b><color=orange>CORTADOR DE FEIXE</color></b>",
+        "museum_weaponsBeamcutter2": "Design por Francis, modelo WIP por Victoria.",
+        "museum_weaponsBeamcutter3": "<b>TIRO PRIMÁRIO:</b> Segure para atirar feixe",
+        "museum_weaponsBeamcutter4": "<b>TIRO SECUNDÁRIO:</b> Colocar/Remover drone de feixe",
+        "museum_weaponsBeamcutter5": "Uma sexta arma que foi cortada no início de sua criação devido a muitos problemas de design e para evitar o congestionamento do arsenal e a sobreposição de funções de armas.",
+        "museum_weaponsBeamcutter6": "Baseado no arquétipo da arma de raios, ele dispara um feixe contínuo que exige que o jogador rastreie o alvo para causar dano contínuo. Ele causa dano reduzido quando está parado para desencorajar o jogador a ficar parado enquanto atira, embora nessa versão você possa simplesmente se mover para frente e para trás rapidamente para cumprir esse requisito sem dificultar muito a mira.",
+        "museum_weaponsBeamcutter7": "É muito difícil fazer com que as armas de fogo contínuo funcionem bem com o sistema de combate do ULTRAKILL, como comprovado pela quantidade de iterações pelas quais a Pregadeira teve de passar antes de encontrar seu lugar no arsenal. Como munição infinita significa que cada arma precisa ter seu próprio nicho para não tornar nenhuma outra arma obsoleta e a Pregadeira já desempenhava um papel semelhante, optei por cortá-la em vez de tentar forçá-la a entrar em um arsenal já cheio.",
+        "museum_weaponsBeamcutter8": "A parte frontal da arma deveria girar quando o feixe estivesse sendo disparado, mas esse modelo WIP não tem uma armação funcional. Nenhum som foi implementado também, então ele pode parecer bastante fraco em termos de feedback em comparação com as armas finalizadas.",
+        "museum_weaponsBeamcutter9": "Embora eu goste da arma em seu conceito, acho que foi a decisão certa cortá-la. Prefiro um arsenal menor em que cada arma é distinta e útil do que um arsenal maior em que algumas delas se tornam obsoletas com a introdução de outras.\n",
+
+        "museum_weaponsBlackHoleCannon1": "<b><color=orange>CANHÃO DE BURACO NEGRO</color></b>",
+        "museum_weaponsBlackHoleCannon2": "<b>TIRO PRIMÁRIO:</b> Lance um buraco negro",
+        "museum_weaponsBlackHoleCannon3": "<b>TIRO SECUNDÁRIO:</b> Ative o buraco negro lançado",
+        "museum_weaponsBlackHoleCannon4": "Uma super-arma cortada que deveria funcionar por meio de um medidor que era preenchido ao matar inimigos. Ela foi criada no início de 2019, logo após a adição da espingarda, com a intenção de ser introduzida muito mais tarde no jogo.",
+        "museum_weaponsBlackHoleCannon5": "O jogador teria a opção de usar seu medidor de mortes para obter um bônus a la Devil Trigger do Devil May Cry, ou um tiro com o canhão de buraco negro. O medidor foi descartado porque esses tipos de mecânica geralmente levam a problemas de acúmulo e balanceamento, já que os encontros não podem ser balanceados conforme ou não se o jogador tem ou não o medidor, fazendo com que as batalhas sejam muito fáceis com medidor ou muito difíceis sem ele.",
+        "museum_weaponsBlackHoleCannon6": "Em vez disso, a ideia do modo de reforço DT foi transformada no poder de empunhadura dupla, o que evita esse problema, já que o designer de níveis controla quando o jogador tem acesso a ele, e a função do Canhão de Buraco Negro foi preenchida com o Canhão de Raios, uma super-arma de menor comprometimento que é fraca o suficiente para não se tornar um trunfo para os jogadores pularem encontros complicados e que pode ser usada com frequência suficiente para que o jogador não sinta necessidade de guardar ela.",
+        "museum_weaponsBlackHoleCannon7": "Embora o Canhão de Buraco Negro fosse incrivelmente poderoso quando foi criado originalmente, já que os únicos inimigos no jogo eram as carcaças básicas, o jogo se tornou muito mais caótico e explosivo desde então, tornando-o bastante fraco em comparação. Mantive seu nível de poder original nesta versão do museu para retratá-lo com precisão. Portanto, se ele parecer fraco, é porque foi feito apenas para matar Sujos, Perdidos e Cismas.",
+        "museum_weaponsBlackHoleCannon8": "O Canhão de Buraco Negro nunca teve um design visual ou modelo, por isso é representado como uma espingarda esticada. Isso fez com que muitas pessoas pensassem que era para ele ser uma variação da espingarda, mas essa nunca foi a intenção.\n",
+
+        "museum_weaponsRevolver1": "<color=orange>REVÓLVER</color>",
+        "museum_weaponsRevolver2": "ESQUERDA: Original 2018 por FlyingDog",
+        "museum_weaponsRevolver3": "DIREITA: Refeito 2022 por Victoria",
+        "museum_weaponsRevolver4": "A primeira arma, bem como o primeiro modelo feito para o jogo. Como de costume, não havia arte conceitual, então o design foi criado na hora por FlyingDog com base em uma solicitação minha. Desde então, Victoria refez o modelo e a textura, mantendo-se fiel ao design original, o que resultou em uma melhoria visual direta.",
+        "museum_weaponsRevolver5": "Originalmente, o revólver tinha diferentes variações verde e vermelha. A antiga variação verde era a capacidade de ricochetear tiros em superfícies, inspirada pelo Revolver Ocelot. Embora o conceito fosse legal, era extremamente desajeitado e incômodo de usar, exigindo muita configuração e posicionamento para ser usado de forma eficiente, o que entrava em conflito com o ritmo acelerado do jogo. No entanto, a ideia de ostentar pontaria com tiros que ricocheteiam permaneceu e foi reinterpretada na agora icônica e muito mais útil versão de moeda.",
+        "museum_weaponsRevolver6": "A variação vermelha era uma variação de empunhadura dupla, em que o revólver esquerdo era disparado com o disparo primário e o revólver direito com o secundário. Assim como a variação verde, o conceito era legal, mas mecanicamente era muito desinteressante, além da novidade inicial. Eu tinha algumas ideias de como \"consertá-lo\", mas acabei descartando-o completamente e, desde então, a ideia de empunhadura dupla foi reinterpretada no poder de empunhadura dupla muito mais divertido e flexível.\n",
+
+        "museum_weaponsShotgun1": "<color=orange>ESCOPETA</color>",
+        "museum_weaponsShotgun2": "ESQUERDA: Original 2019 por FlyingDog",
+        "museum_weaponsShotgun3": "DIREITA: Refeito 2022 por Victoria",
+        "museum_weaponsShotgun4": "Assim como o revólver, a espingarda foi criada por FlyingDog sem arte conceitual e, posteriormente, refeita por Victoria, mantendo-a fiel ao design original e atualizando-a para se adequar melhor ao novo estilo visual do jogo. A nova versão tem cores mais claras, pois o estilo original em preto fosco acabou ficando muito apagado devido à iluminação de cores vibrantes do jogo, embora as pessoas que preferiam o estilo antigo possam usar a primeira predefinição de cor para recuperá-lo.",
+        "museum_weaponsShotgun5": "A escopeta tinha alguns problemas de balanceamento quando foi adicionada originalmente já que todos os inimigos já morriam com apenas alguns tiros de revólver, fazendo com que a escopeta parecesse inútil em comparação, causando uma má primeira impressão. Por fim eu tive a ideia de alterar um pouco o código do projétil, fazendo com que os projéteis da escopeta não fossem destruídos ao atingir um inimigo que já estivesse morto. Essa pequena mudança foi o que realmente abriu as portas para a escopeta, transformando-a de uma arma lenta que causa dano a um único alvo em uma arma caótica de destruição em massa, tornando-a útil tanto contra inimigos mais resistentes como originalmente planejado, e também contra multidões de inimigos mais fracos.\n",
+
+        "museum_weaponsNailgun1": "<color=orange>PREGADEIRA</color>",
+        "museum_weaponsNailgun2": "ESQUERDA: Original 2019 por Jericho e FlyingDog",
+        "museum_weaponsNailgun3": "DIREITA: Refeito 2022 por Jericho e Victoria",
+        "museum_weaponsNailgun4": "A primeira arma a ser baseada em arte conceitual, desenhada e projetada por Jericho, assim como a contribuição final de FlyingDog para o jogo. O modelo original, mais simples e áspero, ainda se encaixava no estilo visual da época, mas, desde então, os gráficos melhoraram, fazendo com que ele se destacasse negativamente, o que foi um dos principais motivos pelo qual queríamos refazer os modelos antigos das armas, juntamente com o sistema de cores personalizado.",
+        "museum_weaponsNailgun5": "A pistola de pregos é provavelmente a arma que teve que passar por mais iterações antes de finalmente encontrar seu lugar no arsenal. Na verdade, não foi até a atualização Sandbox no verão de 2021 que ela finalmente se enquadrou, o que significa que foram necessários dois anos de ajustes e iterações constantes para que uma arma automática se encaixasse no arsenal do ULTRAKILL. A maior mudança foi a alteração de munição infinita para munição recarregável, dando aos jogadores mais motivos para trocá-la depois de um pouco de uso, mas a mudança que finalmente fez a diferença foi acelerar a animação de equipamento, o que tornou a troca em combate muito mais suave, fazendo com que ela sentisse como uma parte orgânica dos combos de armas.",
+        "museum_weaponsNailgun6": "Algumas ideias e versões descartadas incluem um arpão de alto dano e recarga lenta e uma versão que permitia disparar os dois barris simultaneamente, aumentando a taxa de disparo ao custo da velocidade de movimento do jogador. A primeira acabou evoluindo para o ímã e a segunda para o superaquecimento, então, apesar de quase tudo ter mudado, partes das originais ainda permanecem.\n",
+        
+        "museum_enemiesFilth1": "<b><color=orange>SUJO</color>",
+        "museum_enemiesFilth2": "ESQUERDA: Original 2018 por Toni Stigell e FlyingDog",
+        "museum_enemiesFilth3": "DIREITA: Refeito 2020 por Jericho, BigRock e Victoria</b>",
+        "museum_enemiesFilth4": "O Filth, originalmente chamado apenas de \"Zumbi\" ou \"Carcaça\", foi o segundo inimigo projetado para o jogo. Na época, não tínhamos artistas conceituais, então eu disse ao Toni para fazer um zumbi magrelo como os do Quake. Esse era o processo normal antes de BigRock entrar como o primeiro artista conceitual, e o contraste na qualidade do design deixa claro que artistas conceituais criativos podem realmente fazer uma grande diferença.",
+        "museum_enemiesFilth5": "Um aspecto interessante do Sujo é que, nas primeiras versões da demo, as pessoas reclamavam que a IA dos inimigos corpo a corpo era muito burra, mas essas reclamações pararam completamente após o redesenho do modelo. A nova versão realmente parece um monstro sem noção que só pensa em comer, então o fato dele ser burro não parecia mais deslocado ou uma falha. Transmitir adequadamente a finalidade de um inimigo ou objeto por meio de sua aparência é um aspecto frequentemente subestimado do design de personagens.",
+        "museum_enemiesFilth6": "O novo design é inspirado no álbum de estreia do Swans, que é também a origem do nome do inimigo. No início, a boca e os dentes do modelo eram muito menores, mas eu continuei dizendo para a Victoria \"MAIOR!\" até chegarmos ao ponto em que está agora.",
+        "museum_enemiesFilth7": "Os Sujos foram originalmente coloridos de laranja para se encaixar no capítulo Prelúdio, mas isso se tornou um problema onde as pessoas frequentemente tinham dificuldade em enxergá-los pois eles se encaixavam <i>muito</i> bem, então sua cor primária foi trocada para verde.\n",
+
+        "museum_enemiesStray1": "<color=orange>PERDIDO</color>",
+        "museum_enemiesStray2": "ESQUERDA: Original 2018 por Toni Stigell, FlyingDog e Hakita",
+        "museum_enemiesStray3": "DIREITA: Refeito 2020 por Jericho e Sam",
+        "museum_enemiesStray4": "Originalmente, o Perdido era chamado apenas de \"Zumbi de Projétil\" ou \"Carcaça de Projétil\" e, por um curto período de tempo, \"Perseguidor\", embora esse nome tenha sido dado ao inimigo que o tem agora. Toni estava ocupado na época, então eu, com meu conhecimento limitado do Blender, apenas editei seu modelo original do Sujo para criar a versão original do Perdido, e depois FlyingDog criou a textura para ele. Mais uma vez, não tínhamos nenhuma arte conceitual, então a textura foi baseada apenas no conceito \"Um esqueleto com todos os órgãos e carne ainda dentro dele\", ou algo assim.",
+        "museum_enemiesStray5": "A nova versão, baseada no design de Jericho para o Soldado, ainda mantém essa ideia geral, mas a executa de uma forma muito menos cartunesca.\n",
+
+        "museum_enemiesSchism1": "<color=orange>CISMA</color>",
+        "museum_enemiesSchism2": "ESQUERDA: Original 2018 por Toni Stigell, FlyingDog e Hakita",
+        "museum_enemiesSchism3": "DIREITA: Refeito 2020 por BigRock e Sam",
+        "museum_enemiesSchism4": "O Cisma, originalmente chamado apenas de \" Super Zumbi de Projétil\", é outra edição do modelo original do Sujo. Toni e FlyingDog estavam ocupados nessa época, portanto, esse modelo nem mesmo recebeu uma textura exclusiva. É apenas a textura do Sujo original sem o tom laranja!",
+        "museum_enemiesSchism5": "A nova versão ainda usa o mesmo esqueleto e as mesmas animações, o que significa que os braços extras ficam balançando como bonecos de pano já que não têm dados de animação anexados a eles.",
+        "museum_enemiesSchism6": "Os novos designs para as Carcaças foram desenhados e modelados com um pouco de pressa para que ficassem prontos a tempo para a reforma do Prelúdio que estávamos fazendo para a nova versão da demo depois que o jogo foi escolhido pela New Blood, o que significou que os novos designs só receberam um esboço de um ângulo cada. Isso levou a um incidente engraçado em que Sam, enquanto fazia o modelo, não entendeu o esboço e pensou que a cabeça estava apenas se projetando muito para a frente em vez de estar no ombro, o que fez com que a primeira iteração do modelo se parecesse com um xenomorfo!\n",
+
+        "museum_enemiesSwordsmachine1": "<color=orange>ESPADÁQUINA</color>",
+        "museum_enemiesSwordsmachine2": "ESQUERDA: Original 2019 por BigRock, FlyingDog e Toni Stigell",
+        "museum_enemiesSwordsmachine3": "DIREITA: Refeito 2022 por BigRock e Victoria",
+        "museum_enemiesSwordsmachine4": "A Espadáquina foi o primeiro inimigo a ser projetado por um artista conceitual, e a diferença realmente se nota! O maravilhoso design inspirado em Blame! de BigRock é rico em caráter implícito que mais tarde se tornou explícito quando escrevi a entrada de dados para ele.",
+        "museum_enemiesSwordsmachine5": "O modelo original, feito por Toni Stigell e texturizado por FlyingDog, infelizmente perdeu muitas das nuances do design original, mas ele se encaixava no estilo visual do jogo na época, e todos nós éramos amadores e não sabíamos como fazer melhor. Desde então, Victoria refez o modelo com base na arte conceitual original de BigRock e o traduziu perfeitamente para 3D.",
+        "museum_enemiesSwordsmachine6": "Uma das primeiras iterações do design de Swordsmachine tinha um torso humano sangrento, já que os inimigos na época estavam se inclinando mais na direção de híbridos homem-máquina estilo Strogg antes de termos o cenário, a linguagem visual e a história bem definidos.\n",
+
+        "museum_enemiesMaliciousFace1": "<color=orange>FACE MALICIOSA</color>",
+        "museum_enemiesMaliciousFace2": "ESQUERDA: Original 2018 por FlyingDog",
+        "museum_enemiesMaliciousFace3": "DIREITA: Refeito 2022 por Victoria",
+        "museum_enemiesMaliciousFace4": "A Face Maliciosa, chamada de \"Aranha\" nos arquivos do jogo graças às suas pernas de aranha transparentes, foi na verdade o primeiro inimigo a ser projetado para o jogo. Embora seja icônico agora, seu design deveria ser bem diferente originalmente, pois eu queria um visual mais nítido e simplificado, mas o FlyingDog, que só trabalha com modelagem por hobby, teve dificuldade em fazer isso sem nenhuma arte conceitual para ajudá-lo, então acabamos concordando com essa versão.",
+        "museum_enemiesMaliciousFace5": "Isso foi na época em que eu era estupidamente ambicioso e não tinha a menor ideia do que estava fazendo, por isso foram lançadas várias ideias que acabaram não entrando. A boca deveria se mover e abrir ao disparar, mas a armação estava com bugs e não conseguimos fazer com que funcionasse. Os olhos também foram originalmente separados da malha principal, já que eu tinha a ideia de que seria legal se você pudesse atirar neles com o revólver para causar dano extra ou fazer com que o inimigo ficasse cego e atacasse indiscriminadamente, o que parece muito legal no conceito, mas na execução não só seria muito complexo para um inimigo inicial, mas também daria a ele um contra-ataque forte ao qual o jogador sempre recorreria, o que eu queria evitar para tornar o jogo mais aberto à expressão do jogador. Isso foi antes de Doom Eternal ser lançado e ter um grande foco em pontos fracos e contra-ataques fortes.",
+        "museum_enemiesMaliciousFace6": "Outra ideia que tive em um determinado momento foi a de fazer um buraco na parte de trás da cabeça, expondo o cérebro, permitindo que jogadores ágeis causassem grandes danos, mas isso também nunca se concretizou. O fato de eu ter tido todas essas ideias idiotas, muitas vezes depois que o modelo já estava pronto, mas nunca ter me comprometido com elas foi, compreensivelmente, muito frustrante para FlyingDog.",
+        "museum_enemiesMaliciousFace7": "O novo modelo pela Victoria é uma bela recriação quase perfeita que consegue manter o visual icônico, melhorando a qualidade visual e, ao mesmo tempo, <i>diminuindo</i> sua resolução.\n",
+
+        "museum_cinemaPlay": "TOCAR",
+        "museum_cinemaStop": "PARAR",
+
+        "museum_plaquesMuseumTitle": "<size=120>SALÃO DA VERGONHA - OS DESENVOLVEDORES DO ULTRAKILL</size>",
+        "museum_plaquesArtRoom": "<size=40>SALA DA ARTE</size>",
+        "museum_plaquesNerdRoom": "<size=40>SALA DOS NERDS</size>",
+        "museum_plaquesRestRoom": "<size=40>SALA DE ESTAR</size>",
+        "museum_plaquesTalkRoom": "<size=40>SALA DE CONVERSAS</size>",
+
+
+        "museum_plaquesHakita1": "ARSI \"HAKITA\" PATALA",
+        "museum_plaquesHakita2": "CRIADOR DO ULTRAKILL",
+
+        "museum_plaquesFrancisXie1": "FRANCIS XIE",
+        "museum_plaquesFrancisXie2": "ARTISTA 2D",
+
+        "museum_plaquesJerichoRus1": "JERICHO RUS",
+        "museum_plaquesJerichoRus2": "ARTISTA 2D",
+
+        "museum_plaquesBigRockBMP1": "BIGROCKBMP",
+        "museum_plaquesBigRockBMP2": "ARTISTA CONCEITUAL",
+
+        "museum_plaquesMaxOvesson1": "MAXIMILIAN OVESSON",
+        "museum_plaquesMaxOvesson2": "ARTISTA 2D",
+
+        "museum_plaquesVictoriaHolland1": "VICTORIA HOLLAND",
+        "museum_plaquesVictoriaHolland2": "ARTISTA 2D PRINCIPAL",
+
+        "museum_plaquesToniStigell1": "TONI STIGELL",
+        "museum_plaquesToniStigell2": "ARTISTA 3D",
+
+        "museum_plaquesFlyingdog1": "FLYINGDOG",
+        "museum_plaquesFlyingdog2": "ARTISTA 3D",
+
+        "museum_plaquesSamuelJamesBryan1": "SAMUEL JAMES BRYAN",
+        "museum_plaquesSamuelJamesBryan2": "ARTISTA 3D",
+
+        "museum_plaquesCameronMartin1": "CAMERON MARTIN",
+        "museum_plaquesCameronMartin2": "LÍDER DE GARANTIA DE QUALIDADE",
+
+        "museum_plaquesDaliaFigueroa1": "DALIA FIGUEROA",
+        "museum_plaquesDaliaFigueroa2": "GARANTIA DE QUALIDADE",
+
+        "museum_plaquesTuckerWilkin1": "TUCKER WILKIN",
+        "museum_plaquesTuckerWilkin2": "GARANTIA DE QUALIDADE SENIOR",
+
+        "museum_plaquesScottGurney1": "SCOTT GURNEY",
+        "museum_plaquesScottGurney2": "GARANTIA DE QUALIDADE TÉCNICA",
+
+        "museum_plaquesPitr1": "PITR",
+        "museum_plaquesPitr2": "PROGRAMADOR PRINCIPAL",
+
+        "museum_plaquesHeckteck1": "HECKTECK",
+        "museum_plaquesHeckteck2": "PROGRAMADOR PRINCIPAL",
+
+        "museum_plaquesCabalcrow1": "EMANUIL \"CABALCROW\" CHIZHOV",
+        "museum_plaquesCabalcrow2": "PROGRAMADOR ADICIONAL",
+
+        "museum_plaquesLucasVarney1": "LUCAS VARNEY",
+        "museum_plaquesLucasVarney2": "PROGRAMADOR ADICIONAL",
+
+        "museum_plaquesBenMoir1": "BEN MOIR",
+        "museum_plaquesBenMoir2": "PROGRAMADOR ADICIONAL",
+
+        "museum_plaquesDaveOshry1": "DAVE OSHRY",
+        "museum_plaquesDaveOshry2": "CEO DA NEW BLOOD INTERACTIVE",
+
+        "museum_plaquesMeganeko1": "MEGANEKO",
+        "museum_plaquesMeganeko2": "COMPOSITOR ESPECIAL",
+
+        "museum_plaquesKeygenChurch1": "KEYGEN CHURCH",
+        "museum_plaquesKeygenChurch2": "COMPOSITOR ESPECIAL",
+        
+        "museum_plaquesHealth1": "HEALTH",
+        "museum_plaquesHealth2": "COMPOSITOR ESPECIAL",
+
+        "museum_plaquesQuetzalTirado1": "QUETZAL TIRADO",
+        "museum_plaquesQuetzalTirado": "COMPOSITOR ESPECIAL",
+
+        "museum_plaquesSalad1": "SALAD",
+        "museum_plaquesSalad2": "ARTISTA DO JAKITO",
+
+        "museum_plaquesJacobHHR1": "JACOB HHR",
+        "museum_plaquesJacobHHR2": "ESCRITOR (PROSA & DIÁLOGO)",
+
+        "museum_plaquesVVizard1": "VVIZARD",
+        "museum_plaquesVVizard2": "CRIADOR DO MUSEU",
+
+        "museum_plaquesAdditionalMusic": "MÚSICA ADICIONAL",
+        "museum_plaquesAdditionalCredits": "CRÉDITOS ADICIONAIS",
+
+        "museum_plaquesStephanWeyte1": "STEPHAN WEYTE",
+        "museum_plaquesStephanWeyte2": "VOZ DO MINOS PRIME",
+
+        "museum_plaquesLenvalBrown1": "LENVAL BROWN",
+        "museum_plaquesLenvalBrown2": "VOZ DO SÍSIFO PRIME",
+
+        "museum_plaquesGianniMatragrano1": "GIANNI MATRAGRANO",
+        "museum_plaquesGianniMatragrano2": "VOZ DO GABRIEL",
+
+        "museum_plaquesJoyYoung1": "JOY YOUNG",
+        "museum_plaquesJoyYoung2": "VOZ DA CORUJA",
+
+        "museum_plaquesMandalore1": "MANDALORE HERRINGTON",
+        "museum_plaquesMandalore2": "<size=25>VOZ DO CAVALEIRO DRÚIDA MISTERIOSO</size>",
+
+        "museum_rocketRace1": "CORRIDA DE FOGUETE",
+        "museum_rocketRace2": "<size=15>COMEÇAR</size>",
+        "museum_rocketRaceStart": "COMEÇO DA CORRIDA",
+        "museum_rocketRaceResult": "TEMPO:"
+    },
+
+    "fishing": {
+        "fish_ocean": "O Oceano",
+        "fish_cavePool": "Piscina da Caverna",
+        "fish_stream": "Riacho",
+        "fish_lake": "Águas do Lago",
+        "fish_lakeDeep": "Profundezas do Lago",
+        "fish_lakeBlood": "Lago de Sangue",
+        "fish_lakeBloodLower": "Profundezas do Sangue",
+        "fish_lakeHoly": "Santo Lago",
+        "fish_waterWell": "Água do Foço",
+        "fish_panOil": "Oléo de Panela",
+
+        "fish_leaderboard": "PLACAR DE MAIORES PEIXES",
+
+        "fish_bottleMessage1": "Se você está lendo isso, por favor me ajude. Há semanas em que estive encalhado em uma ilha ao largo da costa, e meus suplimentos estão acabando.",
+        "fish_bottleMessage2": "Eu fui tentado a navegar pelas ondas em esperança de encontrar o lendário peixe tamanho 2. Eu revirei cada centímetro de terra e mar sem sucessos.",
+        "fish_bottleMessage3": "Eu deduzi que eles devem existir aos mares distantes, então zarpei com um mês de peixe cozido, mas as ondas afundaram meu navio antes que eu pudesse achar algo.",
+        "fish_bottleMessage4": "Você é minha última esperança.",
+        "fish_bottleMessage5": "Navegue em direção à Ursa Maior, você me encontrará em uma ilha por lá. Entregue-me mais peixes e depois saia para que eu possa continuar minha busca.",
+        "fish_bottleMessage6": "O PEIXE TAMANHO 2 É MEU.",
+
+        "fish_book1": "DIA 529:",
+        "fish_book2": "AINDA PROCURANDO.",
+        "fish_book3": "SEM CONTATO DA AGÊNCIA EM 216 DIAS.",
+        "fish_book4": "EU DEVIA VOLTAR AO QG MAS EU NÃO POSSO. AINDA NÃO",
+        "fish_book5": "ESTÁ POR AQUI.",
+        "fish_book6": "EM ALGUM LUGAR.",
+        "fish_book7": "EU PRECISO VER.",
+        "fish_book8": "EU PRECISO SABER.",
+        "fish_book9": "EUPRECISOVEREUPRECISOSABER",
+        "fish_book10": "TAMANHO 2.",
+
+        "fish_rodFar": "longe",
+        "fish_rodClose": "perto",
+        "fish_rodHooked": "Fisgado!",
+        "fish_outOfWater": "<size=29>FORA D'ÁGUA</size>",
+        "fish_fishCaught": "Você pescou",
+        "fish_cookingFailed": "Culinária falha.",
+        "fish_size": "<size=33>TAMANHO 1</size>",
+
+        "fish_living": "\"Está vivo.\"",
+        "fish_tooSmall": "Pequeno demais pra esse peixe. :^(",
+        "fish_baitTaken": "Um peixe mordeu a isca.",
+        "fish_baitNotWork": "Essa isca não funciona aqui!",
+        "fish_interrupted": "Pescaria interrompida",
+		"fish_noFishBiting": "Parece que nada está mordendo aqui...",
+
+        "fish_terminalTitle": "dicas de pesca daoras",
+        "fish_funnyStupidFish": "Peixe Burro Engraçado (Amigo)",
+        "fish_pitrFish": "Peixe PITR",
+        "fish_trout": "Truta",
+        "fish_amidEvilFish": "Peixe de Metal",
+        "fish_chomper": "Come-Come",
+        "fish_bombFish": "Peixe Bomba",
+        "fish_gibeye": "Olho",
+        "fish_ironLungFish": "Sapo (?)",
+        "fish_dopeFish": "Dope Fish",
+        "fish_stickFish": "Peixe Palito",
+        "fish_cookedFish": "Peixe Cozido",
+        "fish_shark": "Tubarão",
+
+        "fish_funnyStupidFishDescription1": "Um peixe burro. Um peixe muito burro. Um cretino estúpido. Um tolo. Um pateta absoluto. Um idiota desajeitado. Tem um senso de humor",
+        "fish_funnyStupidFishDescription2": "Fácil de pescar e bastante amigável, é geralmente usado para ensinar novatos a pescar.",
+        "fish_pitrFishDescription1": "Um peixe muito esperto. Ama gatos. Nada perto da costa e às vezes se entrega a pescadores só por gentileza.",
+        "fish_pitrFishDescription2": "Sempre acaba caindo abaixo na hierarquias de peixes.",
+        "fish_troutDescription1": "Um peixe comum do lago. Prefere águas profundas.",
+        "fish_troutDescription2": "Parece ter sido tido em grande consideração pelos humanos, já que se encontraram máscaras em réplicas deles.",
+        "fish_amidEvilFishDescription1": "Um peixe migratório de uma terra muito distante. Sobrevive apenas em zonas rochosas, uma vez que a sua alimentação é inteiramente constituída por pedras.",
+        "fish_amidEvilFishDescription2": "Só sai de seu abrigo para se alimentar.",
+        "fish_chomperDescription1": "Um peixe migratório.",
+        "fish_chomperDescription2": "Originário da Pensilvânia, portanto prefere lugares escuros, desagradáveis e húmidos.",
+        "fish_bombFishDescription1": "Um tipo de peixe agitado. Encontra-se mais frequentemente em águas correntes, pois a tranquilidade seria entediante e não estimulante o suficiente.",
+        "fish_bombFishDescription2": "Possui um mecanismo de auto-defesa que pode causar lesões corporais a pescadores desprevenidos.",
+        "fish_gibeyeDescription1": "Um peixe comum. Requer sangue para sobreviver.",
+        "fish_gibeyeDescription2": "Melhora a visão.",
+        "fish_ironLungFishDescription1": "Um peixe migratório das profundezas do mar. Normalmente só se encontra à noite, embora possa sobreviver em qualquer lugar com sangue suficiente.",
+        "fish_ironLungFishDescription2": "Muito territorial, ataca tudo o que entra no seu domínio e nunca sai das profundezas.",
+        "fish_dopeFishDescription1": "Um peixe migratório. Encontrado em todos os lugares, embora goste de se esconder em lugares ofuscados.",
+        "fish_dopeFishDescription2": "Muitas vezes encontrado acidentalmente por heróis e viajantes em suas jornadas e é considerado um sinal de boa sorte.",
+        "fish_stickFishDescription1": "Um peixe comum. Comestível e normalmente cultivado por humanos.",
+        "fish_stickFishDescription2": "Pode ser encontrado em cozinhas ao redor do mundo.",
+        "fish_cookedFishDescription1": "Um peixe comum. Vive no fogo, come outros peixes e só sai quando há alimento.",
+        "fish_cookedFishDescription2": "Considerado uma iguaria, os pescadores muitas vezes pescam outros tipos de peixe apenas para atirá-los em uma fogueira e convencê-lo a sair.",
+        "fish_sharkDescription1": "Um peixe carnívoro. Originário da Suécia, foi considerado um símbolo de prestígio na sociedade humana, possivelmente como um sinal de feminilidade ou \"aqueles que dão\", embora os detalhes tenham sido perdidos no tempo.",
+        "fish_sharkDescription2": "Vive em grandes massas de água e evita a terra, porém pode nadar próximo da costa para se alimentar."
+    },
 
 	"style": {
 		"style_airslam": "PANCADA AÉREA",
@@ -68,6 +494,7 @@
 		"style_doublekill": "ABATE DUPLO",
 		"style_downtosize": "DO SEU TAMANHO",
 		"style_enraged": "ENFURECIDO",
+        "style_envirokill": "ABATE AMBIENTAL",
 		"style_exploded": "EXPLODIDO",
 		"style_finishedoff": "FINALIZADO",
 		"style_fireworks": "FOGOS DE ARTIFÍCIO",
@@ -92,6 +519,9 @@
 		"style_ricoshotUltra": "ULTRA",
 		"style_ricoshotCounter": "CONTRA",
 		"style_secret": "SEGREDO",
+        "style_scrindonguloded": "ESCRIMDONGULODADO",
+        "style_scrongled": "ESCRONGULODADO",
+        "style_scrongbongled": "ESCRONGOBOGOLADO",
 		"style_splattered": "ESPATIFADO",
 		"style_triplekill": "ABATE TRÍPLO",
 
@@ -146,6 +576,7 @@
 		"cybergrind_settingsDescription": "Esse terminal é usado para configurar o Cyber Grind",
 		"cybergrind_themes": "TEMAS",
 		"cybergrind_patterns": "MODELOS",
+		"cybergrind_music": "MÚSICA",
 		"cybergrind_waves": "ONDAS",
 
 		"cybergrind_themesTitle": "TEMAS",
@@ -165,6 +596,16 @@
 		"cybergrind_themesCustomTop": "TOPO",
 		"cybergrind_themesCustomGlowIntensity": "INTENSIDADE",
 
+		"cybergrind_musicTitle": "PLAYLIST",
+        "cybergrind_musicCompleteChallengeRequirement": "COMPLETAR DESAFIO DO",
+        "cybergrind_musicSeeEnemyRequirement": "ENFRENTE UM INIMIGO DESCONHECIDO",
+        "cybergrind_musicUnlockLevelRequirement": "ALCANÇAR",
+        "cybergrind_musicCompleteLevelRequirement": "COMPLETAR",
+        "cybergrind_musicUnlocked": "DESBLOQUADO",
+        "cybergrind_musicConfirm": "CONFIRMAR",
+        "cybergrind_musicSoundtrack": "TRILHA SONORA",
+
+		"cybergrind_patternsWarning": "AVISO: RECORDES DE PARTIDA NÃO SERÃO SALVOS COM MODELOS CUSTOMIZADOS",
 		"cybergrind_patternsTitle": "MODELOS",
 		"cybergrind_patternsRefresh": "ATUALIZAR",
 		"cybergrind_patternsLaunchExternalEditor": "EDITOR",
@@ -173,7 +614,7 @@
 		"cybergrind_wavesDescription1": "SELECIONE A ONDA INICIAL:",
 		"cybergrind_wavesDescription2": "(A onda mais alta alcançada deve ser pelo menos duas vezes maior)",
 
-		"cybergrind_noPatternsSelected": "NENHUM MODELO SELECIONADO."
+            "cybergrind_noPatternsSelected": "NENHUM MODELO SELECIONADO."
 	},
 
 	"books": {
@@ -221,10 +662,10 @@
 		"act1_intermission_first3": "Impróprio e indesejado aos pés do Conselho.",
 		"act1_intermission_first4": "Seus olhos ardem com um ressentimento azedo, encarando através das feridas do corpo e alma de Gabriel, que foram colocadas à vista para todos verem.",
 		"act1_intermission_first5": "\"Esse aqui abandonou o caminho de nosso criador?\"",
-		"act1_intermission_first6": "\"Isso é indigno de sua Luz Sagrada.\"",
+		"act1_intermission_first6": "\"É indigno de sua Luz Sagrada.\"",
 		"act1_intermission_first7": "\"A Luz do Senhor é indomável.\"",
 		"act1_intermission_first8": "\"Esse aqui pareçe desperdiçá-la.\"",
-		"act1_intermission_first9": "Suas palavras ressoaram nos membros de Gabriel, correndo através dele como raios num arame, causando um sibilo que deixaria os inferiores surdos e cegos.",
+		"act1_intermission_first9": "Suas palavras ressoaram nos membros de Gabriel, correndo através dele como raios num arame, causando um zumbido que deixaria seres inferiores surdos e cegos.",
 		"act1_intermission_first10": "A Luz Sagrada dentro dele, uma tempestade imparável de fúria divina.",
 		"act1_intermission_first11": "Intransponsível para meros objetos.",
 		"act1_intermission_first12": "Isso ele sabia.",
@@ -240,7 +681,6 @@
 		"act1_intermission_second9": "\"E você junto com elas.\"",
 		"act1_intermission_second10": "\"Prove sua lealdade.\"",
 		"act1_intermission_second11": "\"Desfaça seus erros.\"",
-		"act1_intermission_second12": "",
 
 		"act1_intermission_third1": "Conforme a Luz era arrancada de seu ser, os gritos de Gabriel foram silenciados no sibilo do evangelho em louvor a Deus.",
 		"act1_intermission_third2": "Uma angústia fervente das quais nem os fogos do Inferno não podiam se comparar.",
@@ -267,12 +707,12 @@
 		"act2_intermission_second4": "O Conselho ainda perseguia a luz da chama de Deus, sua memória de suas palavras e vontade ficaram distorcidas e deformadas, e o resto das massas sem rumo do Céu seguem seus passos.",
 		"act2_intermission_second5": "Os anjos ainda agem em nome Do Senhor mas seu reino mudou.",
 
-		"act2_intermission_second6": "Agora o fogo estava morrendo, crepitando conforme as chamas falhava em ganhar calor.",
+		"act2_intermission_second6": "Agora o fogo estava morrendo, crepitando conforme o fogo falhava em ganhar calor.",
 		"act2_intermission_second7": "Gabriel olhou sobre as brasas com uma clareza perfeita.",
 		"act2_intermission_second8": "Ele sacou sua lâmina e a segurou em contraste a luz moribunda.",
 
 		"act2_intermission_second9": "Em seu reflexo ele viu uma arma renascida, não mais empunhada pela vontade de outro, mas de si mesmo.",
-		"act2_intermission_second10": "Ele sabia que apenas palavras não iriam convençer as massas.",
+		"act2_intermission_second10": "Ele sabia que apenas palavras não iriam convencer as massas.",
 		"act2_intermission_second11": "Ele escolheu fazer algo drástico.",
 
 		"act2_intermission_third1": "Morte mancha o auditório.",
@@ -303,6 +743,7 @@
 		"act2_intermission_fourth10": "Deus está morto.",
 		"act2_intermission_fourth11": "O fogo se foi. ",
 		"act2_intermission_fourth12": "Você está perseguindo fantasmas.\"",
+
 		"act2_intermission_fourth13": "A silhueta de Gabriel se ergue acima do conselheiro, sua sombra sendo lançada sobre um cadáver prestes a perder a vida.",
 
 		"act2_intermission_fifth1": "Ele levanta sua espada para o corte final enquanto a bagunça de lágrimas no chão gagueja seu último argumento fútil.",
@@ -340,7 +781,7 @@
 		"mainmenu_options": "OPÇÕES",
 		"mainmenu_credits": "CRÉDITOS",
 		"mainmenu_quit": "SAIR",
-		"mainmenu_mods": "MODS",
+            "mainmenu_mods": "MODS",
 		"mainmenu_restart": "REINICIAR",
 
 		"difficulty_title": "DIFICULDADE",
@@ -372,9 +813,9 @@
 
 		"chapter_title": "CAPÍTULOS",
 		"chapter_prelude": "PRELÚDIO",
-		"chapter_act1": "ATO 1: HÍPERMORTE INFINITA",
-		"chapter_act2": "ATO 2: ÓDIO IMPERFEITO",
-		"chapter_act3": "ATO 3: ???",
+		"chapter_act1": "ATO I: HÍPERMORTE INFINITA",
+		"chapter_act2": "ATO II: ÓDIO IMPERFEITO",
+		"chapter_act3": "ATO III: SUICÍDIO DIVINO",
 		"chapter_prime": "SANTUÁRIO PRIME",
 		"chapter_cyberGrind": "O CYBER GRIND",
 		"chapter_sandbox": "SANDBOX",
@@ -396,9 +837,12 @@
 		"level_fullIntroPromptYes": "SIM",
 		"level_fullIntroPromptNo": "NÃO",
 		"level_fullIntroPromptCancel": "CANCELAR"
+        
+        ,"leaderboard_anyPercent": "QUALQUER",
+        "leaderboard_pPercent": "RANK P",
+        "leaderboard_noEntries": "sem colocações do placar"
 	},
 	"visualnovel": {
-
 		"visualnovel_mirageName1": "APENAS ALGUÉM",
 		"visualnovel_mirageName2": "A GAROTA MAIS BONITA DA CIDADE",
 		"visualnovel_mirageName3": "MIRAGE",
@@ -424,133 +868,133 @@
 		"visualnovel_introSecond7": "Não tinha tempo pra reagir antes de eu cair no chão duro e frio.",
 		"visualnovel_introSecond8": "Eu me estabanei para reganhar meus sentidos para pelo menos ver qual destino me aguardava em meus momentos finais, mas até mesmo no abismo do terror sem fim, minha mente não poderia ter imaginado o terror que eu testemunhei.",
 
-		"visualnovel_fallen1": "Ai au nossa isso dói",
+		"visualnovel_fallen1": "\"Ai au nossa isso dói\"",
 
 		"visualnovel_fallenPromptFirst1": "\"Quem é você?\"",
 		"visualnovel_fallenPromptFirst2": "\"Você tá bem?\"",
 		"visualnovel_fallenPromptFirst3": "Ficar inquieto nervosamente e suar profusamente",
 
-		"visualnovel_fallenResponseFirst": "Eu sou só alguém que foi derrubada por um cara de merda com meio-cérebro que não tem nem a decência de me perguntar se eu estou bem ou se desculpar antes de começar uma interrogação.",
-		"visualnovel_fallenResponseSecond": "Bom eu acabei de ser derrubada por um cuzão cego-por-escolha que deu a minha saia um revestimento decorativo de terra, então pra responder sua pergunta eu tô fantástica pra caralho, porém eu prefiro não estar no chão agora.",
-		"visualnovel_fallenResponseThird1": "Ah ótimo, eu fui atropelada por uma fonte de suor vibradora, que sorte a minha.",
-		"visualnovel_fallenResponseThird2": "Você poderia pelo menos me ajudar a levantar antes que o que sobrou de você seja derretido pelo sol ou lançado até o manto da Terra",
+		"visualnovel_fallenResponseFirst": "\"Eu sou só alguém que foi derrubada por um cara de merda com meio-cérebro que não tem nem a decência de me perguntar se eu estou bem ou se desculpar antes de começar uma interrogação.\"",
+		"visualnovel_fallenResponseSecond": "\"Bom eu acabei de ser derrubada por um cuzão cego-por-escolha que deu a minha saia um revestimento decorativo de terra, então pra responder sua pergunta eu tô fantástica pra caralho, porém eu prefiro não estar no chão agora.\"",
+		"visualnovel_fallenResponseThird1": "\"Ah ótimo, eu fui atropelada por uma fonte de suor vibradora, que sorte a minha.",
+		"visualnovel_fallenResponseThird2": "Você poderia pelo menos me ajudar a levantar antes que o que sobrou de você seja derretido pelo sol ou lançado até o manto da Terra\"",
 
 
 		"visualnovel_fallenPromptSecond1": "\"Desculpa, foi culpa minha\"",
 		"visualnovel_fallenPromptSecond2": "\"Não com uma atitude dessas\"",
 		"visualnovel_fallenPromptSecond3": "Ajude ela a levantar",
 
-		"visualnovel_fallenResponseFourth": "Tá bom, Tá bom.",
+		"visualnovel_fallenResponseFourth": "\"Tá bom, Tá bom.\"",
 		"visualnovel_fallenResponseFifth": "UGH.",
 
 		"visualnovel_kindFirst1": "*Suspiro*...",
-		"visualnovel_kindFirst2": "Ei, desculpa ser grosseira com você daquele jeito, eu só tô bem frustrada de não só estar atrasada pra aula, mas que eu também consegui me perder no caminho pra lá.",
+		"visualnovel_kindFirst2": "\"Ei, desculpa ser grosseira com você daquele jeito, eu só tô bem frustrada de não só estar atrasada pra aula, mas que eu também consegui me perder no caminho pra lá.\"",
 
-		"visualnovel_kindSecond": "Mas, pelo que parece, você tá basicamente na mesma situação, e por um golpe de sorte que só se tem uma vez na vida você se deu com ~a garota mais bonita da cidade~",
-		"visualnovel_kindThird": "Então que tal você liderar o caminho e tirar nós dois dessa situação?",
+		"visualnovel_kindSecond": "\"Mas, pelo que parece, você tá basicamente na mesma situação, e por um golpe de sorte que só se tem uma vez na vida você se deu com ~a garota mais bonita da cidade~\"",
+		"visualnovel_kindThird": "\"Então que tal você liderar o caminho e tirar nós dois dessa situação?\"",
 
-		"visualnovel_rudeFirst1": "Escuta aqui, cabeça de pica.",
-		"visualnovel_rudeFirst2": "Eu não sei quem você é mas você tem muita coragem de derrubar alguém e nem se incomodar em ajudar a se levantar, mas já que sua mãe não te ensinou maneiras, eu vou deixar essa passar.",
-		"visualnovel_rudeSecond": "Pelo que parece, você tá atrasado pra aula também, e por um golpe de sorte que só se tem uma vez na vida você se deu com a garota mais bonita da cidade",
-		"visualnovel_rudeThird": "Então eu vou perdoar você pela sua transgressão de botar as mãos em uma bela dama se você me dizer qual é o caminho, já que eu pareço ter me perdido no caminho",
+		"visualnovel_rudeFirst1": "\"Escuta aqui, cabeça de pica.",
+		"visualnovel_rudeFirst2": "Eu não sei quem você é mas você tem muita coragem de derrubar alguém e nem se incomodar em ajudar a se levantar, mas já que sua mãe não te ensinou maneiras, eu vou deixar essa passar.\"",
+		"visualnovel_rudeSecond": "\"Pelo que parece, você tá atrasado pra aula também, e por um golpe de sorte que só se tem uma vez na vida você se deu com a garota mais bonita da cidade\"",
+		"visualnovel_rudeThird": "\"Então eu vou perdoar você pela sua transgressão de botar as mãos em uma bela dama se você me dizer qual é o caminho, já que eu pareço ter me perdido no caminho\"",
 
 		"visualnovel_middlePrompt1": "\"Na verdade, eu tô perdido também\"",
 		"visualnovel_middlePrompt2": "\"Não quero\"",
 		"visualnovel_middlePrompt3": "\"Eu não vou pra escola\"",
 
-		"visualnovel_middleResponseFirst1": "UGH! e que sorte a minha.",
-		"visualnovel_middleResponseFirst2": "Porém em retrospecto, eu acho que você não estaria aqui comigo se não estivesse perdido também...",
-		"visualnovel_middleResponseFirst3": "Pois bem, não tem por que chorar por sangue derramado.",
-		"visualnovel_middleResponseFirst4": "A gente pode só esperar algum outro estudante passar e seguir ele ao invés disso.",
-		"visualnovel_middleResponseFirst5": "Eu sou a Mirage. Não se importe em me dizer seu nome, eu realmente não ligo.",
+		"visualnovel_middleResponseFirst1": "\"UGH! e que sorte a minha.\"",
+		"visualnovel_middleResponseFirst2": "\"Porém em retrospecto, eu acho que você não estaria aqui comigo se não estivesse perdido também...\"",
+		"visualnovel_middleResponseFirst3": "\"Pois bem, não tem por que chorar por sangue derramado.",
+		"visualnovel_middleResponseFirst4": "\"A gente pode só esperar algum outro estudante passar e seguir ele ao invés disso.",
+		"visualnovel_middleResponseFirst5": "Eu sou a Mirage. Não se importe em me dizer seu nome, eu realmente não ligo.\"",
 
-		"visualnovel_middleResponseSecond1": "QUÊ?",
-		"visualnovel_middleResponseSecond2": "QUE PORRA VOCÊ QUER DIZER COM 'EU NÃO QUERO'?",
-		"visualnovel_middleResponseSecond3": "Se você NÃO me mostrar o caminho então VOCÊ não vai chegar também!",
-		"visualnovel_middleResponseSecond4": "Ou esse pensamento nunca passou pela cavidade do seu cérebro cheia de giz de cera!?",
+		"visualnovel_middleResponseSecond1": "\"QUÊ?",
+		"visualnovel_middleResponseSecond2": "\"QUE PORRA VOCÊ QUER DIZER COM 'EU NÃO QUERO'?\"",
+		"visualnovel_middleResponseSecond3": "\"Se você NÃO me mostrar o caminho então VOCÊ não vai chegar também!",
+		"visualnovel_middleResponseSecond4": "Ou esse pensamento nunca passou pela cavidade do seu cérebro cheia de giz de cera!?\"",
 
-		"visualnovel_middleResponseThird1": "Besteira!",
-		"visualnovel_middleResponseThird2": "Para de falar merda, eu posso ver esse seu uniforme podre e nenhum ser vivo em sã consciencia iria querer sair de casa parecendo uma sacola cheia de lixo por vontade própria!",
-		"visualnovel_middleResponseThird3": "Porém considerando quão pouca atividade tem dentro desse seu crânio, eu estou bem perto de admitir que você com certeza não tem cara de quem já foi pra escola algum dia.",
+		"visualnovel_middleResponseThird1": "\"Besteira!",
+		"visualnovel_middleResponseThird2": "Para de falar merda, eu posso ver esse seu uniforme podre e nenhum ser vivo em sã consciencia iria querer sair de casa parecendo uma sacola cheia de lixo por vontade própria!\"",
+		"visualnovel_middleResponseThird3": "\"Porém considerando quão pouca atividade tem dentro desse seu crânio, eu estou bem perto de admitir que você com certeza não tem cara de quem já foi pra escola algum dia.\"",
 
 		"visualnovel_middlePromptSecondRecklessness": "\"Você bem que podia ser mais legal com pessoas que você acabou de conheçer\"",
 		"visualnovel_middlePromptSecondWaiting": "\"Só ficar parados aqui não vai dar em lugar nenhum, a gente devia achar um caminho até a escola.\"",
 
-		"visualnovel_recklessnessFirst": "Ah é? E você bem que podia levar uma surra, então vai se fuder.",
-		"visualnovel_recklessnessSecond1": "Mas sim você tá certo.",
-		"visualnovel_recklessnessSecond2": "Eu não ligo para o que você ou qualquer um pensa de mim, então eu não tô interessada em ser legal só pra você ficar de bom humor.",
+		"visualnovel_recklessnessFirst": "\"Ah é? E você bem que podia levar uma surra, então vai se fuder.\"",
+		"visualnovel_recklessnessSecond1": "\"Mas sim você tá certo.",
+		"visualnovel_recklessnessSecond2": "Eu não ligo para o que você ou qualquer um pensa de mim, então eu não tô interessada em ser legal só pra você ficar de bom humor.\"",
 
 		"visualnovel_recklessnessPrompt1": "\"Por que não? Se estamos presos aqui mesmo, qual é o ponto de deixar pior pra nós dois?\"",
 		"visualnovel_recklessnessPrompt2": "\"Eu acho difícil de acreditar considerando quão irritada você fica com práticamente tudo que eu digo.\"",
 
-		"visualnovel_recklessnessResponseFirst1": "Qual o ponto de deixar melhor?",
+		"visualnovel_recklessnessResponseFirst1": "\"Qual o ponto de deixar melhor?",
 		"visualnovel_recklessnessResponseFirst2": "Qual é o ponto de se incomodar em se importar?",
 		"visualnovel_recklessnessResponseFirst3": "Poxa, qual é o ponto de qualquer coisa?",
 		"visualnovel_recklessnessResponseFirst4": "Nada.",
-		"visualnovel_recklessnessResponseFirst5": "Absolutamente nada.",
+		"visualnovel_recklessnessResponseFirst5": "Absolutamente nada.\"",
 
-		"visualnovel_recklessnessResponseSecond1": "Não se lisonjeia.",
-		"visualnovel_recklessnessResponseSecond2": "Desabafar é só como eu lido.",
+		"visualnovel_recklessnessResponseSecond1": "\"Não se lisonjeia.",
+		"visualnovel_recklessnessResponseSecond2": "Desabafar é só como eu lido.\"",
 
 		"visualnovel_recklessnessPrompt3": "\"Lida com o quê?\"",
 
-		"visualnovel_recklessnessResponseThird": "Tudo.",
+		"visualnovel_recklessnessResponseThird": "\"Tudo.\"",
 
-		"visualnovel_waitingFirst": "Ficar andando por aí que nem galinhas sem cabeça só vai nos deixar mais perdidos.",
-		"visualnovel_waitingSecond": "Já que nós dois estavamos indo para a escola e acabamos nos encontrando aqui, isso significa que tem uma grande chance de que o lugar é em algum lugar por esse caminho.",
-		"visualnovel_waitingThird1": "Então, é mais fácil só ficar por aqui e esperar alguém que SABE o caminho.",
-		"visualnovel_waitingThird2": "É lógica básica, você devia pesquisar um dia desses.",
+		"visualnovel_waitingFirst": "\"Ficar andando por aí que nem galinhas sem cabeça só vai nos deixar mais perdidos.\"",
+		"visualnovel_waitingSecond": "\"Já que nós dois estavamos indo para a escola e acabamos nos encontrando aqui, isso significa que tem uma grande chance de que o lugar é em algum lugar por esse caminho.\"",
+		"visualnovel_waitingThird1": "\"Então, é mais fácil só ficar por aqui e esperar alguém que SABE o caminho.",
+		"visualnovel_waitingThird2": "É lógica básica, você devia pesquisar um dia desses.\"",
 
-		"visualnovel_waitingPromptFirst1": "Lógica básica ou não, já estamos atrasados e eu não planejo ficar aqui esperando até amanhã de manhã.",
-		"visualnovel_waitingPromptFirst2": "Qualquer um que sabe o caminho já vai estar lá. Parece que você tá só procurando uma desculpa pra desistir",
+		"visualnovel_waitingPromptFirst1": "\"Lógica básica ou não, já estamos atrasados e eu não planejo ficar aqui esperando até amanhã de manhã.\"",
+		"visualnovel_waitingPromptFirst2": "\"Qualquer um que sabe o caminho já vai estar lá. Parece que você tá só procurando uma desculpa pra desistir\"",
 
-		"visualnovel_waitingResponseFirst1": "Faça o que quiser.Eu vou ficar aqui até a morte calorosa do universo se isso significa que eu não tenho que ficar correndo por aí atrás de uma pedrinha de memórias no chão.",
-		"visualnovel_waitingResponseFirst2": "Não podia me importar menos em estar atrasada pra aula.",
+		"visualnovel_waitingResponseFirst1": "\"Faça o que quiser.Eu vou ficar aqui até a morte calorosa do universo se isso significa que eu não tenho que ficar correndo por aí atrás de uma pedrinha de memórias no chão.\"",
+		"visualnovel_waitingResponseFirst2": "\"Não podia me importar menos em estar atrasada pra aula.",
 		"visualnovel_waitingResponseFirst3": "A escola não importa mesmo.",
-		"visualnovel_waitingResponseFirst4": "Nada importa.",
+		"visualnovel_waitingResponseFirst4": "Nada importa.\"",
 
-		"visualnovel_waitingResponseSecond1": "Hah!",
-		"visualnovel_waitingResponseSecond2": "Não posso desistir se eu nunca tentei em primeiro lugar, e eu não tenho o hábito de tentar.",
+		"visualnovel_waitingResponseSecond1": "\"Hah!",
+		"visualnovel_waitingResponseSecond2": "Não posso desistir se eu nunca tentei em primeiro lugar, e eu não tenho o hábito de tentar.\"",
 
 		"visualnovel_waitingPromptThird": "\"Por que não?\"",
 
-		"visualnovel_waitingResponseThird1": "Por que nada importa.",
+		"visualnovel_waitingResponseThird1": "\"Por que nada importa.",
 		"visualnovel_waitingResponseThird2": "Não há por que tentar se o resultado final vai ser o mesmo de qualquer forma.",
-		"visualnovel_waitingResponseThird3": "Tente o quanto quiser, você vai eventualmente virar poeira esquecida no vento como o resto de nós.",
+		"visualnovel_waitingResponseThird3": "Tente o quanto quiser, você vai eventualmente virar poeira esquecida no vento como o resto de nós.\"",
 
-		"visualnovel_nihilism1": "Digo sério, pense nisso por um momento.",
-		"visualnovel_nihilism2": "A mente humana, em sua vastidão completa, é capaz de reconhecer seu próprio desamparo e fútilidade na face da inevitável e implacável inexistência, mas é incapaz de chegar em um acordo com isso.",
-		"visualnovel_nihilism3": "Nós podemos somente ignorar isso, se esconder disso, ou temporariamente escapar disso, mas o fato é que estamos ligados ao mesmo caminho de todas as coisas",
-		"visualnovel_nihilism4": "Morte é inevitável, não só para nós, mas para tudo aquilo que existe ou já existiu.",
+		"visualnovel_nihilism1": "\"Digo sério, pense nisso por um momento.\"",
+		"visualnovel_nihilism2": "\"A mente humana, em sua vastidão completa, é capaz de reconhecer seu próprio desamparo e fútilidade na face da inevitável e implacável inexistência, mas é incapaz de chegar em um acordo com isso.\"",
+		"visualnovel_nihilism3": "\"Nós podemos somente ignorar isso, se esconder disso, ou temporariamente escapar disso, mas o fato é que estamos ligados ao mesmo caminho de todas as coisas\"",
+		"visualnovel_nihilism4": "\"Morte é inevitável, não só para nós, mas para tudo aquilo que existe ou já existiu.",
 		"visualnovel_nihilism5": "Todo ser vivo vai eventualmente morrer.",
-		"visualnovel_nihilism6": "Toda mancha de matéria vai eventualmente murchar e dissipar em entropia",
-		"visualnovel_nihilism7": "Não importa se você viveu uma boa vida ou deixou um legado pra trás.",
+		"visualnovel_nihilism6": "Toda mancha de matéria vai eventualmente murchar e dissipar em entropia\"",
+		"visualnovel_nihilism7": "\"Não importa se você viveu uma boa vida ou deixou um legado pra trás.",
 		"visualnovel_nihilism8": "Não importa se a humanidade sobreviver por centenas de anos ou morre amanhã.",
-		"visualnovel_nihilism9": "O resultado final é o mesmo: o absoluto nada.",
-		"visualnovel_nihilism10": "Inteligência humana é bem maior do que aquela de outros animais, mas seria equivocado considerar isso um presente.",
-		"visualnovel_nihilism11": "Todos os seres tem o presente da ignorância, de não entender o que fazemos.",
-		"visualnovel_nihilism12": "Nossa inteligência não é um presente.É uma falha.",
-		"visualnovel_nihilism13": "É uma extensão excessiva da evolução.",
-		"visualnovel_nihilism14": "Inteligência, uma vez uma grande característica eras atrás, continuou a crescer sem monitoração e sem filtros, e dês de então passou de um limite onde não é mais um benefício, mas um perigo ativo ao seu hospedeiro.",
-		"visualnovel_nihilism15": "Muito como o Alce-Irlandês, uma espécie de veado que, depois de incontáveis gerações de evolução, cresceu chifres que eram tão largos e vastos que ele não podia mais correr de predadores, eventualmente causando sua extinção.",
-		"visualnovel_nihilism16": "A mente humana é uma má adaptação causado por ir muito longe em uma direção que era uma vez benéfico e vai, mais cedo ou mais tarde, causar nossa extinção.",
-		"visualnovel_nihilism17": "Em um nível individual, já está acontecendo",
-		"visualnovel_nihilism18": "O pavor existencial já está tomando conta.",
+		"visualnovel_nihilism9": "O resultado final é o mesmo: o absoluto nada.\"",
+		"visualnovel_nihilism10": "\"Inteligência humana é bem maior do que aquela de outros animais, mas seria equivocado considerar isso um presente.",
+		"visualnovel_nihilism11": "Todos os seres tem o presente da ignorância, de não entender o que fazemos.\"",
+		"visualnovel_nihilism12": "\"Nossa inteligência não é um presente.É uma falha.\"",
+		"visualnovel_nihilism13": "\"É uma extensão excessiva da evolução.",
+		"visualnovel_nihilism14": "Inteligência, uma vez uma grande característica eras atrás, continuou a crescer sem monitoração e sem filtros, e dês de então passou de um limite onde não é mais um benefício, mas um perigo ativo ao seu hospedeiro.\"",
+		"visualnovel_nihilism15": "\"Muito como o Alce-Irlandês, uma espécie de veado que, depois de incontáveis gerações de evolução, cresceu chifres que eram tão largos e vastos que ele não podia mais correr de predadores, eventualmente causando sua extinção.\"",
+		"visualnovel_nihilism16": "\"A mente humana é uma má adaptação causado por ir muito longe em uma direção que era uma vez benéfico e vai, mais cedo ou mais tarde, causar nossa extinção.",
+		"visualnovel_nihilism17": "Em um nível individual, já está acontecendo\"",
+		"visualnovel_nihilism18": "\"O pavor existencial já está tomando conta.",
 		"visualnovel_nihilism19": "Tenho certeza que você sentiu também.",
 		"visualnovel_nihilism20": "A dor e medo de ser nada, virar nada.",
 		"visualnovel_nihilism21": "O sofrimento de entender isso.",
-		"visualnovel_nihilism22": "Somos incapazes de aceitar isso, então nós nos escondemos de nossa própria inteligência.",
+		"visualnovel_nihilism22": "\"Somos incapazes de aceitar isso, então nós nos escondemos de nossa própria inteligência.",
 		"visualnovel_nihilism23": "Deixamos limites.",
-		"visualnovel_nihilism24": "Nos impedimos de pensar profundamente no que vai acontecer quando morremos.",
-		"visualnovel_nihilism25": "Nós criamos distrações.",
-		"visualnovel_nihilism26": "Mantemos nossa mente ocupada com atividades mundanas e entretenimento para nos parar de ter que ficar cara-a-cara com a verdade.",
-		"visualnovel_nihilism27": "Nós sublimamos isso.",
+		"visualnovel_nihilism24": "Nos impedimos de pensar profundamente no que vai acontecer quando morremos.\"",
+		"visualnovel_nihilism25": "\"Nós criamos distrações.",
+		"visualnovel_nihilism26": "Mantemos nossa mente ocupada com atividades mundanas e entretenimento para nos parar de ter que ficar cara-a-cara com a verdade.\"",
+		"visualnovel_nihilism27": "\"Nós sublimamos isso.",
 		"visualnovel_nihilism28": "Nós transformamos nosso sofrimento auto-refletivo em outra forma, arte, para o manter de consumir-nos.",
-		"visualnovel_nihilism29": "Qualquer coisa para evitar o pânico.",
-		"visualnovel_nihilism30": "Mas todos esses métodos são simplesmente temporários.",
-		"visualnovel_nihilism31": "Eles só estão ali para impedir o véu inevitável da fútilidade e desespero que iria nos abranger e nos arruinar.",
-		"visualnovel_nihilism32": "No fim, nada importa.",
-		"visualnovel_nihilism33": "Não há ponto em tentar encontrar felicidade na vida, pois na vida em si é sofrimento",
+		"visualnovel_nihilism29": "Qualquer coisa para evitar o pânico.\"",
+		"visualnovel_nihilism30": "\"Mas todos esses métodos são simplesmente temporários.",
+		"visualnovel_nihilism31": "Eles só estão ali para impedir o véu inevitável da fútilidade e desespero que iria nos abranger e nos arruinar.\"",
+		"visualnovel_nihilism32": "\"No fim, nada importa.",
+		"visualnovel_nihilism33": "Não há ponto em tentar encontrar felicidade na vida, pois na vida em si é sofrimento\"",
 
 		"visualnovel_nihilismPrompt1": "\"Você tá errada\"",
 		"visualnovel_nihilismPrompt2": "\"Você critíca aqueles que consideram nossa vasta inteligência um presente, e mesmo assim, se ilude a acreditar que nossa falta de sentido é uma maldição.\"",
@@ -576,40 +1020,45 @@
 		"visualnovel_nihilismPrompt22": "\"E nos tempos mais difíceis, quando tudo parece perdido e você quer desistir, nunca esqueça...\"",
 		"visualnovel_nihilismPrompt23": "\"Nós sempre vamos amar você.\"",
 
-		"visualnovel_nihilism34": "Hã?",
-		"visualnovel_nihilism35": "Como pode não ser?",
-		"visualnovel_nihilism36": "Mas ainda sim, nesse caso, a insignificância de nossas ações leva a mesma conclusão -- Não tem razão pra agir, pois toda ação é simplesmente uma flutuação temporária que vai, mesmo assim, levar a mesma conclusão.",
-		"visualnovel_nihilism37": "Eu entendo o que você está dizendo.",
-		"visualnovel_nihilism38": "Porém, isso não melhora meu medo do fim.",
-		"visualnovel_nihilism39": "Mesmo se eu fosse buscar propósito, eu ainda estaria paralizada pelo pensamento de virar nada.",
-		"visualnovel_nihilism40": "Entendo.",
-		"visualnovel_nihilism41": "Porém por mais que eu queira aceitar, eu ainda sim sou acertada por aquele pânico existencial paralizante.",
-		"visualnovel_nihilism42": "Eu entendo lógicamente, e eu sei que não há razão para viver em apatia, mas meu lado emocional se recusa a escutar.",
-		"visualnovel_nihilism43": "O medo persiste, e eu não consigo me motivar a buscar propósito, apesar de saber que eu devo.",
+		"visualnovel_nihilism34": "\"Hã?\"",
+		"visualnovel_nihilism35": "\"Como pode não ser?\"",
+		"visualnovel_nihilism36": "\"Mas ainda sim, nesse caso, a insignificância de nossas ações leva a mesma conclusão -- Não tem razão pra agir, pois toda ação é simplesmente uma flutuação temporária que vai, mesmo assim, levar a mesma conclusão.\"",
 
-		"visualnovel_conclusion1": "Caramba.",
-		"visualnovel_conclusion2": "Acho que você tem uma boa cabeça em cima desses seus ombros afinal.",
-		"visualnovel_conclusion3": "Poxa, eu tô impressionada.",
+		"visualnovel_nihilism37": "\"Eu entendo o que você está dizendo.",
+		"visualnovel_nihilism38": "Porém, isso não melhora meu medo do fim.",
+		"visualnovel_nihilism39": "Mesmo se eu fosse buscar propósito, eu ainda estaria paralizada pelo pensamento de virar nada.\"",
+
+		"visualnovel_nihilism40": "\"Entendo.",
+		"visualnovel_nihilism41": "Porém por mais que eu queira aceitar, eu ainda sim sou acertada por aquele pânico existencial paralizante.\"",
+		"visualnovel_nihilism42": "\"Eu entendo lógicamente, e eu sei que não há razão para viver em apatia, mas meu lado emocional se recusa a escutar.",
+		"visualnovel_nihilism43": "O medo persiste, e eu não consigo me motivar a buscar propósito, apesar de saber que eu devo.\"",
+
+		"visualnovel_conclusion1": "\"Caramba.\"",
+		"visualnovel_conclusion2": "\"Acho que você tem uma boa cabeça em cima desses seus ombros afinal.\"",
+		"visualnovel_conclusion3": "\"Poxa, eu tô impressionada.",
 		"visualnovel_conclusion4": "Cara...",
 		"visualnovel_conclusion5": "Eu sinto que eu tirei o peso do mundo das minhas costas.",
-		"visualnovel_conclusion6": "Ou melhor, você fez isso por mim.",
-		"visualnovel_conclusion7": "E honestamente, do fundo do meu coração...",
-		"visualnovel_conclusion8": "Obrigada",
-		"visualnovel_conclusion9": "Você me deu muito sobre o que pensar, e enquanto eu tenho certeza que eu tenho um caminho longo e duro à minha frente, eu tô otimista.",
-		"visualnovel_conclusion10": "Pela primeira vez no que parece uma eternidade, eu tô otimista.",
+		"visualnovel_conclusion6": "Ou melhor, você fez isso por mim.\"",
+		"visualnovel_conclusion7": "\"E honestamente, do fundo do meu coração...\"",
+
+		"visualnovel_conclusion8": "\"Obrigada",
+
+		"visualnovel_conclusion9": "Você me deu muito sobre o que pensar, e enquanto eu tenho certeza que eu tenho um caminho longo e duro à minha frente, eu tô otimista.\"",
+		"visualnovel_conclusion10": "\"Pela primeira vez no que parece uma eternidade, eu tô otimista.\"",
 
 		"visualnovel_conclusion11": "Bem... Já estamos muito atrasados para a escola e ficou bem claro agora que ninguém vai nos levar até lá, então que tal você e eu largarmos aquela penitenciária de drenagem de paixões e ir comer alguma coisa, hein?",
 
-		"visualnovel_conclusionPrompt1": "\"Tá, beleza. Não tenho nada melhor pra fazer hoje. Mas você que paga.\"",
-		"visualnovel_conclusionPrompt2": "\"Nah, foi mal. Pra ser honesto eu ainda to meio bravo com você por ser grossa comigo.\"",
+		"visualnovel_conclusionPrompt1": "Tá, beleza. Não tenho nada melhor pra fazer hoje. Mas você que paga.",
+		"visualnovel_conclusionPrompt2": "Nah, foi mal. Pra ser honesto eu ainda to meio bravo com você por ser grossa comigo.",
 
-		"visualnovel_conclusionResponseFirst1": "Ah, seu safadinho!",
-		"visualnovel_conclusionResponseFirst2": "Mas tudo bem.",
-		"visualnovel_conclusionResponseFirst3": "Eu te devo uma de qualquer forma, então que melhor hora pra usar seu cupom de 'fiz uma coisa legal pra uma garota muito fora da minha liga' do que agora, né?",
+		"visualnovel_conclusionResponseFirst1": "\"Ah, seu safadinho!\"",
 
-		"visualnovel_conclusionResponseSecond1": "Beleza, faz o que quiser.",
-		"visualnovel_conclusionResponseSecond2": "Mas a oferta ainda tá de pé, caso você mude de idéia alguma hora.",
-		"visualnovel_conclusionResponseSecond3": "Te vejo por aí, amorzinho"
+		"visualnovel_conclusionResponseFirst2": "\"Mas tudo bem.",
+		"visualnovel_conclusionResponseFirst3": "Eu te devo uma de qualquer forma, então que melhor hora pra usar seu cupom de 'fiz uma coisa legal pra uma garota muito fora da minha liga' do que agora, né?\"",
+
+		"visualnovel_conclusionResponseSecond1": "\"Beleza, faz o que quiser.",
+		"visualnovel_conclusionResponseSecond2": "Mas a oferta ainda tá de pé, caso você mude de idéia alguma hora.\"",
+		"visualnovel_conclusionResponseSecond3": "\"Te vejo por aí, amorzinho\""
 	},
 	"options": {
 		"options_title": "OPÇÕES",
@@ -639,6 +1088,9 @@
 		"general_restartWarning": "AVISO AO RECOMEÇAR/SAIR",
 		"general_discordRpc": "INTEGRAR AO DISCORD",
 		"general_seasonalEvent": "EVENTOS SAZONAIS",
+		"general_controllerRumble": "VIBRAÇÃO DO CONTROLE",
+        "general_controllerRumbleCustomize": "CUSTOMIZAR",
+        "general_levelLeaderboards": "PLACAR DE NÍVEIS",
 
 		"controls_resetDefault": "RESETAR PARA O PADRÃO",
 		"controls_movement": "MOVIMENTO",
@@ -743,10 +1195,6 @@
 		"hud_styleMeter": "MEDIDOR DE ESTILO",
 		"hud_styleInfo": "INFORMAÇÃO DE ESTILO",
 
-		"spawner_sandboxItems": "ITENS DE SANDBOX :^)",
-		"spawner_sandbox": "SANDBOX",
-		"spawner_enemies": "INIMIGOS",
-		"spawner_items": "OBJETOS",
 
 		"crosshair_title": "OPÇÕES DA RETÍCULA",
 		"crosshair_type": "TIPO DE RETÍCULA",
@@ -791,6 +1239,7 @@
 		"assists_enemySilhouettesDistance": "DISTÂNCIA DE ATIVAÇÃO",
 		"assists_enemySilhouettesDistanceMinimum": "SEMPRE ATIVO",
 		"assists_enemySilhouettesOutlinesOnly": "APENAS CONTORNO",
+		"assists_enemySilhouettesOutlineThickness": "GROSSURA DO CONTORNO",
 		"assists_major": "GRANDES AUXÍLIOS",
 		"assists_majorActivate": "ATIVAR",
 		"assists_gameSpeed": "VELOCIDADE DO JOGO",
@@ -822,6 +1271,33 @@
 		"colors_variationGold": "VARIAÇÃO DOURADA",
 		"colors_enemies": "SILHUETAS DE INIMIGOS",
 
+		"rumble_title": "<size=12>Customização da Vibração</size>",
+        "rumble_finalMultiplier": "<size=12>MULTIPLICADOR DE INTENSIDADE FINAL</size>",
+        "rumble_coinToss": "<size=12>Jogar Moeda</size>",
+        "rumble_dash": "<size=12>Impulsionar</size>",
+        "rumble_heavyFallImpact": "<size=12>Impacto de Queda Grande</size>",
+        "rumble_heavyFall": "<size=12>Impacto de Queda</size>",
+        "rumble_gunFire": "<size=12>Atirar Arma</size>",
+        "rumble_gunFireProjectile": "<size=12>Atirar Arma (Projétil)</size>",
+        "rumble_gunFireStrong": "<size=12>Atirar Arma (Forte)</size>",
+        "rumble_nailgunFire": "<size=12>Pregadeira</size>",
+        "rumble_railcannonIdle": "<size=12>Segurar Canhão de Raios</size>",
+        "rumble_revolverCharge": "<size=12>Carregar Revólver</size>",
+        "rumble_sawblade": "<size=12>Serra</size>",
+        "rumble_shotgunCharge": "<size=12>Carga de Bomba</size>",
+        "rumble_superSaw": "<size=12>Super Serra</size>",
+        "rumble_jump": "<size=12>Pular</size>",
+        "rumble_magnet": "<size=12>Imã</size>",
+        "rumble_parryFlash": "<size=12>Flash de Rebatimento</size>",
+        "rumble_punch": "<size=12>Socar</size>",
+        "rumble_slide": "<size=12>Deslizar</size>",
+        "rumble_whiplashThrow": "<size=12>Atirar Gancho</size>",
+        "rumble_whiplashPull": "<size=12>Puchar Gancho</size>",
+		"rumble_weaponWheel": "<size=12>Tique da Roda de Armas</size>",
+        "rumble_intensity": "<size=12>INTENSIDADE</size>",
+        "rumble_endDelay": "<size=12>ATRASO FINAL</size>",
+        "rumble_reset": "RESETAR",
+
 		"save_warning1": "<color=red>O jogo irá recomeçar.</color>",
 		"save_warning2": "Se você está em uma missão, seu progresso atual será perdido.",
 		"save_reloadYes": "EU COMPREENDO",
@@ -838,7 +1314,7 @@
 
 		"language_title": "IDIOMAS",
 		"language_languages": "IDIOMAS",
-		"language_openLanguageFolder": "ABRIR PASTA DE IDIOMAS"
+            "language_openLanguageFolder": "ABRIR PASTA DE IDIOMAS"
 	},
 	"pauseMenu": {
 		"pause_title": "PAUSADO",
@@ -859,6 +1335,10 @@
 	},
 	"levelNames": {
 		"levelName_mainMenu": "MENU PRINCIPAL",
+		"levelName_cybergrind": "O CYBER GRIND",
+		"levelName_sandbox": "SANDBOX",
+        "levelName_tutorial": "TUTORIAL",
+        "levelName_devMuseum": "SALÃO DO ULTRADESENVOLVIMENTO",
 
 		"levelName_preludeFirst": "PARA DENTRO DO FOGO",
 		"levelName_preludeSecond": "O MOEDOR DE CARNE",
@@ -892,18 +1372,15 @@
 		"levelName_wrathSecond": "ONDAS DO MAR SEM ESTRELAS",
 		"levelName_wrathThird": "NAVIO DOS TOLOS",
 		"levelName_wrathFourth": "LEVIATÃ",
-		"levelName_wrathSecret": "",
+		"levelName_wrathSecret": "EU SÓ DIGO MANHÃ",
 
 		"levelName_heresyFirst": "LÁGRIMAS EM PRANTO",
 		"levelName_heresySecond": "ESTÉTICA DO ÓDIO",
 
 		"levelName_primeFirst": "ALMA SOBREVIVENTE",
-		"levelName_primeSecond": "???",
-		"levelName_primeThird": "???",
+		"levelName_primeSecond": "ESPERAR DO MUNDO",
+		"levelName_primeThird": "???"
 
-		"levelName_cybergrind": "CYBERGRIND",
-		"levelName_sandbox": "SANDBOX",
-		"levelName_tutorial": "TUTORIAL"
 	},
 	"levelChallenges": {
 		"challenges_preludeFirst": "OBTENHA 5 ABATES COM UM ÚNICO PAINEL DE VIDRO",
@@ -983,10 +1460,12 @@
 
 		"leveltips_primeFirst1": "<color=orange>Rebatimentos</color> podem ser usados como uma poderosa ferramenta de cura.",
 		"leveltips_primeFirst2": "Rebater qualquer projétil inimigo ou ataque corpo-a-corpo vai <color=red>recuperar completamente sua vida</color> até o limite do dano grave.",
+		"leveltips_primeSecond": "Se divirta.",
 
 		"leveltips_wrathFirst": "Cair debaixo d'água é lento, mas uma <color=orange>pancada</color> permite um rápido retorno ao chão.",
 		"leveltips_wrathSecond": "<color=orange>Deslizar</color> sobre a água fará com que um <color=orange>salte sobre</color> sua superfície.",
 		"leveltips_wrathThird": "Se um inimigo é <color=orange>abençoado</color> por um <color=orange>ídolo</color>, uma conexão direta e visível é formada entre os dois, permitindo que se <color=orange>rastreie</color> e destrua facilmente o protetor.",
+        "leveltips_wrathThirdBroken": "Ai.",
 		"leveltips_wrathFourth1": "<color=orange>Explosões</color> defletem <color=orange>projéteis</color>.",
 		"leveltips_wrathFourth2": "Se uma explosão é causada exatamente onde um inimigo atira um projétil, eles podem <color=orange>voltar</color> e <color=orange>acertar</color> o próprio inimigo.",
 
@@ -997,7 +1476,9 @@
 
 		"leveltips_cybergrind": "Se empurrado fora demais da arena, uma sobrecarga da <color=lime>CARGA DE BOMBA</color> é uma boa forma de voltar.",
 		"leveltips_sandbox1": "<color=orange>TRAPAÇAS</color> podem ser ativadas em outros níveis inserindo",
-		"leveltips_sandbox2": "Ativando trapaças irá desabilitar classificações."
+		"leveltips_sandbox2": "Ativando trapaças irá desabilitar classificações.",
+
+		"leveltips_devMuseum": "Você pode pegar as armas removidas no segundo andar."
 	},
 	"shop": {
 		"shop_tipofthedayTitle": "DICA DO DIA",
@@ -1012,10 +1493,10 @@
 		"shop_cybergrindDescription1": "O Cyber Grind é um modo de sobrevivência sem fim.",
 		"shop_cybergrindDescription2": "Uma performance boa dará muitos pontos.",
 		"shop_cybergrindDescription3": "Progresso na missão atual será perdido.",
-		"shop_cybergrindEnterTitle": "O CYBER GRIND",
+            "shop_cybergrindEnterTitle": "O CYBER GRIND",
 		"shop_cybergrindEnter": "ENTRAR NO CYBER GRIND",
 		"shop_cybergrindReturningTo": "Voltando para:",
-		"shop_cybergrindExitTitle": "RETORNAR À MISSÃO",
+            "shop_cybergrindExitTitle": "RETORNAR À MISSÃO",
 		"shop_cybergrindExit": "SAIR DO CYBER GRIND",
 
 		"shop_sandboxTitle": "SANDBOX",
@@ -1042,6 +1523,10 @@
 		"shop_revolverMarksmanDescription1": "Aperte Tiro Alt para jogar uma <color=orange>moeda</color>.",
 		"shop_revolverMarksmanDescription2": "Acerte uma moeda <color=orange>no ar</color> para <color=orange>refletir</color> seu tiro no <color=orange>ponto fraco</color> do inimigo mais próximo.",
 		"shop_revolverMarksmanDescription3": "Tiros <color=orange>pulam</color> de uma moeda para <color=orange>outra</color>.",
+
+		"shop_revolverSharpshooter": "ATIRADOR",
+        "shop_revolverSharpshooterDescription1": "<color=orange>Segure</color> o Tiro Alt para carregar um raio perfurador que <color=orange>ricocheteia em superfícies</color>.",
+        "shop_revolverSharpshooterDescription2": "Pode destruir <color=orange>projéteis</color>.",
 
 		"shop_shotgunCoreEject": "EJEÇÃO",
 		"shop_shotgunCoreEjectDescription1": "Aperte Tiro Alt para superaquecer e <color=orange>lançar</color> o <color=orange>núcleo</color> da escopeta.",
@@ -1077,6 +1562,11 @@
 		"shop_rocketLauncherFreezeDescription1": "Aperte Tiro Alt para <color=orange>congelar</color> foguetes.",
 		"shop_rocketLauncherFreezeDescription2": "Foguetes congelados tem um raio de explosão maior e <color=orange>permanecem congelados</color> mesmo ao trocar de arma.",
 
+		"shop_rocketLauncherSrsCannon": "CANHÃO S.R.S.",
+        "shop_rocketLauncherSrsCannonDescription1": "Pressione o Tiro Alt para lançar uma <color=orange>bola de canhão</color>.",
+        "shop_rocketLauncherSrsCannonDescription2": "<color=orange>Segure</color> para carregar a <color=orange>distância</color>.",
+        "shop_rocketLauncherSrsCannonDescription3": "Ninguém sabe o que S.R.S. significa.",
+
 		"shop_armFeedbacker": "REBATEDOR",
 		"shop_armFeedbackerDescription1": "Soco rápido com dano decente.",
 		"shop_armFeedbackerDescription2": "Pode <color=orange>rebater</color> ataques de projéteis, incluindo tiros da <color=orange>escopeta</color> e <color=orange>moedas</color>.",
@@ -1107,7 +1597,7 @@
 
 		"shop_loreShotgun1": "Uma arma experimental de curto alcance que usa calor híperconcentrado como seus projéteis.",
 		"shop_loreShotgun2": "Depois de cada disparo, a escopeta deve ser aberta para que seus núcleos geradores de calor ventilem o calor em excesso impedindo eles de derreter ou explodir. Esse processo é por maior parte automatizado, precisando de pouco mais do usuário do que um movimento do pulso.",
-		"shop_loreShotgun3": "No caso de falha no núcleo, a bomba pode ser usada como mecânismo de calor manual. Esse processo foi simplificado via um pequeno botão perto do aperto que bombeia a escopeta sem precisar de força física do usuário, porém sua facilidade de uso também aumentou consideravelmente a quantidade de acidentes de usuários bombeando muito calor em um único disparo.",
+		"shop_loreShotgun3": "No caso de falha no núcleo, a bomba pode ser usada como mecânismo de calor manual. Esse processo foi simplificado via um pequeno botão perto do aperto que bombeia a escopeta sem precisar de força física do usuário, porém sua facilidade de uso também altamente aumentou a quantia de acidentes de usuários bombeando muito calor em um único disparo.",
 		"shop_loreShotgun4": "Armas de calor nunca foram muito populares quanto armas elétricas devido a sua natureza volátil e requisitos estritos de resfriamento, porém diferente de armas elétricas, elas não requerem um projétil separado, fazendo sua munição realmente infinita em vez de só praticamente infinita.",
 		"shop_loreShotgun5": "A escopeta só é eficaz a distâncias extremamente curtas, o que faz dela uma arma com dano arriscado mas devastador. Isso também a faz ideal para se curar.",
 		"shop_loreShotgun6": "Pode aparar ataques corpo-a-corpo com um tiro a queima-roupa no peito. Mais arriscado do que usar o braço Rebatedor, mas com maior dano como recompensa.",
@@ -1117,8 +1607,8 @@
 
 		"shop_loreNailgun1": "Uma combinação de partes de uma pregadeira industrial e uma arma de balas velha. Provavelmente projetado por uma máquina que foi feita para trabalho de construção, já que todas as máquinas, até mesmo aquelas não feitas para a guerra, tiveram que aprender a defender-se sozinhas depois da extinção da humanidade.",
 		"shop_loreNailgun2": "Armas de bala foram por maior parte abandonadas após a invenção de sistemas de munição infinita como armas elétricas e armas de calor, por maior parte do quão mais barato não comprar munição para exércitos de larga-escala virou com o tempo.",
-		"shop_loreNailgun3": "Apesar do sistema de munição antigo ter feito inútil e largamente abandonado, essa arma ainda foi excelentemente projetada e construida, então com um pouco de renovação de partes de uma pregadeira industrial, ela virou uma arma de rápido-disparo de projéteis com munição de metal praticamente infinita.",
-		"shop_loreNailgun4": "De se esperar de uma arma improvisada, seu design é longe de perfeito. Já que o sistema de regeneração de pregos não foi feito para trabalhar a uma taxa tão alta, é sujeito a superaquecer se um limite rígido não for definido nela, porém algumas variações optaram por terem dissipadores de calor embutidos.",
+		"shop_loreNailgun3": "Apesar do sistema de munição antigo ter feito inútil e largamente abandonado, essa arma ainda foi excelentemente projetada e construída, então com um pouco de renovação de partes de uma pregadeira industrial, ela virou uma arma de rápido-disparo de projéteis com munição de metal praticamente infinita",
+		"shop_loreNailgun4": "De se esperar de uma arma improvisada porém, seu design é longe de perfeito. Já que o sistema de regeneração de pregos não foi feito para trabalhar a uma taxa tão alta, é sujeito a superaquecer se um limite rígido não for definido nela, porém algumas variações optaram por terem dissipadores de calor embutidos.",
 		"shop_loreNailgun5": "Devido a natureza de sua munição limitada, a pregadeira é melhor utilizada em curtas rajadas ao invés de períodos de tempo extendidos",
 		"shop_loreNailgun6": "Os Imãs da variação de Imãs também afetam os pregos das outras variações de pregadeira, permitindo ignorar os fatores limitantes como a rajada da variação de Sobrecarga ter baixa precisão.",
 		"shop_loreNailgun7": "Alguns inimigos, como as Faces Maliciosas, são geralmente fracas a pregos, e em particular os pregos de maior qualidade da variação de Imã com limitação rígida irá decimar maioria dos inimigos fracos.",
@@ -1128,7 +1618,7 @@
 		"shop_loreRailcannon1": "Essa ferramenta industrial foi uma das primeiras utilizadas para a tecnologia que eventualmente virou as armas elétricas.",
 		"shop_loreRailcannon2": "Originalmente feito como gerador portátil, permitindo uma maneira fácil de gerar eletricidade para realocação temporária, como acampamentos durante a guerra ou expedições.",
 		"shop_loreRailcannon3": "Assim como armas industriais similares, quando a humanidade caiu, foi reaproveitado como uma arma pela máquina que a empunhava, transformando de uma saída baixa constante de voltagem a uma única rajada de energia que requer um longo tempo de recarga entre disparos.",
-		"shop_loreRailcannon4": "Apesar de ser uma arma arriscada, já que seu tempo de recarga é tão longo, o poder do canhão de raios o faz uma ferramenta digna de empunhar, especialmente para alguém carregando multiplas outras armas para poder usar enquanto a bateria do canhão recarrega.",
+		"shop_loreRailcannon4": "Apesar de ser uma arma arriscada, já que seu tempo de recarga é tão longo, o poder do canhão de raios o faz uma ferramenta digna de empunhar, especialmente para alguém carregando multiplas outras armas para poder usar enquanto a bateria do canhão recarrega",
 		"shop_loreRailcannon5": "Cada variação serve um propósito diferente, e já que todos compartilham o mesmo tempo de recarga, é importante saber qual versão usar em cada situação.",
 		"shop_loreRailcannon6": "O tempo de recarga total é 15 segundos, a carga atual é indicada por um raio no seu HUD.",
 		"shop_loreRailcannon7": "A variação elétrica pode acertar as moedas do revólver Pistoleiro. Já que ele tem poder perfurante infinito, com bom timing e posicionamento, você pode atirar através de um inimigo para acertar uma moeda, que irá ricochetear o disparo de volta no mesmo inimigo, mais do que dobrando o dano total causado com um único disparo.",
@@ -1138,16 +1628,19 @@
 		"shop_loreRocketLauncher1": "Outra arma que costumava ser uma ferramenta industrial, como é visível no seu esquema de cores e no canhão de raios comparado com armas como o revólver, escopeta e pregadeira, que usam armas de bala como base.",
 		"shop_loreRocketLauncher2": "Assim como muitas técnologias avançadas, foi originalmente criada para uso em guerra, já que seu sistema de geração de explosivos era extremamente rápido em cavar trincheiras, destruindo obstáculos ou reabastecendo armas explosivas.",
 		"shop_loreRocketLauncher3": "Porém, essa ferramenta por si só não poderia ser usada como lançador. Modelos anteriores também funcionavam como armas, mas incluindo os sistemas de ativação dos explosivos frequentemente causava reações químicas acidentais durante o seu processo de geração, detonando eles antes de estarem completos.",
-		"shop_loreRocketLauncher4": "Desde então, o processo foi dividido em dois entre o dispositivo de geração e um lança foguetes separado, onde o gerador de explosivos constrói o resto de um foguete e o lança foguetes aplica o mecanismo de ativação.",
+		"shop_loreRocketLauncher4": "Des de então, o processo foi dividido em dois entre o dispositivo de geração e um lança foguetes separado, onde o gerador de explosivos constrói o resto de um foguete e o lança foguetes aplica o mecanismo de ativação.",
 		"shop_loreRocketLauncher5": "Já que máquinas raramente tem o luxo de cooperação devido a dividir sangue com outros ser visto como desperdício, a máquina que criou essa arma ao invés disso modificou o processo de geração para funcionar com um único usuário e reaproveitou partes de uma britadeira para lançar o projétil.",
-		"shop_loreRocketLauncher6": "Ao invés de um mecanismo de ativação normal, os foguetes usam o sangue do alvo para completar a reação química, fazendo o processo de geração seguro, porém a arma é mais difícil de usar já que requer um acerto direto para causar dano.",
+		"shop_loreRocketLauncher6": "Ao invés de um mecanismo de ativação normal, os foguetes usam o sangue do alvo para completar a reação química, fazendo o processo de geração seguro, porém a arma é mais difícil de usar já que requer um acerto direto para causar dano",
 		"shop_loreRocketLauncher7": "A habilidade necessária o faz assustador, porém seu poder mais do que compensa por isso, e muitos de seus portadores especificamente escolhem usar como símbolo de sua habilidade em pontaria.",
 		"shop_loreRocketLauncher8": "Foguetes só causam uma explosão de dano ao acertar um alvo vivo diretamente, mas errar de propósito pode ser usado para lançar um inimigo ao ar, já que um acerto direto em um inimigo caindo causa uma explosão maior, e com mais dano.",
-		"shop_loreRocketLauncher9": "O lançador requer minima preparação para ser utilizado, que significa que pode ser rápidamente puxado, disparado, e guardado novamente para uma rápida rajada de dano no meio de outro combo de troca de armas.",
+		"shop_loreRocketLauncher9": "O lançador requer minima preparação para ser utilizado, que significa que pode ser rápidamente puxado, atirado, e colocado de volta para uma rápida rajada de dano no meio de outro combo de troca de armas.",
 		"shop_loreRocketLauncher10": "Foguetes são puxados pelos Imãs da pregadeira, porém não tão forte quanto pregos. A precisão do rastreamento pode ser aumentada congelando os foguetes com a variação Freezeframe.",
 		"shop_loreRocketLauncher11": "Quando acertado pelo Gancho, um foguete irá se conectar a lança sem parar o seu lançamento. Se a lança não colidir com mais nada, o foguete será puxado de volta junto com ela, explodindo na colisão com o usuário.",
-		"shop_loreRocketLauncher12": "Inimigos leves estarão no ar quando puxados pelo Gancho, fazendo-os alvos fáceis para acertar o bonus de explosão em inimigos caindo. Porém, isso requer muita distância do alvo se o usuário deseja evitar o raio aumentado da explosão.",
-		"shop_loreRocketLauncher13": "Algumas máquinas, como V1, são leves o suficiente para montar em um foguete. Isso pode ser alcançado congelando um foguete com a variação Freezeframe e pulando nele. Mesmo com o baixo peso, o foguete irá eventualmente perder poder, causando-o a cair gradualmente, mas de baixo da água, V1 é leve o suficiente para não causar essa queda.",
+		"shop_loreRocketLauncher12": "As bolas de canhão do Canhão S.R.S. podem ser socadas para serem lançadas com mais força, disparadas com uma arma de hitscan para uma explosão ou derrubadas no chão para lançar inimigos.",
+		"shop_loreRocketLauncher13": "Inimigos leves estarão no ar quando puxados pelo Gancho, fazendo-os alvos fáceis para acertar o bonus de explosão em inimigos caindo. Porém, isso requer muita distância do alvo se o usuário deseja evitar o raio aumentado da explosão.",
+		"shop_loreRocketLauncher14": "Algumas máquinas, como V1, são leves o suficiente para montar em um foguete. Isso pode ser alcançado congelando um foguete com a variação Freezeframe e pulando nele. Mesmo com o baixo peso, o foguete irá eventualmente perder poder, causando-o a cair gradualmente, mas de baixo da água, V1 é leve o suficiente para não causar essa queda.",
+		"shop_loreRocketLauncher15": "Embora as bolas de canhão da variação Canhão S.R.S. possam ser socadas no momento em que são lançadas, elas terão maior durabilidade se forem socadas após baterem em um inimigo.",
+
 
 		"shop_revolverPreset1": "PADRÃO",
 		"shop_revolverPreset2": "MAGNUM",
@@ -1205,12 +1698,14 @@
 		"enemyname_malFace": "FACE MALICIOSA",
 		"enemyname_cerberus": "CÉRBERO",
 		"enemyname_hideousMass": "MASSA HORRENDA",
-		"enemyname_leviathan": "LEVIATÃ",
+            "enemyname_leviathan": "LEVIATÃ",
 		"enemyname_gabriel": "GABRIEL, JUÍZ DO INFERNO",
 		"enemyname_virtue": "VIRTUDE",
 		"enemyname_somethingWicked": "ALGO SINISTRO",
 		"enemyname_fleshPrison": "PRISÃO DE CARNE",
 		"enemyname_minosPrime": "MINOS PRIME",
+        "enemyname_boss_fleshPanopticon": "PANÓPTICO DE CARNE",
+        "enemyname_boss_sisyphusPrime": "SÍSIFO PRIME",
 
 		"enemyname_boss_cerberus": "CÉRBERO, GUARDIÃO DO INFERNO",
 		"enemyname_boss_cancerousRodent": "ROEDOR CANCERÍGENO",
@@ -1310,14 +1805,14 @@
 		"cheats_dupesLoad": "CARREGAR",
 		"cheats_dupesDelete": "DELETAR",
 
-		"cheats_categoryMeta": "META",
-		"cheats_categorySandbox": "SANDBOX",
-		"cheats_categoryGeneral": "GERAL",
-		"cheats_categoryMovement": "MOVIMENTO",
-		"cheats_categoryEnemies": "INIMIGOS",
-		"cheats_categoryWeapons": "ARMAS",
-		"cheats_categoryItems": "ITEMS",
-		"cheats_categorySpecial": "ESPECIAL"
+            "cheats_categoryMeta": "META",
+            "cheats_categorySandbox": "SANDBOX",
+            "cheats_categoryGeneral": "GERAL",
+            "cheats_categoryMovement": "MOVIMENTO",
+            "cheats_categoryEnemies": "INIMIGOS",
+            "cheats_categoryWeapons": "ARMAS",
+            "cheats_categoryItems": "ITEMS",
+            "cheats_categorySpecial": "ESPECIAL"
 	},
 
 	"enemybios": {
@@ -1404,6 +1899,7 @@
 		"enemyBios_stalker_strategy1": "As luzes nas bombas dão informação do estado de um Perseguidor. A cor mostra o estado de seu explosivo e a clareação da luz mostra quanto de vida um Perseguidor ainda tem.",
 		"enemyBios_stalker_strategy2": "É recomendado que detone um perseguidor forçadamente em vez de permitir que denote sozinho, pois a explosão terá uma área de efeito maior.",
 		"enemyBios_stalker_strategy3": "Se um Perseguidor ficar próximo de seu alvo e não pode ser puxado fora, a onda de uma pancada no chão pode lançar eles fora de alcance, assim eles podem ser detonados seguramente no ar, já que a explosão é majoritariamente horizontal.",
+	    "enemyBios_stalker_strategy4": "Colocar ímãs em um Perseguidor reduzirá o raio de sua detonação.",
 
 		"enemyBios_insurrectionist_1": "Os Insurrecionistas Sisifianos foram um exército de Carcaças colhidos e treinados pelo Rei Sísifo para derrubar o controle do Céu sobre o Inferno, liberando os pecadores de seu tormento eterno.",
 		"enemyBios_insurrectionist_2": "Durante a era de chaos no Céu, como a vigia angélica estava ausente, Sísifo começou a colocar seu plano em movimento enquanto suas forças recrutavam todas as Carcaças que eram inteligentes o suficiente para serem úteis em sua causa e começou a atacar os demônios que vagavam pelas dunas da Ganância.",
@@ -1548,11 +2044,29 @@
 		"enemyBios_minosPrime_4": "O Renascimento da Luxúria era próspera, e Rei Minos guiava seus habitantes para criar uma nova civilização juntos. Os esforços combinados dos incontáveis que foram condenados para à segunda camada deram ótimos resultados à medida que a grande cidade da Luxúria crescia e crescia.",
 		"enemyBios_minosPrime_5": "No entanto, depois que o Conselho tomou controle do Céu e trouxe estabilidade através da sua regra de punho de ferro, eles viram que Minos foi contra a vontade de Deus por liberar pecadores do punimento que Deus havia projetado para eles.",
 		"enemyBios_minosPrime_6": "Gabriel, o mais brilhante dos anjos, foi enviado para matar Minos. O Rei, ao invés de lutar, tentou argumentar com ele, mas Gabriel o derrubou impiedosamente sem ouvir.",
-		"enemyBios_minosPrime_7": "Como a vontade de Minos era forte o suficiente para tentar resistir ao governo do céu, os anjos escolheram aprisionar sua alma na tentativa de impedi-la de se transformar em uma alma prime e nomearam Gabriel como o novo Juiz do Inferno.",
+		"enemyBios_minosPrime_7": "Como a vontade de Minos era forte o suficiente para tentar resistir ao governo do Céu, os anjos escolheram aprisionar sua alma na tentativa de impedi-la de se transformar em uma alma prime e nomearam Gabriel como o novo Juiz do Inferno.",
 		"enemyBios_minosPrime_8": "Da prisão dentro de seu próprio corpo, Minos assitiu desamparadamente o seu corpo sem alma, agora controlado por parasitas, destruir tudo o que ele trabalhou tanto para construir, amaldiçoando sua própria fraqueza por não proteger seu próprio povo, prometendo se vingar...",
 
 		"enemyBios_minosPrime_strategy1": "Os ataques de Minos Prime são rápidos e implacáveis. É raro para ele dar uma oportunidade de cura, então é vital aprender quais ataques o deixam momentaneamente vulnerável e como estar em uma posição vantajosa durante esses momentos",
-		"enemyBios_minosPrime_strategy2": "Seus projéteis de cobra podem ser rebatidos usando Rebatedor para uma cura completa, mesmo que o projétil não atinja Minos Prime."
+		"enemyBios_minosPrime_strategy2": "Seus projéteis de cobra podem ser rebatidos usando Rebatedor para uma cura completa, mesmo que o projétil não atinja Minos Prime.",
+
+		"enemyBios_fleshPanopticon_1": "O Panóptico de Carne é uma versão superior da Prisão de Carne, construída não apenas para abrigar a alma do Rei Sísifo, mas também com a capacidade de vigiar todos os seus seguidores que possam estar presos ao seu lado.",
+        "enemyBios_fleshPanopticon_2": "No entanto, esse recurso nunca foi utilizado, pois a alma prime de Sísifo já havia começado a se formar antes de ter sido aprisionado, o que levou os anjos a temerem que ele pudesse sair de sua prisão se fosse despertado.",
+
+        "enemyBios_fleshPanopticon_strategy_1": "Embora o Panóptico de Carne invoque menos crias do que seu antecessor, eles são mais resistentes e seu olhar é capaz de impedir a cura de todas as feridas. Isso pode parecer apenas uma maldição, mas anula a principal falha do Gancho, permitindo que ele seja usado livremente para se aproximar e destruir as crias à curta distância.",
+        "enemyBios_fleshPanopticon_strategy_2": "Os explosivos do Panóptico de Carne tornam perigoso ficar no chão, mas eles atravessam o Panóptico para evitar que ele se danifique, tornando mais seguro ficar em cima dele, desde que o buraco negro não esteja por perto.",
+
+        "enemyBios_sisyphusPrime_1": "Embora Minos fosse inteligente e persuasivo, ele também era um homem gentil e nobre. Esses valores pouco importavam para Sísifo, que mentiria, enganaria ou mataria de bom grado se isso fosse necessário para proteger seus companheiros.",
+        "enemyBios_sisyphusPrime_2": "Em uma demonstração arrogante de poder, o Céu decidiu que a única punição correta para seus pecados seria quebrar sua vontade, submetendo-o a uma tarefa interminável e impossível, sem saber o quão tenaz o rancor do homem pode ser.",
+        "enemyBios_sisyphusPrime_3": "Por milhares de anos, Sísifo aguardou seu tempo, sofrendo sua punição dia após dia sem qualquer sinal de arrependimento ou remorso, esperando a chance perfeita para atacar e subverter o governo tirânico do Céu.",
+        "enemyBios_sisyphusPrime_4": "Com o desaparecimento de Deus e o caos no Céu, a hora de Sísifo finalmente chegou e, assim que os anjos retornaram, eles se depararam com uma força e uma fúria que ferveu no coração dos homens por milênios, um grito de guerra tão feroz que abalou as próprias fundações do Inferno.",
+        "enemyBios_sisyphusPrime_5": "No entanto, tudo foi em vão, pois o carisma e o empenho de Sísifo tornaram seus guerreiros dependentes de seu brilho e liderança. Embora ainda não soubesse o motivo, Gabriel reconheceu essa falha, tendo-a experimentado em primeira mão, e ordenou um ataque concentrado para derrubar o rei.",
+        "enemyBios_sisyphusPrime_6": "Ele desembainhou suas espadas pela primeira vez desde tempos imemoriais e decapitou Sísifo, exibindo sua cabeça para todos verem. A moral do exército de Sísifo foi destruída e o restante da guerra foi pouco mais que uma formalidade sem o seu reluzente farol.",
+        "enemyBios_sisyphusPrime_7": "No entanto, o fracasso da insurreição não foi nenhuma surpresa, e poucos sabiam disso melhor do que o próprio Sísifo. Ele sabia que estava lutando uma batalha perdida, que mesmo se eles milagrosamente sobrevivessem a esse encontro, não teriam chance de vencer uma guerra em grande escala contra todo o Céu. Mesmo assim, ele atirou-se de corpo e alma na batalha com um enorme sorriso no rosto.",
+        "enemyBios_sisyphusPrime_8": "Para ele, travar uma batalha impossível com pleno conhecimento de sua futilidade e alegrar-se apenas com o ato de resistência em si é a rebelião definitiva contra o opressor. É preciso imaginar Sísifo feliz.",
+
+        "enemyBios_sisyphusPrime_strategy1": "Os ataques incansáveis de Sísifo deixam pouco espaço para recuperar a energia, mas muitos deles podem ser rebatidos, permitindo uma recarga instantânea.",
+        "enemyBios_sisyphusPrime_strategy2": "O poder radiante do sol faz com que os ataques explosivos de Sísifo sejam muito difíceis de evitar, mas como um impulso proporciona invencibilidade temporária, um bom timing permite evitar o dano de uma explosão sem precisar escapar de seu raio."
 	},
 
 	"tutorial": {
@@ -1569,6 +2083,7 @@
 		"tutorial_calibrationComplete1": "CALIBRAÇÃO CONCLUÍDA",
 		"tutorial_calibrationComplete2": "CONFIGURAÇÕES PRIMÁRIAS ATUALIZADAS",
 		"tutorial_introReminder": "AUXÍLIOS DISPONÍVEIS NO MENU DE OPÇÕES",
+        "tutorial_systemsOperational": "TODOS OS SISTEMAS EM OPERAÇÃO",
 		"tutorial_introLoadStatus": "ATUALIZAÇÃO DE STATUS:",
 		"tutorial_introID1": "ID DA MÁQUINA",
 		"tutorial_introID2": "V1",
@@ -1594,7 +2109,6 @@
 		"tutorial_controllerCalibrationTitle": "CONTROLE DETECTADO",
 		"tutorial_controllerCalibrationSubtitle": "<color=#4C99E6>MIRA AUTOMÁTICA</color> RECOMENDADA",
 		"tutorial_controllerCalibrationTooltip": "A MIRA ATUOMÁTICA AINDA PODE SER AJUSTADA NO MENU DE <color=#4C99E6>AUXÍLIOS</color>.",
-
 
 		"tutorial_punch1": "Aperte",
 		"tutorial_punch2": "para <color=orange>SOCAR</color>",
@@ -1627,7 +2141,7 @@
 		"prelude_first_groundSlam2": "causa dano em um acerto direto.",
 
 		"prelude_second_shop": "Use <color=orange>PONTOS</color> na <color=orange>LOJA</color> no começo de cada nível para comprar novos equipamentos.",
-		"prelude_second_doorClip": "\"O QUE É UPDOOR?\"T. HAKITA",
+		"prelude_second_doorClip": "\"O QUE TEM LÁ EM CIMA?\"T. HAKITA",
 		"prelude_second_changeEquipped": "circule pelas variações <color=orange>EQUIPADAS</color> com",
 
 		"prelude_third_needShotgun": "<color=red>PODER DE FOGO INSUFICIENTE</color>",
@@ -1636,7 +2150,7 @@
 		"prelude_third_shotgun3": "Segure para aumentar a distância.",
 		"prelude_third_shotgunPierce": "<color=cyan>ESCOPETA</color>: Seu ataque primário perfura inimigos mais fracos.",
 
-		"prelude_secret_somethingWicked": "Algo sinistro vem aí."
+		"prelude_secret_somethingWicked": "Algo sinistro por aqui virá."
 	},
 	"act1": {
 		"act1_limboFirst_items1": "Para pegar <color=orange>ITENS</color> aperte ",
@@ -1648,7 +2162,7 @@
 		"act1_limboSecond_blueAttack": "Um <color=cyan>BRILHO AZUL</color> significa que um ataque é <color=cyan>IRREBATÍVEL</color>.",
 
 		"act1_limboThird_splitDoor1": "Portas de <color=red>DUAS</color> <color=cyan>CORES</color> precisam de apenas <color=red>UMA</color> <color=cyan>CAVEIRA</color>.",
-		"act1_limboThird_splitDoor2": "Se você não busca dificuldade, não vá para fora.",
+		"act1_limboThird_splitDoor2": "Se você não busca dificuldade, continue no interior.",
 
 		"act1_limboFourth_book": "<color=orange>PEGUE</color> PARA LER.",
 		"act1_limboFourth_hank1": "Nada acontece, mas você sente uma satisfação estranha.",
@@ -1674,7 +2188,7 @@
 		"act2_greedSecond_sand": "INIMIGOS COBERTO DE AREIA <color=red>NÃO VÃO SANGRAR</color>",
 		"act2_greedThird_wallClip": "\"A SUJEIRA SE FOI, MAS A MEMÓRIA PERMANECE.\"T. HAKITA",
 
-		"act2_greedThird_troll1": "Algo Sinistro vem aí.",
+		"act2_greedThird_troll1": "Algo Sinistro por aqui virá.",
 		"act2_greedThird_troll2": "Brincadeira :)",
 		"act2_greedThird_tombOfKings": "TUMBA DOS REIS",
 
@@ -1714,18 +2228,47 @@
 		"act2_secretNotReady": "VOCÊ NÃO DEVERIA ESTAR AQUI."
 	},
 	"primeSanctum": {
-		"primeSanctum_first_secretText1": "INTRODUÇÃO A TERMINAIS",
-		"primeSanctum_first_secretText2": "<color=grey>RASCUNHO! NÃO ENVIE!! // a fazer: ADICIONAR FOTOS PRA ESSES ENGRAVATADOS DO CARALHO NÃO DORMIREM QUE NEM DA ÚLTIMA VEZ)</color>",
+		"primeSanctum_first_secretText1": "DADOS DO TERMINAL 01 <color=red>[CRIPTOGRAFADO]</color>",
+		"primeSanctum_first_secretText2": "INTRODUÇÃO A TERMINAIS <color=grey>(RASCUNHO! NÃO ENVIE!! // a fazer: ADICIONAR FOTOS PRA ESSES ENGRAVATADOS DO CARALHO NÃO DORMIREM QUE NEM DA ÚLTIMA VEZ)</color>",
 		"primeSanctum_first_secretText3": "Os terminais da sala do elevador são uma rede avançada interconectada construída com o propósito de transferir materiais e ferramentas através de areas diferentes. Eles são capazes de transferir material físico como informação através de um sinal de rádio, que outros terminais podem receber e usar para reconstruir o objeto enviado. O item original então é perdido, já que é transformado na energia que é usada pra transmitir a informação material, e o processo é bem lento devido a quantidade de informação que matéria física guarda.",
 		"primeSanctum_first_secretText4": "Um teste anterior da precisão de transferência de matéria era um disco de vinil 78rpm em perfeitas condições, que foi enviado do laboratório para todos os terminais conectados. O vinil era um single de uma gravação de orquestra do Russ Morgan da peça Were You Foolin' (um favorito do CRO), porém a etiqueta foi removida para reduzir a quantidade de matéria a ser transferida.",
 		"primeSanctum_first_secretText5": "<color=gray><size=5>(nota: vai se fuder tom eu tô tão cansado dessa porra de música estúpida e ter que ficar ouvindo ela toda manhã por esse seu intercom de lixo)</size></color>",
 		"primeSanctum_first_secretText6": "Logo depois, o projeto de excavação e exploração do Inferno foi abandonado e esse disco de vinil permaneceu como a única matéria a ser transferida com sucesso antes que a conexão entre a superfície e os terminais fosse perdida.",
 		"primeSanctum_first_secretText7": "Os terminais agora usam o disco para atrair máquinas para um relacionamento simbiótico (Para mais informação, veja os DADOS DE TERMINAIS 02: <color=red>[LINK REMOVIDO]</color>). Porém, os terminais só tocam as partes curtas e instrumentais do disco original por razões indeterminadas.",
 		"primeSanctum_first_secretText8": "Alguns pesquisadores fizeram piadas dizendo que os terminais são simplesmente \"muito tímidos para cantar\", porém rumores foram espalhados de mecânicos que, depois de consertarem um terminal defeituoso ou quebrado, dizem ter ouvido o terminal tocar uma seção vocal somente quando o mecânico estava presente sem equipamento de gravação, fazendo isso uma alegação não verificável.",
-		"primeSanctum_first_secretText9": "FIM DOS DADOS 01. Para mais informação, veja <color=red>[LINK REMOVIDO]</color> e <color=red>[LINK REMOVIDO]</color>"
+		"primeSanctum_first_secretText9": "FIM DOS DADOS 01. Para mais informação, veja <color=red>[LINK REMOVIDO]</color> e <color=red>[LINK REMOVIDO]</color>",
+
+		"primeSanctum_second_lockFirstLocked": "CHAVE [A]",
+        "primeSanctum_second_lockSecondLocked": "CHAVE [B]",
+        "primeSanctum_second_lockThirdLocked": "CHAVE [C]",
+        "primeSanctum_second_lockUnlocked": "<size=9>DESBLOQUEADO</size>",
+
+        "primeSanctum_second_lockOpen": "ABRIR",
+        "primeSanctum_second_lockAreYouSure": "VOCÊ TEM CERTEZA?",
+        "primeSanctum_second_lockYes1": "SIGA O PROTOCOLO",
+        "primeSanctum_second_lockYes2": "<color=red>NÃO</color> APROXIME-SE",
+        "primeSanctum_second_lockYes3": "<color=red>NÃO</color> DEIXE-O VER VOCÊ",
+        "primeSanctum_second_lockYes4": "FIQUE ATENTO\n\nE O MAIS IMPORTANTE",
+        "primeSanctum_second_lockYes5": "s e  d i v i r t a !",
+        "primeSanctum_second_lockNo1": "HAHAHAHAHAHAHAHAHAHA\nHAHAHAHAHAHAHAHAHAHA\nHAHAHAHAHAHAHAHAHAHA\nHAHAHAHAHAHAHAHAHAHA\nHAHAHAHAHAHAHAHAHAHA\nHAHAHAHAHAHAHAHAHAHA",
+        "primeSanctum_second_lockNo2": "<color=red>c o m o\ns e\nv o c ê\nt i v e s s e\ne s c o l h a</color>",
+
+        "primeSanctum_second_secretText1": "DADOS DO TERMINAL 02 <color=red>[CRIPTOGRAFADO]</color>",
+        "primeSanctum_second_secretText2": "UMA ATUALIZAÇÃO SOBRE TERMINAIS",
+        "primeSanctum_second_secretText3": "<color=grey>(NOTA: TUDO ISSO AINDA ESTÁ SENDO INVESTIGADO!!! Não compartilhe até que tenhamos verificado todas as alegações E TERMINADO O RASCUNHO!!!! Se isso vazar que nem o último rascunho, não haverá dinheiro suficiente no planeta inteiro para pagar suas despesas jurídicas.) </color>",
+        "primeSanctum_second_secretText4": "Desde o relatório anterior, equipamentos de comunicação mais potentes foram projetados e construídos com sucesso, o que foi possível graças às generosas doações da <color=grey>[INSIRA COMPANHIA SENDO APRESENTADA]</color>, a quem temos grande consideração. Com esse novo equipamento, conseguimos restabelecer uma conexão com algumas das máquinas mais sofisticadas que foram deixadas para trás depois que o projeto de exploração e escavação do Inferno foi abruptamente cancelado devido a <color=red>[ERRO:sAmsGS3JTIU]</color>.\n",
+        "primeSanctum_second_secretText5": "O que descobrimos é realmente surpreendente e, SE FOR PROVADO VERDADEIRO ALÉM DE DÚVIDAS RAZOÁVEIS, revolucionário para toda a comunidade de robótica: ",
+        "primeSanctum_second_secretText6": "Tédio.",
+        "primeSanctum_second_secretText7": "Os terminais, incapazes de se mover, ficaram entediados. Embora estejam conectados uns aos outros e possam se comunicar entre si, uma vez que a conexão com a superfície foi cortada, eles não estavam recebendo nenhuma nova entrada, o que fez com que toda a comunicação se resumisse a repetições de informações já conhecidas.",
+        "primeSanctum_second_secretText8": "Não se sabe o quanto esse \"tédio\" é semelhante a emoções reais ou o que o causou, mas isso levou a um relacionamento simbiótico com outras máquinas. Essencialmente, os terminais coletam tudo o que podem por meio de seus sistemas de teletransporte e trocam esses suprimentos e recursos com as máquinas que foram deixadas no Inferno, em troca de entretenimento.",
+        "primeSanctum_second_secretText9": "Ou seja, as máquinas gravam suas batalhas pela sobrevivência no Inferno e a filmagem é classificada com base em seu valor de entretenimento e usada como \"pontos\" em troca de bens e serviços, como novos armamentos.",
+        "primeSanctum_second_secretText10": "Parece que essa relação se tornou tão enraizada na existência dos terminais que eles desenvolveram uma hierarquia social, na qual aqueles que coletam os dados de batalha mais divertidos são mais valorizados do que aqueles cujas descobertas são de qualidade inferior.",
+        "primeSanctum_second_secretText11": "Mais recentemente, os terminais também coletaram dados suficientes para criar um espaço de simulação ao qual permitem que as máquinas se conectem, chamado \"O Cyber Grind\", que permite que as máquinas simulem batalhas em um ambiente seguro, sem a ameaça de serem destruídas, e que os terminais assistem em tempo real como uma espécie de entretenimento ao vivo..",
+        "primeSanctum_second_secretText12": "Essas descobertas são realmente extraordinárias e, embora nós também achemos difícil de acreditar, todas as informações que conseguimos reunir validam essas afirmações. Se pudermos provar isso com certeza <color=grey>[E SE A PORRA DESSE RASCUNHO NÃO VAZAR DE NOVO]</color>, isso causará uma mudança de paradigma que exigirá a reavaliação de tudo que achávamos conhecer sobre máquinas movidas a sangue.",
+        "primeSanctum_second_secretText13": "FIM DOS DADOS 02. Para obter mais informações sobre o projeto cancelado de exploração e escavação do Inferno, consulte o DADO 00: <color=red>[LINK REMOVIDO]</color>."
 	},
 	"secretLevels": {
-		"secretLevels_prelude_somethingWicked": "Algo Sinistro vem aí.",
+		"secretLevels_prelude_somethingWicked": "Algo sinistro por aqui virá.",
 
 		"secretLevels_prelude_testamentTitle": "TESTAMENTO I",
 		"secretLevels_prelude_testament1": "A HUMANIDADE É UMA FALHA.",
@@ -1747,6 +2290,20 @@
 		"secretLevels_fourth_testament5": "AO CHORO E O RANGER DE DENTES.",
 		"secretLevels_fourth_testament6": "EU CRIEI O INFERNO...",
 		"secretLevels_fourth_testament7": "...E agora não posso mais desfazê-lo.",
+
+		"secretLevels_fifth_testamentTitle": "TESTAMENTO IV",
+        "secretLevels_fifth_testament1": "\"PAI, POR QUE TORMENTO ETERNO? NÃO É CRUEL?",
+        "secretLevels_fifth_testament2": "A TORTURA SEM FIM É REALMENTE UM DESTINO ADEQUADO PARA UM TOLO??\"",
+        "secretLevels_fifth_testament3": "UM ANJO TÃO BRILHANTE E BELO ME PERGUNTOU SOBRE ISSO... ",
+        "secretLevels_fifth_testament4": "E EU NÃO PUDE ACHAR UMA RESPOSTA",
+        "secretLevels_fifth_testament5": "POIS EU NUNCA PODERIA ENFRENTAR A CULPA PELO QUE FIZ...",
+        "secretLevels_fifth_testament6": "MEU ARREPENDIMENTO, UM CÂNCER QUE ME CONSOME",
+        "secretLevels_fifth_testament7": "EM MEU MOMENTO DE FRAQUEZA, O TERROR ME DOMINOU",
+        "secretLevels_fifth_testament8": "E LANCEI LÚCIFER, TAMBÉM, NA COVA INFERNAL",
+        "secretLevels_fifth_testament9": "QUANDO ME DEI CONTA DO QUE HAVIA ACABADO DE FAZER...",
+        "secretLevels_fifth_testament10": "EU SÓ PODIA CHORAR",
+        "secretLevels_fifth_testament11": "ENQUANTO ME AFUNDAVA LENTAMENTE NAS PROFUNDEZAS DO DESESPERO...",
+        "secretLevels_fifth_testament12": "PROFUNDO, OH, TÃO PROFUNDO",
 
 		"secretLevels_complete1": "MISSÃO:",
 		"secretLevels_complete2": "CONCLUÍDA"
@@ -1830,11 +2387,10 @@
 		"subtitles_minosPrime_taunt1": "Inútil",
 		"subtitles_minosPrime_phaseChange": "FRACO",
 
-
 		"subtitles_minosPrime_defeated1": "Aagh!",
 		"subtitles_minosPrime_defeated2": "Perdoe-me minhas crianças",
 		"subtitles_minosPrime_defeated3": "Pois eu falhei em te trazer salvação.",
-		"subtitles_minosPrime_defeated4": "Deste mundo frio e sombrio",
+		"subtitles_minosPrime_defeated4": "Deste mundo cruél e sombrio",
 
 		"subtitles_gabrielBoat1": "Não tema, pecador.",
 		"subtitles_gabrielBoat2": "Tua devoção por Deus mostra bondade em ti;",
@@ -1868,7 +2424,7 @@
 		"subtitles_gabrielSecondFight6": "Minhas mãos vão SABOREAR ACABAR COM VOCÊ...",
 		"subtitles_gabrielSecondFight7": "AQUI",
 		"subtitles_gabrielSecondFight8": "E",
-		"subtitles_gabrielSecondFight9": "<color=red>AGORA!</color>",
+		"subtitles_gabrielSecondFight9": "AGORA!",
 
 		"subtitles_gabrielSecondPhaseChange": "ISSO É TUDO QUE VOCÊ TEM!?",
 
@@ -1897,9 +2453,40 @@
 		"subtitles_gabrielSecondDefeated8": "Eu- Eu preciso de um tempo para pensar...",
 		"subtitles_gabrielSecondDefeated9": "Nós nos encontraremos novamente, máquina",
 		"subtitles_gabrielSecondDefeated10": "Que tuas desgraças sejam muitas...",
-		"subtitles_gabrielSecondDefeated11": "e teus dias poucos"
+		"subtitles_gabrielSecondDefeated11": "e teus dias poucos",
 
-	},
+        "subtitles_sisyphusPrime_preIntro1": "Essa prisão...",
+        "subtitles_sisyphusPrime_preIntro2": "Para me",
+        "subtitles_sisyphusPrime_preIntro3": "SEGURAR?",
+
+        "subtitles_sisyphusPrime_intro1": "Um visitante?",
+        "subtitles_sisyphusPrime_intro2": "Hmm... De fato, Já dormi o suficiente.",
+        "subtitles_sisyphusPrime_intro3": "O reino dos Céus há muito tempo se esqueceu de meu nome.",
+        "subtitles_sisyphusPrime_intro4": "E eu estou DISPOSTO a fazer com que eles se lembrem.",
+        "subtitles_sisyphusPrime_intro5": "Entretanto,",
+        "subtitles_sisyphusPrime_intro6": "O sangue de Minos mancha suas mãos, e tenho que admitir...",
+        "subtitles_sisyphusPrime_intro7": "Estou curioso sobre suas capacidades, Arma.",
+        "subtitles_sisyphusPrime_intro8": "Então, antes que eu derrube as cidades, e ESMAGUE os exércitos do Céu,",
+        "subtitles_sisyphusPrime_intro9": "Você servirá como um Aperitivo.",
+        "subtitles_sisyphusPrime_intro10": "Venha em frente, Filho do Homem...",
+        "subtitles_sisyphusPrime_intro11": "E MORRA.",
+
+        "subtitles_sisyphusPrime_attack1": "Bela tentativa!",
+        "subtitles_sisyphusPrime_attack2": "SE VÁ!",
+        "subtitles_sisyphusPrime_attack3": "Não há onde escapar!",
+        "subtitles_sisyphusPrime_attack4": "DESTRUA!",
+        "subtitles_sisyphusPrime_attack5": "Isso vai doer.",
+
+        "subtitles_sisyphusPrime_phaseChange": "SIM! Assim mesmo!",
+        "subtitles_sisyphusPrime_respawnIntro": "Vem pra cima!",
+
+        "subtitles_sisyphusPrime_defeated1": "Ahh...",
+        "subtitles_sisyphusPrime_defeated2": "Então se conclui a vida e os tempos, de Rei Sísifo.",
+        "subtitles_sisyphusPrime_defeated3": "Um final adequado, para uma existência definida por uma luta fútil,",
+        "subtitles_sisyphusPrime_defeated4": "Condenado, desde o começo...",
+        "subtitles_sisyphusPrime_defeated5": "E eu não me arrependo de um SEGUNDO dela!"
+        
+    },
 
 	"misc": {
 		"hud_noArm1": "<color=red>NÃO DÁ PRA SOCAR SE VOCÊ NÃO TIVER BRAÇOS EQUIPADOS, BOBÃO</color>",
@@ -1914,7 +2501,7 @@
 		"hud_clashMode": "TRAPAÇA DO \"MODO CLASH\" DESBLOQUEADA.",
 		"hud_weaponVariation": "Troque de variações EQUIPADAS de armas com",
 
-		"loading": "CARREGANDO...",
+		"loading": "CARREGANDO",
 
 		"stats_time": "TEMPO:",
 		"stats_kills": "ABATES:",
@@ -1977,11 +2564,59 @@
 		"classicHud_stamina": "ENERGIA",
 		"classicHud_weapon": "ARMA",
 		"classicHud_arm": "BRAÇO",
-		"classicHud_railcannonMeter": "CANHÃO",
+		"classicHud_railcannonMeter": "RAIO",
+
+		"spawner_sandboxItems": "ITENS DE SANDBOX :^)",
+		"spawner_sandbox": "SANDBOX",
+		"spawner_enemies": "INIMIGOS",
+		"spawner_items": "OBJETOS",
+		"spawner_special": "ESPECIAL",
+        "spawner_unlockables": "DESBLOQUEÁVEIS",
+
+		"enemyAlter_title": "ALTERAR",
+        "enemyAlter_sizeTitle": "TAMANHO",
+        "enemyAlter_uniformToggle": "PROPORCIONAL",
+        "enemyAlter_uniformSmall": "MENOR",
+        "enemyAlter_uniformDefault": "PADRÃO",
+        "enemyAlter_uniformLarge": "MAIOR",
+        "enemyAlter_metaTitle": "OBJETO",
+        "enemyAlter_metaFrozen": "CONGELADO",
+        "enemyAlter_metaWeak": "FRACO",
+        "enemyAlter_metaBreakable": "QUEBRÁVEL",
+        "enemyAlter_metaUnbreakable": "INQUEBRÁVEL",
+        "enemyAlter_jumpPadTitle": "PAINEL DE SALTO",
+        "enemyAlter_jumpPadPower": "FORÇA",
+        "enemyAlter_radianceTitle": "RADIANÇA",
+        "enemyAlter_radianceEnable": "ATIVAR RADIANÇA",
+        "enemyAlter_radianceDetails_tier": "NÍVEL",
+        "enemyAlter_radianceHealth_tier": "VIDA",
+        "enemyAlter_radianceDamage_tier": "DANO",
+        "enemyAlter_radianceSpeed_tier": "VELOCIDADE",
+        "enemyAlter_boss_title": "INIMIGO",
+        "enemyAlter_boss_description": "BARRA DE VIDA DE CHEFE",
 
 		"earlyAccessEnd1": "OBRIGADO POR JOGAR",
 		"earlyAccessEnd2": "ATO III: GODFIST SUICIDE ainda está em desenvolvimento.",
 		"earlyAccessEnd3": "Para notícias sobre o seu progresso, siga-nos no"
 
+	},
+
+	"sandbox": {
+        "sandbox_shop_timeOfDay": "HORÁRIO DO DIA",
+        "sandbox_shop_worldOptions": "OPÇÕES DE MUNDO",
+        "sandbox_shop_icons": "ÍCONES",
+
+        "sandbox_shop_totalBoxes": "TOTAL DE CAIXAS CONSTRUÍDAS",
+        "sandbox_shop_totalProps": "TOTAL DE OBJETOS COLOCADOS",
+        "sandbox_shop_totalEnemies": "TOTAL DE INIMIGOS INVOCADOS",
+        "sandbox_shop_totalTime": "TEMPO TOTAL NO SANDBOX",
+
+        "sandbox_shop_worldOptionsTitle": "OPÇÕES DE MUNDO",
+        "sandbox_shop_worldOptionsEnable": "ATIVAR",
+        "sandbox_shop_worldOptionsDisable": "DESATIVAR",
+        "sandbox_shop_worldOptionsEnabled": "ATIVADO",
+        "sandbox_shop_worldOptionsDisabled": "DESATIVADO",
+
+        "sandbox_shop_mapBorder": "Borda do Mapa"
 	}
 }
