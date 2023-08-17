@@ -6,6 +6,12 @@
 			"versionNumber": "1.0"
 		},
 		{
+			"languageTag": "BE-be",
+			"languageFullName": "Belarusian(Беларускі)",
+			"author": "Максім Валошчык",
+			"versionNumber": "1.0"
+		},
+		{
 			"languageTag": "cz-CZ",
 			"languageFullName": "Čeština",
 			"author": "Mína, hatifnat",
@@ -45,7 +51,7 @@
 			"languageTag": "pt-BR",
 			"languageFullName": "Brazilian Portuguese",
 			"author": "FNChannel, Hebert, Jackie, MKaid, Raylander, Soulvender, Veni.",
-			"versionNumber": "1.1.1"
+			"versionNumber": "1.2.1"
 		},
 		{
 			"languageTag": "ru-RU",
