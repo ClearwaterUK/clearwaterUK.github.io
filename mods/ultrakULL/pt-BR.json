@@ -2,7 +2,7 @@
 	"metadata": {
 		"langName": "pt-br",
 		"langAuthor": "FNChannel, hebert, Jackie, MKaid, Raylander, Soulvender, DelksBWG, Veni.",
-		"langVersion": "1.2.1",
+		"langVersion": "1.2.2",
 		"langDisplayName": "Brazilian Portuguese",
         "langRTL": "false",
 
@@ -2250,7 +2250,7 @@
         "primeSanctum_second_lockYes3": "<color=red>NÃO</color> DEIXE-O VER VOCÊ",
         "primeSanctum_second_lockYes4": "FIQUE ATENTO\n\nE O MAIS IMPORTANTE",
         "primeSanctum_second_lockYes5": "s e  d i v i r t a !",
-        "primeSanctum_second_lockNo1": "HAHAHAHAHAHAHAHAHAHA\nHAHAHAHAHAHAHAHAHAHA\nHAHAHAHAHAHAHAHAHAHA\nHAHAHAHAHAHAHAHAHAHA\nHAHAHAHAHAHAHAHAHAHA\nHAHAHAHAHAHAHAHAHAHA",
+        "primeSanctum_second_lockNo1": "HAHAHAHAHAHAHAHAHAHA",
         "primeSanctum_second_lockNo2": "<color=red>c o m o\ns e\nv o c ê\nt i v e s s e\ne s c o l h a</color>",
 
         "primeSanctum_second_secretText1": "DADOS DO TERMINAL 02 <color=red>[CRIPTOGRAFADO]</color>",
