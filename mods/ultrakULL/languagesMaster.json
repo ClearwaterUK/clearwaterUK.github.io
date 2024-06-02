@@ -47,6 +47,12 @@
 			"author": "Frizou",
 			"versionNumber": "1.0"
 		},
+        {
+			"languageTag": "JA-jp",
+			"languageFullName": "Japanese (日本語)",
+			"author": "Liamconn35, Kythira, Shiyokugou",
+			"versionNumber": "1.0"
+		},
 		{
 			"languageTag": "ko-KR",
 			"languageFullName": "Korean (한국어)",
