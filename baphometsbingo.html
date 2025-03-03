@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,12 +8,12 @@
         <!-- Begin Jekyll SEO tag v2.8.0 -->
         <title>Daniel “Clearwater” Murray | The home page of a blue programming bird.</title>
         <meta name="generator" content="Jekyll v3.9.2" />
+        <link rel="canonical" href="http://localhost:4000/" />
         <meta property="og:title" content="Daniel “Clearwater” Murray" />
         <meta name="author" content="Clearwater" />
         <meta property="og:locale" content="en" />
-        <meta name="description" content="The home page of a blue programming bird." />
-        <meta property="og:description" content="The home page of a blue programming bird." />
-        <link rel="canonical" href="http://localhost:4000/" />
+        <meta name="description" content="The web page of a blue programming bird." />
+        <meta property="og:description" content="The web page of a blue programming bird." />
         <meta property="og:url" content="http://localhost:4000/" />
         <meta property="og:site_name" content="Daniel “Clearwater” Murray" />
         <meta property="og:type" content="website" />
@@ -26,61 +25,48 @@
         <script type="application/ld+json">
         {"@context":"https://schema.org","@type":"WebSite","author":{"@type":"Person","name":"Clearwater"},"description":"The home page of a blue programming bird.","headline":"Daniel “Clearwater” Murray","name":"Shangzhi Huang","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/logo.png"},"name":"Clearwater"},"sameAs":["https://twitter.com/ngzhio","https://www.facebook.com/ngzhio","https://github.com/ngzhio"],"url":"http://localhost:4000/"}</script>
         <!-- End Jekyll SEO tag -->
-
-
         <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Daniel &quot;Clearwater&quot; Murray" />
-
         <!-- Google Fonts -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open%20Sans|Roboto|Roboto%20Slab|Roboto%20Mono|Dancing%20Script|Noto%20Sans%20SC|Noto%20Sans%20TC|Noto%20Serif%20SC|Noto%20Serif%20TC|Ma%20Shan%20Zheng">
-
         <!-- Begin selecting skin -->
-
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/skin.css">
-
+        <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="./css/skin.css">
         <!-- End selecting skin -->
-
         <script async src="https://kit.fontawesome.com/496fcff302.js"></script>
         <script src="./js/csi.min.js"></script>
-
     </head>
 
     <body>
         <div class="site-container">
             <header class="site-header">
-                <div class="wrapper" data-include="./html/navbar.html"></div>
+                <div class="wrapper" data-include="./html/navbar.html">
+                </div>
             </header>
-      
+          
             <div class="site-body wrapper">
                 <aside class="site-sidebar" id="site-sidebar">
                     <div class="sidebar" data-include="./html/sidebar.html"></div> 
                 </aside>
                 
-            <main class="site-main" id="site-main" aria-label="Content">
-                <div class="home">
-                
-                    <h1>About me:</h1>
-  
-                    <img src="./img/avatar.png" class="align-center" alt="Clearwater">
-  
-                    <p>Howdy! I'm Clearwater, a half-English half-French bird hailing from France.</p>
+                <main class="site-main" id="site-main" aria-label="Content">
+                    <div class="post-content">
+                        <h3>Baphomet's Bingo - A multiplayer bingo gamemode mod for "ULTRAKILL".</h3>
+                    </div>
                     
-                    <p>I like to tinker with programming and code, learning how to modify games, and understanding new technologies & tools.</p>
+                    <h4>Baphomet's Bingo is a game modification for "ULTRAKILL" that adds an async multiplayer bingo gamemode that can be played with friends and rivals.</h4>
                     
-                    <p>In 2024, I graduated from the University of Caen with a Master's degree in Computer Science. I am now working in the IT/webdev department, while making cool projects & game mods, and learning about more cool tech on the side.</p>
+                    <img src="./img/projects/bingo/logo.png" class="featured-logo align-center" alt="baphometsbingo">
                     
-                    <p></p>
+                    <p>Initially inspired by a functionally similar mod for TrackMania, Baphomet's Bingo tasks groups of players to claim levels on a bingo grid by finishing in the fastest time possible, with the first time to claim a full row, column or diagonal winning the game.</p>
                     
-                    <p>If you would like to contact me for any reason, feel free to do so! My social media and handles can be found on the left sidebar of this website, or on my dedicated <a href="./contact.html">contact page.</a></p>
+                    <p>Baphomet's Bingo features support for not only ULTRAKILL's official campaign maps, but also maps taken from the <a href="https://thunderstore.io/c/ultrakill/p/EternalsTeam/AngryLevelLoader/">Angry Level Loader's</a> catalog, the former of which is a custom level loader for ULTRAKILL. More than 80 custom maps, graciously made by a wide variety of community mappers, programmers and artists, were included at launch in various map pools, with more being added over time.</p>
                     
-                    <p>My profile picture and site banner were made by the wonderful <a href="https://bsky.app/profile/elusivepurple.bsky.social">ElusivePurple</a> on Bluesky. Please do consider checking out her artwork!</p>
-
-                </div>
-    <div class="post-content">
-    
-    
-  </div>
-
+                    <p>The bingo game client was written in C# and patched into the game via the BepInEx, a universal mod loader for Unity Mono-based games, and the server was built in native PHP.</p>
+                    
+                    <iframe width="620" height="315" src="https://www.youtube.com/embed/FrQ-lZd9IW8?si=1KfER7jYTWnQW4mi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    
+                    <h3>Baphomet's Bingo is available for download from the <a href="https://thunderstore.io/c/ultrakill/p/Clearwater/BaphometsBingo/">ULTRAKILL ThunderStore</a>, or from its <a href="https://discord.gg/ZB7jk6Djv5">Github page</a>.</h3>
+                    
                     <footer class="site-footer">
                         <div data-include="./html/footer.html"></div>
                     </footer>
@@ -88,4 +74,6 @@
             </div>
         </div>
     </body>
+
 </html>
+

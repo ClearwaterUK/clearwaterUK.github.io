@@ -661,6 +661,10 @@ ul.social-icons {
   height: auto;
   border-radius: 50%; }
 
+.bingoLogoProject {
+  margin-top: 25px !important;
+}
+
 /**
  * Site main
  */
